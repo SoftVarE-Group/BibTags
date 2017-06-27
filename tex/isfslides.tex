@@ -1,0 +1,151 @@
+\usepackage[english]{babel}
+%\usepackage[utf8]{inputenc}
+\usepackage{graphics}
+
+\usetheme[%
+%nexus,%        Nexus Fonts benutzen
+%lnum,%         Versalziffern verwenden
+%cmyk,%<rgbprint>,          Auswahl des Farbmodells
+blue,%<blue/orange/green/violet> Auswahl des Sekundärfarbklangs
+medium,%<light,medium,dark>        Auswahl der Helligkeit
+colorhead,%    Farbig hinterlegte Kopfleiste
+colorfoot,%    Farbig hinterlegt Fußleiste auf Titelseite
+colorblocks,%   Blöcke Farbig hinterlegen
+%nopagenum,%    Keine Seitennumer in Fußzeile
+nodate,%       Kein Datum in Fußleiste
+%tocinheader,%   Inhaltsverzeichnis in Kopfleiste
+%tinytocinheader,% kleines Kopfleisten-Inhaltsverzeichnis
+%widetoc,%      breites Kopfleisten-Inhaltsverzeichnis
+%narrowtoc,%    schmales Kopfleisten-Inhaltsverzeichnis
+%nosubsectionsinheader,%  Keine subsections im Kopfleisten-Inhaltsverzeichnis
+%nologoinfoot,% Kein Logo im Fußbereich darstellen
+]{tubs}
+
+\titlegraphic{\tuDefaultTitlegraphic}
+\logo{\includegraphics{../../../pics/logos/isf}}
+
+% my commands
+
+\newcommand{\ifprint}[2]{#2}
+\newcommand{\currentcolor}{blue}
+
+%
+%\usepackage{etex} % avoid error "No room for a new \dimen"
+%\usepackage{eurosym} % Eurozeichen: \euro
+%%\usepackage{subfigure} % Geteilte Abbildungen (subfig geht nicht bei beamer)
+%%\usepackage[german]{babel} % Unterstützung der deutschen Sprache
+%\usepackage[latin1]{inputenc} % Umlaute können direkt eingegeben werden
+%%\usepackage{graphicx} % Einbindung von Graphiken
+%\usepackage{booktabs} % toprule, midrule, bottomrule
+%\usepackage{calc} % Berechnungen von Höhen und Breiten
+%%\usepackage{animate}
+%
+%% choose one of the following to prevent from font warnings
+%  %\let\Tiny=\tiny
+%  \usepackage{lmodern}
+%% print notes on the same page
+%  %\usepackage{pgfpages}
+%  %\setbeameroption{show notes on second screen=right}
+%
+%% Einstellung von Standardthemes
+%%\usepackage{beamerthemesplit}
+%%\usepackage{beamerthemeshadow}
+%\useinnertheme{default}
+%% default, circles, rectangels, rounded, inmargin
+%\useoutertheme{default}
+%% default, infolines, miniframe, smoothbars, sidebar, split, shadow, tree, smoothtree
+%\usecolortheme{dove}
+%% gut: beaver default dolphin dove seagull seahorse
+%% schlecht: albatross beetle crane fly sidebartab structure whale wolverine
+%
+%% Eigener Hintergrund
+%\newcommand{\slidebackground}[2]{
+%	\tikz[remember picture,overlay] \node[text height=#1,text width=\paperwidth,below=-.1,top color=\currentcolor!25,bottom color=white] at (current page.north) {};
+%	\tikz[remember picture,overlay] \node[text height=#2,text width=\paperwidth,above,fill=\currentcolor!25,path fading=north,yshift=-.1mm] at (current page.south) {};
+%}
+%\newcommand{\ottokopf}{\includegraphics[width=5.5cm,trim=1.5cm 1.5cm 1.5cm 1.5cm]{../../../../paper-BibTeX/pics/ovgu_logo}
+%}
+%\newcommand{\setslidebackground}{
+%	\usebackgroundtemplate{
+%		\parbox[b][\paperheight+1.25cm]{\paperwidth+1.25cm}{
+%			\hfill\tikz 
+%			\node {\ottokopf}
+%			node[fill=white,path fading=south,fading angle=45] {\phantom{\ottokopf}}
+%			node[fill=white,opacity=0.66] {\phantom{\ottokopf}}
+%			;
+%		}
+%	}
+%}
+%\newcommand{\unsetslidebackground}{\usebackgroundtemplate{}}
+%
+%% Anpassung von Kopfzeile und Hintergrund
+%\setbeamertemplate{navigation symbols}{}
+%\setbeamertemplate{frametitle}{
+%	\slidebackground{15ex}{5ex}
+%	\usebeamercolor[fg]{frametitle}
+%	\leavevmode
+%	%\color{black}{\hrule}
+%	\hbox{
+%		\begin{beamercolorbox}[wd=.98\textwidth,ht=2.5ex,dp=1.125ex,leftskip=-.5cm,rightskip=-.5cm]{author in head/foot_}%
+%			%\includegraphics[height=0.8cm]{logo-iti}
+%			\hfill
+%			\insertframetitle
+%			\hfill ~
+%			%\includegraphics[height=1cm]{ovgu}
+%		\end{beamercolorbox}
+%	}
+%	%\color{black}{\hrule}
+%}
+%
+%% Anpassung der Fußzeile
+%\setbeamertemplate{footline}{
+%	\normalfont 
+%	\leavevmode
+%	\hbox{
+%		\begin{beamercolorbox}[wd=.98\paperwidth,ht=2.5ex,dp=2.125ex,leftskip=.3cm,rightskip=.3cm]{title in head/foot_}
+%			\insertslideauthor
+%			\hfill 
+%			\insertshorttitle
+%			\hfill
+%			\insertframenumber
+%		\end{beamercolorbox}
+%	}
+%}
+%
+%\newcommand{\tttitlepage}{
+%	\graphicspath{{pics/}}
+%	
+%	\frame{
+%		\thispagestyle{empty}
+%		\slidebackground{20ex}{15ex}
+%		\begin{center}
+%			\includegraphics[width=\textwidth]{../../../../paper-BibTeX/pics/INF_SIGN_druck}\\
+%			\vspace{.5cm}
+%			{\footnotesize~\\}
+%			{\LARGE \inserttitle\\}
+%			\vspace{.7cm}
+%			\inserttitleauthor\\
+%			\vspace{.2cm}
+%			{\footnotesize\insertdate\\}
+%			\vspace{.7cm}
+%			{\footnotesize\insertaffilation\\}
+%		\end{center}
+%	}
+%	
+%	\setslidebackground
+%}
+%
+%\newcommand{\inserttitleauthor}{\insertauthor}
+%\newcommand{\titleauthor}[1]{
+%	\renewcommand{\inserttitleauthor}{#1}
+%}
+%
+%\newcommand{\insertslideauthor}{\inserttitleauthor}
+%\newcommand{\slideauthor}[1]{
+%	\renewcommand{\insertslideauthor}{#1}
+%}
+%
+%\newcommand{\insertaffilation}{}
+%\newcommand{\affiliation}[1]{
+%	\renewcommand{\insertaffilation}{#1}
+%}

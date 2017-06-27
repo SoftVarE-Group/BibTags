@@ -1,0 +1,192 @@
+\usepackage{pgfplots}
+	%\pgfplotsset{compat=1.9}
+	\usepgfplotslibrary{units}
+	\usepgfplotslibrary{fillbetween}
+\usepackage{pgfplotstable}
+\usepackage{tikz}
+	\usetikzlibrary{arrows,positioning,backgrounds,fit,trees} 
+	\usetikzlibrary{fadings,shapes.geometric}%spy,
+	\usetikzlibrary{decorations,scopes,calc,decorations.pathreplacing,patterns,snakes}%
+	\usetikzlibrary{shadows.blur} % used for shadows
+	\tikzset{
+		%Define standard arrow tip
+		>=stealth',
+		%Define style for boxes
+		node1/.style={
+		  rectangle,
+		  rounded corners,
+		  draw=black, very thick,
+		  text width=9em,
+		  minimum height=7em,
+		  fill=background,
+		  text centered,
+		},
+		node1s/.style={
+		  rectangle,
+		  rounded corners,
+		  draw=black, very thick,
+		  text width=7em,
+		  minimum height=6em,
+		  fill=background,
+		  text centered,
+		},
+		node2/.style={
+		  circle,
+			dashed,
+		  draw=black, very thick,
+		  text width=6em,
+		  minimum height=7em,
+		  fill=background,
+		  text centered,
+		},
+		node2s/.style={
+		  circle,
+			dashed,
+		  draw=black, very thick,
+		  text width=5em,
+		  minimum height=6em,
+		  fill=background,
+		  text centered,
+		},
+		node3/.style={
+		  rectangle,
+		  rounded corners,
+		  draw=black,
+			inner xsep=0.5em,
+			inner ysep=0.5em,
+		},
+		node4/.style={
+		  rounded corners,
+			draw,
+			fill=orange!10,
+		},
+		% Define arrow style
+		edge1/.style={
+			->,
+			thick,
+			shorten <=2pt,
+			shorten >=2pt,
+		},
+		edge2/.style={
+			->,
+			thick,
+			dashed,
+			shorten <=2pt,
+			shorten >=2pt,
+		},
+		edge3/.style={
+			<->,
+			thick,
+			shorten <=2pt,
+			shorten >=2pt,
+		},
+		% Annotations in listings
+		annotation/.style={
+			fill opacity=0.15,
+			right,
+			yshift=0.25em,
+			inner xsep=0.1em,
+			inner ysep=0.5em,
+		},
+		redstyle/.style={fill=red5,postaction={pattern=dots,pattern color=white}},
+		bluestyle/.style={fill=blue5,postaction={pattern=vertical lines,pattern color=white}},
+		orangestyle/.style={fill=orange5,postaction={pattern=north east lines,pattern color=white}},
+		greenstyle/.style={fill=green5,postaction={pattern=grid,pattern color=white}},
+		graystyle/.style={fill=gray5,postaction={pattern=crosshatch,pattern color=white}},
+	}
+\newcommand{\tbox}[3]{
+	\begin{pgfonlayer}{background}
+		\filldraw [line width=4mm,join=round,blue!15]
+		(#1.north -| #1.east) rectangle (#2.south -| #2.west);
+		\node[fit=(#1)(#2)] {#3};
+	\end{pgfonlayer}
+}
+\newcommand{\tpkt}[1]{\tikz[remember picture] \coordinate(#1);}
+\newcommand{\annotation}[2]{
+  \begin{tikzpicture}[remember picture,overlay]
+		\foreach \x in {#1} {
+			\node[annotation,fill=#2,fit=(\x 1)(\x 2)] {};
+		}
+  \end{tikzpicture}
+}
+\newcommand{\annnotation}[2]{
+  \begin{tikzpicture}[remember picture,overlay]
+		\foreach \x in {#1} {
+			\node[annotation,fill=#2,fit=(\x 1)(\x 2)(\x 3)] {};
+		}
+  \end{tikzpicture}
+}
+\newcommand{\myunderline}[2]{
+  \begin{tikzpicture}[remember picture,overlay]
+		\foreach \x in {#1} {
+			\node[yshift=.5mm] (x1) at (\x 1) {};
+			\node[yshift=.5mm] (x2) at (\x 2) {};
+			\draw[#2,thick,snake=snake,segment amplitude=.2mm,segment length=1mm] (x1.south) -- (x2.south);
+		}
+  \end{tikzpicture}
+}
+\ifprint{
+	\newcommand{\errorunderline}[1]{\myunderline{#1}{black}}
+	\newcommand{\warningunderline}[1]{\myunderline{#1}{black}}
+	\newcommand{\infounderline}[1]{\myunderline{#1}{black}}
+}{
+	\newcommand{\errorunderline}[1]{\myunderline{#1}{red}}
+	\newcommand{\warningunderline}[1]{\myunderline{#1}{orange}}
+	\newcommand{\infounderline}[1]{\myunderline{#1}{blue}}
+}
+\newcommand{\reference}[3]{
+	\begin{tikzpicture}[overlay]
+		\foreach \x in {#1} {
+			\path[shorten <= 2pt,shorten >= 2pt,->,line width=1pt,#2] (\x 1) edge #3 (\x 2);
+		}
+	\end{tikzpicture}
+}
+	
+% Tortendiagramme
+\newcommand{\slice}[4]{
+  \pgfmathparse{0.5*#1+0.5*#2}
+  \let\midangle\pgfmathresult
+
+  % slice
+  \draw[thick,
+	%fill=background
+	] (0,0) -- (#1:1) arc (#1:#2:1) -- cycle;
+
+  % outer label
+  \node[label=\midangle:#4] at (\midangle:1) {};
+
+  % inner label
+  \pgfmathparse{min((#2-#1-10)/110*(-0.3),0)}
+  \let\temp\pgfmathresult
+  \pgfmathparse{max(\temp,-0.5) + 0.8}
+  \let\innerpos\pgfmathresult
+  \node at (\midangle:\innerpos) {#3};
+}
+\newcounter{a}
+\newcounter{b}
+\newcommand{\mypiechart}[2]{
+	\begin{tikzpicture}[scale=#1]
+		\setcounter{a}{0}
+		\setcounter{b}{0}
+		\foreach \p/\t in {#2}
+			{
+				\setcounter{a}{\value{b}}
+				\addtocounter{b}{\p}
+				\slice{\thea/100*360}
+							{\theb/100*360}
+							{}{\p~\% \t}
+			}
+	\end{tikzpicture}
+}
+
+\newcommand{\mglass}[1]{
+	\scalebox{#1}{
+		\begin{tikzpicture}[overlay]
+			\node[circle,draw=gray,line width=1,fill=blue,fill opacity=.2,inner sep=2mm] {} edge[draw=gray,line width=1,double distance=1pt] (.33,-.33);
+		\end{tikzpicture}
+	}
+	%\begin{tikzpicture}[scale=#1,overlay]
+		%\node[scale=#1,circle,draw=gray,line width=#1,fill=blue,fill opacity=.2,inner sep=2mm] {} edge[scale=#1,draw=gray,line width=#1,double distance=#1pt] (.4,-.4);
+	%\end{tikzpicture}
+}
+

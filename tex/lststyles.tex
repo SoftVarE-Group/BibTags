@@ -1,0 +1,301 @@
+\usepackage{listings} % source code listings
+
+%\newcommand{\modsep}{\vspace{1mm}\hrule\vspace{1mm}\hrule\vspace{1mm}}
+\newcommand{\modsep}{\hrule\vspace{1mm}\hrule}
+\newcommand{\featuremodule}[1]{\hfill{\rmfamily feature module \feature{#1}}}
+\newcommand{\featureinterface}[1]{\hfill{\rmfamily interface of \feature{#1}}}
+\newcommand{\configuration}[1]{\hfill{\rmfamily\{\feature{#1}\}}}
+\newcommand{\product}[1]{\hfill{\rmfamily\{\feature{#1}\}}}
+%\newcommand{\comment}[1]{\hfill{\rmfamily#1}}
+%\newcommand\fheader[1]{\hfill{\footnotesize Feature module \em #1~~~\vskip -1ex}}
+%\newcommand\pheader[1]{\hfill{\footnotesize Product \em \{#1\}~~~\vskip -1ex}}
+%\newcommand\iheader[1]{\hfill{\footnotesize Interface of \em #1~~~\vskip -1ex}}
+%\newcommand\sheader[1]{\hfill{\footnotesize Specification of \em #1~~~}}
+
+% JML keywords in comments
+\ifprint{
+	\newcommand{\jmlkeyword}[1]{\color{darkgray}\textbf{#1}}
+}{
+	\newcommand{\jmlkeyword}[1]{\color{green3}\textbf{#1}}
+}
+\newcommand{\invariant}{\jmlkeyword{invariant}}
+\newcommand{\public}{\jmlkeyword{public}}
+\newcommand{\static}{\jmlkeyword{static}}
+\newcommand{\normalbehavior}{\jmlkeyword{normal\_behavior}}
+\newcommand{\exceptionalbehavior}{\jmlkeyword{exceptional\_behavior}}
+\newcommand{\pure}{\jmlkeyword{pure}}
+\newcommand{\helper}{\jmlkeyword{helper}}
+\newcommand{\requires}{\jmlkeyword{requires}}
+\newcommand{\assignable}{\jmlkeyword{assignable}}
+\newcommand{\ensures}{\jmlkeyword{ensures}}
+\newcommand{\also}{\jmlkeyword{also}}
+\newcommand{\nothing}{\jmlkeywordb{nothing}}
+\newcommand{\assert}{\jmlkeyword{assert}}
+\newcommand{\intjml}{\jmlkeyword{int}}
+\newcommand{\mytrue}{\jmlkeyword{true}}
+\newcommand{\myfalse}{\jmlkeyword{false}}
+\newcommand{\nulljml}{\jmlkeyword{null}}
+\newcommand{\this}{\jmlkeyword{this}}
+\newcommand{\instanceof}{\jmlkeyword{instanceof}}
+
+\ifprint{
+	\newcommand{\jmlkeywordb}[1]{\color{darkgray}\textbackslash\textbf{#1}}
+}{
+	\newcommand{\jmlkeywordb}[1]{\color{green3}\textbackslash\textbf{#1}}
+}
+\newcommand{\existsjml}{\jmlkeywordb{exists}}
+\newcommand{\foralljml}{\jmlkeywordb{forall}}
+\newcommand{\old}{\jmlkeywordb{old}}
+\newcommand{\result}{\jmlkeywordb{result}}
+\newcommand{\original}{\jmlkeywordb{original}}
+
+\newcommand{\finalmethod}{\jmlkeywordb{final\_method}}
+\newcommand{\finalcontract}{\jmlkeywordb{final\_contract}}
+\newcommand{\conjunctive}{\jmlkeywordb{conjunctive\_contract}}
+\newcommand{\cumulative}{\jmlkeywordb{cumulative\_contract}}
+\newcommand{\consecutive}{\jmlkeywordb{consecutive\_contract}}
+
+%\renewcommand\lstlistingname{Quelltext}
+
+\lstdefinestyle{java}{
+%code formatting
+	language=Java,
+	tabsize=4,
+	breaklines=false,
+	basicstyle=\sf\small\selectfont,
+	commentstyle=\fontshape{it}\color{darkgray}\selectfont,
+	keywordstyle=\fontseries{b}\selectfont,%\color{orange3}
+	stringstyle=\selectfont,
+	columns=fullflexible, 
+	%basicstyle=\fontfamily{pcr}\footnotesize\selectfont,
+	%commentstyle=\fontshape{it}\color{darkgray}\selectfont,
+	%keywordstyle=\fontseries{b}\selectfont,
+	%stringstyle=\fontfamily{pcr}\selectfont,
+%line numbering
+	numbers=none,%left, right, none
+	numberstyle=\footnotesize,
+%frame properties
+	captionpos=b,
+	frame=single,%trblTRBL
+	framesep=3pt,
+	xleftmargin=4pt,
+	xrightmargin=4pt,
+	rulecolor=\color{bgborder},
+	escapechar=|,
+	firstnumber=auto,
+	showstringspaces=false,
+}
+
+\lstdefinestyle{xml}{
+	style=java,
+	tabsize=2,
+	language=xml,
+}
+
+\lstdefinestyle{featureidexml}{
+	style=xml,
+	morekeywords={featureModel, struct, feature, name, abstract, mandatory, and, alt, or, constraints, rule, imp, var, comments},
+}
+
+\lstdefinestyle{jak}{
+	style=java,
+	morekeywords={layer, refines, Super(), Super},
+}
+
+\lstdefinestyle{featurehouse}{
+	style=java,
+	morekeywords={original, refines},
+}
+
+\lstdefinestyle{deltaj}{
+	style=java,
+	morekeywords={original, core, delta, when, after, before, modifies, adds, removes},
+}
+
+\lstdefinestyle{aspectj}{
+	style=java,
+	morekeywords={aspect, after, call},
+}
+
+\lstdefinestyle{ifdef}{
+  morecomment=[l]{\#},
+}
+
+\lstdefinestyle{interface}{
+	morekeywords={requires, provides},
+}
+
+\ifprint{
+	\lstdefinestyle{jml}{
+		commentstyle=\color{darkgray}\selectfont,%\fontshape{it}
+	}
+		%moredelim=*[s][\itshape]{/*}{*/},
+		%emph={@},
+		%emphstyle={\normalfont\rmfamily\selectfont},
+}{
+	\lstdefinestyle{jml}{
+		commentstyle=\color{green3}\selectfont,%\fontshape{it}
+	}
+}
+
+\lstdefinestyle{small}{
+	basicstyle=\sf\small\selectfont
+}
+\lstdefinestyle{footnotesize}{
+	basicstyle=\sf\footnotesize\selectfont
+}
+\lstdefinestyle{scriptsize}{
+	basicstyle=\sf\scriptsize\selectfont
+}
+\lstdefinestyle{tiny}{
+	basicstyle=\sf\tiny\selectfont
+}
+
+%%%%% Coq %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\lstdefinelanguage{Coq}{
+  morekeywords={Variable,Inductive,CoInductive,Fixpoint,CoFixpoint,%
+      Definition,Lemma,Theorem,Axiom,Local,Save,Grammar,Syntax,Intro,%
+      Trivial,Qed,Intros,Symmetry,Simpl,Rewrite,Apply,Elim,Assumption,%
+      Left,Cut,Auto,Unfold,Exact,Right,Hypothesis,Pattern,Destruct,%
+      Constructor,Defined,Fix,Record,Proof,Induction,Hints,Exists,let,in,%
+      Parameter,Split,Red,Reflexivity,Transitivity,if,then,else,Opaque,%
+      Transparent,Inversion,Absurd,Generalize,Mutual,Cases,of,end,Analyze,%
+      AutoRewrite,Functional,Scheme,params,Refine,using,Discriminate,Try,%
+      Require,Load,Import,Scope,Set,Open,Section,End,match,with,Ltac,%
+			exists,forall
+			%Case
+	},% 
+  sensitive, %
+  morecomment=[n]{(*}{*)},%
+  morestring=[d]",%
+  literate=
+   {=>}{{$\Rightarrow$}}1
+	 {>->}{{$\rightarrowtail$}}2
+	 {<->}{{$\leftrightarrow$}}2
+	 {->}{{$\to$}}1
+    {\/\\}{{$\wedge$}}1
+    {|-}{{$\vdash$}}1
+    {\\\/}{{$\vee$}}1
+    {~}{{$\sim$}}1
+    %{forall}{{$\forall$}}1 problem if your names contain forall or exists
+    %{exists}{{$\exists$}}1
+    %{<>}{{$\neq$}}1 indeed... no.
+}[keywords,comments,strings]%
+
+\lstdefinestyle{coqblack}{
+%code formatting
+	language=Coq,
+	tabsize=4,
+	breaklines=false,
+	basicstyle=\sf\small\selectfont,
+	commentstyle=\fontshape{it}\selectfont,
+	keywordstyle=\fontseries{b}\selectfont,%\color{orange3}
+	stringstyle=\selectfont,
+	columns=fullflexible, 
+	%columns=[c]fixed,
+	%flexiblecolumns=false,
+	%basicstyle=\fontfamily{pcr}\footnotesize\selectfont,
+	%commentstyle=\color{coqcomment}\fontshape{it}\selectfont,
+	%keywordstyle=\color{coqblue}\fontseries{b}\selectfont,
+	%stringstyle=\fontfamily{cmr}\selectfont,
+%line numbering
+	numbers=none,
+	numberstyle=\footnotesize,
+%frame properties
+	captionpos=b,
+	frame=single,%trblTRBL
+%	framesep=3pt,
+	xleftmargin=4pt,
+	xrightmargin=4pt,
+%  aboveskip=4ex,
+	rulecolor=\color{bgborder},
+	%backgroundcolor=\color{background},
+%forgotten keywords
+	morekeywords={Module, Fact, Export, Tactic, Notation, Prop, Combined, Variables},
+%emphasizing
+  emph={Variable, Hypothesis, Module, Fact, Lemma, Theorem, Ltac, Inductive, Fixpoint, Definition, Parameter, with, admit, Variables},
+	emphstyle={\fontseries{b}\selectfont},
+  escapeinside={ß}{ß} % escapeinside={$}{$}
+}
+
+\ifprint{
+	\lstdefinestyle{coq}{
+		style=coqblack
+	}
+}{
+	\lstdefinestyle{coq}{
+		style=coqblack,
+		commentstyle=\fontshape{it}\color{darkgray}\selectfont,
+		keywordstyle=\fontseries{b}\color{blue3}\selectfont,%\color{orange3}
+		emphstyle={\color{red3}\fontseries{b}\selectfont},
+	}
+}
+
+\lstdefinestyle{slides}{
+	backgroundcolor=\color{white}
+}
+
+\usepackage{fancyvrb}
+\newenvironment{freemove}{\begin{picture}(320,190)}{\end{picture}}
+\newcommand{\freetext}[4]{\put(#1,#2){\begin{minipage}[t]{#3\linewidth}{\large #4}\end{minipage}}}
+
+\tikzset{onslide/.code args={<#1>#2}{%
+		\only<#1>{\pgfkeysalso{#2}}
+}}
+\makeatletter
+\newenvironment{savelst}{\VerbatimEnvironment\begin{VerbatimOut}{vsave.tmp}}
+	{\end{VerbatimOut}}
+
+\newcommand{\savedlst}{\lstinputlisting{vsave.tmp}}
+
+\newcommand{\savedlstbox}{\settowidth\@tempdima{%
+		{\renewcommand{\pause}{}  \savedlst}}
+	\minipage{\@tempdima}\savedlst\endminipage}
+
+\newenvironment{lstbox}
+{\VerbatimEnvironment\begin{savelst}}
+	{\end{savelst}\savedlstbox}    
+\makeatother
+
+\lstdefinestyle{customc}{
+	%  belowcaptionskip=1\baselineskip,
+	%  breaklines=true,
+	%  frame=L,
+	%  xleftmargin=\parindent,
+	language=C,
+	%  showstringspaces=false,
+	frame=single,
+	framerule=0.9pt,
+	framesep=9pt,
+	basicstyle=\ttfamily\bfseries,
+	%  keywordstyle=\color{purple!40!black},
+	%  keywordstyle=\color{blue},
+	commentstyle=\color{green!40!black},
+	identifierstyle=\color{red},
+	directivestyle=\color{gray},
+	stringstyle=\color{orange},
+	escapechar=|,
+	tabsize=4,
+}
+
+\lstdefinestyle{customjava}{
+	%  belowcaptionskip=1\baselineskip,
+	%  breaklines=true,
+	%  frame=L,
+	%  xleftmargin=\parindent,
+	language=Java,
+	%  showstringspaces=false,
+	frame=single,
+	framerule=0.9pt,
+	framesep=9pt,
+	basicstyle=\ttfamily\bfseries,
+	%  keywordstyle=\color{purple!40!black},
+	keywordstyle=\color{blue},
+	commentstyle=\color{green!40!black},
+	identifierstyle=\color{black},
+	%  directivestyle=\color{gray},
+	stringstyle=\color{orange},
+	escapechar=|,
+	tabsize=4,
+}

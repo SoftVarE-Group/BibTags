@@ -1,0 +1,117 @@
+%\usepackage[utf8]{inputenc} % Umlaute, other option latin1
+%\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs} % toprule, midrule, bottomrule
+
+% tables
+\usepackage{array} % tabular m{1cm}
+\usepackage{ragged2e} % own column types P{1cm}
+\newcolumntype{P}[1]{>{\RaggedRight\hspace{0pt}}p{#1}}
+\newcolumntype{M}[1]{>{\RaggedRight\hspace{0pt}}m{#1}}
+
+% TODOs
+\newcommand{\todo}[1]{{\color{red} [#1]}}
+\newcommand{\todoo}[1]{{\color{blue} \{#1\}}}
+\newcommand{\todooo}[1]{{\color{green} (#1)}}
+\newcommand{\changed}[1]{{\color{blue} #1}}
+\newcommand{\changedd}[1]{{\color{blue} #1}}
+\newcommand{\changeddd}[1]{{\color{blue} #1}}
+%\newcommand{\changed}[1]{{\textbf{#1}}}
+\newcommand{\fodo}[1]{\todo{\footnote{\todo{#1}}}}
+\newcommand{\fodoo}[1]{\todoo{\footnote{\todoo{#1}}}}
+\newcommand{\fodooo}[1]{\todooo{\footnote{\todooo{#1}}}}
+\newcommand{\tocite}[1]{{\color{red} [cite:#1]}}
+\newcommand{\todots}{\todo{\ldots}}
+\newcommand{\kword}[1]{{\LARGE #1}}
+
+%\renewcommand{\todo}[1]{}
+%\renewcommand{\todots}{}
+%\renewcommand{\tocite}[1]{}
+
+%\renewcommand{\todoo}[1]{}
+%\renewcommand{\todooo}[1]{}
+%\renewcommand{\changed}[1]{#1}
+%\renewcommand{\changedd}[1]{#1}
+%\renewcommand{\changeddd}[1]{#1}
+%\renewcommand{\fodo}[1]{}
+%\renewcommand{\fodoo}[1]{}
+%\renewcommand{\kword}[1]{#1}
+
+\newcommand{\feature}[1]{\emph{#1}}
+\newcommand{\spl}[1]{\emph{#1}}
+\newcommand{\code}[1]{\mbox{\sf#1}}
+\newcommand{\tool}[1]{\textsc{#1}}
+
+\newcommand{\KeY}{Ke\kern-0.1emY}
+\newcommand{\MonKeY}{Mon\KeY}
+%\newcommand{\JPF}{\tool{Java PathFinder}}
+\newcommand{\JPF}{\tool{JPF}}
+
+% Email-Adressen
+%\newcommand{\email}[1]{
+	%\href{mailto:#1}{#1}
+%}
+
+% Aussagenlogische Ausdrücke
+\newcommand{\pand}{\wedge}
+\newcommand{\por}{\vee}
+\newcommand{\pnot}{\neg}
+\newcommand{\pequals}{\Leftrightarrow}
+\newcommand{\pimplies}{\Rightarrow}
+\newcommand{\pnimplies}{\nRightarrow}
+\newcommand{\patmostone}{\mbox{\textit{atmost1}}}
+\newcommand{\pchooseone}{\mbox{\textit{choose1}}}
+\newcommand{\ptrue}{\mbox{\textit{true}}}
+\newcommand{\pfalse}{\mbox{\textit{false}}}
+\newcommand{\true}{\texttt{true}}
+\newcommand{\false}{\texttt{false}}
+
+% Richtig, falsch
+\newcommand{\richtig}{
+	\begin{tikzpicture}[yscale=.2,xscale=.2,overlay]
+		\draw[line width=4,line join=bevel,green] (0,1) to [bend left=30] (1,0) to [bend left=15] (3,3);
+	\end{tikzpicture}
+}
+\newcommand{\folgerichtig}{
+	\begin{tikzpicture}[yscale=.2,xscale=.2,overlay]
+		\draw[line width=4,line join=bevel,blue] (0,1) to [bend left=30] (1,0) to [bend left=15] (3,3);
+	\end{tikzpicture}
+}
+\newcommand{\falsch}{
+	\begin{tikzpicture}[yscale=.2,xscale=.2,overlay]
+		\draw[line width=4,line join=bevel,red] (0,2) to [bend left=5] (2,0) (0,0) to [bend left=15] (2,2);
+	\end{tikzpicture}
+}
+\newcommand{\fsel}{
+	\begin{tikzpicture}[yscale=.15,xscale=.15,overlay]
+		\draw[line width=4,line join=bevel] (0,1) to [bend left=30] (1,0) to [bend left=15] (3,3);
+		\draw[line width=3,line join=bevel,green] (0,1) to [bend left=30] (1,0) to [bend left=15] (3,3);
+	\end{tikzpicture}
+}
+\newcommand{\felim}{
+	\begin{tikzpicture}[yscale=.15,xscale=.15,overlay]
+		\draw[line width=4,line join=bevel] (0,2) to [bend left=5] (2,0) (0,0) to [bend left=15] (2,2);
+		\draw[line width=3,line join=bevel,red] (0,2) to [bend left=5] (2,0) (0,0) to [bend left=15] (2,2);
+	\end{tikzpicture}
+}
+
+%\newtheorem{theorem}{Theorem}[section]
+%\newtheorem{lemma}[theorem]{Lemma}
+%\newtheorem{proposition}[theorem]{Proposition}
+%\newtheorem{corollary}[theorem]{Corollary}
+%
+%\newenvironment{proof}[1][Proof]{\begin{trivlist}
+%\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+%\newenvironment{definition}[1][Definition]{\begin{trivlist}
+%\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+%\newenvironment{example}[1][Example]{\begin{trivlist}
+%\item[\hskip \labelsep {\bfseries #1}]}{\hfill$\square$\end{trivlist}}
+%%\newenvironment{example}[1][Example]{\itshape\begin{trivlist}
+%%\item[\hskip \labelsep {\bfseries #1}]}{\hfill$\square$\end{trivlist}\normalfont}
+%\newenvironment{remark}[1][Remark]{\begin{trivlist}
+%\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+%
+%\newcommand{\qed}{\nobreak \ifvmode \relax \else
+      %\ifdim\lastskip<1.5em \hskip-\lastskip
+      %\hskip1.5em plus0em minus0.5em \fi \nobreak
+      %\vrule height0.75em width0.5em depth0.25em\fi}
