@@ -453,9 +453,9 @@
 "AL:iFM10";"Adding Change Impact Analysis to the Formal Verification of C Programs";2;1500979319895;
 "STL:TR10";"An Algorithm for Quantifying the Program Variability Induced by Conditional Compilation";4;1500980400729;
 "STLS:GPCE10";"Efficient Extraction and Analysis of Preprocessor-Based Variability";37;1500982562640;
-"HPSA:SAC10";"Dynamic Contract Layers";24;1498428098793;
-"ASLK:FOSD10";"Language-Independent Reference Checking in Software Product Lines";20;1498429180524;
-"NNH10";"Principles of Program Analysis";2120;1498430261665;
+"HPSA:SAC10";"Dynamic Contract Layers";24;1500983643902;
+"ASLK:FOSD10";"Language-Independent Reference Checking in Software Product Lines";20;1500984725043;
+"NNH10";"Principles of Program Analysis";2131;1500985806147;
 "SGS:FMCO10";"Compositional Algorithmic Verification of Software Product Lines";27;1498431343097;
 "BCH+:ASE10";"Tag and Prune A Pragmatic Approach to Software Product Line Implementation";30;1498432424635;
 "RPRB:SPLASH10";"Emergent Feature Modularization";36;1498433506631;
