@@ -1,0 +1,3 @@
+Authors,Venue,Year,Title,Algorithm,Algorithm Category,Input Data,Coverage,Evaluation,Further Tags
+" Reinhard Tartler,  Daniel Lohmann,  Christian Dietrich,  Christoph Egger,  Julio Sincero",OSR,2012,"Configuration Coverage in the Analysis of Large-Scale System Software","all-yes-config","greedy","domain knowledge","no coverage","sampling efficiency, effectiveness, open-source tool","no prioritization"
+" Reinhard Tartler,  Daniel Lohmann,  Christian Dietrich,  Christoph Egger,  Julio Sincero",OSR,2012,"Configuration Coverage in the Analysis of Large-Scale System Software","configuration coverage","greedy","code artifacts","block coverage","sampling efficiency, effectiveness, open-source tool","no prioritization, Undertaker"
