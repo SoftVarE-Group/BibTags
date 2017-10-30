@@ -7,6 +7,11 @@
 "ATL+:SoSyM16";"Effective Product-Line Testing Using Similarity-Based Product Prioritization";3;1504266317443;
 "LLE:SoSyM16";"Variability Extraction and Modeling for Product Variants";9;1502280827695;
 "MTS+17";"Mastering Software Variability with FeatureIDE";-2;1502203820034;
+"DHL:TAP17";"Abstraction Refinement for the Analysis of Software Product Lines";-1;0;
+"G:ESECFSE17";"Kmax Finding All Configurations of Kbuild Makefiles Statically";-1;0;
+"LCA+:IST17";"Feature-Family-Based Reliability Analysis of Software Product Lines";-1;0;
+"MNS+:SPLC17";"Anomaly Detection and Explanation in Context-Aware Software Product Lines";-1;0;
+"ESKS:SPLC17";"An Empirical Study of Configuration Mismatches in Linux";-1;0;
 "WRSS:VaMoS17";"Extractive Software Product Line Engineering Using Model-based Delta Module Generation";-1;0;
 "SWS+:SPLC17";"Detecting Variability in MATLABSimulink Models An Industry-Inspired Technique and Its Evaluation";-1;0;
 "ALL+:VACE17";"Delta-Oriented Product Prioritization for Similarity-Based Product-Line Testing";0;1504635792092;
@@ -66,6 +71,7 @@
 "TWS+:VaMoS16";"Variability Hiding in Contracts for Dependent Software Product Lines";6;1502929993115;
 "P16";"Automating the Synchronization of Software Variants";2;1502588285777;
 "RTS+:JLAMP16";"Variability Encoding From Compile-Time to Load-Time Variability";7;1502931075285;
+"DPL+:VaMoS15";"Covering SPL Behaviour with Sampled Configurations An Initial Assessment";-1;0;
 "BSAB:ICSE15";"Symbolic Model Checking of Product-Line Requirements Using SAT-Based Methods";4;1503275650936;
 "NBKC:TSE15";"Where Do Configuration Constraints Stem From An Extraction Approach and an Empirical Study";22;1503274569168;
 "KSFS:VaMoS15";"Use-Case-Specific Source-Code Documentation for Feature-Oriented Programming";2;1504120072903;
@@ -101,6 +107,7 @@
 "T15";"Product-Line Specification and Verification with Feature-Oriented Contracts";6;1502945138518;
 "BDS:SCP14";"Implementing Type-Safe Software Product Lines Using Parametric Traits";12;1502946220126;
 "MJ:TAOSD14";"Modular Reasoning in Aspect-Oriented Languages from a Substitution Perspective";4;1502947302202;
+"TDS+:ATC14";"Static Analysis of Variability in System Software The 90,000 Ifdefs Issue";-1;0;
 "ZHP+:SAC14";"Towards a Language-Independent Approach for Reverse-Engineering of Software Product Lines";20;1504519840951;
 "SSA:Modellierung14";"DeltaEcore - A Model-Based Delta Language Generation Framework";17;1503036333468;
 "KHS+:PPPJ14";"DeltaJ 1.5 Delta-Oriented Programming for Java 1.5";20;1503034171096;
