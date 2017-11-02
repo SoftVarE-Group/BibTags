@@ -107,6 +107,7 @@
 "T15";"Product-Line Specification and Verification with Feature-Oriented Contracts";6;1502945138518;
 "BDS:SCP14";"Implementing Type-Safe Software Product Lines Using Parametric Traits";12;1502946220126;
 "MJ:TAOSD14";"Modular Reasoning in Aspect-Oriented Languages from a Substitution Perspective";4;1502947302202;
+"LHF+:CEC14";"Comparative Analysis of Classical Multi-Objective Evolutionary Algorithms and Seeding Strategies for Pairwise Testing of Software Product Lines";-1;0;
 "TDS+:ATC14";"Static Analysis of Variability in System Software The 90,000 Ifdefs Issue";-1;0;
 "ZHP+:SAC14";"Towards a Language-Independent Approach for Reverse-Engineering of Software Product Lines";20;1504519840951;
 "SSA:Modellierung14";"DeltaEcore - A Model-Based Delta Language Generation Framework";17;1503036333468;
@@ -267,6 +268,7 @@
 "AKL13";"Language-Independent and Automated Software Composition The FeatureHouse Experience";64;1504951119416;
 "STSS:VaMoS13";"Automated Analysis of Dependent Feature Models";14;1504952200698;
 "RAK+:VaMoS13";"The PLA Model On the Combination of Product-Line Analyses";33;1505026425126;
+"MGSH:SPLC13";"Practical Pairwise Testing for Software Product Lines";-1;0;
 "NNP+:TSE12";"Clone Management for Evolving Software";80;1502352446768;
 "HRGL:SPLC12";"Using Regression Testing to Analyze the Impact of Changes to Variability Models on Products";18;1501712835056;
 "ALL:ASE12";"Structured Merge with Auto-Tuning Balancing Precision and Performance";21;1504102644994;
