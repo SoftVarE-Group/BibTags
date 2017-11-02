@@ -191,6 +191,7 @@
 "FTS:VaMoS14";"A Taxonomy of Software Product Line Reengineering";17;1503478889819;
 "SSA:VaMoS14";"Capturing Variability in Space and Time with Hyper Feature Models";14;1503479971411;
 "TKB+:SCP14";"FeatureIDE An Extensible Framework for Feature-Oriented Software Development";247;1503481053411;
+"HLHE:VaMoS13";"Using Feature Model Knowledge to Speed Up the Generation of Covering Arrays";-1;0;
 "KGP:EMSE13";"Integrating Conceptual and Logical Couplings for Change Impact Analysis in Software";27;1502291638759;
 "AGA:TSE13";"Trustrace Mining Software Repositories to Improve the Accuracy of Requirement Traceability Links";48;1502290557772;
 "RC:ESECFSE13";"N-Way Model Merging";28;1502351365008;
