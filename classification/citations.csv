@@ -7,6 +7,7 @@
 "ATL+:SoSyM16";"Effective Product-Line Testing Using Similarity-Based Product Prioritization";3;1504266317443;
 "LLE:SoSyM16";"Variability Extraction and Modeling for Product Variants";9;1502280827695;
 "MTS+17";"Mastering Software Variability with FeatureIDE";-2;1502203820034;
+"LBG:GPCE17";"A Classification of Variation Control Systems";-1;0;
 "MAZ:SPLC17";"ESPLA A Catalog of Extractive SPL Adoption Case Studies";-1;0;
 "DHL:TAP17";"Abstraction Refinement for the Analysis of Software Product Lines";-1;0;
 "G:ESECFSE17";"Kmax Finding All Configurations of Kbuild Makefiles Statically";-1;0;
