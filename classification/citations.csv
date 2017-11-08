@@ -75,6 +75,7 @@
 "TWS+:VaMoS16";"Variability Hiding in Contracts for Dependent Software Product Lines";6;1502929993115;
 "P16";"Automating the Synchronization of Software Variants";2;1502588285777;
 "RTS+:JLAMP16";"Variability Encoding From Compile-Time to Load-Time Variability";7;1502931075285;
+"KTTS:ASE15";"Scaling Size and Parameter Spaces in Variability-Aware Software Performance Models";-1;0;
 "DPL+:VaMoS15";"Covering SPL Behaviour with Sampled Configurations An Initial Assessment";-1;0;
 "BSAB:ICSE15";"Symbolic Model Checking of Product-Line Requirements Using SAT-Based Methods";4;1503275650936;
 "NBKC:TSE15";"Where Do Configuration Constraints Stem From An Extraction Approach and an Empirical Study";22;1503274569168;
@@ -111,6 +112,7 @@
 "T15";"Product-Line Specification and Verification with Feature-Oriented Contracts";6;1502945138518;
 "BDS:SCP14";"Implementing Type-Safe Software Product Lines Using Parametric Traits";12;1502946220126;
 "MJ:TAOSD14";"Modular Reasoning in Aspect-Oriented Languages from a Substitution Perspective";4;1502947302202;
+"KST:FASE14";"Family-Based Performance Analysis of Variant-Rich Software Systems";-1;0;
 "LHF+:CEC14";"Comparative Analysis of Classical Multi-Objective Evolutionary Algorithms and Seeding Strategies for Pairwise Testing of Software Product Lines";-1;0;
 "TDS+:ATC14";"Static Analysis of Variability in System Software The 90,000 Ifdefs Issue";-1;0;
 "ZHP+:SAC14";"Towards a Language-Independent Approach for Reverse-Engineering of Software Product Lines";20;1504519840951;
