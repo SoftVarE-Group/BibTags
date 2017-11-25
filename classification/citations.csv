@@ -583,9 +583,9 @@
 "HKW:ICSE08";"FeatureMapper Mapping Features to Models";185;1511601776903;
 "SSP08";"The Linux Kernel Configurator as a Feature Modeling Tool";33;1511602858407;
 "ACPPW08";"Engineering Formal Metatheory";199;1511603940741;
-"JKB08";"Formal Methods in Software Product Lines Concepts, Survey, and Guidelines";6;1502709379372;
-"KTA08";"Visualizing Software Product Line Variabilities in Source Code";54;1502710467402;
-"KAK08";"Granularity in Software Product Lines";433;1502711554451;
+"JKB08";"Formal Methods in Software Product Lines Concepts, Survey, and Guidelines";6;1511605021652;
+"KTA08";"Visualizing Software Product Line Variabilities in Source Code";57;1511606103670;
+"KAK08";"Granularity in Software Product Lines";467;1511607185740;
 "MWCC08";"Efficient Compilation Techniques for Large Scale Feature Models";116;1502712641251;
 "PS:ASE08";"Configuration Lifting Software Verification Meets Software Configuration";2;1502713729719;
 "KA08";"Type-Checking Software Product Lines-A Formal Approach";121;1502714816879;
