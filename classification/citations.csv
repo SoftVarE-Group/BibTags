@@ -1,6 +1,5 @@
 "DDP:EMSE17";"FEVER An Approach to Analyze Feature-Oriented Changes and Artefact Co-Evolution in Highly Configurable Systems";0;1511513370478;
 "BTSG:ICFEM17";"Modularization of Refinement Steps for Agile Formal Methods";0;1510653969848;
-"BCD+:SPLC17";"SPLC '17 Proceedings of the 21st International Systems and Software Product Line Conference - Volume B";-2;1510655051657;
 "KPK+:SPLC17";"FeatureIDE Empowering Third-Party Developers";0;1504421840550;
 "LSBL:SPLC17";"Modeling and Testing Product Lines with Unbounded Parametric Real-Time Constraints";-2;1504463585317;
 "KTS+:ESECFSE17";"Is There a Mismatch Between Real-World Feature Models and Product-Line Research";0;1504015372779;
@@ -8,6 +7,7 @@
 "ATL+:SoSyM16";"Effective Product-Line Testing Using Similarity-Based Product Prioritization";3;1504266317443;
 "LLE:SoSyM16";"Variability Extraction and Modeling for Product Variants";12;1511342219909;
 "MTS+17";"Mastering Software Variability with FeatureIDE";0;1511265229620;
+"BCD+:SPLC17";"SPLC '17 Proceedings of the 21st International Systems and Software Product Line Conference - Volume B";-2;1510655051657;
 "CBA:OOPSLA17";"Evaluating and Improving Semistructured Merge";0;1511514452589;
 "LBG:GPCE17";"A Classification of Variation Control Systems";-2;1510656133156;
 "MAZ:SPLC17";"ESPLA A Catalog of Extractive SPL Adoption Case Studies";0;1510658300024;
@@ -576,13 +576,13 @@
 "ALS:TSE08";"Aspectual Feature Modules";182;1505289360041;
 "AMG08";"Contracts for Aspect-Oriented Design";11;1511529604096;
 "RLCS08";"A JML Compiler Based on AspectJ";10;1511530685725;
-"KARL:TOOLS08";"A Multiparadigm Study of Crosscutting Modularity in Design Patterns";6;1502606942937;
-"SKRKS:VaMoS08";"Integrated Product Line Model for Semi-Automated Product Derivation Using Non-Functional Properties";35;1502702847694;
-"SRKKS:APSEC08";"Measuring Non-functional Properties in Software Product Lines for Product Derivation";39;1502703934841;
-"BB08";"Modularizing Theorems for Software Product Lines The Jbook Case Study";35;1502705021334;
-"HKW:ICSE08";"FeatureMapper Mapping Features to Models";182;1502706112323;
-"SSP08";"The Linux Kernel Configurator as a Feature Modeling Tool";33;1502707198426;
-"ACPPW08";"Engineering Formal Metatheory";195;1502708291044;
+"KARL:TOOLS08";"A Multiparadigm Study of Crosscutting Modularity in Design Patterns";6;1511536096248;
+"SKRKS:VaMoS08";"Integrated Product Line Model for Semi-Automated Product Derivation Using Non-Functional Properties";36;1511536245360;
+"SRKKS:APSEC08";"Measuring Non-functional Properties in Software Product Lines for Product Derivation";40;1511599612342;
+"BB08";"Modularizing Theorems for Software Product Lines The Jbook Case Study";36;1511600694589;
+"HKW:ICSE08";"FeatureMapper Mapping Features to Models";185;1511601776903;
+"SSP08";"The Linux Kernel Configurator as a Feature Modeling Tool";33;1511602858407;
+"ACPPW08";"Engineering Formal Metatheory";199;1511603940741;
 "JKB08";"Formal Methods in Software Product Lines Concepts, Survey, and Guidelines";6;1502709379372;
 "KTA08";"Visualizing Software Product Line Variabilities in Source Code";54;1502710467402;
 "KAK08";"Granularity in Software Product Lines";433;1502711554451;
