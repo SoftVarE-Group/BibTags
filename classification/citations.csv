@@ -1,11 +1,11 @@
 "DDP:EMSE17";"FEVER An Approach to Analyze Feature-Oriented Changes and Artefact Co-Evolution in Highly Configurable Systems";0;1511513370478;
+"ATL+:SoSyM16";"Effective Product-Line Testing Using Similarity-Based Product Prioritization";3;1504266317443;
 "BTSG:ICFEM17";"Modularization of Refinement Steps for Agile Formal Methods";0;1510653969848;
 "KPK+:SPLC17";"FeatureIDE Empowering Third-Party Developers";0;1504421840550;
 "LSBL:SPLC17";"Modeling and Testing Product Lines with Unbounded Parametric Real-Time Constraints";-2;1504463585317;
 "KTS+:ESECFSE17";"Is There a Mismatch Between Real-World Feature Models and Product-Line Research";0;1512558649650;
 "DABW:STTT17";"Efficient Family-Based Model Checking via Variability Abstractions";6;1512082183896;
-"ATL+:SoSyM16";"Effective Product-Line Testing Using Similarity-Based Product Prioritization";3;1504266317443;
-"LLE:SoSyM16";"Variability Extraction and Modeling for Product Variants";12;1511342219909;
+"LLE:SoSyM17";"Variability Extraction and Modeling for Product Variants";-1;0;
 "MTS+17";"Mastering Software Variability with FeatureIDE";0;1511265229620;
 "BCD+:SPLC17";"SPLC '17 Proceedings of the 21st International Systems and Software Product Line Conference - Volume B";-2;1510655051657;
 "CBA:OOPSLA17";"Evaluating and Improving Semistructured Merge";0;1511514452589;
@@ -333,7 +333,7 @@
 "LSZ12";"Featherweight Jigsaw - Replacing Inheritance by Composition in Java-like Languages";14;1512733611673;
 "HS:ISoLA12";"A Liskov Principle for Delta-Oriented Programming";36;1512734693066;
 "MAG:WASP12";"Formal Specification and Verification of Well-Formedness in Business Process Product Lines";0;1505120876461;
-"JHF+:ICTSS12";"A Technique for Agile and Automatic Interaction Testing for Product Lines";11;1504260907604;
+"JHF+:ICTSS12";"A Technique for Agile and Automatic Interaction Testing for Product Lines";13;1512735774794;
 "useMRKN:iFM13";"Compositional Verification of Evolving Software Product Lines";2;1504261992052;
 "L12";"Variables Nanodatenmanagement fuer eingebettete Systeme";2;1505121958309;
 "B12";"Contract-Aware Feature Composition";8;1504263072698;
@@ -372,7 +372,7 @@
 "TSK+:FASE12";"Applying Design by Contract to Feature-Oriented Programming";32;1504477648924;
 "STKS:VaMoS12";"Variant-Preserving Refactoring in Feature-Oriented Software Product Lines";41;1504478731138;
 "OZLG:SPLC11";"Pairwise Feature-interaction Testing for SPLs Potentials and Limitations";32;1510888287243;
-"X:ICSE11";"Reengineering Legacy Software Products into Software Product Line Based on Automatic Variability Analysis";18;1504479813283;
+"useXXJ:WCRE12";"Reengineering Legacy Software Products into Software Product Line Based on Automatic Variability Analysis";-1;0;
 "ACLF:ASE11";"Slicing Feature Models";47;1504480895695;
 "KSL+:Promise11";"Are Change Metrics Good Predictors for an Evolving Software Product Line";22;1504481976992;
 "KLG:MSR11";"Empirical Evaluation of Reliability Improvement in an Evolving Software Product Line";14;1504483058689;
