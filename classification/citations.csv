@@ -1,3 +1,4 @@
+"KTS+:ICSE18";"Propagating Configuration Decisions with Modal Implication Graphs";-1;0;
 "DDP:EMSE17";"FEVER An Approach to Analyze Feature-Oriented Changes and Artefact Co-Evolution in Highly Configurable Systems";0;1514383462804;
 "ATL+:SoSyM16";"Effective Product-Line Testing Using Similarity-Based Product Prioritization";27;1512743348201;
 "FMP:SEFM17";"Specification Clones An Empirical Study of the Structure of Event-B Specifications";0;1513688730706;
@@ -226,7 +227,7 @@
 "MRKN:iFM13";"Compositional Verification of Software Product Lines";24;1515414585629;
 "BDS13";"Compositional Type Checking of Delta-Oriented Software Product Lines";38;1515415667516;
 "KKL13";"Introduction to Combinatorial Testing";91;1512574868741;
-"HPP+:SPLC13";"Multi-Objective Test Generation for Software Product Lines";-1;0;
+"HPP+:SPLC13";"Multi-Objective Test Generation for Software Product Lines";67;1515425406935;
 "KSS:VariComp13";"Towards Efficient SPL Testing by Variant Reduction";8;1512577031477;
 "M13";"JML-Based Verification for Feature-Oriented Programming";5;1512578113131;
 "IHE+:ICCAD13";"Formal Verification of Distributed Dynamic Thermal Management";11;1512579194169;
