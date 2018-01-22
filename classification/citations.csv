@@ -60,12 +60,12 @@
 "TRS+:SPLC16";"Product-Line Maintenance with Emergent Contract Interfaces";19;1516644962255;
 "KST+:SPLC16";"Comparing Algorithms for Efficient Feature-Model Slicing";5;1515458459443;
 "PTF+:SPLC16";"Synchronizing Software Variants with VariantSync";4;1515455214153;
-"TLK:SPLC16";"Clean Your Variable Code with FeatureIDE";19;1513052132836;
+"TLK:SPLC16";"Clean Your Variable Code with FeatureIDE";19;1516647125032;
 "HNTS:ISoLA16";"Proof-Carrying Apps Contract-Based Deployment-Time Verification";1;1514679052348;
-"SBT:SPLC16";"Partially Safe Evolution of Software Product Lines";4;1513053214757;
+"SBT:SPLC16";"Partially Safe Evolution of Software Product Lines";5;1516648207318;
 "MWK+:ASE16";"On Essential Configuration Complexity Measuring Interactions In Highly-Configurable Systems";32;1515454132746;
 "KAT:TR16";"Explaining Anomalies in Feature Models";27;1514553747885;
-"R16";"Analysis Strategies for Configurable Systems";2;1513054296982;
+"R16";"Analysis Strategies for Configurable Systems";2;1516649289174;
 "ITT:SEAMS16";"Symbolic Performance Adaptation";5;1515459541621;
 "BVM:SCP16";"Basic Behavioral Models for Software Product Lines Expressiveness and Testing Pre-Orders";17;1515461706091;
 "DDP:MSR16";"FEVER Extracting Feature-Oriented Changes from Commits";8;1516281955145;
@@ -78,8 +78,8 @@
 "MTS+:ICSE16";"FeatureIDE Taming the Preprocessor Wilderness";31;1514581876298;
 "CHG+:MODULARITY16";"Segregating Feature Interfaces to Support Software Product Line Maintenance";3;1514404020113;
 "KSTS:TR16";"An Efficient Algorithm for Feature-Model Slicing";3;1515447640588;
-"M16";"Metaanalyse zu Strategien fuer die formale Verifikation von Software-Produktlinien";0;1513055378691;
-"ABT+:VaMoS16";"Mutation Operators for Preprocessor-Based Variability";1;1513056460234;
+"M16";"Metaanalyse zu Strategien fuer die formale Verifikation von Software-Produktlinien";0;1516650371542;
+"ABT+:VaMoS16";"Mutation Operators for Preprocessor-Based Variability";3;1516651454547;
 "TWS+:VaMoS16";"Variability Hiding in Contracts for Dependent Software Product Lines";7;1514582958791;
 "P16";"Automating the Synchronization of Software Variants";2;1514405101879;
 "RTS+:JLAMP16";"Variability Encoding From Compile-Time to Load-Time Variability";13;1514584041266;
@@ -92,7 +92,7 @@
 "PCF:ICSR15";"A Systematic Literature Review of Software Product Line Management Tools";13;1515578910905;
 "DBW:ECOOP15";"Variability Abstractions Trading Precision for Speed in Family-Based Analyses";11;1515462788301;
 "BKL+:AUSE15";"Reasoning about Product-Line Evolution Using Complex Feature Model Differences";16;1515445476828;
-"VBM:ICFEM15";"Delta-Oriented FSM-Based Testing";6;1513057542133;
+"VBM:ICFEM15";"Delta-Oriented FSM-Based Testing";6;1516652536852;
 "FLLE:ICSE15";"The ECCO Tool Extraction and Composition for Clone-and-Own";10;1515450886997;
 "LFLE:SST15";"Using Traceability for Incremental Construction and Evolution of Software Product Portfolios";5;1514105736139;
 "ALL+:GECCO15";"Extracting Variability-Safe Feature Models from Source Code Dependencies in System Variants";10;1515451969166;
