@@ -2,7 +2,7 @@
 "KTS+:ICSE18";"Propagating Configuration Decisions with Modal Implication Graphs";-2;1515426488847;
 "DDP:EMSE17";"FEVER An Approach to Analyze Feature-Oriented Changes and Artefact Co-Evolution in Highly Configurable Systems";0;1514383462804;
 "ATL+:SoSyM16";"Effective Product-Line Testing Using Similarity-Based Product Prioritization";28;1515661088824;
-"SSA:ESECFSE17";"Attributed Variability Models Outside the Comfort Zone";-1;0;
+"SSA:ESECFSE17";"Attributed Variability Models Outside the Comfort Zone";0;1516635227555;
 "GRS+:CCPE17";"Performance-Influence Models of Multigrid Methods A Case Study on Triangular Grids";1;1516634145529;
 "FMP:SEFM17";"Specification Clones An Empirical Study of the Structure of Event-B Specifications";0;1513688730706;
 "ALHR:TOCE17";"Teaching Software Product Lines A Snapshot of Current Practices and Challenges";0;1513687649174;
@@ -40,8 +40,8 @@
 "BSD:SPLC16";"When 150% is Too Much Supporting Product Centric Viewpoints in an Industrial Product Line";0;1513167695012;
 "SBWW:ICSME16";"Concepts, Operations, and Feasibility of a Projection-Based Variation Control System";13;1516625489392;
 "RGPA:SPLC16";"A Prototype-Based Approach for Managing Clones in Clone-and-Own Product Lines";1;1516630900760;
-"OFAL:SPLC16";"Long-Term Average Cost in Featured Transition Systems";3;1513047805766;
-"LBC:SPLC16";"Towards Clone-and-Own Support Locating Relevant Methods in Legacy Products";1;1513048887809;
+"OFAL:SPLC16";"Long-Term Average Cost in Featured Transition Systems";3;1516641717151;
+"LBC:SPLC16";"Towards Clone-and-Own Support Locating Relevant Methods in Legacy Products";2;1516642798583;
 "ZGB+:SPLC16";"A Mathematical Model of Performance-Relevant Feature Interactions";3;1516628734421;
 "PKM+:ICSR16";"FeatureIDE Scalable Product Configuration of Variable Systems";25;1515582158625;
 "MBW:ICSE16";"How Does the Degree of Variability Affect Bug Finding";30;1515583240004;
@@ -53,11 +53,11 @@
 "AKT+:GPCE16";"IncLing Efficient Product-line Testing Using Incremental Pairwise Sampling";29;1515665338569;
 "AMK+:GPCE16";"Tool Demo Testing Configurable Systems with FeatureIDE";25;1515666420413;
 "AKTS:FOSD16";"Implicit Constraints in Partial Feature Models";21;1515669665443;
-"RRM+:IST16";"Assessing Fine-Grained Feature Dependencies";21;1513049970075;
+"RRM+:IST16";"Assessing Fine-Grained Feature Dependencies";21;1516643880294;
 "SAKS:EMSE16";"Quantifying Structural Attributes of System Decompositions in 28 Feature-Oriented Software Product Lines";2;1515456295684;
 "BABN:EMSE16";"Breathing Ontological Knowledge Into Feature Model Synthesis An Empirical Study";26;1515457377723;
 "MKR+:ICSE16";"A Comparison of 10 Sampling Algorithms for Configurable Systems";21;1514401856468;
-"TRS+:SPLC16";"Product-Line Maintenance with Emergent Contract Interfaces";19;1513051051433;
+"TRS+:SPLC16";"Product-Line Maintenance with Emergent Contract Interfaces";19;1516644962255;
 "KST+:SPLC16";"Comparing Algorithms for Efficient Feature-Model Slicing";5;1515458459443;
 "PTF+:SPLC16";"Synchronizing Software Variants with VariantSync";4;1515455214153;
 "TLK:SPLC16";"Clean Your Variable Code with FeatureIDE";19;1513052132836;
@@ -83,7 +83,7 @@
 "TWS+:VaMoS16";"Variability Hiding in Contracts for Dependent Software Product Lines";7;1514582958791;
 "P16";"Automating the Synchronization of Software Variants";2;1514405101879;
 "RTS+:JLAMP16";"Variability Encoding From Compile-Time to Load-Time Variability";13;1514584041266;
-"SGS+:ASE15";"Cost-Efficient Sampling for Performance Prediction of Configurable Systems";-1;0;
+"SGS+:ASE15";"Cost-Efficient Sampling for Performance Prediction of Configurable Systems";37;1516636309097;
 "KTTS:ASE15";"Scaling Size and Parameter Spaces in Variability-Aware Software Performance Models";11;1513594316999;
 "DPL+:VaMoS15";"Covering SPL Behaviour with Sampled Configurations An Initial Assessment";2;1513595399125;
 "BSAB:ICSE15";"Symbolic Model Checking of Product-Line Requirements Using SAT-Based Methods";8;1514702862480;
@@ -121,7 +121,7 @@
 "T15";"Product-Line Specification and Verification with Feature-Oriented Contracts";28;1514646597205;
 "BDS:SCP14";"Implementing Type-Safe Software Product Lines Using Parametric Traits";14;1514647679480;
 "MJ:TAOSD14";"Modular Reasoning in Aspect-Oriented Languages from a Substitution Perspective";4;1514648761225;
-"GKS+:PPL14";"Experiments on Optimizing the Performance of Stencil Codes with SPL Conqueror";-1;0;
+"GKS+:PPL14";"Experiments on Optimizing the Performance of Stencil Codes with SPL Conqueror";7;1516637390855;
 "KST:FASE14";"Family-Based Performance Analysis of Variant-Rich Software Systems";17;1513596481270;
 "LHF+:CEC14";"Comparative Analysis of Classical Multi-Objective Evolutionary Algorithms and Seeding Strategies for Pairwise Testing of Software Product Lines";11;1513597562841;
 "TDS+:ATC14";"Static Analysis of Variability in System Software The 90,000 Ifdefs Issue";20;1513598645069;
@@ -207,7 +207,7 @@
 "FTS:VaMoS14";"A Taxonomy of Software Product Line Reengineering";39;1515400519757;
 "SSA:VaMoS14";"Capturing Variability in Space and Time with Hyper Feature Models";15;1515401601421;
 "TKB+:SCP14";"FeatureIDE An Extensible Framework for Feature-Oriented Software Development";295;1515402683575;
-"SRK+:IST13";"Scalable Prediction of Non-functional Properties in Software Product Lines Footprint and Memory Consumption";-1;0;
+"SRK+:IST13";"Scalable Prediction of Non-functional Properties in Software Product Lines Footprint and Memory Consumption";59;1516638471863;
 "useGYS+:EMSE18";"Variability-Aware Performance Prediction A Statistical Learning Approach";58;1516633063189;
 "HLHE:VaMoS13";"Using Feature Model Knowledge to Speed Up the Generation of Covering Arrays";11;1513599726559;
 "KGP:EMSE13";"Integrating Conceptual and Logical Couplings for Change Impact Analysis in Software";32;1514127374888;
@@ -287,8 +287,8 @@
 "AKL13";"Language-Independent and Automated Software Composition The FeatureHouse Experience";89;1513094310628;
 "STSS:VaMoS13";"Automated Analysis of Dependent Feature Models";14;1513095391016;
 "RAK+:VaMoS13";"The PLA Model On the Combination of Product-Line Analyses";35;1513096472317;
-"SKK+:ICSE12";"Predicting Performance via Automated Feature-interaction Detection";-1;0;
-"SRK+:SQJ12";"SPL Conqueror Toward Optimization of Non-functional Properties in Software Product Lines";-1;0;
+"SKK+:ICSE12";"Predicting Performance via Automated Feature-Interaction Detection";-1;0;
+"SRK+:SQJ12";"SPL Conqueror Toward Optimization of Non-functional Properties in Software Product Lines";101;1516640635668;
 "MGSH:SPLC13";"Practical Pairwise Testing for Software Product Lines";23;1513600808047;
 "NNP+:TSE12";"Clone Management for Evolving Software";86;1514129538325;
 "HRGL:SPLC12";"Using Regression Testing to Analyze the Impact of Changes to Variability Models on Products";18;1513943695192;
