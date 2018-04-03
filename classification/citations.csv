@@ -2,6 +2,9 @@
 "KTS+:ICSE18";"Propagating Configuration Decisions with Modal Implication Graphs";-2;1515426488847;
 "DDP:EMSE17";"FEVER An Approach to Analyze Feature-Oriented Changes and Artefact Co-Evolution in Highly Configurable Systems";0;1514383462804;
 "ATL+:SoSyM16";"Effective Product-Line Testing Using Similarity-Based Product Prioritization";28;1515661088824;
+"FLS+:CIM17";"Hyper-Heuristic Based Product Selection for Software Product Line Testing";-1;0;
+"HNA+:TR17";"Test Them All, Is It worth It A Ground Truth Comparison of Configuration Sampling Strategies";-1;0;
+"FLV:SBES17";"Automatic Generation of Search-Based Algorithms Applied to the Feature Testing of Software Product Lines";-1;0;
 "AZAB17";"Constrained Interaction Testing A Systematic Literature Study";0;1516806555356;
 "SSA:ESECFSE17";"Attributed Variability Models Outside the Comfort Zone";0;1516635227555;
 "GRS+:CCPE17";"Performance-Influence Models of Multigrid Methods A Case Study on Triangular Grids";1;1516634145529;
@@ -31,6 +34,7 @@
 "QPV+:SoSyM17";"The Shape of Feature Code An Analysis of Twenty C-Preprocessor-Based Systems";26;1516655781116;
 "LATS:VaMoS17";"Optimizing Product Orders Using Graph Algorithms for Improving Incremental Product-line Analysis";3;1516654699306;
 "FMS+:SANER17";"Variant-Preserving Refactorings for Migrating Cloned Products to a Product Line";22;1515579991869;
+"FKPV:CEC16";"Product Selection Based on Upper Confidence Bound MOEAD-DRA for Testing Software Product Lines";-1;0;
 "HHB:iFM16";"Can Formal Methods Improve the Efficiency of Code Reviews";2;1516923245684;
 "ABB+16";"Deductive Software Verification - The KeY Book";0;1516956911055;
 "WSSS:SANER16";"Custom-Tailored Variability Mining for Block-Based Languages";7;1516957991807;
@@ -84,6 +88,7 @@
 "TWS+:VaMoS16";"Variability Hiding in Contracts for Dependent Software Product Lines";7;1514582958791;
 "P16";"Automating the Synchronization of Software Variants";2;1514405101879;
 "RTS+:JLAMP16";"Variability Encoding From Compile-Time to Load-Time Variability";13;1514584041266;
+"FV:SBES15";"A Mutation and Multi-Objective Test Data Generation Approach for Feature Testing of Software Product Lines";-1;0;
 "LFRE:IWCT15";"A First Systematic Mapping Study on Combinatorial Interaction Testing for Software Product Lines";20;1517573761090;
 "SGS+:ASE15";"Cost-Efficient Sampling for Performance Prediction of Configurable Systems";37;1516636309097;
 "KTTS:ASE15";"Scaling Size and Parameter Spaces in Variability-Aware Software Performance Models";13;1516960161018;
@@ -123,6 +128,7 @@
 "T15";"Product-Line Specification and Verification with Feature-Oriented Contracts";28;1514646597205;
 "BDS:SCP14";"Implementing Type-Safe Software Product Lines Using Parametric Traits";14;1514647679480;
 "MJ:TAOSD14";"Modular Reasoning in Aspect-Oriented Languages from a Substitution Perspective";4;1514648761225;
+"CR:IJAST14";"Efficient and Effective Testing of Automotive Software Product Lines";-1;0;
 "GKS+:PPL14";"Experiments on Optimizing the Performance of Stencil Codes with SPL Conqueror";7;1516637390855;
 "KST:FASE14";"Family-Based Performance Analysis of Variant-Rich Software Systems";19;1516962323270;
 "LHF+:CEC14";"Comparative Analysis of Classical Multi-Objective Evolutionary Algorithms and Seeding Strategies for Pairwise Testing of Software Product Lines";11;1516963404580;
