@@ -1,7 +1,7 @@
 Authors,Venue,Year,Title,Algorithm,Algorithm Category,Input Data,Coverage,Evaluation,Application,Further Tags
 " Mustafa Al-Hajjaji,  Thomas Th&uuml;m,  Malte Lochau,  Jens Meinicke,  Gunter Saake",SoSyM,2018,"Effective Product-Line Testing Using Similarity-Based Product Prioritization","","","","","","",""
 " Thiago N. Ferreira,  Jackson A. Prado Lima,  Andrei Strickler,  Josiel N. Kuk,  Silvia R. Vergilio,  Aurora Pozo",CIM,2017,"Hyper-Heuristic Based Product Selection for Software Product Line Testing","","","","","","",""
-" Axel Halin,  Alexandre Nuttinck,  Mathieu Acher,  Xavier Devroey,  Gilles Perrouin,  Benoit Baudry",(techreport),2001,"Test Them All, Is It worth It? A Ground Truth Comparison of Configuration Sampling Strategies","","","","","","",""
+" Axel Halin,  Alexandre Nuttinck,  Mathieu Acher,  Xavier Devroey,  Gilles Perrouin,  Benoit Baudry",(techreport),2017,"Test Them All, Is It worth It? A Ground Truth Comparison of Configuration Sampling Strategies","","","","","","",""
 " Helson L. Jakubovski Filho,  Jackson A. Prado Lima,  Silvia R. Vergilio",SBES,2017,"Automatic Generation of Search-Based Algorithms Applied to the Feature Testing of Software Product Lines","","","","","","",""
 " Mustafa Al-Hajjaji,  Sascha Lity,  Remo Lachmann,  Thomas Th&uuml;m,  Ina Schaefer,  Gunter Saake",VACE,2017,"Delta-Oriented Product Prioritization for Similarity-Based Product-Line Testing","","","","","","",""
 " Thiago do Nascimento Ferreira,  Josiel Neumann Kuk,  Aurora Pozo,  Silvia Regina Vergilio",CEC,2016,"Product Selection Based on Upper Confidence Bound MOEA/D-DRA for Testing Software Product Lines","","","","","","",""
