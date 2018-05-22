@@ -1,0 +1,20 @@
+\documentclass{article}
+\usepackage{graphicx} % to rotate lables
+\usepackage[table]{xcolor} % to color cells
+\usepackage[margin=1cm]{geometry} % larger drawing area
+\usepackage{booktabs} % rules between rows
+\usepackage[latin1]{inputenc}
+ 
+\begin{document}
+	\thispagestyle{empty}
+	\begin{center}
+		\scriptsize
+		\setlength{\tabcolsep}{.3em} % horizontal padding in table
+		\renewcommand{\arraystretch}{1.1} % vertical padding in table
+		\input{sampling}
+	\end{center}
+
+	\bibliographystyle{../styles/myabbrv_noaddress_nomonth}
+	\bibliography{../MYabrv,../literature}
+\end{document}
+
