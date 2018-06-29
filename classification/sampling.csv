@@ -59,3 +59,5 @@ Authors,Venue,Year,Title,Algorithm,Input Data,Algorithm Category,Coverage,Evalua
 " Sebastian Oster,  Florian Markert,  Philipp Ritter",SPLC,2010,"Automated Incremental Pairwise Testing of Software Product Lines","MoSo-PoLiTe","feature model, expert knowledge","greedy, semi-automatic selection","pair-wise coverage","sampling efficiency, testing efficiency, unavailable tool","testing",""
 " Myra B. Cohen,  Matthew B. Dwyer,  Jiangfan Shi",TSE,2008,"Constructing Interaction Test Suites for Highly-Configurable Systems in the Presence of Constraints: A Greedy Approach","","","","","","",""
 "Norbert Siegmund, Marko Rosenm&uuml;ller, Martin Kuhlemann, Christian K&auml;stner, Gunter Saake",APSEC,2008,"Measuring Non-Functional Properties in Software Product Lines for Product Derivation","","","","","","",""
+" Myra B. Cohen,  Matthew B. Dwyer,  Jiangfan Shi",ISSTA,2007,"Interaction Testing of Highly-configurable Systems in the Presence of Constraints","","","","","","",""
+" Myra B. Cohen,  Matthew B. Dwyer,  Jiangfan Shi",MUTATION,2007,"Exploiting Constraint Solving History to Construct Interaction Test Suites","","","","","","",""
