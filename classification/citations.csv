@@ -88,7 +88,7 @@
 "TWS+:VaMoS16";"Variability Hiding in Contracts for Dependent Software Product Lines";7;1514582958791;
 "P16";"Automating the Synchronization of Software Variants";2;1514405101879;
 "RTS+:JLAMP16";"Variability Encoding From Compile-Time to Load-Time Variability";13;1514584041266;
-"FV:SBES15";"A Mutation and Multi-Objective Test Data Generation Approach for Feature Testing of Software Product Lines";-1;0;
+"FV:SBES15";"A Mutation and Multi-Objective Test Data Generation Approach for Feature Testing of Software Product Lines";11;1532768718805;
 "LFRE:IWCT15";"A First Systematic Mapping Study on Combinatorial Interaction Testing for Software Product Lines";20;1517573761090;
 "SGS+:ASE15";"Cost-Efficient Sampling for Performance Prediction of Configurable Systems";37;1516636309097;
 "KTTS:ASE15";"Scaling Size and Parameter Spaces in Variability-Aware Software Performance Models";13;1516960161018;
@@ -128,7 +128,7 @@
 "T15";"Product-Line Specification and Verification with Feature-Oriented Contracts";28;1514646597205;
 "BDS:SCP14";"Implementing Type-Safe Software Product Lines Using Parametric Traits";14;1514647679480;
 "MJ:TAOSD14";"Modular Reasoning in Aspect-Oriented Languages from a Substitution Perspective";4;1514648761225;
-"CR:IJAST14";"Efficient and Effective Testing of Automotive Software Product Lines";-1;0;
+"CR:IJAST14";"Efficient and Effective Testing of Automotive Software Product Lines";0;1532769801510;
 "GKS+:PPL14";"Experiments on Optimizing the Performance of Stencil Codes with SPL Conqueror";7;1516637390855;
 "KST:FASE14";"Family-Based Performance Analysis of Variant-Rich Software Systems";19;1516962323270;
 "LHF+:CEC14";"Comparative Analysis of Classical Multi-Objective Evolutionary Algorithms and Seeding Strategies for Pairwise Testing of Software Product Lines";11;1516963404580;
