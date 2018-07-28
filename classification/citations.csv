@@ -142,7 +142,7 @@
 "DPS:SPLat14";"Abstract Test Case Generation for Behavioural Testing of Software Product Lines";11;1517283692787;
 "BV:ISoLA14";"Towards Modular Verification of Software Product Lines with mCRL2";16;1517276120476;
 "VK:APSEC14";"Model Checking of Software Product Lines in Presence of Nondeterminism and Probabilities";1;1516702466481;
-"LAG+:ICSME14";"Recovering Feature-to-Code Mappings in Mixed-Variability Software Systems";10;1514125211001;
+"LAG+:ICSME14";"Recovering Feature-to-Code Mappings in Mixed-Variability Software Systems";12;1532774127903;
 "useLLE:SoSyM16b";"Enhancing Clone-and-Own with Systematic Reuse for Developing Software Variants";43;1517395678577;
 "KKS:ICSME14";"Program Dependency Analysis for Consolidating Customized Product Copies";6;1515473607080;
 "BNR+:MODELS14";"Three Cases of Feature-Based Variability Modeling in Industry";24;1515474690181;
@@ -219,9 +219,9 @@
 "SRK+:IST13";"Scalable Prediction of Non-functional Properties in Software Product Lines Footprint and Memory Consumption";59;1516638471863;
 "useGYS+:EMSE18";"Variability-Aware Performance Prediction A Statistical Learning Approach";58;1516633063189;
 "HLHE:VaMoS13";"Using Feature Model Knowledge to Speed Up the Generation of Covering Arrays";11;1516965567971;
-"KGP:EMSE13";"Integrating Conceptual and Logical Couplings for Change Impact Analysis in Software";32;1514127374888;
-"AGA:TSE13";"Trustrace Mining Software Repositories to Improve the Accuracy of Requirement Traceability Links";56;1514126292692;
-"RC:ESECFSE13";"N-Way Model Merging";35;1514128457146;
+"KGP:EMSE13";"Integrating Conceptual and Logical Couplings for Change Impact Analysis in Software";37;1532776290706;
+"AGA:TSE13";"Trustrace Mining Software Repositories to Improve the Accuracy of Requirement Traceability Links";64;1532775209076;
+"RC:ESECFSE13";"N-Way Model Merging";41;1532777371499;
 "BSL+:TSE13";"A Study of Variability Models and Languages in the Systems Software Domain";75;1516629815802;
 "MLF+:CBSOFT13";"Colligens A Tool to Support the Development of Preprocessor-Based Software Product Lines in C";20;1515586481981;
 "KKK:REVE13";"A Graph-Based Analysis Concept to Derive a Variation Point Design from Product Copies";9;1515468198270;
@@ -299,7 +299,7 @@
 "SKK+:ICSE12";"Predicting Performance via Automated Feature-Interaction Detection";114;1516646043644;
 "SRK+:SQJ12";"SPL Conqueror Toward Optimization of Non-functional Properties in Software Product Lines";101;1516640635668;
 "MGSH:SPLC13";"Practical Pairwise Testing for Software Product Lines";24;1516966649453;
-"NNP+:TSE12";"Clone Management for Evolving Software";86;1514129538325;
+"NNP+:TSE12";"Clone Management for Evolving Software";98;1532778452633;
 "HRGL:SPLC12";"Using Regression Testing to Analyze the Impact of Changes to Variability Models on Products";19;1517284774633;
 "ALL:ASE12";"Structured Merge with Auto-Tuning Balancing Precision and Performance";25;1515570260872;
 "ZFSZ:CSMR12";"Feature Identification from the Source Code of Product Variants";64;1515571341973;
@@ -623,9 +623,9 @@
 "RW:REJ07";"Multi-Level Feature Trees A Pragmatic Approach to Managing Highly Complex Product Families";-2;1516878151381;
 "UGKB:ESEC07";"A Specification-Based Approach to Testing Software Product Lines";17;1517571596737;
 "LK+:ECBS07";"IPOG A General Strategy for T-Way Software Testing";244;1517572679065;
-"NCB+SEI07";"A Framework for Software Product Line Practice, Version 5.0";101;1514121965272;
-"CDS:ISSTA07";"Interaction Testing of Highly-Configurable Systems in the Presence of Constraints";205;1514123046799;
-"BHJM:STTT07";"The Software Model Checker Blast Applications to Software Engineering";5;1514124129112;
+"NCB+SEI07";"A Framework for Software Product Line Practice, Version 5.0";108;1532770882628;
+"CDS:ISSTA07";"Interaction Testing of Highly-Configurable Systems in the Presence of Constraints";223;1532771963312;
+"BHJM:STTT07";"The Software Model Checker Blast Applications to Software Engineering";1;1532773045291;
 "M:ICFI07";"Quality Issues in Software Product Lines Feature Interactions and Beyond";-2;1514130620219;
 "JWEG:MODELS07";"Model Composition in Product Lines and Feature Interaction Detection Using Critical Pair Analysis";157;1514131702171;
 "LNW:ESOP07";"Modal IO Automata for Interface and Product Line Theories";234;1514132784094;
