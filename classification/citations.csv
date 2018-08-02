@@ -1,6 +1,6 @@
 "GYS+:EMSE18";"Data-Efficient Performance Learning for Configurable Systems";0;1516631981591;
 "KTS+:ICSE18";"Propagating Configuration Decisions with Modal Implication Graphs";-2;1515426488847;
-"DDP:EMSE17";"FEVER An Approach to Analyze Feature-Oriented Changes and Artefact Co-Evolution in Highly Configurable Systems";0;1514383462804;
+"DDP:EMSE17";"FEVER An Approach to Analyze Feature-Oriented Changes and Artefact Co-Evolution in Highly Configurable Systems";0;1533155992709;
 "ATL+:SoSyM16";"Effective Product-Line Testing Using Similarity-Based Product Prioritization";28;1515661088824;
 "FLS+:CIM17";"Hyper-Heuristic Based Product Selection for Software Product Line Testing";5;1530793158273;
 "HNA+:TR17";"Test Them All, Is It worth It A Ground Truth Comparison of Configuration Sampling Strategies";3;1530794239692;
@@ -450,14 +450,14 @@
 "ER:IST11";"Software Product Line Testing - A Systematic Mapping Study";232;1516264641550;
 "TLSS:EuroSys11";"Feature Consistency in Compile-Time-Configurable System Software Facing the Linux 10,000 Feature Problem";118;1516265722585;
 "KGR+:OOPSLA11";"Variability-Aware Parsing in the Presence of Lexical Macros and Conditional Compilation";216;1533144899721;
-"DCB:OOPSLA11";"Product Lines of Theorems";32;1514460807609;
-"HRRS:MBEES11";"Delta Modeling for Software Architectures";44;1514461889842;
-"H11";"Next-Generation Feature Models with Pseudo-Boolean SAT Solvers";4;1514462972420;
-"useHS:ISoLA12";"A Liskov Principle for Delta-Oriented Programming";36;1514464054628;
+"DCB:OOPSLA11";"Product Lines of Theorems";34;1533157076014;
+"HRRS:MBEES11";"Delta Modeling for Software Architectures";48;1533158158514;
+"H11";"Next-Generation Feature Models with Pseudo-Boolean SAT Solvers";4;1533159240151;
+"useHS:ISoLA12";"A Liskov Principle for Delta-Oriented Programming";36;1533160323194;
 "STAL:FOSD11";"Automatic Detection of Feature Interactions Using the Java Modeling Language An Experience Report";18;1516266803787;
 "LBL:AUSE11";"Compositional Model Checking of Software Product Lines Using Variation Point Obligations";57;1516267885054;
-"SH11";"Formal Methods in Software Product Line Engineering";42;1514465136145;
-"SBD11";"Compositional Type-Checking for Delta-Oriented Programming";62;1514466218031;
+"SH11";"Formal Methods in Software Product Line Engineering";44;1533189727299;
+"SBD11";"Compositional Type-Checking for Delta-Oriented Programming";63;1533190808794;
 "CHSL:ICSE11";"Symbolic Model Checking of Software Product Lines";190;1514467300189;
 "SRK+:SPLC11";"Scalable Prediction of Non-functional Properties in Software Product Lines";58;1514468381612;
 "TKES:SPLC11";"Abstract Features in Feature Modeling";118;1514469463418;
@@ -626,7 +626,7 @@
 "NCB+SEI07";"A Framework for Software Product Line Practice, Version 5.0";108;1532770882628;
 "CDS:ISSTA07";"Interaction Testing of Highly-Configurable Systems in the Presence of Constraints";223;1532771963312;
 "BHJM:STTT07";"The Software Model Checker Blast Applications to Software Engineering";1;1532773045291;
-"M:ICFI07";"Quality Issues in Software Product Lines Feature Interactions and Beyond";-1;1533008599183;
+"M:ICFI07";"Quality Issues in Software Product Lines Feature Interactions and Beyond (Invited Talk)";-1;1533008599183;
 "JWEG:MODELS07";"Model Composition in Product Lines and Feature Interaction Detection Using Critical Pair Analysis";166;1532780615601;
 "LNW:ESOP07";"Modal IO Automata for Interface and Product Line Theories";246;1532884839392;
 "LM:ICSE07";"Information Hiding and Visibility in Interface Specifications";38;1532885920908;
