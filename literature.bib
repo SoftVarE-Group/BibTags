@@ -1,17 +1,3 @@
-@inproceedings{BLLV:FMSPLE15,
-	author = {ter Beek, Maurice H. and Axel Legay and Alberto Lluch{-}Lafuente and Andrea Vandin},
-	title = {{Quantitative Analysis of Probabilistic Models of Software Product
-	Lines with Statistical Model Checking}},
-	booktitle = FMSPLE,
-	location = {London, UK},
-	pages = {56--70},
-	doi = {10.4204/EPTCS.182.5},
-	tt-tags = {SPL Model Checking},
-	tc-tags = {classified by Thomas+Maurice,model checking,family-based analysis,family-wide specification,annotation-based implementation,design,PFLan},
-	month = APR,
-	year = 2015
-}
-
 @inproceedings{BBV:FMSPLE15,
 	author = {Tessa Belder and ter Beek, Maurice H. and Erik P. de Vink},
 	title = {{Coherent Branching Feature Bisimulation}},
@@ -24,22 +10,6 @@
 	month = APR,
 	year = 2015
 }
-
-@inproceedings{BLLV:SPLC15,
-	author = {ter Beek, Maurice H. and Legay, Axel and Lafuente, Alberto Lluch and Vandin, Andrea},
-	title = {{Statistical Analysis of Probabilistic Models of Software Product Lines with Quantitative Constraints}},
-	booktitle = SPLC,
-	isbn = {978-1-4503-3613-0},
-	location = {Nashville, Tennessee},
-	pages = {11--15},
-	doi = {10.1145/2791060.2791087},
-	acmid = {2791087},
-	publisher = ACM,
-	address = NY,
-	tt-tags = {SPL Model Checking},
-	tc-tags = {classified by Thomas+Maurice},
-	year = 2015
-} 
 
 @inproceedings{BFGM:SPLat15,
 	author = {ter Beek, Maurice H. and Fantechi, Alessandro and Gnesi, Stefania and Mazzanti, Franco},
@@ -104,6 +74,39 @@
 	year = 2016
 }
 
+
+
+
+@inproceedings{BLLV:FMSPLE15,
+	author = {ter Beek, Maurice H. and Axel Legay and Alberto Lluch{-}Lafuente and Andrea Vandin},
+	title = {{Quantitative Analysis of Probabilistic Models of Software Product
+	Lines with Statistical Model Checking}},
+	booktitle = FMSPLE,
+	location = {London, UK},
+	pages = {56--70},
+	doi = {10.4204/EPTCS.182.5},
+	tt-tags = {SPL Model Checking},
+	tc-tags = {classified by Thomas+Maurice,statistical model checking,unoptimized product-based analysis,family-based implementation,specification independent,design,tool,evaluation,no proof,PFLan,MultiVeSta,SMT,Maude,subsumed by BLLV:ISoLA16},
+	month = APR,
+	year = 2015
+}
+
+@inproceedings{useBLLV:ISoLA16b,
+	author = {ter Beek, Maurice H. and Legay, Axel and Lafuente, Alberto Lluch and Vandin, Andrea},
+	title = {{Statistical Analysis of Probabilistic Models of Software Product Lines with Quantitative Constraints}},
+	booktitle = SPLC,
+	isbn = {978-1-4503-3613-0},
+	location = {Nashville, Tennessee},
+	pages = {11--15},
+	doi = {10.1145/2791060.2791087},
+	acmid = {2791087},
+	publisher = ACM,
+	address = NY,
+	tt-tags = {SPL Model Checking},
+	tc-tags = {classified by Thomas+Maurice,statistical model checking,unoptimized product-based analysis,family-based implementation,specification independent,design,tool,evaluation,no proof,QFLan,MultiVeSta,SMT,Maude,subsumed by BLLV:ISoLA16},
+	year = 2015
+} 
+
 @inproceedings{BLLV:ISoLA16,
 	author = {ter Beek, Maurice H. and Legay, Axel and Lluch Lafuente, Alberto and Vandin, Andrea},
 	title = {{Statistical Model Checking for Product Lines}},
@@ -115,11 +118,11 @@
 	isbn = {978-3-319-47166-2},
 	doi = {10.1007/978-3-319-47166-2_8},
 	tt-tags = {SPL Model Checking},
-	tc-tags = {classified by Thomas+Maurice},
+	tc-tags = {classified by Thomas+Maurice,statistical model checking,unoptimized product-based analysis,family-based implementation,specification independent,design,tool,evaluation,no proof,QFLan,MultiVeSta,SMT,Maude},
 	year = 2016
 }
 
-@inproceedings{VBLL:FM18,
+@inproceedings{useBLLV:TSE19,
 	author = {Andrea Vandin and ter Beek, Maurice H. and Axel Legay and Lluch Lafuente, Alberto},
 	title = {{QFLan: A Tool for the Quantitative Analysis of Highly Reconfigurable
 	Systems}},
@@ -131,7 +134,7 @@
 	isbn = {978-3-319-95581-0},
 	doi = {10.1007/978-3-319-95582-7\_19},
 	tt-tags = {SPL Model Checking},
-	tc-tags = {classified by Thomas+Maurice},
+	tc-tags = {classified by Thomas+Maurice,statistical model checking,unoptimized product-based analysis,family-based implementation,specification independent,design,tool,evaluation,no proof,QFLan,MultiVeSta,subsumed by BLLV:TSE19},
 	month = JUL,
 	year = 2018
 }
@@ -143,8 +146,8 @@
 	doi = {10.1109/TSE.2018.2853726},
 	issn = {0098-5589},
 	keywords = {Probabilistic logic;Model checking;Tools;Analytical models;Runtime;Computational modeling;DSL},
-	tt-tags = {SPL Model Checking},
-	tc-tags = {classified by Thomas+Maurice},
+	tt-tags = {SPL Model Checking,reqex,DSPL},
+	tc-tags = {classified by Thomas+Maurice,statistical model checking,unoptimized product-based analysis,family-based implementation,specification independent,design,tool,evaluation,no proof,QFLan,MultiVeSta},
 	month = JUL,
 	year = 2019,
 	note = {To appear}
@@ -218,7 +221,19 @@
 	tt-tags = {SPL Testing},
 	tc-tags = {classified by Thomas,testing,sample-based analysis,specification independent,implementation independent,program,subsumed by none},
 	sampling-tags = {sampling efficiency,testing efficiency,open-source tool,evaluation,usage of random sampling/CASA/Chvatal/ICPL,testing,SPLC18},
-	year = 2018,
+	year = 2019,
+	note = {To appear}
+}
+
+@article{RDD:SoSyM19,
+	author = {Rodrigues, V{\'i}tor and Donetti, Simone and Damiani, Ferruccio},
+	title = {{Certifying Delta-Oriented Programs}},
+	journal = SoSyM,
+	issn = {1619-1374},
+	doi = {10.1007/s10270-018-00704-x},
+	tt-tags = {},
+	tc-tags = {classified by Thomas,theorem proving,feature-product-based analysis,delta modules,family-based implementation,family-based specification,source code,tool,evaluation,no proof,COQ},
+	year = 2019,
 	note = {To appear}
 }
 
