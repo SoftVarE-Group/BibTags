@@ -63,3 +63,9 @@ nodate,%       Kein Datum in Fuﬂleiste
 	#3
 }
 }
+
+\newcommand{\centernote}[1]{
+	\begin{tikzpicture}[remember picture,overlay,align=left]
+	\node[preaction={fill=white},preaction={fill=red!25!white,path fading=north,fading angle=15},draw,thick,rounded corners,inner sep=10pt,yshift=3mm] at (current page.center) {\large #1};
+	\end{tikzpicture}
+}
