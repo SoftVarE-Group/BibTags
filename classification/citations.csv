@@ -41,7 +41,7 @@
 "DABW:STTT17";"Efficient Family-Based Model Checking via Variability Abstractions";13;1547816069803;
 "LLE:SoSyM17";"Variability Extraction and Modeling for Product Variants";27;1548354104685;
 "MTS+17";"Mastering Software Variability with FeatureIDE";22;1547393826924;
-"BCD+:SPLC17";"SPLC '17: Proceedings of the 21st International Systems and Software Product Line Conference - Volume B";-2;1546232977871;
+"SPLC17b";"Proceedings of the 21st International Systems and Software Product Line Conference (SPLC) - Volume B";-1;0;
 "CBA:OOPSLA17";"Evaluating and Improving Semistructured Merge";9;1547574861265;
 "LBG:GPCE17";"A Classification of Variation Control Systems";7;1545242949465;
 "MAZ:SPLC17";"ESPLA: A Catalog of Extractive SPL Adoption Case Studies";12;1546234060321;
@@ -58,6 +58,7 @@
 "QPV+:SoSyM17";"The Shape of Feature Code: An Analysis of Twenty C-Preprocessor-Based Systems";30;1546237308344;
 "LATS:VaMoS17";"Optimizing Product Orders Using Graph Algorithms for Improving Incremental Product-line Analysis";7;1545113179366;
 "FMS+:SANER17";"Variant-Preserving Refactorings for Migrating Cloned Products to a Product Line";34;1548329224328;
+"FMSPLE16";"Proceedings of the 7th International Workshop on Formal Methods and Analysis in Software Product Line Engineering (FMSPLE@ETAPS)";-1;0;
 "BFGM:JLAMP16";"Modelling and Analysing Variability in Product Families: Model Checking of Modal Transition Systems with Variability Constraints";22;1545398966657;
 "useBVW:FASE17";"Towards a Feature mu-Calculus Targeting SPL Verification";7;1546608796856;
 "BRV:ISoLA16";"Supervisory Controller Synthesis for Product Lines Using CIF 3";8;1545853869616;
@@ -420,7 +421,7 @@
 "SCD:FASE12";"Integration Testing of Software Product Lines Using Compositional Symbolic Execution";38;1548406177827;
 "HRRS:Monterey12";"Evolving Delta-Oriented Software Product Line Architectures";40;1548407259889;
 "BS:FOSD12";"Ensuring Well-Formedness of Configured Domain Models in Model-Driven Product Lines Based on Negative Variability";17;1548408340416;
-"FOSD12";"FOSD '12: Proceedings of the 4th International Workshop on Feature-Oriented Software Development";-2;1546612043075;
+"FOSD12";"Proceedings of the 4th International Workshop on Feature-Oriented Software Development (FOSD)";-1;0;
 "HLL+12";"Behavioral Interface Specification Languages";167;1548409422553;
 "DDJ+:FMSPLE12";"A Transformational Proof System for Delta-Oriented Programming";28;1548410503183;
 "T:MIT12";"Verification of Software Product Lines Using Contracts";3;1548411584233;
