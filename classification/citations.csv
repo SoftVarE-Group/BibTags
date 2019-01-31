@@ -1,10 +1,17 @@
+"RSC+:FASE19";"Tool Support for Correctness-by-Construction";-1;0;
 "TKK+:JSS19";"Feature-Oriented Contract Composition";-2;1547635318976;
+"KTP+:SE19";"Understanding Parameters of Deductive Verification: An Empirical Investigation of KeY";-1;0;
+"KTS+:SE19";"Propagating Configuration Decisions with Modal Implication Graphs";-1;0;
 "BLLV:TSE19";"A Framework for Quantitative Modeling and Analysis of Highly (Re)Configurable Systems";5;1545859281773;
 "RDD:SoSyM19";"Certifying Delta-Oriented Programs";-2;1546592576557;
 "ATL+:SoSyM16";"Effective Product-Line Testing Using Similarity-Based Product Prioritization";36;1548360594854;
 "BDG+:SCP19";"On the Expressiveness of Modal Transition Systems with Variability Constraints";0;1545860363306;
 "SYS:IST19";"Metrics for Analyzing Variability and its Implementation in Software Product Lines: A Systematic Literature Review";0;1545988554920;
 "LNTS:JSS19";"Retest Test Selection for Product-Line Regression Testing of Variants and Versions of Variants";0;1545989636903;
+"KTPS:FIDE18";"Experience Report on Formally Verifying Parts of OpenJDK's API with KeY";-1;0;
+"KTM+:SE18";"Is There a Mismatch between Real-World Feature Models and Product-Line Research";-1;0;
+"CGR+:VaMoS18";"Equivalent Mutants in Configurable Systems: An Empirical Study";-1;0;
+"LNT+:VaMoS18";"175% Modeling for Product-Line Evolution of Domain Artifacts";-1;0;
 "BFG:SPLC18";"Product Line Models of Large Cyber-physical Systems: The Case of ERTMSETCS";1;1545861445499;
 "BBG:SPLC18";"Modelling and Analysis with Featured Modal Contract Automata";1;1545862556929;
 "useBLLV:TSE19";"QFLan: A Tool for the Quantitative Analysis of Highly Reconfigurable Systems";0;1545858198523;
@@ -23,6 +30,8 @@
 "TKL:Modellierung18";"Feature Modeling and Development with FeatureIDE";0;1546001553804;
 "AMS+:TOSEM18";"Variability Bugs in Highly Configurable Systems: A Qualitative Analysis";7;1546002636354;
 "DBW:SCP18";"Variability Abstractions for Lifted Analyses";0;1546003718493;
+"SKT+:SE17";"Compositional Analyses of Highly-Configurable Systems with Feature-Model Interfaces";-1;0;
+"KATS:IFAC17";"Supporting the Development of Interdisciplinary Product Lines in the Manufacturing Domain";-1;0;
 "JVK+:SEAMS17";"Transfer Learning for Improving Model Predictions in Highly Configurable Software";16;1546004800449;
 "TF17";"An Introduction to Personalization and Mass Customization";6;1546005882931;
 "FLS+:CIM17";"Hyper-Heuristic Based Product Selection for Software Product Line Testing";8;1547469650569;
@@ -119,6 +128,7 @@
 "TWS+:VaMoS16";"Variability Hiding in Contracts for Dependent Software Product Lines";12;1547740387179;
 "P16";"Automating the Synchronization of Software Variants";2;1547626663726;
 "RTS+:JLAMP16";"Variability Encoding: From Compile-Time to Load-Time Variability";25;1546370907801;
+"BTL+:VaMoS15";"A Survey on Modeling Techniques for Formal Behavioral Verification of Software Product Lines";-1;0;
 "useBDG+:SCP19";"From Featured Transition Systems to Modal Transition Systems with Variability Constraints";6;1546600146735;
 "useBLLV:ISoLA16b";"Statistical Analysis of Probabilistic Models of Software Product Lines with Quantitative Constraints";23;1545856033647;
 "BLLV:FMSPLE15";"Quantitative Analysis of Probabilistic Models of Software Product Lines with Statistical Model Checking";14;1546591494322;
@@ -336,6 +346,7 @@
 "AKL13";"Language-Independent and Automated Software Composition: The FeatureHouse Experience";102;1546547389822;
 "STSS:VaMoS13";"Automated Analysis of Dependent Feature Models";17;1545148271410;
 "RAK+:VaMoS13";"The PLA Model: On the Combination of Product-Line Analyses";38;1546548473462;
+"TSP+:ISRN12";"Secure and Customizable Data Management for Automotive Systems: A Feasibility Study";-1;0;
 "CGR+:VaMoS12";"Cool Features and Tough Decisions: A Comparison of Variability Modeling Approaches";235;1547210802323;
 "VGD:FSE12";"Green: Reducing, Reusing and Recycling Constraints in Program Analysis";101;1546549554769;
 "HXC:VaMoS12";"A User Survey of Configuration Challenges in Linux and eCos";54;1546550637081;
