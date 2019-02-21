@@ -8,6 +8,7 @@
 "BDG+:SCP19";"On the Expressiveness of Modal Transition Systems with Variability Constraints";0;1549617118917;
 "SYS:IST19";"Metrics for Analyzing Variability and its Implementation in Software Product Lines: A Systematic Literature Review";0;1549620363076;
 "LNTS:JSS19";"Retest Test Selection for Product-Line Regression Testing of Variants and Versions of Variants";0;1549621445513;
+"HKE+:ASE18";"A Unified Lattice Model and Framework for Purity Analyses";0;1550740442331;
 "KTPS:FIDE18";"Experience Report on Formally Verifying Parts of OpenJDK's API with KeY";1;1549012721078;
 "KTM+:SE18";"Is There a Mismatch between Real-World Feature Models and Product-Line Research";12;1549012803389;
 "CGR+:VaMoS18";"Equivalent Mutants in Configurable Systems: An Empirical Study";5;1549013886147;
@@ -131,7 +132,7 @@
 "RTS+:JLAMP16";"Variability Encoding: From Compile-Time to Load-Time Variability";26;1550473329330;
 "BTL+:VaMoS15";"A Survey on Modeling Techniques for Formal Behavioral Verification of Software Product Lines";13;1549020376947;
 "useBDG+:SCP19";"From Featured Transition Systems to Modal Transition Systems with Variability Constraints";6;1550698644223;
-"BLLV:SPLC15";"Statistical Analysis of Probabilistic Models of Software Product Lines with Quantitative Constraints";-1;0;
+"BLLV:SPLC15";"Statistical Analysis of Probabilistic Models of Software Product Lines with Quantitative Constraints";25;1550734459341;
 "BLLV:FMSPLE15";"Quantitative Analysis of Probabilistic Models of Software Product Lines with Statistical Model Checking";14;1550584990335;
 "BFGM:SPLat15";"Using FMC for Family-Based Analysis of Software Product Lines";8;1546610960211;
 "BBV:FMSPLE15";"Coherent Branching Feature Bisimulation";8;1549609547621;
