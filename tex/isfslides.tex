@@ -70,3 +70,20 @@ nodate,%       Kein Datum in Fuﬂleiste
 	\node[preaction={fill=white,opacity=.8},preaction={fill=blue!25!white,path fading=north,fading angle=15,opacity=.8},draw,thick,rounded corners,inner sep=10pt,yshift=3mm] at (current page.center) {\large #1};
 	\end{tikzpicture}%
 }
+
+\newcommand{\references}[1]{
+	{\footnotesize%
+		\begin{tikzpicture}[remember picture,overlay,align=right]
+		\node[opacity=.5,fill=white,draw,thick,rounded corners,below left,xshift=-2mm,yshift=-12mm] at (current page.north east) {#1};
+		\end{tikzpicture}%
+	}%
+}
+
+\newcommand{\referencess}[1]{
+	{\footnotesize%
+		\begin{tikzpicture}[remember picture,overlay,align=right]
+		\node[opacity=.5,fill=white,draw,thick,rounded corners,above left,xshift=-2mm,yshift=5mm] at (current page.south east) {#1};
+		\end{tikzpicture}%
+	}%
+}
+
