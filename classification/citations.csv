@@ -132,6 +132,7 @@
 "TWS+:VaMoS16";"Variability Hiding in Contracts for Dependent Software Product Lines";13;1557733047313;
 "P16";"Automating the Synchronization of Software Variants";2;1557153075629;
 "RTS+:JLAMP16";"Variability Encoding: From Compile-Time to Load-Time Variability";27;1554792465658;
+"EKS:GPCE15";"Analysing the KConfig Semantics and its Analysis Tools";-1;0;
 "BTL+:VaMoS15";"A Survey on Modeling Techniques for Formal Behavioral Verification of Software Product Lines";16;1559892793366;
 "useBDG+:SCP19";"From Featured Transition Systems to Modal Transition Systems with Variability Constraints";8;1555169819657;
 "BLLV:SPLC15";"Statistical Analysis of Probabilistic Models of Software Product Lines with Quantitative Constraints";26;1555181398489;
