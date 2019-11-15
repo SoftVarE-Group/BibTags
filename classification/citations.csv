@@ -5,6 +5,8 @@
 "TKK+:SPLC19";"Feature-Oriented Contract Composition";1;1571082224197;
 "PTR+:SPLC19";"Product Sampling for Product Lines: The Scalability Challenge";4;1571244895214;
 "BLLV:TSE19";"A Framework for Quantitative Modeling and Analysis of Highly (Re)Configurable Systems";13;1573599479551;
+"LRGB:COLA19";"Automated Analysis of Two-Layered Feature Models with Feature Attributes";-1;0;
+"GBT+19";"Automated Analysis of Feature Models: Quo Vadis";-1;0;
 "RRC+:SOSP19";"An Analysis of Performance Evolution of Linux's Core Operations";0;1573280678570;
 "RKBL:TOSEM19";"Automated N-Way Program Merging for Facilitating Family-Based Analyses of Variant-Rich Software";2;1571131448610;
 "SBT:JSS19";"Partially Safe Evolution of Software Product Lines";16;1570681390007;
@@ -21,6 +23,7 @@
 "BDG+:SCP19";"On the Expressiveness of Modal Transition Systems with Variability Constraints";5;1573600561754;
 "SYS:IST19";"Metrics for Analyzing Variability and its Implementation in Software Product Lines: A Systematic Literature Review";12;1573628685692;
 "LNTS:JSS19";"Retest Test Selection for Product-Line Regression Testing of Variants and Versions of Variants";4;1573629766965;
+"P18";"Stability of Product Sampling under Product-Line Evolution";-1;0;
 "CCRC:ASE18";"Navigating the Maze: The Impact of Configurability in Bioinformatics Software";4;1571121712527;
 "HKE+:ASE18";"A Unified Lattice Model and Framework for Purity Analyses";1;1569694235300;
 "KTPS:FIDE18";"Experience Report on Formally Verifying Parts of OpenJDK's API with KeY";1;1573209547467;
@@ -463,6 +466,7 @@
 "TLD:OSR12";"Configuration Coverage in the Analysis of Large-Scale System Software";71;1573498806785;
 "TSK+:FASE12";"Applying Design by Contract to Feature-Oriented Programming";35;1573029201145;
 "STKS:VaMoS12";"Variant-Preserving Refactoring in Feature-Oriented Software Product Lines";66;1573031363569;
+"CBH:SCP11";"A Text-Based Approach to Feature Modelling: Syntax and Semantics of TVL";-1;0;
 "PLP11";"A Performance Comparison of Contemporary Algorithmic Approaches for Automated Analysis Operations on Feature Models";43;1573286089889;
 "HGS+:JRCS11";"The Effect of Default Options on Choice-Evidence from Online Product Configurators";18;1569826583517;
 "OZLG:SPLC11";"Pairwise Feature-interaction Testing for SPLs: Potentials and Limitations";51;1569827666595;
@@ -595,6 +599,7 @@
 "SBB+:SPLC10";"Delta-Oriented Programming of Software Product Lines";353;1571119547907;
 "LAL+:ICSE10";"An Analysis of the Variability in Forty Preprocessor-Based Software Product Lines";281;1571120630406;
 "BSRC10";"Automated Analysis of Feature Models 20 Years Later: A Literature Review";1165;1569931550597;
+"BBH+09";"Handbook of Satisfiability: Volume 185 Frontiers in Artificial Intelligence and Applications";-1;0;
 "SS:HICSS09";"Challenges in Software Product Line Composition";20;1573213563656;
 "SBFF:HICSS09";"Are De-Facto Standards a Useful Guide for Designing Human-Computer Interaction Processes The Case of User Interface Design for Web Based B2C Product Configurators";13;1569932631347;
 "OG:ICSR09";"Reusable Model-Based Testing";27;1570701942525;
@@ -644,6 +649,7 @@
 "JDHW09";"Do Code Clones Matter";436;1573517202649;
 "TBK:ICSE09";"Reasoning about Edits to Feature Models";370;1573248188601;
 "KTS+:ICSE09";"FeatureIDE: A Tool Framework for Feature-Oriented Software Development";222;1569942368606;
+"HMO+:SPLC08";"Adding Standardized Variability to Domain Specific Languages";-1;0;
 "K:ICSM08";"Frontiers of Software Clone Management";76;1573297077469;
 "HHPS:Computer08";"Dynamic Software Product Lines";429;1572551478886;
 "LS:JAR08";"Algorithms for Computing Minimal Unsatisfiable Subsets of Constraints";313;1573128557444;
