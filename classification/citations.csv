@@ -535,7 +535,7 @@
 "useASW+:ASE11";"Feature-Aware Verification";2;1582264249141;
 "BKS:FoVeOOS11";"Verification of Software Product Lines with Delta-Oriented Slicing";43;1584369566900;
 "KBK:AOSD11";"Reducing Combinatorics in Testing Product Lines";122;1584370649372;
-"ACLF:SAC11";"A Domain-Specific Language for Managing Feature Models";40;1579525384033;
+"ACLF:SAC11";"A Domain-Specific Language for Managing Feature Models";41;1584371731065;
 "BFL+11";"Specification and Verification: The Spec Experience";175;1581537127658;
 "ER:IST11";"Software Product Line Testing - A Systematic Mapping Study";312;1579526465774;
 "TLSS:EuroSys11";"Feature Consistency in Compile-Time-Configurable System Software: Facing the Linux 10,000 Feature Problem";147;1581709191261;
@@ -1051,7 +1051,7 @@
 "cdl3";"The eCos Component Writer's Guide";32;1580112505779;
 "cdl";"The eCos Component Writer's Guide";32;1583425874801;
 "LinuxKernelConf";"LinuxKernelConf Documentation";-2;1582204652146;
-"kconfig";"Kconfig Language";-2;1584138278887;
+"kconfig";"KConfig Language";-1;0;
 "AHEAD";"AHEAD Tool Suite";-2;1583426955803;
 "Coq:mailinglist";"The Coq Mailing List";-2;1582212229408;
 "Coq:website";"The Coq Proof Assistant";-2;1582213312261;
