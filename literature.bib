@@ -1,11 +1,11 @@
 
 @inproceedings{PAM+:ICPE20,
-  title = {{Sampling Effect on Performance Prediction of Configurable Systems: A Case Study}},
   author = {Juliana Alves Pereira and Mathieu Acher and Hugo Martib and Jean-Marc J{\'e}z{\'e}quel},
-  booktitle = {Proceedings of the ACM/Standard Performance Evaluation Corporation International Conference on Performance Engineering},
+  title = {{Sampling Effect on Performance Prediction of Configurable Systems: A Case Study}},
+  booktitle = ICPE,
   pages = {277--288},
   doi = {10.1145/3358960.3379137},
-  sampling-tags = {evaluation, effectiveness, available tool, open-source tool, non-functional properties, compares Coverage-based/Solver-based/Randomized solver-based/Distance-based/Diversified distance-based/Random},
+  sampling-tags = {evaluation, effectiveness, available tool, open-source tool, non-functional properties, compares Coverage-based/Solver-based/Randomized solver-based/Distance-based/Diversified distance-based/Random, JS20},
   publisher = ACM,
   address = NY,
   month = April,
@@ -40,7 +40,7 @@
 	publisher = ACM,
 	address = NY,
 	tt-tags = {design by contract,feature orientation},
-	sampling-tags = {name=YASA, feature model, greedy, t-wise coverage, evaluation, sampling efficiency, testing efficiency, available tool, open-source tool, testing, compared against Chvatal/ICPL/IncLing},
+	sampling-tags = {name=YASA, feature model, greedy, t-wise coverage, evaluation, sampling efficiency, testing efficiency, available tool, open-source tool, testing, compared against Chvatal/ICPL/IncLing, JS20},
 	month = FEB,
 	year = 2020
 }
@@ -99,64 +99,64 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2019 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 @inproceedings{PAP+:ICST19,
-  title = {{Uniform sampling of sat solutions for configurable systems: Are we there yet?}},
   author = {Plazar, Quentin and Acher, Mathieu and Perrouin, Gilles and Devroey, Xavier and Cordy, Maxime},
+  title = {{Uniform Sampling of SAT Solutions for Configurable Systems: Are We There Yet?}},
   booktitle = ICST,
   pages = {240--251},
   year = 2019,
   doi = {10.1109/ICST.2019.00032},
-  sampling-tags = {evaluation, available tool, open-source tool, sampling efficiency, effectiveness, testing, non-functional properties, compares QuickSampler/UniGen},
+  sampling-tags = {evaluation, available tool, open-source tool, sampling efficiency, effectiveness, testing, non-functional properties, compares QuickSampler/UniGen, JS20},
   organization = IEEE,
   address = Piscataway 
 }
 
 @article{HNA+:ESE19,
+  author = {Halin, Axel and Nuttinck, Alexandre and Acher, Mathieu and Devroey, Xavier and Perrouin, Gilles and Baudry, Benoit},
   title = {{Test them all, is it worth it? Assessing configuration sampling on the JHipster Web development stack}},
-  author = {Axel Halin, Alexandre Nuttinck and Mathieu Acher and Xavier Devroey and Gilles Perrouin and Benoit Baudry},
   journal = {Empirical Software Engineering},
   volume = {24},
   number = {2},
   pages = {674--717},
   month = JUL,
-  sampling-tags = {evaluation, testing efficiency, effectiveness, testing, type checking, compares t-wise(SPLCAT)/one-disabled/one-enabled/most-enabled-disabled/dissimilarity(PLEDGE)/random, SPLC18},
+  sampling-tags = {evaluation, testing efficiency, effectiveness, testing, type checking, compares ICPL(SPLCAT)/one-disabled/one-enabled/most-enabled-disabled/dissimilarity(PLEDGE)/random, JS20},
   year = 2019,
   publisher = Springer
 }
 
 @inproceedings{KGS+:ICSE19,
-  title = {{Distance-based sampling of software configuration spaces}},
-  author = {Christian Kaltenecker and Alexander Grebhahn and Norbert Siegmund and Jianmei Guo and Sven Apel},
+  author = {Kaltenecker, Christian and Grebhahn, Alexander and Siegmund, Norbert and Guo, Jianmei and Apel, Sven},
+  title = {{Distance-Based Sampling of Software Configuration Spaces}},
   booktitle = ICSE,
   pages = {1084--1094},
   doi = {10.1109/ICSE.2019.00112},
   isbn = {978-1-7281-0869-8},
-  sampling-tags = {name=Distance-Based Sampling, feature model, population-based search, semi-automatic search, evaluation, effectiveness, available tool, open-source tool, non-functional properties, compares distance-based/random/solver-based/coverage-based sampling strategies},
+  sampling-tags = {name=Distance-Based Search, feature model, population-based search, semi-automatic search, evaluation, effectiveness, available tool, open-source tool, non-functional properties, compares Distance-Based Search/random sampling/higher-order heuristic/hot-spot heuristic, SPLConqueror, Z3, JS20},
   publisher = IEEE,
   address = Piscataway,
   year = 2019
 }
 
 @inproceedings{OGB:SPLC19,
+  author = {Oh, Jeho and Gazzillo, Paul and Batory, Don},
   title = {{t-wise Coverage by Uniform Sampling}},
-  author = {Jeho Oh and Paul Gazzillo and Don Batory},
   booktitle = SPLC,
   pages = {84--87},
   tt-tags = {Product Sampling},
-  sampling-tags = {evaluation, sampling efficiency, testing efficiency, effectiveness, available tool, open-source tool, testing, submission to PTR+:SPLC19},
+  sampling-tags = {evaluation, sampling efficiency, testing efficiency, effectiveness, available tool, open-source tool, testing, submission to PTR+:SPLC19, JS20},
   publisher = ACM,
   month = SEP,
   year = 2019
 }
 
 @techreport{OGB+:TR19,
+	author = {Oh, Jeho and Gazzillo, Paul and Batory, Don and Heule, Marijn and Myers, Maggie},
 	title = {{Uniform Sampling from Kconfig Feature Models}},
-	author = {Jeho Oh and Paul Gazzillo and Don Batory and Marijn Heule and Maggie Myers},
 	institution = {The University of Texas at Austin, Department of Computer Science},
 	number = {TR-19-02},
 	tt-tags = {Kconfig},
 	tt-tags = {KConfig,Product Sampling},
 	tc-tags = {},
-	sampling-tags = {name=Smarch, feature model, local search, no coverage guarantee, evaluation, sampling efficiency, effectiveness, available tool, open-source tool, non-functional properties},
+	sampling-tags = {name=Smarch, feature model, local search, no coverage guarantee, evaluation, sampling efficiency, effectiveness, available tool, open-source tool, non-functional properties, JS20},
 	year = 2019
 }
 
@@ -173,7 +173,7 @@
 	address = NY,
 	tt-tags = {KConfig,Product Sampling},
 	tc-tags = {},
-	sampling-tags = {name=Smarch+BBPF, feature model, local search, no coverage guarantee, evaluation, sampling efficiency, available tool, open-source tool, non-functional properties},
+	sampling-tags = {name=Smarch+BBPF, feature model, local search, no coverage guarantee, evaluation, sampling efficiency, available tool, open-source tool, non-functional properties, JS20},
 	year = 2019
 }
 
@@ -978,14 +978,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2017 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 @inproceedings{OBM+:FSE17,
-  title = {{Finding near-optimal configurations in product lines by random sampling}},
   author = {Oh, Jeho and Batory, Don and Myers, Margaret and Siegmund, Norbert},
+  title = {{Finding Near-Optimal Configurations in Product Lines by Random Sampling}},
   booktitle = FSE,
   pages = {61--71},
   doi = {10.1145/3106237.3106273},
   month = AUG,
-  sampling-tags = {name=NRS, feature model, local search, evaluation, effectiveness, non-functional properties, unavailable tool},
-  sampling2-tags = {name=SRS, feature model, local search, evaluation, effectiveness, non-functional properties, unavailable tool},
+  sampling-tags = {name=NRS, feature model, local search, evaluation, effectiveness, non-functional properties, unavailable tool, JS20},
+  sampling2-tags = {name=SRS, feature model, local search, evaluation, effectiveness, non-functional properties, unavailable tool, JS20},
   year = 2017
 }
 
@@ -1106,7 +1106,7 @@
 	number = {arXiv:1710.07980},
 	tt-tags = {SPL Testing},
 	tc-tags = {classified by Thomas,testing,sample-based analysis,specification independent,implementation independent,program,subsumed by none},
-	sampling-tags = {subsumed by HNA+:ESE19},
+	sampling-tags = {evaluation of ICPL/one-disabled/all-one-disabled/one-enabled/all-one-enabled/most-enabled-disabled/similarity heuristic/random sampling,testing efficiency,effectiveness,evaluation,testing,type checking,SPLC18,subsumed by HNA+:ESE19},
 	year = 2017
 }
 
@@ -3592,7 +3592,7 @@
 	keywords = {model-based software engineering, software product lines, test case generation},
 	tt-tags = {SPL Testing},
 	tc-tags = {classified by Thomas,testing,sample-based analysis,family-based specification,implementation independent,design,program,no tool,no evaluation,no proof,subsumed by none},
-	sampling-tags = {name=incremental test-suite optimization,feature model,greedy,requirements coverage,unavailable tool,no evaluation,no proof,testing},
+	sampling-tags = {name=incremental test-suite optimization,feature model,test artifacts,greedy,requirements coverage,unavailable tool,no evaluation,no proof,testing},
 	year = 2014
 }
 
@@ -4206,7 +4206,7 @@
 	doi = {10.1109/ICST.2014.43},
 	tt-tags = {SPL Testing},
 	tc-tags = {classified by Thomas,testing,test-case selection,sample-based analysis,optimized product-based analysis,implementation independent,family-based specification,requirements},
-	sampling-tags = {name=incremental heuristic,greedy,test artifacts,requirements coverage,sampling efficiency,effectiveness,unavailable tool,evaluation,testing},
+	sampling-tags = {name=incremental heuristic,greedytest artifacts,requirements coverage,sampling efficiency,effectiveness,unavailable tool,evaluation,testing,product set},
 	year = 2014
 }
 
@@ -10019,7 +10019,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 	address = Washington,
 	tt-tags = {},
 	tc-tags = {},
-	sampling-tags = {name=AETG-SAT, testing efficiency, sampling efficiency, greedy, compares four variations of AETG-SAT, CCIT, testing, feature model,t-wise coverage, unavailable tool, evaluation},
+	sampling-tags = {name=AETG-SAT, testing efficiency, sampling efficiency, greedy, compares four variations of AETG-SAT, CCIT, testing, feature model,t-wise coverage, unavailable tool, evaluation, JS20},
 	year = 2008
 }
 
