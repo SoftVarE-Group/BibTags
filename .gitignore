@@ -5,3 +5,5 @@
 *.pdf
 *.gz
 /classification/problems.csv
+
+.idea
