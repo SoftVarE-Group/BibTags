@@ -1,4 +1,5 @@
-"RKTS:FormaliSE20";"Lattice-Based Information Flow Control-by-Construction for Security-by-Design";-1;0;
+"RKTS:FormaliSE20";"Lattice-Based Information Flow Control-by-Construction for Security-by-Design";-2;1593788699095;
+"PAM+:ICPE20";"Sampling Effect on Performance Prediction of Configurable Systems: A Case Study";-1;0;
 "BLLV:TSE20";"A Framework for Quantitative Modeling and Analysis of Highly (Re)Configurable Systems";15;1587661900255;
 "KJN+:FASE20";"Skill-Based Verification of Cyber-Physical Systems";0;1593786535940;
 "B20";"Semi-Automated Inference of Feature Traceability During Software Development";0;1593787618223;
@@ -6,6 +7,10 @@
 "BRK+:VaMoS20";"Variational Correctness-by-Construction";0;1587649996288;
 "SSK+:VaMoS20";"SMT-Based Variability Analyses in FeatureIDE";0;1587651078328;
 "STS:VaMoS20";"Evaluating SAT Solvers on Industrial Feature Models";1;1587652159975;
+"PAP+:ICST19";"Uniform Sampling of SAT Solutions for Configurable Systems: Are We There Yet";-1;0;
+"HNA+:ESE19";"Test them all, is it worth it Assessing configuration sampling on the JHipster Web development stack";-1;0;
+"KGS+:ICSE19";"Distance-Based Sampling of Software Configuration Spaces";-1;0;
+"OGB:SPLC19";"t-wise Coverage by Uniform Sampling";-1;0;
 "MHK:MSR19";"Beyond GumTree: A Hybrid Approach to Generate Edit Scripts";-1;0;
 "OGB+:TR19";"Uniform Sampling from Kconfig Feature Models";5;1590737767423;
 "MOP+:SPLC19";"Uniform Random Sampling Product Configurations of Feature Models That Have Numerical Features";3;1590738849635;
@@ -62,6 +67,7 @@
 "TKL:Modellierung18";"Feature Modeling and Development with FeatureIDE";2;1585952057944;
 "AMS+:TOSEM18";"Variability Bugs in Highly Configurable Systems: A Qualitative Analysis";24;1585953139982;
 "DBW:SCP18";"Variability Abstractions for Lifted Analyses";3;1585954221383;
+"OBM+:FSE17";"Finding Near-Optimal Configurations in Product Lines by Random Sampling";-1;0;
 "MRB+:ICPC17";"The Discipline of Preprocessor-Based Annotations - Does ifdef TAG n't endif Matter";-1;0;
 "G17";"Explaining Satisfiability Queries for Software Product Lines";-1;0;
 "K:TR17";"Differential Testing for Variational Analyses: Experience from Developing KConfigReader";10;1590433611609;
