@@ -1,6 +1,7 @@
+"RKTS:FormaliSE20";"Lattice-Based Information Flow Control-by-Construction for Security-by-Design";-1;0;
 "BLLV:TSE20";"A Framework for Quantitative Modeling and Analysis of Highly (Re)Configurable Systems";15;1587661900255;
-"KJN+:FASE20";"Skill-Based Verification of Cyber-Physical Systems";-1;0;
-"B20";"Semi-Automated Inference of Feature Traceability During Software Development";-1;0;
+"KJN+:FASE20";"Skill-Based Verification of Cyber-Physical Systems";0;1593786535940;
+"B20";"Semi-Automated Inference of Feature Traceability During Software Development";0;1593787618223;
 "KTS+:VaMoS20";"YASA: Yet Another Sampling Algorithm";0;1587648914012;
 "BRK+:VaMoS20";"Variational Correctness-by-Construction";0;1587649996288;
 "SSK+:VaMoS20";"SMT-Based Variability Analyses in FeatureIDE";0;1587651078328;
