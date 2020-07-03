@@ -9,9 +9,9 @@
 "STS:VaMoS20";"Evaluating SAT Solvers on Industrial Feature Models";1;1587652159975;
 "PAP+:ICST19";"Uniform Sampling of SAT Solutions for Configurable Systems: Are We There Yet";16;1593790866357;
 "HNA+:EMSE19";"Test Them All, Is It Worth It Assessing Configuration Sampling on the JHipster Web Development Stack";19;1593791947596;
-"KGS+:ICSE19";"Distance-Based Sampling of Software Configuration Spaces";-1;0;
-"OGB:SPLC19";"t-wise Coverage by Uniform Sampling";-1;0;
-"MHK:MSR19";"Beyond GumTree: A Hybrid Approach to Generate Edit Scripts";-1;0;
+"KGS+:ICSE19";"Distance-Based Sampling of Software Configuration Spaces";21;1593793029704;
+"OGB:SPLC19";"t-wise Coverage by Uniform Sampling";2;1593794111340;
+"MHK:MSR19";"Beyond GumTree: A Hybrid Approach to Generate Edit Scripts";1;1593795192773;
 "OGB+:TR19";"Uniform Sampling from Kconfig Feature Models";5;1590737767423;
 "MOP+:SPLC19";"Uniform Random Sampling Product Configurations of Feature Models That Have Numerical Features";3;1590738849635;
 "FAH+:SPLC19";"A KConfig Translation to Logic with One-Way Validation System";0;1587973705621;
