@@ -7,8 +7,8 @@
 "BRK+:VaMoS20";"Variational Correctness-by-Construction";0;1587649996288;
 "SSK+:VaMoS20";"SMT-Based Variability Analyses in FeatureIDE";0;1587651078328;
 "STS:VaMoS20";"Evaluating SAT Solvers on Industrial Feature Models";1;1587652159975;
-"PAP+:ICST19";"Uniform Sampling of SAT Solutions for Configurable Systems: Are We There Yet";-1;0;
-"HNA+:ESE19";"Test them all, is it worth it Assessing configuration sampling on the JHipster Web development stack";-1;0;
+"PAP+:ICST19";"Uniform Sampling of SAT Solutions for Configurable Systems: Are We There Yet";16;1593790866357;
+"HNA+:EMSE19";"Test Them All, Is It Worth It Assessing Configuration Sampling on the JHipster Web Development Stack";19;1593791947596;
 "KGS+:ICSE19";"Distance-Based Sampling of Software Configuration Spaces";-1;0;
 "OGB:SPLC19";"t-wise Coverage by Uniform Sampling";-1;0;
 "MHK:MSR19";"Beyond GumTree: A Hybrid Approach to Generate Edit Scripts";-1;0;
@@ -77,8 +77,8 @@
 "JVK+:SEAMS17";"Transfer Learning for Improving Model Predictions in Highly Configurable Software";45;1585955303416;
 "TF17";"An Introduction to Personalization and Mass Customization";29;1585956385075;
 "FLS+:CIM17";"Hyper-Heuristic Based Product Selection for Software Product Line Testing";24;1588746684328;
-"HNA+:TR17";"Test Them All, Is It worth It A Ground Truth Comparison of Configuration Sampling Strategies";9;1588747767403;
-"useHNA+:TR17";"Yo Variability! JHipster: A Playground for Web-Apps Analyses";11;1585957466386;
+"useHNA+:EMSE19";"Test Them All, Is It worth It A Ground Truth Comparison of Configuration Sampling Strategies";-1;0;
+"useHNA+:EMSE19too";"Yo Variability! JHipster: A Playground for Web-Apps Analyses";-1;0;
 "FLV:SBES17";"Automatic Generation of Search-Based Algorithms Applied to the Feature Testing of Software Product Lines";7;1588748848790;
 "AZAB17";"Constrained Interaction Testing: A Systematic Literature Study";30;1585958548380;
 "SSA:ESECFSE17";"Attributed Variability Models: Outside the Comfort Zone";18;1585959631191;
