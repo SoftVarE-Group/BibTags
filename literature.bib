@@ -1,17 +1,58 @@
+@inproceedings{RKTS:FormaliSE20,
+	author = {Tobias Runge and Alexander Kn{\"{u}}ppel and Thomas Th{\"{u}}m and Ina Schaefer},
+	title = {{Lattice-Based Information Flow Control-by-Construction for Security-by-Design}},
+	booktitle = FormaliSE,
+	year = 2020,
+	note = {To appear}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2020 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{PAM+:ICPE20,
+	author = {Juliana Alves Pereira and Mathieu Acher and Hugo Martib and Jean-Marc J{\'e}z{\'e}quel},
+	title = {{Sampling Effect on Performance Prediction of Configurable Systems: A Case Study}},
+	booktitle = ICPE,
+	pages = {277--288},
+	doi = {10.1145/3358960.3379137},
+	sampling-tags = {evaluation, effectiveness, open-source tool, non-functional properties, compares Coverage-based/Solver-based/Randomized solver-based/Distance-based/Diversified distance-based/Random, JS20},
+	publisher = ACM,
+	address = NY,
+	month = April,
+	year = 2020
+}
+
 @article{BLLV:TSE20,
 	author = {ter Beek, Maurice H. and Legay, Axel and Lluch Lafuente, Alberto and Vandin, Andrea},
 	title = {{A Framework for Quantitative Modeling and Analysis of Highly (Re)Configurable Systems}},
 	journal = TSE,
 	doi = {10.1109/TSE.2018.2853726},
 	issn = {0098-5589},
+	publisher = IEEE,
+	volume = {46},
+	number = {3},
+	pages = {321--345},
 	keywords = {Probabilistic logic;Model checking;Tools;Analytical models;Runtime;Computational modeling;DSL},
 	tt-tags = {SPL Model Checking,reqex,DSPL},
 	tc-tags = {classified by Thomas+Maurice,statistical model checking,unoptimized product-based analysis,family-based implementation,specification independent,design,tool,evaluation,no proof,QFLan,MultiVeSta},
-	year = 2020,
-	note = {To appear}
+	month = MAR,
+	year = 2020
 }
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2020 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@inproceedings{KJN+:FASE20,
+	author = {Alexander Kn{\"{u}}ppel and Inga Jatzkowski and Marcus Nolte and Thomas Th{\"{u}}m and Tobias Runge and Ina Schaefer},
+	title = {{Skill-Based Verification of Cyber-Physical Systems}},
+	booktitle = FASE,
+	editor = {Heike Wehrheim and Jordi Cabot},
+	series = LNCS,
+	volume = {12076},
+	pages = {203--223},
+	location = {Dublin, Ireland},
+	publisher = Springer,
+	address = BerlinHeidelberg,
+	doi = {10.1007/978-3-030-45234-6\_10},
+	month = APR,
+	year = 2020
+}
 
 @article{AVL:IST20,
 	title = {{Automatic Extraction of Product Line Architecture and Feature Models from UML Class Diagram Variants}},
@@ -38,14 +79,16 @@
 }
 
 @MastersThesis{B20,
+@mastersthesis{B20,
 	author = {Bittner, Paul Maximilian},
 	title = {{Semi-Automated Inference of Feature Traceability During Software Development}},
-	year = 2020,
-	month = JAN,
 	school = {TU Braunschweig},
 	address = {Germany},
 	keywords = {Feature Mapping Recording; Clone-and-Own; Semantic AST},
-	doi = {10.24355/dbbs.084-202002271120-0}
+	doi = {10.24355/dbbs.084-202002271120-0},
+	tt-tags = {Advised Mastersthesis},
+	month = JAN,
+	year = 2020
 }
 
 @inproceedings{KTS+:VaMoS20,
@@ -60,7 +103,9 @@
 	location = {Magdeburg, Germany},
 	publisher = ACM,
 	address = NY,
-	tt-tags = {design by contract,feature orientation},
+	tt-tags = {Product Sampling},
+	tc-tags = {classified by Thomas,testing,sample-based analysis,specification independent,implementation independent,program,subsumed by none},
+	sampling-tags = {name=YASA,feature model,expert knowledge,greedy,t-wise coverage,evaluation,sampling efficiency,testing efficiency,open-source tool,testing,compared to Chvatal/ICPL/IncLing,usage of FeatureIDE/Sat4J,SAT,JS20},
 	month = FEB,
 	year = 2020
 }
@@ -78,6 +123,7 @@
 	publisher = ACM,
 	address = NY,
 	tt-tags = {design by contract,feature orientation},
+	tc-tags = {classified by Thomas,theorem proving,optimized product-based analysis,feature modules,composition-based implementation,feature-based specification,source code,subsumed by none},
 	month = FEB,
 	year = 2020
 }
@@ -95,6 +141,7 @@
 	publisher = ACM,
 	address = NY,
 	tt-tags = {SMT,feature-model analysis,family-based analysis},
+	tc-tags = {classified by Thomas,feature-model analysis,family-based analysis,implementation independent,specification independent},
 	month = FEB,
 	year = 2020
 }
@@ -112,6 +159,7 @@
 	publisher = ACM,
 	address = NY,
 	tt-tags = {BDD,Feature-Model Analysis,Model Counting,Knowledge Compilation},
+	tc-tags = {classified by Thomas,feature-model analysis,family-based analysis,implementation independent,specification independent},
 	month = FEB,
 	year = 2020
 }
@@ -156,6 +204,58 @@
 	as-tags = {merge refactoring}
 }
 
+@inproceedings{PAP+:ICST19,
+  author = {Plazar, Quentin and Acher, Mathieu and Perrouin, Gilles and Devroey, Xavier and Cordy, Maxime},
+  title = {{Uniform Sampling of SAT Solutions for Configurable Systems: Are We There Yet?}},
+  booktitle = ICST,
+  pages = {240--251},
+  year = 2019,
+  doi = {10.1109/ICST.2019.00032},
+  sampling-tags = {evaluation, open-source tool, sampling efficiency, effectiveness, testing, non-functional properties, compares QuickSampler/UniGen, JS20},
+  organization = IEEE,
+  address = Piscataway 
+}
+
+@article{HNA+:EMSE19,
+	author = {Halin, Axel and Nuttinck, Alexandre and Acher, Mathieu and Devroey, Xavier and Perrouin, Gilles and Baudry, Benoit},
+	title = {{Test Them All, Is It Worth It? Assessing Configuration Sampling on the JHipster Web Development Stack}},
+	journal = EMSE,
+	volume = {24},
+	number = {2},
+	pages = {674--717},
+	publisher = Springer,
+	tt-tags = {SPL Testing},
+	tc-tags = {classified by Thomas,testing,sample-based analysis,specification independent,implementation independent,program,subsumed by none},
+	sampling-tags = {evaluation,testing efficiency,effectiveness,testing,type checking,evaluation of ICPL/one-disabled/all-one-disabled/one-enabled/all-one-enabled/most-enabled-disabled/similarity heuristic/random sampling,JS20},
+	month = JUL,
+	year = 2019
+}
+
+@inproceedings{KGS+:ICSE19,
+  author = {Kaltenecker, Christian and Grebhahn, Alexander and Siegmund, Norbert and Guo, Jianmei and Apel, Sven},
+  title = {{Distance-Based Sampling of Software Configuration Spaces}},
+  booktitle = ICSE,
+  pages = {1084--1094},
+  doi = {10.1109/ICSE.2019.00112},
+  isbn = {978-1-7281-0869-8},
+  sampling-tags = {name=Distance-Based Search, feature model, population-based search, semi-automatic search, evaluation, effectiveness, open-source tool, non-functional properties, compares Distance-Based Search/random sampling/higher-order heuristic/hot-spot heuristic, SPLConqueror, Z3, JS20},
+  publisher = IEEE,
+  address = Piscataway,
+  year = 2019
+}
+
+@inproceedings{OGB:SPLC19,
+  author = {Oh, Jeho and Gazzillo, Paul and Batory, Don},
+  title = {{t-wise Coverage by Uniform Sampling}},
+  booktitle = SPLC,
+  pages = {84--87},
+  tt-tags = {Product Sampling},
+  sampling-tags = {evaluation, sampling efficiency, testing efficiency, effectiveness, open-source tool, testing, submission to PTR+:SPLC19, JS20},
+  publisher = ACM,
+  month = SEP,
+  year = 2019
+}
+
 @inproceedings{MHK:MSR19,
 	author = {Matsumoto, Junnosuke and Higo, Yoshiki and Kusumoto, Shinji},
 	title = {{Beyond GumTree: A Hybrid Approach to Generate Edit Scripts}},
@@ -173,14 +273,14 @@
 }
 
 @techreport{OGB+:TR19,
-	author = {Jeho Oh and Paul Gazzillo and Don Batory and Marijn Heule and Maggie Myers},
+	author = {Oh, Jeho and Gazzillo, Paul and Batory, Don and Heule, Marijn and Myers, Maggie},
 	title = {{Uniform Sampling from Kconfig Feature Models}},
 	institution = {The University of Texas at Austin, Department of Computer Science},
 	number = {TR-19-02},
 	tt-tags = {Kconfig},
 	tt-tags = {KConfig,Product Sampling},
 	tc-tags = {},
-	sampling-tags = {},
+	sampling-tags = {name=Smarch, feature model, local search, no coverage guarantee, evaluation, sampling efficiency, effectiveness, open-source tool, non-functional properties, JS20},
 	year = 2019
 }
 
@@ -197,7 +297,7 @@
 	address = NY,
 	tt-tags = {KConfig,Product Sampling},
 	tc-tags = {},
-	sampling-tags = {},
+	sampling-tags = {name=Smarch+BBPF, feature model, local search, no coverage guarantee, evaluation, sampling efficiency, open-source tool, non-functional properties, JS20},
 	year = 2019
 }
 
@@ -210,6 +310,7 @@
 	pages = {303--308},
 	location = {Paris, France},
 	tt-tags = {Feature-Model Analysis,BDD,Knowledge Compilation},
+	tc-tags = {classified by Thomas,feature-model analysis,family-based analysis,implementation independent,specification independent},
 	publisher = ACM,
 	address = NY,
 	month = SEP,
@@ -257,7 +358,7 @@
 	pages = {613--633},
 	tt-tags = {SPL Specification,SPL Testing,SPL Coverage},
 	tc-tags = {classified by Thomas,testing,sample-based analysis,implementation independent,family-based specification,program,tool,evaluation,subsumed by none},
-	sampling-tags = {name=minimum/maximum-delay testing,feature model,test artifacts,greedy,specification coverage,available tool,evaluation,sampling efficiency,testing efficiency,non-functional properties,IMITATOR,usage of CoPTA/Uppaal/Z3,ILP,SMT,featured timed automata,infinite configuration space},
+	sampling-tags = {name=minimum/maximum-delay testing,feature model,test artifacts,greedy,specification coverage,sampling efficiency,testing efficiency,available tool,evaluation,non-functional properties,IMITATOR,usage of CoPTA/Uppaal/Z3,ILP,SMT,featured timed automata,infinite configuration space},
 	year = 2019
 }
 
@@ -333,6 +434,7 @@
 	doi = {https://doi.org/10.1016/j.cola.2019.01.005},
 	keywords = {Variability intensive systems, Feature models, Android},
 	tt-tags = {Feature-Model Analysis,Extended Feature Models,Download},
+	tc-tags = {classified by Thomas,feature-model analysis,family-based analysis,implementation independent,specification independent},
 	year = 2019
 }
 
@@ -350,6 +452,7 @@
 	address = BerlinHeidelberg,
 	keywords = {68T35, Automated analysis, Feature models, Software product lines, Variability-intensive systems},
 	tt-tags = {Feature-Model Analysis,Survey,Download},
+	tc-tags = {classified by Thomas,feature-model analysis,family-based analysis,implementation independent,specification independent},
 	month = MAY,
 	year = 2019
 } 
@@ -807,7 +910,7 @@
 	keywords = {Mutation Testing, Sample-Based Testing, Software Product Lines},
 	tt-tags = {Product Sampling},
 	tc-tags = {classified by Thomas,testing,test-case generation,family-product-based analysis,sample-based analysis,specification independent,preprocessor,runtime variability,family-based implementation,source code,tool,evaluation,subsumed by none,MiLu,CPAchecker,CPATiger,FeatureIDE,SiMPOSE},
-	sampling-tags = {effectiveness,testing efficiency,open-source tool,evaluation,testing,usage of MiLu/CPAchecker/CPATiger/FeatureIDE/ICPL/SiMPOSE},
+	sampling-tags = {testing efficiency,effectiveness,open-source tool,evaluation,testing,usage of MiLu/CPAchecker/CPATiger/FeatureIDE/ICPL/SiMPOSE},
 	month = NOV,
 	year = 2018
 } 
@@ -825,6 +928,7 @@
 	address = NY,
 	keywords = {Anomalies, Evolution, Evolution Operation, Explanation, Feature Model, Software Product Line},
 	tt-tags = {SPL Evolution,Feature-Model Analysis,Incremental Solving},
+	tc-tags = {classified by Thomas,feature-model analysis,family-based analysis,implementation independent,specification independent},
 	month = NOV,
 	year = 2018
 } 
@@ -855,6 +959,7 @@
 	publisher = ACM,
 	address = NY,
 	tt-tags = {SPL Evolution,Feature-Model Analysis},
+	tc-tags = {classified by Thomas,feature-model analysis,family-based analysis,implementation independent,specification independent},
 	month = SEP,
 	year = 2018
 } 
@@ -1064,6 +1169,18 @@
 	address = Cham
 }
 
+@inproceedings{OBM+:FSE17,
+  author = {Oh, Jeho and Batory, Don and Myers, Margaret and Siegmund, Norbert},
+  title = {{Finding Near-Optimal Configurations in Product Lines by Random Sampling}},
+  booktitle = FSE,
+  pages = {61--71},
+  doi = {10.1145/3106237.3106273},
+  month = AUG,
+  sampling-tags = {name=NRS, feature model, local search, evaluation, effectiveness, non-functional properties, unavailable tool, JS20},
+  sampling2-tags = {name=SRS, feature model, local search, evaluation, effectiveness, non-functional properties, unavailable tool, JS20},
+  year = 2017
+}
+
 @inproceedings{MRB+:ICPC17,
 	author = {R. {Malaquias} and M. {Ribeiro} and R. {Bonifácio} and E. {Monteiro} and F. {Medeiros} and A. {Garcia} and R. {Gheyi}},
 	booktitle = ICPC,
@@ -1075,7 +1192,7 @@
 	doi = {10.1109/ICPC.2017.41}
 }
 
-@MastersThesis{G17,
+@mastersthesis{G17,
 	author = {G{\"u}nther, Timo},
 	title = {{Explaining Satisfiability Queries for Software Product Lines}},
 	year = 	2017,
@@ -1195,18 +1312,18 @@
 	year = 2017
 } 
 
-@techreport{HNA+:TR17,
+@techreport{useHNA+:EMSE19,
 	author = {Halin, Axel and Nuttinck, Alexandre and Acher, Mathieu and Devroey, Xavier and Perrouin, Gilles and Baudry, Benoit},
 	title = {{Test Them All, Is It worth It? A Ground Truth Comparison of Configuration Sampling Strategies}},
 	institution = {Cornell University Library},
 	number = {arXiv:1710.07980},
 	tt-tags = {SPL Testing},
-	tc-tags = {classified by Thomas,testing,sample-based analysis,specification independent,implementation independent,program,subsumed by none},
-	sampling-tags = {evaluation of ICPL/one-disabled/all-one-disabled/one-enabled/all-one-enabled/most-enabled-disabled/similarity heuristic/random sampling,testing efficiency,effectiveness,evaluation,testing,type checking,SPLC18},
+	tc-tags = {classified by Thomas,testing,sample-based analysis,specification independent,implementation independent,program,subsumed by HNA+:EMSE19},
+	sampling-tags = {evaluation of ICPL/one-disabled/all-one-disabled/one-enabled/all-one-enabled/most-enabled-disabled/similarity heuristic/random sampling,testing efficiency,effectiveness,evaluation,testing,type checking,SPLC18,subsumed by HNA+:EMSE19},
 	year = 2017
 }
 
-@inproceedings{useHNA+:TR17,
+@inproceedings{useHNA+:EMSE19too,
 	author = {Halin, Axel and Nuttinck, Alexandre and Acher, Mathieu and Devroey, Xavier and Perrouin, Gilles and Heymans, Patrick},
 	title = {{Yo Variability! JHipster: A Playground for Web-Apps Analyses}},
 	booktitle = VaMoS,
@@ -1219,8 +1336,8 @@
 	address = NY,
 	keywords = {case study, variability-related analyses, web-apps},
 	tt-tags = {SPL Testing},
-	tc-tags = {classified by Thomas,testing,sample-based analysis,specification independent,implementation independent,program,subsumed by none},
-	sampling-tags = {evaluation of ICPL/one-disabled/all-one-disabled/one-enabled/all-one-enabled/most-enabled-disabled/similarity heuristic/random sampling,testing efficiency,effectiveness,evaluation,testing,type checking,SPLC18,subsumed by HNA+:TR17},
+	tc-tags = {classified by Thomas,testing,sample-based analysis,specification independent,implementation independent,program,subsumed by HNA+:EMSE19},
+	sampling-tags = {evaluation of ICPL/one-disabled/all-one-disabled/one-enabled/all-one-enabled/most-enabled-disabled/similarity heuristic/random sampling,testing efficiency,effectiveness,evaluation,testing,type checking,SPLC18,subsumed by HNA+:EMSE19},
 	year = 2017
 }
 
@@ -1541,7 +1658,7 @@
 	publisher = ACM,
 	address = NY,
 	tt-tags = {Explanation},
-	tc-tags = {feature-model analysis,family-based analysis,implementation independent,tool},
+	tc-tags = {classified by Thomas,feature-model analysis,family-based analysis,implementation independent,specification independent,tool},
 	year = 2017
 }
 
@@ -3865,7 +3982,7 @@
 	keywords = {model-based software engineering, software product lines, test case generation},
 	tt-tags = {SPL Testing},
 	tc-tags = {classified by Thomas,testing,sample-based analysis,family-based specification,implementation independent,design,program,no tool,no evaluation,no proof,subsumed by none},
-	sampling-tags = {name=incremental test-suite optimization,test artifacts,greedy,requirements coverage,no tool,no evaluation,no proof,testing},
+	sampling-tags = {name=incremental test-suite optimization,product set,test artifacts,greedy,requirements coverage,unavailable tool,no evaluation,no proof,testing},
 	year = 2014
 }
 
@@ -4479,7 +4596,7 @@
 	doi = {10.1109/ICST.2014.43},
 	tt-tags = {SPL Testing},
 	tc-tags = {classified by Thomas,testing,test-case selection,sample-based analysis,optimized product-based analysis,implementation independent,family-based specification,requirements},
-	sampling-tags = {name=incremental heuristic,greedy,product set,test artifacts,requirements coverage,sampling efficiency,unavailable tool,evaluation,testing},
+	sampling-tags = {name=incremental heuristic,greedy,product set,test artifacts,requirements coverage,sampling efficiency,effectiveness,unavailable tool,evaluation,testing},
 	year = 2014
 }
 
@@ -7805,7 +7922,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 
 @inproceedings{OZLG:SPLC11,
 	author = {Oster, Sebastian and Zink, Marius and Lochau, Malte and Grechanik, Mark},
-	title = {{Pairwise Feature-interaction Testing for SPLs: Potentials and Limitations}},
+	title = {{Pairwise Feature-Interaction Testing for SPLs: Potentials and Limitations}},
 	booktitle = SPLC,
 	isbn = {978-1-4503-0789-5},
 	location = {Munich, Germany},
@@ -10629,7 +10746,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 	address = Washington,
 	tt-tags = {},
 	tc-tags = {},
-	sampling-tags = {},
+	sampling-tags = {name=AETG-SAT, testing efficiency, sampling efficiency, greedy, compares four variations of AETG-SAT, CCIT, testing, feature model,t-wise coverage, unavailable tool, evaluation, JS20},
 	year = 2008
 }
 
@@ -11524,16 +11641,17 @@ from Object-Oriented Design}},
 }
 
 @inproceedings{BSTRC:VaMoS07,
-  author = {David Benavides and Sergio Segura and Pablo Trinidad and Antonio Ruiz-Cort{\'e}s},
-  title = {{FAMA: Tooling a Framework for the Automated Analysis of Feature Models}},
-  booktitle = VaMoS,
-  pages = {129-134},
+	author = {David Benavides and Sergio Segura and Pablo Trinidad and Antonio Ruiz-Cort{\'e}s},
+	title = {{FAMA: Tooling a Framework for the Automated Analysis of Feature Models}},
+	booktitle = VaMoS,
+	pages = {129-134},
 	location = {Limerick, Ireland},
 	publisher = {Technical Report 2007-01, Lero},
 	address = {Limerick, Ireland},
 	tt-tags = {Feature Modeling Tool,Feature-Model Analysis,Model Counting,BDD},
+	tc-tags = {classified by Thomas,feature-model analysis,family-based analysis,implementation independent,specification independent},
 	month = JAN,
-  year = 2007
+	year = 2007
 }
 
 @inproceedings{HZS:AOSD07,
