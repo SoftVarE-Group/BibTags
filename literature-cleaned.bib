@@ -1,9 +1,19 @@
+@inbook{KKT+20,
+	author = {Kn{\"u}ppel, Alexander and Kr{\"u}ger, Stefan and Th{\"u}m, Thomas and Bubel, Richard and Krieter, Sebastian and Bodden, Eric and Schaefer, Ina},
+	title = {{Efficiently Verifying Evolving Features and Their Interactions}},
+	booktitle = {Deductive Verification: The State of the Future},
+	publisher = Springer,
+	year = 2020,
+	note = {To appear}
+}
+
 @inproceedings{NST+:VariVolution20,
 	author = {Nieke, Michael and Sampaio, Gabriela and Th\"um, Thomas and Seidl, Christof and Teixeira, Leopoldo and Schaefer, Ina},
 	title = {{GuyDance: Guiding Configuration Updates for Product-Line Evolution}},
 	booktitle = VariVolution,
 	publisher = ACM,
-	year = 2020
+	year = 2020,
+	note = {To appear}
 } 
 
 % pages not yet found, check again later
@@ -22,7 +32,7 @@
 	title = {{Variational Satisfiability Solving}},
 	booktitle = SPLC,
 	publisher = ACM,
-	keywords = {VariantSyncPub},
+	typo3Tags = {VariantSyncPub},
 	year = 2020,
 	note = {To appear}
 }
@@ -32,7 +42,7 @@
 	title = {{On the Use of Product-Line Variants as Experimental Subjects for Clone-and-Own Research: A Case Study}},
 	booktitle = SPLC,
 	publisher = ACM,
-	keywords = {VariantSyncPub},
+	typo3Tags = {VariantSyncPub},
 	year = 2020,
 	note = {To appear}
 }
@@ -120,6 +130,7 @@
 	author = {Wesley K. G. Assun{\c{c}}{\~{a}}o and Silvia R. Vergilio and Roberto E. Lopez{-}Herrejon},
 	journal = IST,
 	volume = {117},
+	%%% This is some number given by Elsevier. It is written on the paper as well as on the website. Exact page numbers could not be found (neither in references online, nor in the paper itself).
 	pages = {106198},
 	year = 2020,
 	publisher = Elsevier
@@ -141,7 +152,8 @@
 	author = {Bittner, Paul Maximilian},
 	title = {{Semi-Automated Inference of Feature Traceability During Software Development}},
 	school = {TU Braunschweig},
-	keywords = {Feature Mapping Recording; Clone-and-Own; Semantic AST; VariantSyncMT},
+	keywords = {Feature Mapping Recording; Clone-and-Own; Semantic AST},
+	typo3Tags = {VariantSyncMT},
 	tt-tags = {Advised Mastersthesis},
 	year = 2020
 }
@@ -391,9 +403,10 @@
 	title = {{Towards Efficient Analysis of Variation in Time and Space}},
 	booktitle = VariVolution,
 	pages = {57--64},
-	keywords = {software configuration management, product-line analysis, variability-aware analysis, software evolution, regression analysis, software product lines, variability management, software variation, VariantSyncPub},
+	keywords = {software configuration management, product-line analysis, variability-aware analysis, software evolution, regression analysis, software product lines, variability management, software variation},
 	publisher = ACM,
-	year = 2019
+	year = 2019,
+	typo3Tags = {VariantSyncPub}
 } 
 
 @inproceedings{TSS:MODEVAR19,
@@ -626,7 +639,8 @@
 	author = {Sontag, Christopher},
 	title = {{Recording Feature Mappings During Evolution of Cloned Variants}},
 	school = {TU Braunschweig},
-	keywords = {Feature Mapping Recording; Clone-and-Own; VariantSyncMT},
+	keywords = {Feature Mapping Recording; Clone-and-Own},
+	typo3Tags = {VariantSyncMT},
 	tt-tags = {Advised Mastersthesis},
     pb-tags = {ftr},
 	year = 2018
@@ -2055,7 +2069,8 @@
 	booktitle = SPLC,
 	pages = {329--332},
 	acmid = {2962726},
-	keywords = {clone-and-own, evolution, software product lines, VariantSyncPre},
+	keywords = {clone-and-own, evolution, software product lines},
+	typo3Tags = {VariantSyncPre},
 	tt-tags = {Clone and Own,SPL Implementation,VariantSync},
 	tc-tags = {variant-preserving migration,unoptimized product-based analysis,clone-and-own,source code,tool,no evaluation},
     pb-tags = {ftr},
@@ -2300,7 +2315,7 @@
 	tt-tags = {Clone-and-Own,SPL Migration,VariantSync},
     pb-tags = {ftr},
 	year = 2016,
-	keywords = {VariantSyncMT}
+	typo3Tags = {VariantSyncMT}
 }
 
 @article{RTS+:JLAMP16,
@@ -2317,6 +2332,18 @@
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2015 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{MDBW:SCP15,
+	author = {Midtgaard, Jan and Dimovski, Aleksandar S. and Brabrand, Claus and W\k{a}sowski, Andrzej},
+	title = {{Systematic Derivation of Correct Variability-Aware Program Analyses}},
+	journal = SCP,
+	volume = 105,
+	pages = {145--170},
+	keywords = {Software Product Lines, Software variability, Verification, Static analysis, Abstract interpretation},
+	tt-tags = {SPL Static Analysis},
+	tc-tags = {classified by Thomas,static analysis,family-based analysis,domain-independent specification,annotation-based implementation,source code / program,subsumed by none},
+	year = 2015
+}
 
 @article{VFST:JSS15,
 	author = {Birgit Vogel{-}Heuser and Alexander Fay and Ina Schaefer and Matthias Tichy},
@@ -3740,7 +3767,8 @@
 	year = 2014
 }
 
-@inproceedings{MBW:AOSD14,
+% was MBW:AOSD14 before
+@inproceedings{useMDBW:SCP15,
 	author = {Midtgaard, Jan and Brabrand, Claus and W\k{a}sowski, Andrzej},
 	title = {{Systematic Derivation of Static Analyses for Software Product Lines}},
 	booktitle = AOSD,
@@ -3748,7 +3776,7 @@
 	acmid = {2577091},
 	publisher = ACM,
 	tt-tags = {SPL Static Analysis},
-	tc-tags = {classified by Thomas+Christian,static analysis,family-based analysis,domain-independent specification,annotation-based implementation,source code / program,subsumed by none,CSUR14,PhD15},
+	tc-tags = {classified by Thomas+Christian,static analysis,family-based analysis,domain-independent specification,annotation-based implementation,source code / program,subsumed by MDBW:SCP15,CSUR14,PhD15},
 	year = 2014
 }
 
@@ -3928,7 +3956,7 @@
 	school = {University of Magdeburg},
 	tt-tags = {Clone-and-Own,SPL Migration,VariantSync},
 	year = 2016,
-	keywords = {VariantSyncMT},
+	typo3Tags = {VariantSyncMT},
 	note = {In German}
 }
 
