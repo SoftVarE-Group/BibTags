@@ -117,10 +117,11 @@
       %\hskip1.5em plus0em minus0.5em \fi \nobreak
       %\vrule height0.75em width0.5em depth0.25em\fi}
       
-\newcommand{\paperreference}[2]{
+\newcommand{\picsheight}{60mm}
+\newcommand{\paperreference}[3]{
 	\vspace{2mm}
-	\tikz{\node[draw=gray,line width=.5pt,fill=white,inner sep=0mm,blur shadow={shadow blur steps=5,shadow blur extra rounding=2pt}] {\includegraphics[height=60mm]{../../../pics/papers/#1}};\node[yshift=-25mm,rounded corners,fill=stGray,blur shadow={shadow blur steps=5,shadow blur extra rounding=2pt}] {#2};}
+	\tikz{\node[draw=gray,line width=.5pt,fill=white,inner sep=0mm,blur shadow={shadow blur steps=5,shadow blur extra rounding=2pt}] {\href{#3}{\includegraphics[height=\picsheight]{../../../pics/papers/#1}}};\node[yshift=-20mm,rounded corners,fill=stGray,blur shadow={shadow blur steps=5,shadow blur extra rounding=2pt}] {#2};}
 }
 \newcommand{\authorsays}[3]{
-	\tikz{\node[draw=gray,line width=1pt,fill=white,inner sep=0mm,blur shadow={shadow blur steps=5,shadow blur extra rounding=2pt}] {\includegraphics[height=60mm]{../../../pics/authors/#1}};\node[yshift=-25mm,rounded corners,fill=white,blur shadow={shadow blur steps=5,shadow blur extra rounding=2pt}] {#2 says ``#3''};}
+	\tikz{\node[draw=gray,line width=1pt,fill=white,inner sep=0mm,blur shadow={shadow blur steps=5,shadow blur extra rounding=2pt}] {\includegraphics[height=\picsheight]{../../../pics/authors/#1}};\node[yshift=-25mm,rounded corners,fill=white,blur shadow={shadow blur steps=5,shadow blur extra rounding=2pt}] {#2 says ``#3''};}
 }
