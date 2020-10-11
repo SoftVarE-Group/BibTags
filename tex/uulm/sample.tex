@@ -1,0 +1,59 @@
+\input{header}
+\newcommand{\insertuulmtitle}{\input{title}}
+\graphicspath{{pics/}}
+
+\author{Thomas Thüm}
+\title{Layout Templates}
+\subtitle{Use for Clone-and-Own}
+%\renewcommand{\titleBackgroundImage}{../path/to/picture}
+
+\begin{document}
+
+\insertuulmtitle
+
+% a simple list
+\subsection{}
+\begin{frame}{\insertsubsection}
+	\begin{itemize}
+		\item \ldots
+	\end{itemize}
+\end{frame}
+
+% list and picture side-by-side
+\subsection{}
+\begin{frame}{\insertsubsection}
+	\begin{multicols}{2}
+		\begin{itemize}
+			\item \ldots
+		\end{itemize}
+		
+		%\columnbreak
+		\begin{center}
+			\href{}{\includegraphics[height=50mm]{sp_logo_small_700_dpi}}
+		\end{center}
+	\end{multicols}
+\end{frame}
+
+% list of TODOs to be fixed in the template
+\subsection{TODOs}
+\begin{frame}{\insertsubsection}
+	\begin{itemize}
+		\item No space before and after multicols
+		\item More space around lists, less space between entries, use of vfill
+		\item Automatically insert subsection title on each slide, avoid line break in title
+		\item Arrange content vertically centered and use more space on top
+		\item heading moves upwards when more content is added
+		\item overview pages when sections/chapters start
+		\item avoid path to titlepage
+	\end{itemize}
+\end{frame}
+
+% list of things already fixed in the template
+\subsection{DONE}
+\begin{frame}{\insertsubsection}
+	\begin{itemize}
+		\item Make footer more readable
+	\end{itemize}
+\end{frame}
+
+\end{document}

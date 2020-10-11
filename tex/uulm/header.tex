@@ -1,0 +1,243 @@
+\PassOptionsToPackage{force}{filehook}
+%\documentclass[8pt, t, aspectratio=169, setspace, fixcmex, handout, xcolor={dvipsnames,table}]{beamer}
+
+\documentclass[8pt, t, aspectratio=169, table, setspace, fixcmex]{beamer}
+
+\usepackage{multicol}
+
+\usepackage{babel}%[ngerman]
+\usepackage[utf8]{inputenc}
+\usepackage{pdfpages}
+\usepackage{adjustbox}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{wasysym}
+\usepackage{textcomp}
+\usepackage{multirow}
+
+\usepackage{lmodern}
+\renewcommand*\familydefault{\sfdefault}
+
+\usepackage{setspace}
+\usepackage{eurosym}
+\usepackage{bm}
+\usepackage{svg}
+
+%\usepackage{pgfpages}
+%\pgfpagesuselayout{4 on 1}[a4paper,border shrink=1mm,landscape]
+
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{menukeys}
+
+% DEFINE colors
+
+\definecolor{uniBlue}{HTML}{7D9AAA}
+\definecolor{stGray}{HTML}{a9a28d}
+\definecolor{codeBG}{HTML}{333333}
+\definecolor{ngreen}{HTML}{009900}
+\definecolor{nred}{HTML}{A32638}
+\definecolor{coral}{HTML}{F08080}
+\newcommand{\textbt}[1]{\texttt{\textbf{#1}}}
+
+% Minted
+
+%\usepackage{minted}
+%\newenvironment{code}[2][]
+%{\VerbatimEnvironment
+%	\begin{mdframed}[linewidth=0.5pt, innerleftmargin=4ex, innerrightmargin=4ex, leftmargin=0pt, rightmargin=0pt, skipabove=5pt, innertopmargin=5pt, innerbottommargin=5pt]
+%		\begin{minted}[
+%		style=manni,			%manni
+%		autogobble,
+%		stripnl,
+%		stripall,
+%		tabsize=4,
+%		numbersep=1ex,
+%		frame=leftline,	
+%		framerule=0.5pt,
+%		rulecolor=gray,	
+%		linenos,
+%		fontsize=\footnotesize,
+%		numberblanklines=false,	
+%		framesep=1ex,
+%		baselinestretch=1.05, #1]{#2}}
+%		{\end{minted}		
+%\end{mdframed}\vskip10pt}
+%\renewcommand{\theFancyVerbLine}{\sffamily {\color{gray}\tiny \textbf{\arabic{FancyVerbLine}}}}
+
+% Tikz
+\usepackage{pgf, tikz}
+\usetikzlibrary{arrows.meta, positioning, shapes, calc, decorations.text, shadows.blur, matrix, fit}
+
+%Font
+\usepackage{fix-cm}
+
+\usepackage{xifthen}
+
+\usepackage{tabu}
+
+\usepackage{soul}
+% Settings
+%
+\setlist[1]{topsep=-5pt, itemsep=10pt, label=\raisebox{0.4ex}{\fontsize{3pt}{4pt}$\blacksquare$}}
+\setlist[2]{itemsep=5pt, label=\raisebox{0.4ex}{\tiny\RIGHTarrow}}
+\setlist[3]{itemsep=5pt, label=\raisebox{0.4ex}{\tiny$\bullet$}}
+
+\beamertemplatenavigationsymbolsempty 
+
+
+\renewcommand{\thefigure}{\textbf{\arabic{figure}}}
+\addto\captionsngerman{  
+    \renewcommand{\figurename}{\footnotesize\color{black}\textbf{Abb.}}
+}
+
+\newcommand{\annot}{\raisebox{0.4ex}{\tiny\LEFTarrow}\hskip1pt}
+
+\newcommand{\sep}{
+	\vskip20pt
+	\pause
+}
+
+\newcommand{\chapter}[2][]{
+	\addtocounter{framenumber}{-1}
+	\section{#2}
+	\renewcommand{\thesubchapter}{}
+		
+	\begin{frame}[plain]
+		\begin{columns}
+			\begin{column}{0.75\linewidth}
+				\vskip4cm
+				\begin{mdframed}[topline = false, rightline = false, bottomline = false, linewidth = 4pt, linecolor = uniBlue]			
+					{\Huge \color{uniBlue} \textbf{\insertsection\phantom{/Üyg}}}
+				\end{mdframed}		
+				\vskip2ex
+				{\large \color{uniBlue} \textbf{\phantom{/Ü,\glqq yg\grqq}}}
+			\end{column}
+			\hfill
+			\begin{column}{0.2\linewidth}
+					\vskip3cm
+					\ifthenelse{\equal{#1}{}}{}{
+						\begin{figure}
+							\begin{center}					
+								\includegraphics[width=0.8\linewidth]{#1}
+							\end{center}
+						\end{figure}
+					}
+			\end{column}
+		\end{columns}	
+	\end{frame}
+
+}
+
+\newcommand{\longchapter}[1]{
+	\addtocounter{framenumber}{-1}
+	\section{#1}
+	\renewcommand{\thesubchapter}{}
+	
+	\begin{frame}[plain]
+	\begin{columns}
+		\begin{column}{0.9\linewidth}
+			\vskip4cm
+			\begin{mdframed}[topline = false, rightline = false, bottomline = false, linewidth = 4pt, linecolor = uniBlue]			
+				{\Huge \color{uniBlue} \textbf{\insertsection\phantom{/Üyg}}}
+			\end{mdframed}		
+			\vskip2ex
+			{\large \color{uniBlue} \textbf{\phantom{/Ü,\glqq yg\grqq}}}
+		\end{column}
+		\hfill
+		\begin{column}{0.05\linewidth}
+			\vskip3cm
+		\end{column}
+	\end{columns}	
+\end{frame}
+
+}
+
+\newcommand{\thesubchapter}{}
+\newcommand{\subchapter}[2][]{
+	\addtocounter{framenumber}{-1}
+	\renewcommand{\thesubchapter}{#2}
+	
+	\begin{frame}[plain]
+		\begin{columns}
+			\begin{column}{0.75\linewidth}
+				\vskip4cm
+				\begin{mdframed}[topline = false, rightline = false, bottomline = false, linewidth = 4pt, linecolor = uniBlue]			
+					{\Huge \color{uniBlue} \textbf{\insertsection \phantom{/Üyg\glqq\grqq}}}	
+					\vskip2ex
+					{\large \color{nred} \textbf{\thesubchapter \phantom{/Üyg\glqq\grqq}}}
+				\end{mdframed}	
+			\end{column}
+			\hfill
+			\begin{column}{0.2\linewidth}
+				\vskip3cm
+				\ifthenelse{\equal{#1}{}}{}{\begin{figure}
+						\begin{center}					
+							\includegraphics[width=0.8\linewidth]{#1}
+						\end{center}
+					\end{figure}
+				}
+			\end{column}
+		\end{columns}	
+	\end{frame}
+}
+
+\newcommand{\longsubchapter}[1]{
+	\addtocounter{framenumber}{-1}
+	\renewcommand{\thesubchapter}{#1}
+	
+	\begin{frame}[plain]
+	\begin{columns}
+		\begin{column}{0.9\linewidth}
+			\vskip4cm
+			\begin{mdframed}[topline = false, rightline = false, bottomline = false, linewidth = 4pt, linecolor = uniBlue]			
+				{\Huge \color{uniBlue} \textbf{\insertsection \phantom{/Üyg\glqq\grqq}}}	
+				\vskip2ex
+				{\large \color{nred} \textbf{\thesubchapter \phantom{/Üyg\glqq\grqq}}}
+			\end{mdframed}	
+		\end{column}
+		\hfill
+		\begin{column}{0.05\linewidth}
+			\vskip3cm
+		\end{column}
+	\end{columns}	
+\end{frame}
+}
+
+
+\newcommand{\folie}[2][]{
+\begin{frame}
+	\frametitle{#1}
+	#2
+\end{frame}
+}
+
+\newcommand{\pitem}{\pause\item}
+\newcommand{\heading}[1]{{\large\color{nred!80} \textbf{#1}\vskip8pt}}
+\newcommand{\major}[1]{{\textbf{#1}}}
+\newcommand{\highlight}[1]{\begin{mdframed}[linewidth=2pt, rightline = false, topline = false, bottomline = false, linecolor=gray, skipabove = 5pt]        	
+#1
+\end{mdframed}}
+
+
+\newcommand{\contbox}[2][gray]{
+{
+	\setstretch{1.5}
+		\begin{tikzpicture}
+			\node[text width = 0.9\linewidth, inner sep = 4pt, outer sep = 2pt, fill=stGray!20] (TXT) {\large #2};
+			
+			\path[draw=nred, fill=nred, line width=2.5pt] ([xshift=-2pt, yshift=-2pt]TXT.north west) edge ([xshift=-2pt, yshift=2pt] TXT.south west);
+		\end{tikzpicture}
+}
+}
+
+
+\newcommand{\bci}[2][]{\mintinline[style=vs, bgcolor=lightgray!25, #1]{Bash}{#2}}
+\newcommand{\jci}[2][]{\mintinline[style=colorful,#1]{Java}{#2}}
+\newcommand{\hci}[2][]{\mintinline[style=vs,#1]{Haskell}{#2}}
+
+\newcommand{\nonPrint}[1]{
+	\ifx\printVersion\undefined
+	#1
+	\else
+	\fi
+}
