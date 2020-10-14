@@ -1,7 +1,7 @@
 \PassOptionsToPackage{force}{filehook}
 %\documentclass[8pt, t, aspectratio=169, setspace, fixcmex, handout, xcolor={dvipsnames,table}]{beamer}
 
-\documentclass[8pt, t, aspectratio=169, table, setspace, fixcmex]{beamer}
+\documentclass[8pt, aspectratio=169, table, setspace, fixcmex]{beamer}
 
 \usepackage{multicol}
 
@@ -14,6 +14,7 @@
 \usepackage{wasysym}
 \usepackage{textcomp}
 \usepackage{multirow}
+\usepackage{tcolorbox}
 
 \usepackage{lmodern}
 \renewcommand*\familydefault{\sfdefault}
@@ -30,13 +31,22 @@
 \usepackage{menukeys}
 
 % DEFINE colors
+\definecolor{black}{HTML}{000000}
+\definecolor{uulmlogoblue}{HTML}{89a2b3}
+\definecolor{uulmblue}{HTML}{7D9AAA}
+\definecolor{uulmaccent}{HTML}{A9A28D}
 
-\definecolor{uniBlue}{HTML}{7D9AAA}
-\definecolor{stGray}{HTML}{a9a28d}
-\definecolor{codeBG}{HTML}{333333}
-\definecolor{ngreen}{HTML}{009900}
-\definecolor{nred}{HTML}{A32638}
-\definecolor{coral}{HTML}{F08080}
+\definecolor{green}{HTML}{56AA1C}
+\definecolor{red}{HTML}{A32638}
+\definecolor{orange}{HTML}{DF6D07}
+\definecolor{blue}{HTML}{26547C}
+
+%\definecolor{uniBlue}{HTML}{7D9AAA}
+%\definecolor{stGray}{HTML}{a9a28d}
+%\definecolor{codeBG}{HTML}{333333}
+%\definecolor{ngreen}{HTML}{009900}
+%\definecolor{nred}{HTML}{A32638}
+%\definecolor{coral}{HTML}{F08080}
 \newcommand{\textbt}[1]{\texttt{\textbf{#1}}}
 
 % Minted
@@ -106,11 +116,11 @@
 		\begin{columns}
 			\begin{column}{0.75\linewidth}
 				\vskip4cm
-				\begin{mdframed}[topline = false, rightline = false, bottomline = false, linewidth = 4pt, linecolor = uniBlue]			
-					{\Huge \color{uniBlue} \textbf{\insertsection\phantom{/Üyg}}}
+				\begin{mdframed}[topline = false, rightline = false, bottomline = false, linewidth = 4pt, linecolor = uulmblue]			
+					{\Huge \color{uulmblue} \textbf{\insertsection\phantom{/Üyg}}}
 				\end{mdframed}		
 				\vskip2ex
-				{\large \color{uniBlue} \textbf{\phantom{/Ü,\glqq yg\grqq}}}
+				{\large \color{uulmblue} \textbf{\phantom{/Ü,\glqq yg\grqq}}}
 			\end{column}
 			\hfill
 			\begin{column}{0.2\linewidth}
@@ -137,11 +147,11 @@
 	\begin{columns}
 		\begin{column}{0.9\linewidth}
 			\vskip4cm
-			\begin{mdframed}[topline = false, rightline = false, bottomline = false, linewidth = 4pt, linecolor = uniBlue]			
-				{\Huge \color{uniBlue} \textbf{\insertsection\phantom{/Üyg}}}
+			\begin{mdframed}[topline = false, rightline = false, bottomline = false, linewidth = 4pt, linecolor = uulmblue]			
+				{\Huge \color{uulmblue} \textbf{\insertsection\phantom{/Üyg}}}
 			\end{mdframed}		
 			\vskip2ex
-			{\large \color{uniBlue} \textbf{\phantom{/Ü,\glqq yg\grqq}}}
+			{\large \color{uulmblue} \textbf{\phantom{/Ü,\glqq yg\grqq}}}
 		\end{column}
 		\hfill
 		\begin{column}{0.05\linewidth}
@@ -161,8 +171,8 @@
 		\begin{columns}
 			\begin{column}{0.75\linewidth}
 				\vskip4cm
-				\begin{mdframed}[topline = false, rightline = false, bottomline = false, linewidth = 4pt, linecolor = uniBlue]			
-					{\Huge \color{uniBlue} \textbf{\insertsection \phantom{/Üyg\glqq\grqq}}}	
+				\begin{mdframed}[topline = false, rightline = false, bottomline = false, linewidth = 4pt, linecolor = uulmblue]			
+					{\Huge \color{uulmblue} \textbf{\insertsection \phantom{/Üyg\glqq\grqq}}}	
 					\vskip2ex
 					{\large \color{nred} \textbf{\thesubchapter \phantom{/Üyg\glqq\grqq}}}
 				\end{mdframed}	
@@ -189,8 +199,8 @@
 	\begin{columns}
 		\begin{column}{0.9\linewidth}
 			\vskip4cm
-			\begin{mdframed}[topline = false, rightline = false, bottomline = false, linewidth = 4pt, linecolor = uniBlue]			
-				{\Huge \color{uniBlue} \textbf{\insertsection \phantom{/Üyg\glqq\grqq}}}	
+			\begin{mdframed}[topline = false, rightline = false, bottomline = false, linewidth = 4pt, linecolor = uulmblue]			
+				{\Huge \color{uulmblue} \textbf{\insertsection \phantom{/Üyg\glqq\grqq}}}	
 				\vskip2ex
 				{\large \color{nred} \textbf{\thesubchapter \phantom{/Üyg\glqq\grqq}}}
 			\end{mdframed}	

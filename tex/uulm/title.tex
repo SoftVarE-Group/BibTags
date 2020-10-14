@@ -9,9 +9,9 @@
 	
 	\node[above right = of institute.north west, outer sep = 0, inner sep = 0] {\includegraphics[width=\paperwidth]{\titleBackgroundImage}};
 	
-	\node[minimum width=\paperwidth, minimum height = 0.102\paperheight, text width=0.95\paperwidth, fill=nred, text centered, align = right, outer sep = 0pt] (redbox) at ([yshift=-0.209\paperheight]current page.center){\hfill\fontsize{14px}{20px}\selectfont \color{white} \raisebox{-1em}{\textbf{\phantom{XS,g/}\inserttitle}}};
+	\node[minimum width=\paperwidth, minimum height = 0.102\paperheight, text width=0.95\paperwidth, fill=red, text centered, align = right, outer sep = 0pt] (redbox) at ([yshift=-0.209\paperheight]current page.center){\hfill\fontsize{14px}{20px}\selectfont \color{white} \raisebox{-1em}{\textbf{\phantom{XS,g/}\inserttitle}}};
 	
-	\node[minimum width=\paperwidth, below = 0pt of redbox.south, fill=stGray, text width=0.95\paperwidth, text centered, align = right, inner ysep = 3.2pt, outer sep = 0pt]{
+	\node[minimum width=\paperwidth, below = 0pt of redbox.south, fill=uulmaccent, text width=0.95\paperwidth, text centered, align = right, inner ysep = 3.2pt, outer sep = 0pt]{
 		\color{white}\phantom{XS,g/}\insertsubtitle{} $\vert$ \insertauthor{} $\vert$ \insertdate
 	}; 
 \end{tikzpicture}
@@ -26,9 +26,9 @@
 \setbeamertemplate{footline}
 {%
 	\begin{tikzpicture}[node distance = 0pt, remember picture, overlay]
-	\node[fill=nred, inner ysep = 3pt, outer sep = 0pt, above left = of current page.south east, text width = 0.05\paperwidth, text centered] {\footnotesize \color{white}\phantom{/}\insertframenumber\phantom{g}};
+	\node[fill=red, inner ysep = 3pt, outer sep = 0pt, above left = of current page.south east, text width = 0.05\paperwidth, text centered] {\footnotesize \color{white}\phantom{/}\insertframenumber\phantom{g}};
 	
-	\node[fill=stGray, inner ysep = 3pt, outer sep = 0pt, above right = of current page.south west, text width = 0.932\paperwidth] {\footnotesize\color{white}\hskip0.02\paperwidth\phantom{/g}\insertauthor\hfill\inserttitle\ -- \insertsubtitle\hfill\null};
+	\node[fill=uulmaccent, inner ysep = 3pt, outer sep = 0pt, above right = of current page.south west, text width = 0.932\paperwidth] {\footnotesize\color{white}\hskip0.02\paperwidth\phantom{/g}\insertauthor\hfill\inserttitle\ -- \insertsubtitle\hfill\null};
 	\end{tikzpicture}
 }
 
