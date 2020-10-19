@@ -41,6 +41,7 @@
 \definecolor{blue}{HTML}{26547C}
 
 \definecolor{greenscreengreen}{HTML}{00FF00}
+\definecolor{lightgreenscreengreen}{HTML}{EEEEFF}
 
 %\definecolor{uniBlue}{HTML}{7D9AAA}
 %\definecolor{stGray}{HTML}{a9a28d}
@@ -77,7 +78,7 @@
 
 % Tikz
 \usepackage{pgf, tikz}
-\usetikzlibrary{arrows.meta, positioning, shapes, calc, decorations.text, shadows.blur, matrix, fit}
+\usetikzlibrary{arrows.meta, positioning, shapes, calc, decorations.text, shadows.blur, matrix, fit, mindmap}
 
 %Font
 \usepackage{fix-cm}
@@ -113,30 +114,37 @@
 	\section{#2}
 	\renewcommand{\thesubchapter}{}
 		
+%	\begin{frame}[plain]
+%		\begin{columns}
+%			\begin{column}{0.75\linewidth}
+%				\vskip4cm
+%				\begin{mdframed}[topline = false, rightline = false, bottomline = false, linewidth = 4pt, linecolor = uulmblue]			
+%					{\Huge \color{uulmblue} \textbf{\insertsection\phantom{/Üyg}}}
+%				\end{mdframed}		
+%				\vskip2ex
+%				{\large \color{uulmblue} \textbf{\phantom{/Ü,\glqq yg\grqq}}}
+%			\end{column}
+%			\hfill
+%			\begin{column}{0.2\linewidth}
+%					\vskip3cm
+%					\ifthenelse{\equal{#1}{}}{}{
+%						\begin{figure}
+%							\begin{center}					
+%								\includegraphics[width=0.8\linewidth]{#1}
+%							\end{center}
+%						\end{figure}
+%					}
+%			\end{column}
+%		\end{columns}	
+%	\end{frame}
 	\begin{frame}[plain]
-		\begin{columns}
-			\begin{column}{0.75\linewidth}
-				\vskip4cm
-				\begin{mdframed}[topline = false, rightline = false, bottomline = false, linewidth = 4pt, linecolor = uulmblue]			
-					{\Huge \color{uulmblue} \textbf{\insertsection\phantom{/Üyg}}}
-				\end{mdframed}		
-				\vskip2ex
-				{\large \color{uulmblue} \textbf{\phantom{/Ü,\glqq yg\grqq}}}
-			\end{column}
-			\hfill
-			\begin{column}{0.2\linewidth}
-					\vskip3cm
-					\ifthenelse{\equal{#1}{}}{}{
-						\begin{figure}
-							\begin{center}					
-								\includegraphics[width=0.8\linewidth]{#1}
-							\end{center}
-						\end{figure}
-					}
-			\end{column}
-		\end{columns}	
+		\vskip60mm
+		\begin{mdframed}[topline = false, rightline = false, bottomline = false, linewidth = 4pt, linecolor = uulmblue]			
+			{\Huge \color{uulmblue} \textbf{\insertsection\phantom{/Üyg}}}
+		\end{mdframed}		
+		\vskip2ex
+		{\large \color{uulmblue} \textbf{\phantom{/Ü,\glqq yg\grqq}}}
 	\end{frame}
-
 }
 
 \newcommand{\longchapter}[1]{
