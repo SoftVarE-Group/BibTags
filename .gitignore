@@ -2,8 +2,10 @@
 *.bbl
 *.blg
 *.log
-*.pdf
 *.gz
 /classification/problems.csv
-
 .idea
+*.nav
+*.out
+*.snm
+*.toc
