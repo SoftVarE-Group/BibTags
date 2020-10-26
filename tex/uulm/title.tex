@@ -1,4 +1,3 @@
-\newcommand{\titleBackgroundImage}{uni_suedeingang_3}
 \defbeamertemplate*{title page}{customized}[1]
 {	
 \begin{tikzpicture}[node distance = 0, remember picture, overlay]
@@ -7,7 +6,7 @@
 	
 	\node[above left = of current page.south east, inner xsep =0.03\paperwidth, inner ysep = 0.02\paperheight] {\includegraphics[height=0.066\paperheight]{logo_uulm}};
 	
-	\node[above right = of institute.north west, outer sep = 0, inner sep = 0] {\includegraphics[width=\paperwidth]{\titleBackgroundImage}};
+	\node[above right = of institute.north west, outer sep = 0, inner sep = 0] {\titleBackgroundImage};
 	
 	\node[minimum width=\paperwidth, minimum height = 0.102\paperheight, text width=0.95\paperwidth, fill=red, text centered, align = right, outer sep = 0pt] (redbox) at ([yshift=-0.209\paperheight]current page.center){\hfill\fontsize{14px}{20px}\selectfont \color{white} \raisebox{-1em}{\textbf{\phantom{XS,g/}\inserttitle}}};
 	
@@ -17,7 +16,10 @@
 \end{tikzpicture}
 }
 
-\maketitle	
+%\maketitle	
+\begin{frame}[label=titleslide]
+	\titlepage
+\end{frame}
 
 % SET colors
 %\setbeamercolor{headerfooter}{fg=black, bg=lightgray!50}
