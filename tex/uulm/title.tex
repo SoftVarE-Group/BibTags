@@ -16,10 +16,9 @@
 \end{tikzpicture}
 }
 
-%\maketitle	
-\begin{frame}[label=titleslide]
-	\titlepage
-\end{frame}
+% hack as title page is supposed to be used in againframe and the handout misses footer otherwise
+\handoutonly{\maketitle}
+\slideonly{\begin{frame}[label=titleslide]\titlepage\end{frame}}
 
 % SET colors
 %\setbeamercolor{headerfooter}{fg=black, bg=lightgray!50}
