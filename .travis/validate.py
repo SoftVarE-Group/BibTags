@@ -9,10 +9,10 @@ parser = BibTexParser(common_strings=True)
 parser.ignore_nonstandard_types = False 
 
 bibtex_str = ""
-with open("../MYabrv.bib") as bibtex_file:
+with open("MYabrv.bib") as bibtex_file:
    bibtex_str = bibtex_file.read()
 
-with open("../literature.bib") as bibtex_file:
+with open("literature.bib") as bibtex_file:
    bibtex_str += bibtex_file.read()
 
 try:
