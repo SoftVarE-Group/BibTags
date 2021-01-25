@@ -28,6 +28,5 @@ def validate(abrv, literature):
 
 	print("\nSUCCESS\n")
 
-
 validate(abrv="MYabrv.bib", literature="literature.bib")
 validate(abrv="MYshort.bib", literature="literature.bib")
