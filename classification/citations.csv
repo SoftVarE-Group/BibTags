@@ -1,12 +1,13 @@
-"KTS:FormaliSE21";"GUIDO: Automated Guidance for the Configuration of Deductive Program Verifiers";-1;0;
+"KTS:FormaliSE21";"GUIDO: Automated Guidance for the Configuration of Deductive Program Verifiers";-2;1614672263603;
 "KTSB:ICSE21";"Bridging the Gap Between Clone-and-Own and Software Product Lines";-2;1611591735302;
 "EPPC:IST21";"An Empirical Study of Performance Using Clone and Own and Software Product Lines in an Industrial Context";0;1611592817512;
 "RSC+:SE21";"Tool Support for Correctness-by-Construction";3;1606121283144;
 "KJN+:SE21";"Skill-Based Verification of Cyber-Physical Systems";0;1606122365385;
 "KKT+20";"Using Abstract Contracts for Verifying Evolving Features and Their Interactions";0;1609770330031;
-"PKR+:VaMoS21";"Stability of Product-Line Sampling in Continuous Integration";-1;0;
+"PKR+:VaMoS21";"Stability of Product-Line Sampling in Continuous Integration";0;1614673345534;
 "HPTS:VaMoS21";"Hyper Explanations for Feature-Model Defect Analysis";-1;0;
 "SNB+:VaMoS21";"Applications of SAT Solvers on Feature Models";-1;0;
+"BLK:ESECFSE20";"Baital: An Adaptive Weighted Sampling Approach for Improved t-Wise Coverage";-1;0;
 "M:SPLC20";"Evolving System Families in Space and Time";0;1612950776864;
 "S20";"Applications of SAT Solvers on Product Lines";1;1611593899907;
 "HFGB:SPLC2020";"Uniform and Scalable SAT-Sampling for Configurable Systems";1;1611594981571;
@@ -34,6 +35,7 @@
 "BRK+:VaMoS20";"Variational Correctness-by-Construction";1;1612965923376;
 "SSK+:VaMoS20";"SMT-Based Variability Analyses in FeatureIDE";5;1612967004911;
 "STS:VaMoS20";"Evaluating SAT Solvers on Industrial Feature Models";8;1612968085897;
+"SRSM:IJCAI19";"GANAK: A Scalable Probabilistic Exact Model Counter.";-1;0;
 "CEB+:SANER19";"Identifying Feature Clones: An Industrial Case Study";2;1612951859785;
 "CFM:VaMoS19";"A Literature Review and Comparison of Three Feature Location Techniques Using ArgoUML-SPL";8;1612952942336;
 "BG19";"Approximate Model Counting, Sparse XOR Constraints and Minimum Distance";3;1611597145648;
@@ -844,6 +846,7 @@
 "JDHW09";"Do Code Clones Matter";493;1607953112109;
 "TBK:ICSE09";"Reasoning about Edits to Feature Models";404;1607606791607;
 "KTS+:ICSE09";"FeatureIDE: A Tool Framework for Feature-Oriented Software Development";261;1610637678875;
+"XHHL08";"SATzilla: portfolio-based algorithm selection for SAT";-1;0;
 "R08";"A Survey of Static Variable Ordering Heuristics for Efficient BDDMDD Construction";29;1611868835060;
 "J:SPLC08";"Do SAT Solvers Make Good Configurators";60;1611869918002;
 "S:SPLC08";"Automated Analysis of Feature Models Using Atomic Sets";83;1611871001106;
@@ -1276,6 +1279,7 @@
 "LW:TOPLAS94";"A Behavioral Notion of Subtyping";1587;1605700612037;
 "N94";"Usability Engineering";21985;1605701694270;
 "WF94";"A Syntactic Approach to Type Soundness";1411;1605702776781;
+"R:ICCAD93";"Dynamic Variable Ordering for Ordered Binary Decision Diagrams";-1;0;
 "M:DAC93";"Zero-Suppressed BDDs for Set Manipulation in Combinatorial Problems";980;1612454660898;
 "FOH:ICCAD93";"Interleaving Based Variable Ordering Methods for Ordered Binary Decision Diagrams";199;1612455743038;
 "BMW:ICSE93";"The Concept Assignment Problem in Program Understanding";469;1605164351115;
