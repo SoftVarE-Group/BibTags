@@ -548,15 +548,27 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2019 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-@inproceedings{SRSM:IJCAI19,
-  title={GANAK: A Scalable Probabilistic Exact Model Counter.},
-  author={Sharma, Shubham and Roy, Subhajit and Soos, Mate and Meel, Kuldeep S},
-	booktitle = IJCAI,
+@inproceedings{IM:IJCAI19,
+  author = {Masakazu Ishihata and Takanori Maehara},
+  title = {{Exact Bernoulli Scan Statistics Using Binary Decision Diagrams}},
+  booktitle = IJCAI,
+  pages = {5737--5743},
   publisher = AAAIpress,
   address = Palo,
-  volume={19},
-  pages={1169--1176},
-  year={2019}
+  doi = {10.24963/ijcai.2019/795},
+  year = 2019,
+  kc-tags = {TdZDD}
+}
+
+@inproceedings{SRSM:IJCAI19,
+	title = {{GANAK: A Scalable Probabilistic Exact Model Counter}},
+	author = {Sharma, Shubham and Roy, Subhajit and Soos, Mate and Meel, Kuldeep S},
+	booktitle = IJCAI,
+	publisher = AAAIpress,
+	address = Palo,
+	volume = {19},
+	pages = {1169--1176},
+	year = 2019
 }
 
 @inproceedings{CEB+:SANER19,
@@ -6203,7 +6215,31 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2013 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-@inproceedings{LSX:,
+@inproceedings{RZS:ICCS09,
+  author = {Andrei Rimsa and Luis Enrique Z{\'{a}}rate and Mark A. J. Song},
+  title = {{Evaluation of Different {BDD} Libraries to Extract Concepts in {FCA} - Perspectives and Limitations}},
+  booktitle = ICCS,
+  location = {Baton Rouge, LA, USA},
+  series = LNCS,
+  volume = {5544},
+  pages = {367--376},
+  publisher = Springer,
+  address = BerlinHeidelberg,
+  doi = {10.1007/978-3-642-01970-8\_36},
+  year = 2009,
+  kc-tags = {BuDDy, CUDD, BDD Evaluation}
+}
+
+@article{HSHB:CoRR13,
+  author = {Jesse Hoey and Robert St{-}Aubin and Alan J. Hu and Craig Boutilier},
+  title = {{SPUDD: Stochastic Planning Using Decision Diagrams}},
+  journal = CoRR,
+  year = 2013,
+  url = {http://arxiv.org/abs/1301.6704},
+  kc-tags = {Uses CUDD}
+}
+
+@inproceedings{LSX:CAV13,
 	title = {{CacBDD: A BDD Package With Dynamic Cache Management}},
 	author = {Lv, Guanfeng and Su, Kaile and Xu, Yanyan},
 	booktitle = CAV,
@@ -19314,6 +19350,12 @@ Stories of successful software product line deployments often read like epic adv
 	note = {Accessed: 2020-06-13}
 }
 
+@manual{CUDD:manual,
+	author = {Somenzi, Fabio},
+    title = {{CUDD: User's Manual}},
+    year = 2005
+}
+
 @misc{DD,	
 	howpublished = {\url{https://github.com/tulip-control/dd}},
 	note = {Accessed: 2020-05-11}
@@ -19322,6 +19364,14 @@ Stories of successful software product line deployments often read like epic adv
 @misc{JADE,
 	howpublished = {\url{http://www.informatik.uni-bremen.de/agra/eng/jade.php}},
 	note = {Accessed: 2020-04-21}
+}
+
+@misc{JEDD,
+	title = {JEDD: Source Code},
+	howpublished = {\url{http://www.sable.mcgill.ca/jedd/}},
+	note = {Accessed: 2021-03-01},
+	year = 
+
 }
 
 @misc{JDD,	
@@ -19334,6 +19384,14 @@ Stories of successful software product line deployments often read like epic adv
 	note = {Accessed: 2020-09-28}
 }
 
+@misc{Meddly:source,
+	title = {{Meddly: Source Code}},
+	author = {Babar, Junaid and Miner, Andrew},
+	howpublished = {\url{https://meddly.sourceforge.io/}},
+	note = {Accessed: 2021-03-01},
+	year = 2018
+}
+
 @misc{MONA,	
 	howpublished = {\url{https://github.com/cs-au-dk/MONA}},
 	note = {Accessed: 2020-10-24}
@@ -19343,4 +19401,41 @@ Stories of successful software product line deployments often read like epic adv
 	howpublished = {\url{
 	https://ira.informatik.uni-freiburg.de/software/puma/pumamain.html}},
 	note = {Accessed: 2020-10-03}
+}
+
+@misc{PyEDA,
+	title = {PyEDA: Source Code},
+	howpublished = {\url{https://github.com/cjdrake/pyeda}},
+	note = {Accessed: 2021-03-01},
+	year = 2018	
+}
+
+@misc{Sylvan,
+	author = {van Dijk, Tom and Meijer, Jeroen and Ioannis Filippidis and Laarman, Alfons and Volk, Matthias},
+	howpublished = {\url{https://github.com/trolando/sylvan}},
+	note = {Accessed: 2021-03-01},
+	year = 2020
+}
+
+@misc{TdZdd:source,
+	title = {{TdZdd: Source Code}},
+	author = {Hiroaki Iwashita and Jun Kawahara and Kohei Shinohara},
+	howpublished = {\url{https://github.com/kunisura/TdZdd}},
+	note = {Accessed: 2021-03-01},
+	year = 2020
+}
+
+@misc{Trivialib.Bdd,
+	title = {{Triviallib.Bdd: Source Code}},
+	author = {Masataro Asai},
+	howpublished = {\url{https://github.com/guicho271828/trivialib.bdd}},
+	note = {Accessed: 2021-03-01},
+	year = 2018
+}
+
+@misc{BDDList
+	author = {Ioannis Filippidis and Malvin Gattinger and Daniel Meyer},
+	howpublished = {\url{https://github.com/johnyf/tool_lists/blob/master/bdd.md}},
+	note = {Accessed: 2021-03-01},
+	year = 2020
 }
