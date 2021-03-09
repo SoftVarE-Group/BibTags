@@ -1,4 +1,4 @@
-"KKK+:EMSE21";"variED: An Editor for Collaborative, Real-Time Feature Modeling";-1;0;
+"KKK+:EMSE21";"variED: An Editor for Collaborative, Real-Time Feature Modeling";0;1615187288139;
 "KTS:FormaliSE21";"GUIDO: Automated Guidance for the Configuration of Deductive Program Verifiers";-2;1614672263603;
 "KTSB:ICSE21";"Bridging the Gap Between Clone-and-Own and Software Product Lines";-2;1611591735302;
 "EPPC:IST21";"An Empirical Study of Performance Using Clone and Own and Software Product Lines in an Industrial Context";0;1611592817512;
@@ -18,14 +18,14 @@
 "BMK+:VR20";"Depth Augmented Omnidirectional Stereo for 6-DoF VR Photography";2;1605357381136;
 "NST+:VariVolution20";"GuyDance: Guiding Configuration Updates for Product-Line Evolution";0;1607066619006;
 "FAR:SPLC20";"The Benefits of a Feature Model in Banking";0;1610894254541;
-"LDJM:ICSE20";"Lazy Product Discovery in Huge Configuration Spaces";1;1605181114402;
+"LDJM:ICSE20";"Lazy Product Discovery in Huge Configuration Spaces";2;1615191616606;
 "YWT:SPLC20";"Variational Satisfiability Solving";1;1613932088857;
 "SBKT:SPLC20";"On the Use of Product-Line Variants as Experimental Subjects for Clone-and-Own Research: A Case Study";0;1613933171363;
 "T:SPLC20";"A BDD for Linux The Knowledge Compilation Challenge for Variability";0;1606290282081;
 "FHS:CP20";"A Time Leap Challenge for SAT-Solving";1;1607971370293;
 "RKTS:FormaliSE20";"Lattice-Based Information Flow Control-by-Construction for Security-by-Design";1;1607967041557;
 "FBAH20";"Using Extended Logical Primitives for Efficient BDD Building";2;1606289200609;
-"RTC+:REFINE20";"Comparing Correctness-by-Construction with Post-Hoc Verification - A Qualitative User Study";2;1605182196421;
+"RTC+:REFINE20";"Comparing Correctness-by-Construction with Post-Hoc Verification - A Qualitative User Study";2;1615192698686;
 "PAM+:ICPE20";"Sampling Effect on Performance Prediction of Configurable Systems: A Case Study";6;1607968122509;
 "BLLV:TSE20";"A Framework for Quantitative Modeling and Analysis of Highly (Re)Configurable Systems";21;1612977820385;
 "KJN+:FASE20";"Skill-Based Verification of Cyber-Physical Systems";0;1607964528267;
@@ -63,7 +63,7 @@
 "MOP+:SPLC19";"Uniform Random Sampling Product Configurations of Feature Models That Have Numerical Features";9;1606991203669;
 "FAH+:SPLC19";"A KConfig Translation to Logic with One-Way Validation System";4;1613164711678;
 "GTA+:VaMoS19";"Characterizing Safe and Partially Safe Evolution Scenarios in Product Lines: An Empirical Study";5;1612978901805;
-"BTS:SEFM19";"SAT Encodings of the At-Most-k Constraint - A Case Study on Configuring University Courses";-2;1605183277684;
+"BTS:SEFM19";"SAT Encodings of the At-Most-k Constraint - A Case Study on Configuring University Courses";-2;1615193781470;
 "LGL:STTT19";"Sampling Strategies for Product Lines with Unbounded Parametric Real-Time Constraints";2;1613415729456;
 "TKK+:SPLC19";"Feature-Oriented Contract Composition";6;1613413565784;
 "PTR+:SPLC19";"Product Sampling for Product Lines: The Scalability Challenge";12;1613494789721;
@@ -435,7 +435,7 @@
 "ST13";"The Satisfiability Problem: Algorithms and Analyses";27;1610817396650;
 "CH:JOR13";"Multivalued Decision Diagrams for Sequencing Problems";86;1610818477930;
 "KH:CPAIOR13";"An MDD Approach to Multidimensional Bin Packing";17;1610819559188;
-"L13";"Synchronisierung von Software-Varianten mit VariantSync";-2;1605296650311;
+"L13";"Synchronisierung von Software-Varianten mit VariantSync";-2;1615194864355;
 "KK:QoSA13";"Improving Product Copy Consolidation by Architecture-Aware Difference Analysis";6;1612770092197;
 "ARSD:ICSM13";"LHDiff: A Language-Independent Hybrid Approach for Tracking Source Code Lines";47;1612771175991;
 "SC:MODELSWARD13";"A Survey of Model Comparison Approaches and Applications.";101;1612772256632;
@@ -1140,7 +1140,7 @@
 "K:SPLC02";"Variation Management for Software Production Lines";186;1606471980188;
 "KKI:TSE02";"CCFinder: A Multilinguistic Token-based Code Clone Detection System for Large Scale Source Code";1890;1611246517789;
 "M:TSE02";"A State-of-the-Art Survey on Software Merging";671;1613147405709;
-"FF:ICFP02";"Contracts for Higher-Order Functions";508;1605177867494;
+"FF:ICFP02";"Contracts for Higher-Order Functions";514;1615188368734;
 "ABGM:TSE02";"Using Version Control Data to Evaluate the Impact of Software Tools: A Case Study of the Version Editor";98;1611247600338;
 "CK:Software02";"Point  Counterpoint: Being Proactive Pays Off  Eliminating the Adoption Barrier";81;1611248683049;
 "CL:FOAL02";"Observers and Assistants: A Proposal for Modular Aspect-Oriented Reasoning";152;1611249764400;
@@ -1161,11 +1161,11 @@
 "K02";"AspectC: An AOSD implementation for C";67;1611255171263;
 "NPW02";"IsabelleHOL - A Proof Assistant for Higher-Order Logic";3915;1610579215087;
 "P02";"Types and Programming Languages";3296;1613756178994;
-"vDK02";"Domain-Specific Language Design Requires Feature Descriptions";398;1605178950372;
-"RBSP02";"Extending Feature Diagrams with UML Multiplicities";308;1605180032723;
-"BLHM02";"Generating Product-Lines of Product-Families";110;1605297245995;
-"dJV02";"Grammars as Feature Diagrams";42;1605297344102;
-"M02";"Using First-Order Logic for Product Line Model Validation";322;1605298426265;
+"vDK02";"Domain-Specific Language Design Requires Feature Descriptions";398;1615189451661;
+"RBSP02";"Extending Feature Diagrams with UML Multiplicities";311;1615190534516;
+"BLHM02";"Generating Product-Lines of Product-Families";112;1615195946193;
+"dJV02";"Grammars as Feature Diagrams";42;1615197028289;
+"M02";"Using First-Order Logic for Product Line Model Validation";329;1615198109442;
 "DV:SBCCI01";"Optimizing BDD-Based Verification Analysing Variable Dependencies";2;1612424440679;
 "AMS:ICCAD01";"Faster SAT and Smaller BDDs via Common Function Structure";75;1612425521955;
 "RV01";"Handbook of Automated Reasoning";690;1612426602862;
@@ -1179,8 +1179,8 @@
 "KKT:ASE11";"A Rule-Based Approach to the Semantic Lifting of Model Differences in the Context of Model Versioning";102;1608205814486;
 "GYK:ICSE01";"Exploiting the Map Metaphor in a Tool for Software Evolution";143;1608206895399;
 "SBF:IJPE01";"Mass Customization: Literature Review and Research Directions";1847;1611256251944;
-"C:APSEC01";"Applying mutation analysis for object-oriented programs using a reflective approach";64;1605299507497;
-"RUCH:TSE01";"Prioritizing Test Cases for Regression Testing";1404;1605333221469;
+"C:APSEC01";"Applying mutation analysis for object-oriented programs using a reflective approach";64;1615199191914;
+"RUCH:TSE01";"Prioritizing Test Cases for Regression Testing";1404;1615285595088;
 "MJ01";"Testing a Software Product Line";81;1605334302985;
 "FLF:ESECFSE01";"Behavioral Contracts and Behavioral Subtyping";103;1605340076420;
 "NCA:REFLECTION01";"Supporting Formal Verification of Crosscutting Concerns";30;1605341158804;
