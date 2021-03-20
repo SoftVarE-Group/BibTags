@@ -925,7 +925,7 @@
 "WSB+:SPLC08";"Automated Diagnosis of Product-Line Configuration Errors in Feature Models";179;1607441196177;
 "AL08";"Superimposition: A Language-Independent Approach to Software Composition";103;1610829293193;
 "AHHT:CP07";"A Constraint Store Based on Multivalued Decision Diagrams";130;1611877495913;
-"BE:ALENEX07";"01 Vertex and Facet Enumeration with BDDs";-1;0;
+"BE:ALENEX07";"01 Vertex and Facet Enumeration with BDDs";-2;1616231571755;
 "HH:CPAIOR07";"Cost-Bounded Binary Decision Diagrams for 0-1 Programming";38;1611908780602;
 "LP:SPLC07";"Optimization of Variability in Software Product Lines";81;1611909862126;
 "KK07";"Efficient CNF Encoding for Selecting 1 From n Objects";55;1611910944150;
@@ -980,7 +980,7 @@
 "CW07";"Feature Diagrams and Logics: There and Back Again";414;1610899849362;
 "JK07";"Reasoning about Feature Models in Higher-Order Logic";76;1607447686746;
 "SHTB07";"Generic Semantics of Feature Diagrams";480;1607960201467;
-"SC:TACAS06";"New Metrics for Static Variable Ordering in Decision Diagrams";-1;0;
+"SC:TACAS06";"New Metrics for Static Variable Ordering in Decision Diagrams";29;1616232653251;
 "HH:GICOLAG06";"Discrete Global Optimization with Binary Decision diagrams";10;1611912026734;
 "HH06";"Postoptimality Analysis for Integer Programming Using Binary Decision Diagrams";38;1611913109767;
 "GSS:AAAI06";"Model Counting: A New Strategy for Obtaining Good Bounds";137;1611914191074;
@@ -1031,7 +1031,7 @@
 "AGMKBdL06";"Refactoring Product Lines";224;1607623357051;
 "BSTRC06";"A First Step Towards a Framework for the Automated Analysis of Feature Models";104;1608290821278;
 "YGM:SEAS06";"Assessing Merge Potential of Existing Engine Control Systems into a Product Line";26;1607624438014;
-"GTK+:Nature05";"Allegro Version 2";-1;0;
+"GTK+:Nature05";"Allegro Version 2";220;1616233736153;
 "ELH+:TOSEM05";"Impact of Software Engineering Research on the Practice of Software Configuration Management";237;1612961598152;
 "BBEW:WEA05";"BDDs in a Branch and Cut Framework";41;1612198123371;
 "AGH05";"The Java Programming Language";3672;1612199205802;
@@ -1084,8 +1084,8 @@
 "SZLW05";"Formal Semantics and Verification for Feature Modeling";193;1614960906074;
 "B05";"Feature Models, Grammars, and Propositional Formulas";1538;1614961988029;
 "LAMS05";"Tool Support for Feature-Oriented Software Development - FeatureIDE: An Eclipse-Based Approach";76;1611071183369;
-"LH:PLDI04";"Jedd: A BDD-Based Relational Extension of Java";-1;0;
-"MS:ITVL04";"A 10-Gbps Full-AES Crypto Design with a Twisted BDD S-Box Architecture";-1;0;
+"LH:PLDI04";"Jedd: A BDD-Based Relational Extension of Java";85;1616234817901;
+"MS:ITVL04";"A 10-Gbps Full-AES Crypto Design with a Twisted BDD S-Box Architecture";222;1616235899486;
 "PCF04";"Version Control with Subversion";36;1612962679387;
 "GHN+:CAV04";"DPLL (T): Fast Decision Procedures";404;1612251667383;
 "TBW:PPPJ04";"Solving Non-Clausal Formulas With DPLL Search";118;1612252749972;
@@ -1128,7 +1128,7 @@
 "AMS04";"Using a Configurator for Modelling and Configuring Software Product Lines based on Feature Models";52;1614978214857;
 "BHST04";"Semantics of Feature Diagrams";-2;1608299209391;
 "BSR04";"Scaling Step-Wise Refinement";1204;1608300291056;
-"J:SBCCI03";"A Consumer Report on BDD Packages";-1;0;
+"J:SBCCI03";"A Consumer Report on BDD Packages";28;1616236982440;
 "AMS:GLSVLSI03";"FORCE: A Fast and Easy-to-Implement Variable-Ordering Heuristic";106;1612262481665;
 "C03";"Predicting When Product Line Investment Pays";49;1612263563975;
 "SS:BOICCAD03";"GRASP - A New Search Algorithm for Satisfiability";1448;1612264645154;
@@ -1153,7 +1153,7 @@
 "SRP03";"Details of Formalized Relations in Feature Models Using OCL";92;1615184041046;
 "CBBHROA03";"Automating Feature-Oriented Domain Analysis";37;1615185123971;
 "R03";"Towards a More Precise Definition of Feature Models";142;1615186205655;
-"M:TC02";"Streaming BDD Manipulation";-1;0;
+"M:TC02";"Streaming BDD Manipulation";18;1616238063158;
 "DR:MBMV02";"Implementation and Visualization of a BDD Package in Java";1;1612267891871;
 "KMS:FOCS02";"MONA Implementation Secrets";104;1612268974531;
 "VDB:IWLS02";"Improving Static Ordering of BDDs for Reachability Analysis";0;1612420114963;
@@ -1192,8 +1192,8 @@
 "BLHM02";"Generating Product-Lines of Product-Families";112;1615195946193;
 "dJV02";"Grammars as Feature Diagrams";42;1615197028289;
 "M02";"Using First-Order Logic for Product Line Model Validation";329;1615198109442;
-"DGS:CADICS01";"Using Lower Bounds During Dynamic BDD Minimization";-1;0;
-"HS:ICCD01";"BDD Variable Ordering by Scatter Search";-1;0;
+"DGS:CADICS01";"Using Lower Bounds During Dynamic BDD Minimization";88;1616239144563;
+"HS:ICCD01";"BDD Variable Ordering by Scatter Search";27;1616240227214;
 "DV:SBCCI01";"Optimizing BDD-Based Verification Analysing Variable Dependencies";2;1612424440679;
 "AMS:ICCAD01";"Faster SAT and Smaller BDDs via Common Function Structure";75;1612425521955;
 "RV01";"Handbook of Automated Reasoning";690;1612426602862;
@@ -1224,8 +1224,8 @@
 "IPW01";"Featherweight Java: A Minimal Core Calculus for Java and GJ";1120;1611259497890;
 "vGBS01";"On the Notion of Variability in Software Product Lines";837;1615373662460;
 "S01";"User Interface Design for Programmers";188;1608301374056;
-"DG:VLSI00";"History-Based Dynamic Minimization During BDD Construction";-1;0;
-"MJR+:DAC00";"To Split or to Conjoin: The Question in Image Computation";-1;0;
+"DG:VLSI00";"History-Based Dynamic Minimization During BDD Construction";5;1616241308455;
+"MJR+:DAC00";"To Split or to Conjoin: The Question in Image Computation";105;1616242390012;
 "BP:AAAI00";"Counting Models Using Connected Components";229;1612437352254;
 "L:AI00";"On the Complexity of Choosing the Branching Literal in DPLL";67;1612438433535;
 "HS:AR01";"Local Search Algorithms for SAT: An Empirical Evaluation";228;1612439514642;
@@ -1254,8 +1254,8 @@
 "CGP99";"Model Checking";14136;1613158220626;
 "PMDL99";"Extending Software Quality Assessment Techniques to Java Systems";90;1613159302966;
 "IPW99";"Featherweight Java: A Minimal Core Calculus for Java and GJ";1095;1611269235587;
-"YBO+:FMCAD98";"A Performance Study of BDD-Based Model Checking";-1;0;
-"YCB+:ASPDAC98";"Space- and Time-Efficient BDD Construction Via Working Set Control";-1;0;
+"YBO+:FMCAD98";"A Performance Study of BDD-Based Model Checking";116;1616243471843;
+"YCB+:ASPDAC98";"Space- and Time-Efficient BDD Construction Via Working Set Control";-1;1616244554622;
 "HB:ICCAD98";"Design of Experiments in BDD Variable Ordering: Lessons Learned";-1;0;
 "JAF:ICCAD98";"Sampling Schemes for Computing OBDD Variable Orderings";-1;0;
 "MD:ISMVL98";"Implementing a Multiple-Valued Decision Diagram Package";-1;0;
@@ -1408,6 +1408,7 @@
 "B:CACM75";"Multidimensional Binary Search Trees Used for Associative Searching";7942;1612903868808;
 "D75";"Guarded Commands, Nondeterminacy and Formal Derivation of Programs";2678;1615832201428;
 "LZ74";"Programming with Abstract Data Types";1139;1615833283429;
+"WS:SIGPLAN73";"Global Variable Considered Harmful";-1;0;
 "T:SICOMP72";"Depth-First Search and Linear Graph Algorithms";7636;1612469805514;
 "K72";"Reducibility Among Combinatorial Problems";15345;1612470887483;
 "D72";"Chapter I: Notes on Structured Programming";-2;1611565777837;
