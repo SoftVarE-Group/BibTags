@@ -38,6 +38,7 @@
 "BRK+:VaMoS20";"Variational Correctness-by-Construction";1;1612965923376;
 "SSK+:VaMoS20";"SMT-Based Variability Analyses in FeatureIDE";5;1612967004911;
 "STS:VaMoS20";"Evaluating SAT Solvers on Industrial Feature Models";8;1612968085897;
+"DMG:EMSE19";"An Empirical Comparison of Dependency Network Evolution in Seven Software Packaging Ecosystems";-1;0;
 "IM:IJCAI19";"Exact Bernoulli Scan Statistics Using Binary Decision Diagrams";0;1616176988139;
 "SRSM:IJCAI19";"GANAK: A Scalable Probabilistic Exact Model Counter";19;1616178069581;
 "CEB+:SANER19";"Identifying Feature Clones: An Industrial Case Study";2;1612951859785;
@@ -134,6 +135,7 @@
 "TKL:Modellierung18";"Feature Modeling and Development with FeatureIDE";2;1608571339802;
 "AMS+:TOSEM18";"Variability Bugs in Highly Configurable Systems: A Qualitative Analysis";23;1608572421062;
 "DBW:SCP18";"Variability Abstractions for Lifted Analyses";4;1608573502441;
+"FACF:IST17";"Open Source Software Ecosystems: A Systematic Mapping";-1;0;
 "BC:CPAIOR17";"On Finding the Optimal BDD Relaxation";7;1616181313393;
 "BK:Informatik17";"Adapting Binary Decision Diagrams for Visualizing Product Configuration Data";0;1616182394581;
 "LMX:ASE17";"Mining Implicit Design Templates for Actionable Code Reuse";11;1612957270121;
@@ -188,6 +190,7 @@
 "QPV+:SoSyM17";"The Shape of Feature Code: An Analysis of Twenty C-Preprocessor-Based Systems";32;1608748293360;
 "LATS:VaMoS17";"Optimizing Product Orders Using Graph Algorithms for Improving Incremental Product-line Analysis";14;1607682119530;
 "FMS+:SANER17";"Variant-Preserving Refactorings for Migrating Cloned Products to a Product Line";60;1617270392451;
+"M:JSS16";"Revisiting Software Ecosystems Research: A Longitudinal Literature Study";-1;0;
 "GAT+:SPLC16";"Exploiting the Enumeration of All Feature Model Configurations: A New Perspective With Distributed Computing";16;1611647925410;
 "CMV:IJCAI16";"Algorithmic Improvements in Approximate Counting for Probabilistic Inference: From Linear to Logarithmic SAT Calls";83;1611649006820;
 "OBMS16";"Finding Product Line Configurations With High Performance by Random Sampling";5;1611650088367;
@@ -337,6 +340,7 @@
 "T15";"Product-Line Specification and Verification with Feature-Oriented Contracts";34;1615386647033;
 "BDS:SCP14";"Implementing Type-Safe Software Product Lines Using Parametric Traits";13;1615387728714;
 "MJ:TAOSD14";"Modular Reasoning in Aspect-Oriented Languages from a Substitution Perspective";9;1615388810488;
+"BPT+:IST14";"Variability Mechanisms in Software Ecosystems";-1;0;
 "BP14";"Evolution of Software Product Lines";44;1616187803747;
 "MDSD:RSSE14";"Recommendation Heuristics for Improving Product Line Configuration Processes";41;1611847197869;
 "FHCC:TSE14";"A Scalable Approach to Exact Model and Commonality Counting for Extended Feature Models";17;1611848279667;
@@ -436,6 +440,8 @@
 "FTS:VaMoS14";"A Taxonomy of Software Product Line Reengineering";55;1615883605239;
 "SSA:VaMoS14";"Capturing Variability in Space and Time with Hyper Feature Models";43;1615884687833;
 "TKB+:SCP14";"FeatureIDE: An Extensible Framework for Feature-Oriented Software Development";471;1610090688094;
+"JCB13";"Software Ecosystems: Analyzing and Managing Business Networks in the Software Industry";-1;0;
+"MH:JSS13";"Software Ecosystems - A Systematic Literature Review";-1;0;
 "RZS:ICCS09";"Evaluation of Different BDD Libraries to Extract Concepts in FCA - Perspectives and Limitations";6;1616188886509;
 "HSHB:CoRR13";"SPUDD: Stochastic Planning Using Decision Diagrams";575;1616189969151;
 "LSX:CAV13";"CacBDD: A BDD Package With Dynamic Cache Management";11;1616191051763;
@@ -544,6 +550,9 @@
 "AKL13";"Language-Independent and Automated Software Composition: The FeatureHouse Experience";132;1610122061025;
 "STSS:VaMoS13";"Automated Analysis of Dependent Feature Models";26;1607900479783;
 "RAK+:VaMoS13";"The PLA Model: On the Combination of Product-Line Analyses";48;1610123141611;
+"H:JSS12";"A Longitudinal Case Study of an Emerging Software Ecosystem: Implications for Practice and Theory";-1;0;
+"HD:IWSECO12";"Theoretical Foundations of Software Ecosystems";-1;0;
+"BWB:BISE12";"Software Ecosystems";-1;0;
 "BNGR:JSEP12";"Formalizing Interactive Staged Feature Model Configuration";43;1611856934025;
 "LCF+:TASE12";"A Succinct and Efficient Implementation of a 2 32 BDD Package";2;1610820641421;
 "M:JSW12";"Biddy - a Multi-platform Academic BDD Package";5;1610821722181;
@@ -807,6 +816,7 @@
 "SBB+:SPLC10";"Delta-Oriented Programming of Software Product Lines";410;1613453726651;
 "LAL+:ICSE10";"An Analysis of the Variability in Forty Preprocessor-Based Software Product Lines";339;1613454808120;
 "BSRC10";"Automated Analysis of Feature Models 20 Years Later: A Literature Review";1340;1610626858370;
+"B:SPLC09";"From Software Product Lines to Software Ecosystems";-1;0;
 "LAH+:PATENT09";"Method of Configuring a Product";-2;1616196463020;
 "MLM09";"Conflict-Driven Clause Learning SAT Solvers";392;1611865588469;
 "FHS:SPLC09";"Inferring Information From Feature Diagrams to Product Line Economic Models";39;1611866669667;
@@ -1031,6 +1041,7 @@
 "AGMKBdL06";"Refactoring Product Lines";224;1607623357051;
 "BSTRC06";"A First Step Towards a Framework for the Automated Analysis of Feature Models";104;1608290821278;
 "YGM:SEAS06";"Assessing Merge Potential of Existing Engine Control Systems into a Product Line";26;1607624438014;
+"MS05";"Software Ecosystem: Understanding an Indispensable Technology and Industry";-1;0;
 "GTK+:Nature05";"Allegro Version 2";220;1616233736153;
 "ELH+:TOSEM05";"Impact of Software Engineering Research on the Practice of Software Configuration Management";237;1612961598152;
 "BBEW:WEA05";"BDDs in a Branch and Cut Framework";41;1612198123371;
