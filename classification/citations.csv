@@ -1095,6 +1095,7 @@
 "SZLW05";"Formal Semantics and Verification for Feature Modeling";193;1614960906074;
 "B05";"Feature Models, Grammars, and Propositional Formulas";1538;1614961988029;
 "LAMS05";"Tool Support for Feature-Oriented Software Development - FeatureIDE: An Eclipse-Based Approach";76;1611071183369;
+"S:AIEDAM04";"Product Platform Design and Customization: Status and Promise";-1;0;
 "LH:PLDI04";"Jedd: A BDD-Based Relational Extension of Java";85;1616234817901;
 "MS:ITVL04";"A 10-Gbps Full-AES Crypto Design with a Twisted BDD S-Box Architecture";222;1616235899486;
 "PCF04";"Version Control with Subversion";36;1612962679387;
@@ -1256,6 +1257,7 @@
 "SB00";"Issues Concerning Variability in Software Product Lines";106;1613156055765;
 "CE00";"Generative Programming: Methods, Tools, and Applications";4715;1611262744073;
 "F00";"Refactoring: Improving the Design of Existing Code";61;1611263825167;
+"SHB+:TC99";"Static and Dynamic Configurable Systems";-1;0;
 "FRU:MS99";"Component Sharing in the Management of Product Variety: A Study of Automotive Braking Systems";479;1612440596390;
 "BR99";"Modern Information Retrieval";18645;1612900803078;
 "GK:XPS99";"Knowledge-Based Configuration: Survey and Future Directions";126;1611577675335;
@@ -1266,6 +1268,7 @@
 "CGP99";"Model Checking";14136;1613158220626;
 "PMDL99";"Extending Software Quality Assessment Techniques to Java Systems";90;1613159302966;
 "IPW99";"Featherweight Java: A Minimal Core Calculus for Java and GJ";1095;1611269235587;
+"SW:IS98";"Product Configuration Frameworks: A Survey";-1;0;
 "YBO+:FMCAD98";"A Performance Study of BDD-Based Model Checking";116;1616243471843;
 "YCB+:ASPDAC98";"Space- and Time-Efficient BDD Construction Via Working Set Control";48;1616417904382;
 "HB:ICCAD98";"Design of Experiments in BDD Variable Ordering: Lessons Learned";35;1616418985893;
@@ -1306,6 +1309,7 @@
 "C97";"Type Systems";625;1615411531832;
 "P97";"Feature-Oriented Programming: A Fresh Look at Objects";609;1611513889973;
 "KLMMLLI97";"Aspect-Oriented Programming";10275;1615413696366;
+"TSMS96";"State-of-the-Practice in Product Configuration: A Survey of 10 Cases in the Finnish Industry";-1;0;
 "SRB+:DAC96";"High Performance BDD Package by Exploiting Memory Hierarchy";103;1616427641413;
 "NJF+:ICCAD96";"Partitioned ROBDDs - A Compact, Canonical and Efficiently Manipulable Representation for Boolean Functions";180;1616428723017;
 "BW:TC96";"Improving the Variable Ordering of OBDDs is NP-Complete";787;1616429805627;
@@ -1366,6 +1370,7 @@
 "C:ECOOP91";"Inheritance in Object-Oriented Z";77;1615818138556;
 "A:FOOL91";"Designing an Object-Oriented Programming Language with Behavioural Subtyping";367;1615819221559;
 "HV91";"Model Checking vs. Theorem Proving: A Manifesto";287;1611560369459;
+"L:MS90";"The Economics of Product Variety: A Survey";-1;0;
 "FS:TC90";"Finding the Pptimal Variable Ordering for Binary Decision Diagrams";484;1616484832308;
 "BRB:DAC90";"Efficient Implementation of a BDD Package";1719;1612462230574;
 "MIY:DAC90";"Shared binary decision diagram with attributed edges for efficient Boolean function manipulation";591;1612463313457;
