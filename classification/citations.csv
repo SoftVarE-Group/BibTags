@@ -9,6 +9,7 @@
 "PKR+:VaMoS21";"Stability of Product-Line Sampling in Continuous Integration";0;1614673345534;
 "HPTS:VaMoS21";"Hyper Explanations for Feature-Model Defect Analysis";0;1614674426304;
 "SNB+:VaMoS21";"Applications of SAT Solvers on Feature Models";0;1614675507701;
+"SL:VaMoS21";"V1e: A Kernel for Domain-Specific Textual Variability Modelling Languages";-1;0;
 "BLK:ESECFSE20";"Baital: An Adaptive Weighted Sampling Approach for Improved t-Wise Coverage";2;1614676589624;
 "M:SPLC20";"Evolving System Families in Space and Time";0;1612950776864;
 "E20";"Towards a Universal Variability Language";1;1616175907556;
@@ -332,7 +333,7 @@
 "LLL+:SPLC15";"Delta-Oriented Test Case Prioritization for Integration Testing of Software Product Lines";27;1615383400898;
 "AGV:ICST15";"Generating Tests for Detecting Faults in Feature Models";42;1615384482850;
 "S15";"An Annotation-Centric Approach to Similarity Management";4;1613496954055;
-"SSR:sosym15";"Variability Testing in the Wild: The Drupal Case Study";52;1609764920349;
+"SSR:SoSyM15";"Variability Testing in the Wild: The Drupal Case Study";-1;0;
 "WKP:VaMoS15";"Uncovering Variability Models for Software Ecosystems from Multi-Repository Structures";8;1613507773125;
 "LG:VaMoS15";"Using Feature Feeds to Improve Developer Awareness in Software Ecosystem Evolution";12;1615385564501;
 "M:SE15";"Scalable Sampling and Prioritization for Product-Line Testing";6;1613508855399;
@@ -475,6 +476,7 @@
 "HLHE:VaMoS13";"Using Feature Model Knowledge to Speed Up the Generation of Covering Arrays";20;1608285140348;
 "KGP:EMSE13";"Integrating Conceptual and Logical Couplings for Change Impact Analysis in Software";79;1613731289376;
 "AGA:TSE13";"Trustrace: Mining Software Repositories to Improve the Accuracy of Requirement Traceability Links";97;1610096096417;
+"CGSS:TACAS13";"The MathSAT5 SMT Solver";-1;0;
 "RC:ESECFSE13";"N-Way Model Merging";76;1613732372115;
 "BSL+:TSE13";"A Study of Variability Models and Languages in the Systems Software Domain";156;1607638324987;
 "MLF+:CBSOFT13";"Colligens: A Tool to Support the Development of Preprocessor-Based Software Product Lines in C";20;1610097179294;
@@ -640,9 +642,9 @@
 "HBC+12";"A Code Tagging Approach to Software Product Line Development";26;1617653753535;
 "RC:FASE12";"Combining Related Products into Product Lines";111;1617654835925;
 "SCRS12";"Mintha: A Framework for Auto-Programming and Testing of Railway Controllers for Varying Clients";1;1610434304045;
-"HMZ:RAMiCS12";"Foundations of Coloring Algebra with Consequences for Feature-Oriented Programming";4;1606750224009;
-"HMZ12";"Foundations of Coloring Algebra with Consequences for Feature-Oriented Programming";4;1606751305679;
-"JLM+12";"A Constraint-Based Variability Modeling Framework";45;1606752387132;
+"HMZ:RAMiCS12";"Foundations of Coloring Algebra with Consequences for Feature-Oriented Programming";4;1617687086223;
+"HMZ12";"Foundations of Coloring Algebra with Consequences for Feature-Oriented Programming";4;1617688620008;
+"JLM+12";"A Constraint-Based Variability Modeling Framework";45;1617775021095;
 "DS:ISoLA12";"Family-Based Analysis of Type Safety for Delta-Oriented Software Product Lines";27;1606753468235;
 "BTG12";"A Theory of Software Product Line Refinement";66;1606754549295;
 "SRC+12";"Software Diversity: State of the Art and Perspectives";147;1610436195128;
@@ -728,6 +730,7 @@
 "KBK:AOSD11";"Reducing Combinatorics in Testing Product Lines";129;1607010583991;
 "ACLF:SAC11";"A Domain-Specific Language for Managing Feature Models";43;1607011666852;
 "BFL+11";"Specification and Verification: The Spec Experience";193;1610613875249;
+"MB:CACM11";"Satisfiability Modulo Theories: Introduction and Applications";-1;0;
 "ER:IST11";"Software Product Line Testing - A Systematic Mapping Study";350;1607063372794;
 "TLSS:EuroSys11";"Feature Consistency in Compile-Time-Configurable System Software: Facing the Linux 10,000 Feature Problem";163;1610614957576;
 "KGR+:OOPSLA11";"Variability-Aware Parsing in the Presence of Lexical Macros and Conditional Compilation";277;1614686454168;
@@ -828,6 +831,7 @@
 "BBH+09";"Handbook of Satisfiability: Volume 185 Frontiers in Artificial Intelligence and Applications";1913;1608585000851;
 "SS:HICSS09";"Challenges in Software Product Line Composition";22;1607421731556;
 "SBFF:HICSS09";"Are De-Facto Standards a Useful Guide for Designing Human-Computer Interaction Processes The Case of User Interface Design for Web Based B2C Product Configurators";14;1610627940197;
+"MB:SBFM09";"Satisfiability Modulo Theories: An Appetizer";-1;0;
 "OG:ICSR09";"Reusable Model-Based Testing";31;1613165793284;
 "KFBA:SQJ09";"Extending the Reflexion Method for Consolidating Software Variants into Product Lines";74;1607440114843;
 "YHMS:ISSTA09";"Clustering Test Cases to Achieve Effective and Scalable Prioritisation Incorporating Expert Knowledge";206;1613459135285;
@@ -1493,4 +1497,5 @@
 "Sylvan";"";-2;1616747798835;
 "TdZdd:source";"TdZdd: Source Code";-2;1616748881524;
 "Trivialib.Bdd";"Triviallib.Bdd: Source Code";-2;1616749964143;
+"YICES2";"Yices2: Source Code";-1;0;
 "BDDList";"";-2;1616751045815;
