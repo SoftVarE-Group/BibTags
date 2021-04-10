@@ -40,7 +40,7 @@
 "BRK+:VaMoS20";"Variational Correctness-by-Construction";1;1612965923376;
 "SSK+:VaMoS20";"SMT-Based Variability Analyses in FeatureIDE";5;1612967004911;
 "STS:VaMoS20";"Evaluating SAT Solvers on Industrial Feature Models";8;1612968085897;
-"BBCW:SOSYM19";"A Feature-Based Survey of Model View Approaches";52;1617896937567;
+"BBCW:SoSyM19";"A Feature-Based Survey of Model View Approaches";-1;0;
 "GGL+:IST19";"Scaling-Up Domain-Specific Modelling Languages Through Modularity Services";5;1617898020312;
 "FBS:SAT19";"Incremental Inprocessing in SAT Solving";16;1617899102802;
 "DMG:EMSE19";"An Empirical Comparison of Dependency Network Evolution in Seven Software Packaging Ecosystems";74;1617615889402;
@@ -287,7 +287,7 @@
 "P16";"Automating the Synchronization of Software Variants";4;1613999084814;
 "RTS+:JLAMP16";"Variability Encoding: From Compile-Time to Load-Time Variability";36;1609751937744;
 "BBA:ICFEM15";"A Logical Approach for Behavioural Composition of Scenario-Based Models";15;1617904513644;
-"MKG:SOSYM15";"A Generic Model Decomposition Technique and Its Application to the Eclipse Modeling Framework";11;1617905596062;
+"MKG:SoSyM15";"A Generic Model Decomposition Technique and Its Application to the Eclipse Modeling Framework";-1;0;
 "BSS:SAT15";"HordeSat: A Massively Parallel Portfolio SAT Solver";63;1617906678813;
 "DHJ+:SETTA15";"A Comparative Study of BDD Packages for Probabilistic Symbolic Model Checking";12;1616185641273;
 "MZB+:ASE15";"Automating the Extraction of Model-Based Software Product Lines from Model Variants";56;1612959434079;
