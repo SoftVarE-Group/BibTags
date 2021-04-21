@@ -6,19 +6,19 @@
 %nexus,%        Nexus Fonts benutzen
 %lnum,%         Versalziffern verwenden
 %cmyk,%<rgbprint>,          Auswahl des Farbmodells
-blue,%<blue/orange/green/violet> Auswahl des Sekund‰rfarbklangs
+blue,%<blue/orange/green/violet> Auswahl des Sekund√§rfarbklangs
 medium,%<light,medium,dark>        Auswahl der Helligkeit
 colorhead,%    Farbig hinterlegte Kopfleiste
-colorfoot,%    Farbig hinterlegt Fuﬂleiste auf Titelseite
-colorblocks,%   Blˆcke Farbig hinterlegen
-%nopagenum,%    Keine Seitennumer in Fuﬂzeile
-nodate,%       Kein Datum in Fuﬂleiste
+colorfoot,%    Farbig hinterlegt Fu√üleiste auf Titelseite
+colorblocks,%   Bl√∂cke Farbig hinterlegen
+%nopagenum,%    Keine Seitennumer in Fu√üzeile
+nodate,%       Kein Datum in Fu√üleiste
 %tocinheader,%   Inhaltsverzeichnis in Kopfleiste
 %tinytocinheader,% kleines Kopfleisten-Inhaltsverzeichnis
 %widetoc,%      breites Kopfleisten-Inhaltsverzeichnis
 %narrowtoc,%    schmales Kopfleisten-Inhaltsverzeichnis
 %nosubsectionsinheader,%  Keine subsections im Kopfleisten-Inhaltsverzeichnis
-%nologoinfoot,% Kein Logo im Fuﬂbereich darstellen
+%nologoinfoot,% Kein Logo im Fu√übereich darstellen
 ]{tubs}
 
 %\titlegraphic{\tuDefaultTitlegraphic}
@@ -50,7 +50,7 @@ nodate,%       Kein Datum in Fuﬂleiste
 \fbox{\includegraphics[width=.8\linewidth]{../../../2017/fmi-SE/pics/#2-q#3}}
 }
 
-\newcommand{\paperreference}[2]{
+\renewcommand{\paperreference}[2]{
 \tikz{\node[draw=lightgray,fill=white,inner sep=5mm,blur shadow={shadow blur steps=5,shadow blur extra rounding=2pt}] {\includegraphics[width=.33\textwidth]{#1}};\node[rounded corners,fill=white] {\footnotesize #2};}
 }
 
