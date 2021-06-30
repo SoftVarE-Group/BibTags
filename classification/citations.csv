@@ -1,11 +1,12 @@
-"KAN+:SPLC21";"Incremental Construction of Modal Implication Graphs for Evolving Feature Models";-1;0;
-"SFE+:SPLC21";"Yet Another Textual Variability Language A Community Effort Towards a Unified Language";-1;0;
-"PKT+:SPLC21";"AutoSMP: An Evaluation Platform for Sampling Algorithms";-1;0;
+"KAN+:SPLC21";"Incremental Construction of Modal Implication Graphs for Evolving Feature Models";-2;1625034873603;
+"SFE+:SPLC21";"Yet Another Textual Variability Language A Community Effort Towards a Unified Language";-2;1625035955751;
+"PKT+:SPLC21";"AutoSMP: An Evaluation Platform for Sampling Algorithms";-2;1625037037782;
+"BST+:ESECFSE21";"Feature Trace Recording";-1;0;
 "NST+:SoSyM21";"Guiding the Evolution of Product-Line Configurations";-2;1623738751693;
 "KTS:FormaliSE21";"GUIDO: Automated Guidance for the Configuration of Deductive Program Verifiers";0;1623506504024;
 "MSB+:ICSE21";"Seamless Variability Management With the Virtual Platform";0;1624521449779;
 "KTSB:ICSE21";"Bridging the Gap Between Clone-and-Own and Software Product Lines";0;1621525355656;
-"DGT:EMSE21";"Foreword to the Special Issue on Configurable Systems";-1;0;
+"DGT:EMSE21";"Foreword to the Special Issue on Configurable Systems";0;1625038119425;
 "FSRR:VaMoS21";"TRAVART: An Approach for Transforming Variability Models";0;1623737669371;
 "MLA+:VaMoS21";"A Hybrid Feature Location Technique for Re-Engineering Single Systems into Software Product Lines";1;1621183532660;
 "KKK+:EMSE21";"variED: An Editor for Collaborative, Real-Time Feature Modeling";0;1623728495289;
@@ -38,7 +39,7 @@
 "T:SPLC20";"A BDD for Linux The Knowledge Compilation Challenge for Variability";0;1617007382120;
 "FHS:CP20";"A Time Leap Challenge for SAT-Solving";6;1619385350804;
 "RKTS:FormaliSE20";"Lattice-Based Information Flow Control-by-Construction for Security-by-Design";1;1619381021348;
-"FBAH20";"Using Extended Logical Primitives for Efficient BDD Building";3;1617006299967;
+"FBAH20";"Using Extended Logical Primitives for Efficient BDD Building";3;1625041364396;
 "RTC+:REFINE20";"Comparing Correctness-by-Construction with Post-Hoc Verification - A Qualitative User Study";4;1623736576177;
 "PAM+:ICPE20";"Sampling Effect on Performance Prediction of Configurable Systems: A Case Study";13;1619382104715;
 "BLLV:TSE20";"A Framework for Quantitative Modeling and Analysis of Highly (Re)Configurable Systems";22;1622756337318;
@@ -523,7 +524,7 @@
 "RC:ESECFSE13";"N-Way Model Merging";77;1623373289820;
 "BSL+:TSE13";"A Study of Variability Models and Languages in the Systems Software Domain";167;1618764007747;
 "MLF+:CBSOFT13";"Colligens: A Tool to Support the Development of Preprocessor-Based Software Product Lines in C";21;1620065194741;
-"KKK:REVE13";"A Graph-Based Analysis Concept to Derive a Variation Point Design from Product Copies";19;1616792150902;
+"KKK:REVE13";"A Graph-Based Analysis Concept to Derive a Variation Point Design from Product Copies";22;1625039200462;
 "VK:FMSPLE13";"Discrete Time Markov Chain Families: Modeling and Verification of Probabilistic Software Product Lines";19;1620066276783;
 "DRGP:JSEP13";"Feature Location in Source Code: A Taxonomy and Survey";655;1620067359076;
 "useLLE:SoSyM16a";"Recovering Traceability Between Features and Code in Product Variants";57;1623078197734;
@@ -682,7 +683,7 @@
 "GSCH:RE12";"Efficient Consistency Checking of Scenario-Based Product-Line Specifications";25;1617638608808;
 "CCP+:ICSE12";"Simulation-Based Abstractions for Software Product-Line Model Checking";76;1617639691822;
 "HJD:ConfWS12";"Unifying Software and Product Configuration: A Research Roadmap";33;1620292055952;
-"P12";"System Design and Risk Assessment for Safety Critical Control Software Product Lines";1;1616919897812;
+"P12";"System Design and Risk Assessment for Safety Critical Control Software Product Lines";1;1625040282559;
 "useLKA+:ESECFSE13";"Large-Scale Variability-Aware Type Checking and Dataflow Analysis";18;1617652670909;
 "KOE:OOPSLA12";"A Variability-Aware Module System";105;1619082344343;
 "useBMB+:PLDI13";"Transparent and Efficient Reuse of IFDS-Based Static Program Analyses for Software Product Lines";0;1619083426720;
