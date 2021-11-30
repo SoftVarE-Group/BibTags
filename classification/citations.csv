@@ -738,7 +738,7 @@
 "PA:CoRR11";"RTED: A Robust Algorithm for the Tree Edit Distance";247;1619438575002;
 "LKA:AOSD11";"Analyzing the Discipline of Preprocessor Annotations in 30 Million Lines of C Code";139;1619439655519;
 "CBH:SCP11";"A Text-Based Approach to Feature Modelling: Syntax and Semantics of TVL";227;1619894531350;
-"PLP11";"A Performance Comparison of Contemporary Algorithmic Approaches for Automated Analysis Operations on Feature Models";53;1618747773065;
+"PLP11";"A Performance Comparison of Contemporary Algorithmic Approaches for Automated Analysis Operations on Feature Models";60;1638303172263;
 "HGS+:JRCS11";"The Effect of Default Options on Choice-Evidence from Online Product Configurators";26;1620306438009;
 "OZLG:SPLC11";"Pairwise Feature-Interaction Testing for SPLs: Potentials and Limitations";56;1619440737630;
 "useXXJ:WCRE12";"Reengineering Legacy Software Products into Software Product Line Based on Automatic Variability Analysis";36;1627243685677;
@@ -831,7 +831,7 @@
 "DR:TOSEM10";"Clone Region Descriptors: Representing and Tracking Duplication in Source Code";99;1619441818413;
 "LSB+:SPLC10";"Evolution of the Linux Kernel Variability Model";197;1627267491946;
 "SB:TR10";"Formal Semantics of the Kconfig Language";48;1627277058069;
-"KZK:LoCoCo10";"Model Counting in Product Configuration";25;1618748855010;
+"KZK:LoCoCo10";"Model Counting in Product Configuration";29;1638303497001;
 "DGRN:JSS10";"Structuring the Modeling Space and Supporting Evolution in Software Product Line Engineering";-2;1628150435429;
 "MC:SCP10";"Decision-Making Coordination and Efficient Reasoning Techniques for Feature-Based Configuration";69;1626975981405;
 "D:SPLC10";"Visualizing and Analyzing Software Variability with Bar Diagrams and Occurrence Matrices";8;1622780141653;
@@ -1113,7 +1113,7 @@
 "CP06";"Verifying Feature-Based Model Templates Against Well-Formedness OCL Constraints";308;1619767448397;
 "KV06";"Towards Type Safety of Aspect-Oriented Languages";-2;1628194769375;
 "AWLF06";"Proof General in Eclipse: System and Architecture Overview";11;1620850310795;
-"B06";"A Very Mathematical Dilemma";9;1618749937631;
+"B06";"A Very Mathematical Dilemma";9;1638303586758;
 "CKK06";"Feature Models are Views on Ontologies";215;1618751020123;
 "TBRCST06";"Explanations for Agile Feature Models";34;1619768530243;
 "BRCTS06";"A Survey on the Automated Analyses of Feture Models";0;1619769612117;
