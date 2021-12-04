@@ -1,6 +1,6 @@
 "NST+:SoSyM21";"Guiding the Evolution of Product-Line Configurations";-2;1623738751693;
 "KTS:FormaliSE21";"GUIDO: Automated Guidance for the Configuration of Deductive Program Verifiers";0;1623506504024;
-"TCA:SPLC21";"Fourth International Workshop on Languages for Modelling Variability (MODEVAR@SPLC 2021)";-1;0;
+"TCA:SPLC21";"Fourth International Workshop on Languages for Modelling Variability (MODEVAR@SPLC 2021)";0;1638595154808;
 "HST:SPLC21";"On the Scalability of Building Binary Decision Diagrams for Current Feature Models";-2;1626966853790;
 "SHE+:MODEVAR21";"Integration of UVL in FeatureIDE";-2;1626641209656;
 "KAN+:SPLC21";"Incremental Construction of Modal Implication Graphs for Evolving Feature Models";-2;1625034873603;
@@ -12,7 +12,7 @@
 "Y21";"Variational Satisfiability Solving";1;1626673636655;
 "KTSB:ICSE21";"Bridging the Gap Between Clone-and-Own and Software Product Lines";0;1621525355656;
 "DGT:EMSE21";"Foreword to the Special Issue on Configurable Systems";0;1625038119425;
-"QVR+:JSEP21";"Evolution in Dynamic Software Product Lines";-1;0;
+"QVR+:JSEP21";"Evolution in Dynamic Software Product Lines";4;1638596237556;
 "FSRR:VaMoS21";"TRAVART: An Approach for Transforming Variability Models";0;1623737669371;
 "MLA+:VaMoS21";"A Hybrid Feature Location Technique for Re-Engineering Single Systems into Software Product Lines";1;1621183532660;
 "KKK+:EMSE21";"variED: An Editor for Collaborative, Real-Time Feature Modeling";0;1623728495289;
@@ -23,8 +23,8 @@
 "HPTS:VaMoS21";"Hyper Explanations for Feature-Model Defect Analysis";0;1623508669355;
 "SNB+:VaMoS21";"Applications of SAT Solvers on Feature Models";0;1623509750009;
 "SL:VaMoS21";"V1e: A Kernel for Domain-Specific Textual Variability Modelling Languages";0;1627449129302;
-"DLP:ICTAC20";"On Two Characterizations of Feature Models";-1;0;
-"AGK+:SPLC20";"A Conceptual Model for Unifying Variability in Space and Time";-1;0;
+"DLP:ICTAC20";"On Two Characterizations of Feature Models";0;1638597319505;
+"AGK+:SPLC20";"A Conceptual Model for Unifying Variability in Space and Time";7;1638598401526;
 "JPWL:CoRR20";"Supporting Modularity in Simulink Models";1;1627450210763;
 "KKT+20";"Using Abstract Contracts for Verifying Evolving Features and Their Interactions";0;1620041400544;
 "BLK:ESECFSE20";"Baital: An Adaptive Weighted Sampling Approach for Improved t-Wise Coverage";2;1623510831714;
@@ -131,8 +131,8 @@
 "SYS:IST19";"Metrics for Analyzing Variability and its Implementation in Software Product Lines: A Systematic Literature Review";30;1619806609285;
 "LNTS:JSS19";"Retest Test Selection for Product-Line Regression Testing of Variants and Versions of Variants";14;1619807690416;
 "BCKW:Dagstuhl19";"Software Evolution in Time and Space: Unifying Version and Variability Management (Dagstuhl Seminar 19191)";10;1626677963303;
-"PSK+:VAMOS18";"A Context-Aware Recommender System for Extended Software Product Line Configurations";-1;0;
-"PSF+:SPLC18";"N-Dimensional Tensor Factorization for Self-Configuration of Software Product Lines at Runtime";-1;0;
+"PSK+:VAMOS18";"A Context-Aware Recommender System for Extended Software Product Line Configurations";10;1638599483876;
+"PSF+:SPLC18";"N-Dimensional Tensor Factorization for Self-Configuration of Software Product Lines at Runtime";13;1638600566670;
 "MNM+:ASE18";"Tackling Combinatorial Explosion: A Study of Industrial Needs and Practices for Analyzing Highly Configurable Systems";-1;0;
 "A:IJSEA18";"PyFml-a Textual Language For Feature Modeling";5;1623754985928;
 "SKE:SPLC18";"Variability Modeling With the Integrated Variability Modeling Language (IVML) and EASy-Producer";3;1623755869589;
