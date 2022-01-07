@@ -1,7 +1,7 @@
 "NST+:SoSyM21";"Guiding the Evolution of Product-Line Configurations";-2;1623738751693;
 "KTS:FormaliSE21";"GUIDO: Automated Guidance for the Configuration of Deductive Program Verifiers";0;1623506504024;
-"Netzer21";"Development of a Parallelized BDD Library in Rust";-1;0;
-"Viegener21";"Empirical Evaluation of Feature Trace Recording on the Edit History of Marlin";-1;0;
+"Netzer21";"Development of a Parallelized BDD Library in Rust";0;1641566917128;
+"Viegener21";"Empirical Evaluation of Feature Trace Recording on the Edit History of Marlin";0;1641566053648;
 "TCA:SPLC21";"Fourth International Workshop on Languages for Modelling Variability (MODEVAR@SPLC 2021)";0;1638595154808;
 "HST:SPLC21";"On the Scalability of Building Binary Decision Diagrams for Current Feature Models";-2;1626966853790;
 "SHE+:MODEVAR21";"Integration of UVL in FeatureIDE";-2;1626641209656;
@@ -9,7 +9,7 @@
 "SFE+:SPLC21";"Yet Another Textual Variability Language A Community Effort Towards a Unified Language";-2;1625035955751;
 "PKT+:SPLC21";"AutoSMP: An Evaluation Platform for Sampling Algorithms";-2;1625037037782;
 "BST+:ESECFSE21";"Feature Trace Recording";-2;1626642289956;
-"Arens21";"Incremental Construction of Modal Implication Graphs for Feature-Model Evolution";-1;0;
+"Arens21";"Incremental Construction of Modal Implication Graphs for Feature-Model Evolution";1;1641566331764;
 "MSB+:ICSE21";"Seamless Variability Management With the Virtual Platform";0;1624521449779;
 "Y21";"Variational Satisfiability Solving";1;1626673636655;
 "KTSB:ICSE21";"Bridging the Gap Between Clone-and-Own and Software Product Lines";0;1621525355656;
@@ -25,9 +25,9 @@
 "HPTS:VaMoS21";"Hyper Explanations for Feature-Model Defect Analysis";0;1623508669355;
 "SNB+:VaMoS21";"Applications of SAT Solvers on Feature Models";0;1623509750009;
 "SL:VaMoS21";"V1e: A Kernel for Domain-Specific Textual Variability Modelling Languages";0;1627449129302;
-"Sprey20";"Automated Comparison of Product Sampling Algorithms";-1;0;
-"Mund20";"Continuous T-Wise Coverage";-1;0;
-"Hess20";"Binary Decision Diagrams for the Analysis of Large Feature Models";-1;0;
+"Sprey20";"Automated Comparison of Product Sampling Algorithms";1;1641566361370;
+"Mund20";"Continuous T-Wise Coverage";-2;1641566771015;
+"Hess20";"Binary Decision Diagrams for the Analysis of Large Feature Models";-2;1641566815254;
 "DLP:ICTAC20";"On Two Characterizations of Feature Models";0;1638597319505;
 "AGK+:SPLC20";"A Conceptual Model for Unifying Variability in Space and Time";7;1638598401526;
 "JPWL:CoRR20";"Supporting Modularity in Simulink Models";1;1627450210763;
