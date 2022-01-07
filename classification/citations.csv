@@ -37,8 +37,8 @@
 "MOA+:SPLC20";"Mining Feature Revisions in Highly-Configurable Software Systems";1;1621188140864;
 "M:SPLC20";"Evolving System Families in Space and Time";0;1622513536447;
 "FR:MODEVAR20";"Towards Transforming Variability Models: Usage Scenarios, Required Capabilities and Challenges";1;1623739834370;
-"Engelhardt20";"Towards a Universal Variability Language";-1;0;
-"Sundermann20";"Applications of SAT Solvers on Product Lines";-1;0;
+"Engelhardt20";"Towards a Universal Variability Language";4;1641567999694;
+"Sundermann20";"Applications of SAT Solvers on Product Lines";1;1641568372229;
 "HFGB:SPLC2020";"Uniform and Scalable SAT-Sampling for Configurable Systems";1;1621528600170;
 "KB:VAMOS2020";"Activities and Costs of Re-Engineering Cloned Variants Into an Integrated Platform";12;1621529682941;
 "KB:ESECFSE20";"An Empirical Analysis of the Costs of Clone- and Platform-Oriented Software Reuse";6;1621335713174;
@@ -59,7 +59,7 @@
 "KJN+:FASE20";"Skill-Based Verification of Cyber-Physical Systems";2;1619379641378;
 "AVL:IST20";"Automatic Extraction of Product Line Architecture and Feature Models from UML Class Diagram Variants";9;1621514539966;
 "SSS:VaMoS2020";"Recovering Variability Information from Source Code of Clone-and-Own Software Systems";5;1621515620569;
-"Bittner20";"Semi-Automated Inference of Feature Traceability During Software Development";-1;0;
+"Bittner20";"Semi-Automated Inference of Feature Traceability During Software Development";1;1641568682691;
 "KTS+:VaMoS20";"YASA: Yet Another Sampling Algorithm";10;1622743353156;
 "BRK+:VaMoS20";"Variational Correctness-by-Construction";2;1622744434915;
 "SSK+:VaMoS20";"SMT-Based Variability Analyses in FeatureIDE";5;1622745517072;
