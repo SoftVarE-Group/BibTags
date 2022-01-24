@@ -4,7 +4,7 @@
 "Westphal20";"Deriving Subset Software Product Lines Using Partial Configurations with FeatureIDE";-2;1642957287204;
 "Kistner22";"Survey and Evaluation of Dynamic Variable Ordering Heuristics for the Construction of Binary Decision Diagrams";-2;1642958369313;
 "Witschel21";"Generating Optimized Samples with Attributed Feature Models";-2;1642955124319;
-"WitschelProject21";"Analyzing Sampling Stability of Highly Configurable Systems";-1;0;
+"WitschelProject21";"Analyzing Sampling Stability of Highly Configurable Systems";-2;1643013951562;
 "NST+:SoSyM21";"Guiding the Evolution of Product-Line Configurations";-2;1623738751693;
 "KTS:FormaliSE21";"GUIDO: Automated Guidance for the Configuration of Deductive Program Verifiers";0;1623506504024;
 "Netzer21";"Development of a Parallelized BDD Library in Rust";0;1641566917128;
@@ -320,9 +320,9 @@
 "OFAL:SPLC16";"Long-Term Average Cost in Featured Transition Systems";16;1638355447193;
 "LBC:SPLC16";"Towards Clone-and-Own Support: Locating Relevant Methods in Legacy Products";18;1643012870278;
 "ZGB+:SPLC16";"A Mathematical Model of Performance-Relevant Feature Interactions";13;1638348956574;
-"PKM+:ICSR16";"FeatureIDE: Scalable Product Configuration of Variable Systems";27;1619909673872;
+"PKM+:ICSR16";"FeatureIDE: Scalable Product Configuration of Variable Systems";28;1643015034648;
 "MBW:ICSE16";"How Does the Degree of Variability Affect Bug Finding";62;1626973344246;
-"BSK+:SOFTENG16";"Migration from Annotation-Based to Composition-Based Product Lines: Towards a Tool-Driven Process";-2;1619910756079;
+"BSK+:SOFTENG16";"Migration from Annotation-Based to Composition-Based Product Lines: Towards a Tool-Driven Process";-2;1643016116558;
 "HZS+:EMSE16";"Preprocessor-Based Variability in Open-Source and Industrial Software Systems: An Empirical Study";72;1619940179546;
 "T16";"Spezifikation und Verifikation von Produktlinien mit Feature-orientierten Vertraegen";0;1638346792715;
 "SSS+16";"A Study on Tool Support for Refactoring in Database Applications";2;1638347875135;
@@ -361,6 +361,7 @@
 "TWS+:VaMoS16";"Variability Hiding in Contracts for Dependent Software Product Lines";15;1623925025368;
 "Pfofe16";"Automating the Synchronization of Software Variants";4;1641813143054;
 "RTS+:JLAMP16";"Variability Encoding: From Compile-Time to Load-Time Variability";38;1620024067901;
+"SSA:ICSE15";"Views on Internal and External Validity in Empirical Software Engineering";187;1643019522122;
 "Krieter15";"Efficient Configuration of Large-Scale Feature Models Using Extended Implication Graphs";2;1641814224512;
 "BLR+:SPLC15";"What is a Feature A Qualitative Study of Features in Industrial Software Product Lines";129;1626693238253;
 "NBA+:JSS15";"Safe Evolution Templates for Software Product Lines";43;1641815306141;
