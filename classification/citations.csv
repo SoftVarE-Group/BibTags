@@ -1,8 +1,17 @@
+"BTS+:ESECFSE22";"Classifying Edits to Variability in Source Code";-1;0;
+"YBWT:EMSE22";"Variational Satisfiability Solving: Efficiently Solving Lots of Related SAT Problems";-1;0;
+"KKS+:ASE22";"Tseitin or not Tseitin The Impact of CNF Transformations on Feature-Model Analyses";-1;0;
 "HST+:MODELS22";"Quantifying the Variability Mismatch Between Problem and Solution Space";-2;1661425076537;
 "SBTK:ICSME22";"Quantifying the Potential to Automate the Synchronization of Variants in Clone-and-Own";-2;1657875809664;
-"HMS+:SPLC22";"ddueruem: A Wrapper for Feature-Model Analysis Tools";-2;1657876892301;
 "Schiessl22";"An Incremental SAT Solver for Efficient Analysis of Feature Models";-2;1652075188664;
+"Heimowski22";"Simplifying Feature Models for Better Scalability of SAT Solvers";-1;0;
 "Tschada21";"Generating Taxonomies of Feature-Model Anomalies";-2;1652077352726;
+"LWB+:SPLC22";"Derivation of Subset Product Lines in FeatureIDE";-1;0;
+"HMS+:SPLC22";"ddueruem: A Wrapper for Feature-Model Analysis Tools";-2;1657876892301;
+"KTS+:TR22";"T-Wise Presence Condition Coverage and Sampling for Configurable Systems";-1;0;
+"FSTR:SPLC22";"It's Your Loss: Classifying Information Loss During Variability Model Roundtrip Transformations";-1;0;
+"SFG+:SPLC22";"Tutorial on the Universal Variability Language";-1;0;
+"SBE+:EASE22";"Simulating the Evolution of Clone-and-Own Projects with VEVOS";-1;0;
 "Raab22";"Exploiting d-DNNFs for Efficient Cardinality-Based Feature-Model Analyses";-2;1652076270685;
 "RPTS:FORTE22";"Traits: Correctness-by-Construction for Free";0;1660644160907;
 "RPTS:TR22subsumedbyRPTS:FORTE22";"Traits for Correct-by-Construction Programming";0;1660645242149;
@@ -11,6 +20,8 @@
 "KKB+:VaMoS22";"Verification Strategies for Feature-Oriented Software Product Lines";0;1655708775261;
 "NST+:SoSyM22";"Guiding the Evolution of Product-Line Configurations";1;1655463636991;
 "Kistner22";"Survey and Evaluation of Dynamic Variable Ordering Heuristics for the Construction of Binary Decision Diagrams";-2;1652080529377;
+"RBTS:FMTea21";"Teaching Correctness-by-Construction and Post-Hoc Verification - The Online Experience";-1;0;
+"MAO+:GPCE21";"The Life Cycle of Features in Highly-Configurable Software Systems Evolving in Space and Time";-1;0;
 "FXL+:ICSE21";"A Differential Testing Approach for Evaluating Abstract Syntax Tree Mapping Algorithms";2;1660648486939;
 "Witschel21";"Generating Optimized Samples with Attributed Feature Models";0;1652081616500;
 "WitschelProject21";"Analyzing Sampling Stability of Highly Configurable Systems";1;1652082697480;
@@ -32,7 +43,7 @@
 "BST+:ESECFSE21";"Feature Trace Recording";3;1652089191740;
 "Arens21";"Incremental Construction of Modal Implication Graphs for Feature-Model Evolution";1;1660569756091;
 "MSB+:ICSE21";"Seamless Variability Management With the Virtual Platform";6;1657534708230;
-"Y21";"Variational Satisfiability Solving";4;1659103892065;
+"Young21";"Variational Satisfiability Solving";-1;0;
 "KTSB:ICSE21";"Bridging the Gap Between Clone-and-Own and Software Product Lines";2;1653512100668;
 "DGT:EMSE21";"Foreword to the Special Issue on Configurable Systems";0;1659099563817;
 "QVR+:JSEP21";"Evolution in Dynamic Software Product Lines";9;1660555493544;
@@ -46,6 +57,8 @@
 "HPTS:VaMoS21";"Hyper Explanations for Feature-Model Defect Analysis";1;1656398289452;
 "SNB+:VaMoS21";"Applications of SAT Solvers on Feature Models";5;1656399370693;
 "SL:VaMoS21";"V1e: A Kernel for Domain-Specific Textual Variability Modelling Languages";1;1659535184457;
+"KKSL:VaMoS20";"EXtracting product lines from vAriaNTs (EXPLANT)";-1;0;
+"K:SPLC20";"Large-Scale T-Wise Interaction Sampling Using YASA";-1;0;
 "OGB+:TR20";"Scalable Uniform Sampling for Real-World Software Product Lines";-2;1657916524164;
 "NPB+:ICSE20";"HyDiff: Hybrid Differential Software Analysis";17;1657917605764;
 "DCVM:JSEP20";"srcDiff: A Syntactic Differencing Approach to Improve the Understandability of Deltas";9;1657918688527;
@@ -99,6 +112,7 @@
 "HNL+:GPCE19";"Harmonized Temporal Feature Modeling to Uniformly Perform, Track, Analyze, and Replay Software Product Line Evolution";16;1659106055285;
 "RTM:JSS19";"Software Product Lines and Variability Modeling: A Tertiary Study";69;1656703211950;
 "AAG+:SQJ19";"Modeling Variability in the Video Domain: Language and Experience Report";28;1656704293227;
+"K:SPLC19";"Enabling Efficient Automated Configuration Generation and Management";-1;0;
 "MLAE:SPLC19";"Comparison-Based Feature Location in ArgoUML Variants";9;1653392867057;
 "BBCW:SoSyM19";"A Feature-Based Survey of Model View Approaches";71;1659598930133;
 "GGL+:IST19";"Scaling-Up Domain-Specific Modelling Languages Through Modularity Services";6;1659537347129;
@@ -135,6 +149,8 @@
 "Bittner19";"SAT Encodings of the At-Most-k Constraint - A Case Study on Configuring University Courses";-2;1652101575345;
 "BTS:SEFM19";"SAT Encodings of the At-Most-k Constraint - A Case Study on Configuring University Courses";-2;1652102656160;
 "LGL:STTT19";"Sampling Strategies for Product Lines with Unbounded Parametric Real-Time Constraints";3;1655232122885;
+"KKK+:SPLC19";"Foundations of Collaborative, Real-Time Feature Modeling";-1;0;
+"KTL:VAMOS19";"Using Dynamic Software Product Lines to Implement Adaptive SGX-Enabled Systems";-1;0;
 "TKK+:SPLC19";"Feature-Oriented Contract Composition";10;1655231040773;
 "PTR+:SPLC19";"Product Sampling for Product Lines: The Scalability Challenge";28;1655472293593;
 "TTS+:VariVolution19";"Towards Efficient Analysis of Variation in Time and Space";20;1655229957975;
@@ -168,6 +184,8 @@
 "SYS:IST19";"Metrics for Analyzing Variability and its Implementation in Software Product Lines: A Systematic Literature Review";56;1651503719822;
 "LNTS:JSS19";"Retest Test Selection for Product-Line Regression Testing of Variants and Versions of Variants";19;1651504802274;
 "BCKW:Dagstuhl19";"Software Evolution in Time and Space: Unifying Version and Variability Management (Dagstuhl Seminar 19191)";25;1659107137245;
+"PMK+:CLSS18";"Personalized Recommender Systems for Product-Line Configuration Processes";-1;0;
+"KKK+:SPLC18b";"PClocator: A Tool Suite to Automatically Identify Configurations for Code Locations";-1;0;
 "FGBP:ICSME18";"Generating Accurate and Compact Edit Scripts Using Tree Differencing";25;1658119745011;
 "XGR+:GECCO18";"Genetic Configuration Sampling: Learning a Sampling Strategy for Fault Detection of Configurable Systems";8;1660658220941;
 "SpreySundermann18";"Computing Attribute Ranges for Partial Configurations with JavaSMT";1;1660578407491;
@@ -179,6 +197,9 @@
 "A:IJSEA18";"PyFml-a Textual Language For Feature Modeling";7;1656912253259;
 "SKE:SPLC18";"Variability Modeling With the Integrated Variability Modeling Language (IVML) and EASy-Producer";7;1656915657161;
 "TKPK:FASE18";"A Formal Framework for Incremental Model Slicing";3;1659539509942;
+"SartakovWKLK18";"STANlite - A Database Engine for Secure Data Processing at Rack-Scale Level";-1;0;
+"KKW+:ICSE18";"Towards Secure Dynamic Product Lines in the Cloud";-1;0;
+"PereiraMGKS18";"Visual Guidance for Product Line Configuration Using Recommendations and Non-Functional Properties";-1;0;
 "ZSL+:ICSE18";"Identifying Features in Forks";38;1657539037363;
 "MRG+:TSE18";"Discipline Matters: Refactoring of Preprocessor Directives in the ifdef Hell";49;1654859274646;
 "KKL:VaMoS18";"Don't Worry About It: Managing Variability On-The-Fly";10;1654860357077;
@@ -265,6 +286,7 @@
 "ALHR:TOCE17";"Teaching Software Product Lines: A Snapshot of Current Practices and Challenges";20;1651668966839;
 "BTSG:ICFEM17";"Modularization of Refinement Steps for Agile Formal Methods";2;1661256904418;
 "KPK+:SPLC17";"FeatureIDE: Empowering Third-Party Developers";22;1651670048676;
+"KNK+:SPLC17";"Beyond Software Product Lines: Variability Modeling in Cyber-Physical Systems";-1;0;
 "LSBL:SPLC17";"Modeling and Testing Product Lines with Unbounded Parametric Real-Time Constraints";28;1659604339049;
 "KTS+:ESECFSE17";"Is There a Mismatch Between Real-World Feature Models and Product-Line Research";48;1659274156460;
 "DABW:STTT17";"Efficient Family-Based Model Checking via Variability Abstractions";28;1657261412551;
@@ -368,7 +390,7 @@
 "SBT:SPLC16subsumedbySBT:JSS19";"Partially Safe Evolution of Software Product Lines";25;1655751134527;
 "MWK+:ASE16";"On Essential Configuration Complexity: Measuring Interactions In Highly-Configurable Systems";108;1651791977618;
 "KAT:TR16";"Explaining Anomalies in Feature Models";64;1656689149059;
-"R16";"Analysis Strategies for Configurable Systems";13;1660538476039;
+"vonRhein16";"Analysis Strategies for Configurable Systems";-1;0;
 "ITT:SEAMS16";"Symbolic Performance Adaptation";19;1659094156475;
 "BVM:SCP16";"Basic Behavioral Models for Software Product Lines: Expressiveness and Testing Pre-Orders";40;1651793059455;
 "DDP:MSR16subsumedbyDDP:EMSE18";"FEVER: Extracting Feature-Oriented Changes from Commits";17;1655752215229;
@@ -409,7 +431,7 @@
 "So15";"Software Engineering";1843;1652167107696;
 "MDBW:SCP15";"Systematic Derivation of Correct Variability-Aware Program Analyses";46;1661428320533;
 "VFST:JSS15";"Evolution of Software in Automated Production Systems: Challenges and Research Directions";261;1654600859500;
-"D15";"Analyzing Similarity of Cloned Software Variants Using Hierarchical Set Models";-2;1652168188946;
+"Duszynski15";"Analyzing Similarity of Cloned Software Variants Using Hierarchical Set Models";-1;0;
 "DSM+:PNAS15";"Searching Molecular Structure Databases With Tandem Mass Spectra Using CSI: FingerID";519;1654601941703;
 "EKS:GPCE15";"Analysing the KConfig Semantics and its Analysis Tools";24;1652169270321;
 "BTL+:VaMoS15";"A Survey on Modeling Techniques for Formal Behavioral Verification of Software Product Lines";26;1652170355453;
@@ -427,7 +449,7 @@
 "BSAB:ICSE15";"Symbolic Model Checking of Product-Line Requirements Using SAT-Based Methods";28;1657277635351;
 "NBKC:TSE15";"Where Do Configuration Constraints Stem From An Extraction Approach and an Empirical Study";99;1657276553534;
 "KSFS:VaMoS15";"Use-Case-Specific Source-Code Documentation for Feature-Oriented Programming";14;1659429250176;
-"K15";"Calculation and Propagation of Model Changes Based on User-Level Edit Operations: A Foundation for Version and Variant Management in Model-Driven Engineering";17;1659111464161;
+"Kehrer15";"Calculation and Propagation of Model Changes Based on User-Level Edit Operations: A Foundation for Version and Variant Management in Model-Driven Engineering";-1;0;
 "PCF:ICSR15";"A Systematic Literature Review of Software Product Line Management Tools";84;1659371900935;
 "DBW:ECOOP15subsumedbyDBW:SCP18";"Variability Abstractions: Trading Precision for Speed in Family-Based Analyses";27;1655792559331;
 "BKL+:AUSE15";"Reasoning About Product-Line Evolution Using Complex Feature Model Differences";66;1659521763702;
@@ -457,9 +479,10 @@
 "LG:VaMoS15";"Using Feature Feeds to Improve Developer Awareness in Software Ecosystem Evolution";14;1657084955636;
 "M:SE15";"Scalable Sampling and Prioritization for Product-Line Testing";6;1655693069459;
 "TAK+:SE15";"Analysis Strategies for Software Product Lines: A Classification and Survey";6;1651825324295;
-"T15";"Product-Line Specification and Verification with Feature-Oriented Contracts";37;1657127482235;
+"Thuem15";"Product-Line Specification and Verification with Feature-Oriented Contracts";-1;0;
 "BDS:SCP14";"Implementing Type-Safe Software Product Lines Using Parametric Traits";14;1657181133890;
 "MJ:TAOSD14";"Modular Reasoning in Aspect-Oriented Languages from a Substitution Perspective";8;1657184822225;
+"WO:GPCE14";"Projectional Editing of Variational Software";-1;0;
 "PY:OOPSLA14";"Abstract Semantic Differencing via Speculative Correlation";51;1658174243854;
 "KKT:AT14";"Propagation of Software Model Changes in the Context of Industrial Plant Automation";14;1658262315634;
 "NRS:SAT14";"Ultimately Incremental SAT";36;1652785993902;
@@ -650,11 +673,11 @@
 "HTH13";"Separation of Concerns in Feature Diagram Languages: A Systematic Survey";35;1652645647603;
 "SK:JUCS13";"Modeling and Verification of Reconfigurable Actor Families";5;1659361085341;
 "SK:FSEN13";"Delta Modeling and Model Checking of Product Families";18;1659362167054;
-"I13";"Methodology for the Derivation of Product Behaviour in a Software Product Line";12;1659363249149;
+"Istoan13";"Methodology for the Derivation of Product Behaviour in a Software Product Line";-1;0;
 "HB:FHIES13";"Enhancing Product Line Development by Safety Requirements and Verification";8;1659364331216;
 "FKA+:EMSE13";"Do Background Colors Improve Program Comprehension in the Ifdef Hell";132;1659520682085;
 "RCC:SPLC13";"Managing Cloned Variants: A Framework and Experience";140;1652646730192;
-"D13";"Feature Modularity in Mechanized Reasoning";0;1661085966212;
+"Delaware13";"Feature Modularity in Mechanized Reasoning";-1;0;
 "SST:MultiPLE13";"Towards Modular Analysis of Multi Product Lines";39;1658932332124;
 "ABKS13";"Feature-Oriented Software Product Lines";957;1652173599997;
 "RLB+:TR13subsumedbyRLB+:AOSD14";"AspectJML: Modular Specification and Runtime Checking for Crosscutting Contracts";27;1655803379825;
@@ -744,7 +767,7 @@
 "HPP+:TR12subsumedbyHPP+:TSE14";"Bypassing the Combinatorial Explosion: Using Similarity to Generate and Prioritize T-Wise Test Suites for Large Software Product Lines";39;1655808785246;
 "JHF+:MODELS12";"Generating Better Partial Covering Arrays by Modeling Weights on Sub-Product Lines";89;1660541724838;
 "POS+:SQJ12";"Pairwise Testing for Software Product Lines: Comparison of Two Approaches";179;1652713591012;
-"O:PhD12";"Feature Model-Based Software Product Line Testing";20;1655220221342;
+"Oster12";"Feature Model-Based Software Product Line Testing";-1;0;
 "WRH+12";"Experimentation in Software Engineering";8789;1661094622016;
 "KS:COORDINATION12";"Using Coordinated Actors to Model Families of Distributed Systems";5;1655221303522;
 "ABFG:ISoLA12";"A Compositional Framework to Derive Product Line Behavioural Descriptions";17;1655222385157;
@@ -752,7 +775,7 @@
 "BMP:SERENE12";"Assume-Guarantee Testing of Evolving Software Product Line Architectures";2;1655700101182;
 "PSS:MODIQUITOUS12";"Test Modeling for Context-aware Ubiquitous Applications with Feature Petri Nets";21;1661095705077;
 "FKL+:ICPC12";"Measuring Programming Experience";122;1659367574133;
-"S12";"Framework for Measuring Program Comprehension";17;1654946858281;
+"Siegmund12";"Framework for Measuring Program Comprehension";-1;0;
 "RLBC:SPLC12";"Managing Forked Product Variants";70;1659368656471;
 "HGR:IST12";"A Systematic Review and an Expert Survey on Capabilities Supporting Multi Product Lines";150;1659369737591;
 "JHS:FMCO12";"ABS: A Core Language for Abstract Behavioral Specification";398;1652714677112;
@@ -776,7 +799,7 @@
 "MAG:WASP12";"Formal Specification and Verification of Well-Formedness in Business Process Product Lines";1;1661143074885;
 "JHF+:ICTSS12";"A Technique for Agile and Automatic Interaction Testing for Product Lines";28;1659447635552;
 "MRKN:TR12subsumedbyMRKN:iFM13";"Compositional Verification of Evolving Software Product Lines";3;1655810949987;
-"L12";"Variables Nanodatenmanagement fuer eingebettete Systeme";0;1661232016353;
+"Leich12";"Variables Nanodatenmanagement fuer eingebettete Systeme";-1;0;
 "Benduhn12";"Contract-Aware Feature Composition";12;1661059991200;
 "Lueddecke12";"Extraktion von Feature-Modellen aus Implementierungsartefakten";0;1661061073867;
 "SchroeterI12";"Modulare Integration von konfigurierbaren Transaktionsmechanismen in Cloud-basierte Datenspeichersysteme";0;1661062155307;
@@ -786,7 +809,7 @@
 "GSCH:RE12";"Efficient Consistency Checking of Scenario-Based Product-Line Specifications";26;1659512951552;
 "CCP+:ICSE12";"Simulation-Based Abstractions for Software Product-Line Model Checking";81;1659514032683;
 "HJD:ConfWS12";"Unifying Software and Product Configuration: A Research Roadmap";33;1652722531606;
-"P12";"System Design and Risk Assessment for Safety Critical Control Software Product Lines";1;1659101728643;
+"Papakonstantinou12";"System Design and Risk Assessment for Safety Critical Control Software Product Lines";-1;0;
 "LRK+:TR12subsumedbyLKA+:ESECFSE13";"Large-Scale Variability-Aware Type Checking and Dataflow Analysis";19;1655812031500;
 "KOE:OOPSLA12";"A Variability-Aware Module System";119;1661233097917;
 "BTR+:TR12subsumedbyBTR+:PLDI13";"Transparent and Efficient Reuse of IFDS-Based Static Program Analyses for Software Product Lines";0;1655813113587;
@@ -807,7 +830,7 @@
 "FOSD12";"Proceedings of the 4th International Workshop on Feature-Oriented Software Development (FOSD)";-2;1652179009399;
 "HLL+12";"Behavioral Interface Specification Languages";210;1659608665529;
 "DDJ+:FMSPLE12";"A Transformational Proof System for Delta-Oriented Programming";29;1659609747744;
-"T:MIT12subsumedbyT15";"Verification of Software Product Lines Using Contracts";3;1655709857105;
+"T:MIT12subsumedbyThuem15";"Verification of Software Product Lines Using Contracts";-1;0;
 "TSAH:GPCE12";"Family-Based Deductive Verification of Software Product Lines";97;1659610828955;
 "KATS:TOSEM12";"Type Checking Annotation-Based Product Lines";190;1661234180044;
 "B:PLAS12subsumedbyBTR+:PLDI13";"Position Paper: Static Flow-Sensitive and Context-Sensitive Information-Flow Analysis for Software Product Lines";-2;1655815278382;
@@ -846,9 +869,9 @@
 "BG:SQJ11";"Assessing the Maintainability of Software Product Line Feature Models Using Structural Metrics";165;1659622725264;
 "ALB+:ESECFSE11";"Semistructured Merge: Rethinking Merge in Revision Control Systems";123;1652768345878;
 "DKB:WCRE11";"Analyzing the Source Code of Multiple Software Variants for Reuse Potential";77;1659623806985;
-"Pa11";"Sustainable Evolution of Product Line Infrastructure Code";-2;1652180091995;
+"Patzke11";"Sustainable Evolution of Product Line Infrastructure Code";-1;0;
 "HHJ+:FMCO11";"HATS Abstract Behavioral Specification: The Architectural View";18;1652769427815;
-"W11";"Deductive Verification of Object-Oriented Software: Dynamic Frames, Dynamic Logic, and Predicate Abstraction";74;1652770509590;
+"Weiss11";"Deductive Verification of Object-Oriented Software: Dynamic Frames, Dynamic Logic, and Predicate Abstraction";-1;0;
 "HZS:SCP11";"Statically Safe Program Generation with SafeGen";78;1659624889753;
 "HS:TOPLAS11";"Morphing: Structurally Shaping a Class by Reflecting on Others";30;1652779506333;
 "HHSDA11";"Supporting Multiple Perspectives in Feature-Based Configuration";80;1659625971132;
@@ -974,7 +997,7 @@
 "CIZ:OOPSLA10";"Mostly Modular Compilation of Crosscutting Concerns by Contextual Predicate Dispatch";30;1652191986230;
 "BSLWC:ASE10";"Variability Modeling in the Real: A Perspective from the Operating Systems Domain";198;1652819141036;
 "OMR:SPLC10";"Automated Incremental Pairwise Testing of Software Product Lines";199;1655226712060;
-"K10";"Virtual Separation of Concerns: Toward Preprocessors 2.0";118;1652820222321;
+"Kaestner10";"Virtual Separation of Concerns: Toward Preprocessors 2.0";-1;0;
 "CHSLR10";"Model Checking Lots of Systems: Efficient Verification of Temporal Properties in Software Product Lines";401;1652858374529;
 "AKGL10";"Type Safety for Feature-Oriented Product Lines";158;1655227794529;
 "Thuem10";"A Machine-Checked Proof for a Product-Line-Aware Type System";10;1661069727539;
@@ -991,7 +1014,7 @@
 "LAH+:PATENT09";"Method of Configuring a Product";-2;1652193068060;
 "MLM09";"Conflict-Driven Clause Learning SAT Solvers";451;1654021479027;
 "FHS:SPLC09";"Inferring Information From Feature Diagrams to Product Line Economic Models";42;1654022560215;
-"Tiu09";"Introduction to logic";4173;1654023641170;
+"Tiu09";"Introduction to Logic";-1;0;
 "CCD:ICSE09";"Ldiff: An Enhanced Line Differencing Tool";69;1654614919363;
 "KDPP:CVSM09";"Different Models for Model Matching: An Analysis of Approaches to Support Model Differencing";263;1654615999731;
 "KAT:TOOLSeurope09";"Guaranteeing Syntactic Correctness for All Product Line Variants: A Language-Independent Approach";92;1661461378944;
@@ -1030,7 +1053,7 @@
 "KAR+:SPLC09";"On the Impact of the Optional Feature Problem: Analysis and Case Studies";112;1652991667493;
 "H:FOSD09";"Towards Systematic Ensuring Well-Formedness of Software Product Lines";51;1655457147060;
 "BJS:VaMoS09";"A Design of a Configurable Feature Model Configurator";54;1655458228230;
-"M09";"Efficient Reasoning Techniques for Large Scale Feature Models";98;1655460391741;
+"Mendonca09";"Efficient Reasoning Techniques for Large Scale Feature Models";-1;0;
 "HM:FOSD09";"An Extension for Feature Algebra";6;1655461474553;
 "KBK:GPCE09";"Safe Composition of Non-Monotonic Features";37;1655462555364;
 "MBC:OOPSLA09";"S.P.L.O.T.: Software Product Lines Online Tools";494;1652992749794;
@@ -1042,7 +1065,7 @@
 "KAK:GPCE09";"A Model of Refactoring Physically and Virtually Separated Features";93;1661244998726;
 "Rosenthal09";"Alternative Features in Colored Featherweight Java";7;1661070808989;
 "F09b";"Formalization and Type-Soundness Proof for Featherweight Java in Coq";-2;1652197393022;
-"F09";"Language Facilities for the Deployment of Reusable Aspects";5;1661246081772;
+"Fraine09";"Language Facilities for the Deployment of Reusable Aspects";-1;0;
 "RZS:ICCS09";"Evaluation of Different BDD Libraries to Extract Concepts in FCA - Perspectives and Limitations";7;1657547693232;
 "AKGL09";"Type-Safe Feature-Oriented Product Lines";-2;1652207359417;
 "JDHW09";"Do Code Clones Matter";575;1661247163606;
@@ -1052,7 +1075,7 @@
 "H:DLS08";"The Clojure Programming Language";239;1659115790153;
 "HHT:CPAIOR08";"Propagating Separable Equalities in an MDD Store";20;1657874728102;
 "HHO+:CP08";"Approximate Compilation of Constraints Into Multivalued Decision Diagrams";81;1658493032037;
-"XHHL08";"SATzilla: portfolio-based algorithm selection for SAT";979;1656401535151;
+"XHHL08";"SATzilla: Portfolio-Based Algorithm Selection for SAT";-1;0;
 "R08";"A Survey of Static Variable Ordering Heuristics for Efficient BDDMDD Construction";31;1654024722400;
 "J:SPLC08";"Do SAT Solvers Make Good Configurators";64;1654025804372;
 "S:SPLC08";"Automated Analysis of Feature Models Using Atomic Sets";93;1654026885999;
@@ -1154,7 +1177,7 @@
 "FM07";"The WhyKrakatoaCaduceus Platform for Deductive Program Verification";489;1655730585556;
 "LDL07";"Safety Analysis of Software Product Lines Using State-Based Modeling";120;1655731667683;
 "P:REFSQ07";"Towards Feature-Oriented Specification and Development with Event-B";39;1655732750411;
-"A07";"The Role of Features and Aspects in Software Development";69;1655733833015;
+"Apel07";"The Role of Features and Aspects in Software Development";-1;0;
 "BHS07";"Verification of Object-Oriented Software: The KeY Approach";-2;1652211687585;
 "SSSPS:OSSPL07";"Is the Linux Kernel a Software Product Line";97;1655734914242;
 "BSTRC:VaMoS07";"FAMA: Tooling a Framework for the Automated Analysis of Feature Models";306;1653301848797;
@@ -1165,7 +1188,7 @@
 "MHPSS:RE07";"Disambiguating the Documentation of Variability in Software Product Lines: A Separation of Concerns, Formalization and Automated Analysis";320;1653306173474;
 "LSR07";"Software Product Lines in Action: The Best Industrial Practice in Product Line Engineering";1081;1653307255749;
 "Kaestner07";"Aspect-Oriented Refactoring of Berkeley DB";23;1661075136219;
-"B07";"On the Automated Analysis of Software Product Lines Using Feature Models - A Framework for Developing Automated Tool Support";4;1661253658130;
+"Benavides07";"On the Automated Analysis of Software Product Lines Using Feature Models - A Framework for Developing Automated Tool Support";-1;0;
 "TBKC07";"Safe Composition of Product Lines";305;1652213852542;
 "ALB+:TR07subsumedbyALMK:SCP10";"An Algebra for Feature-Oriented Software Development";42;1655834741187;
 "CW:SPLC07";"Feature Diagrams and Logics: There and Back Again";458;1655835822688;
@@ -1246,7 +1269,7 @@
 "GHM+:IBMSJ05";"The Eclipse 3.0 Platform: Adopting OSGi Technology";155;1653387458171;
 "YMKI:PROFES05";"Measuring Similarity of Large Software Systems Based on Source Code Correspondence";92;1651476066960;
 "CK:CASSIS04";"ESCJava2: Uniting ESCJava and JML";385;1653388540363;
-"C05";"A Design Discipline and Language Features for Modular Reasoning in Aspect-Oriented Programs";6;1660299471707;
+"Clifton05";"A Design Discipline and Language Features for Modular Reasoning in Aspect-Oriented Programs";-1;0;
 "ACV+:ICSM05";"Comparative Analysis of Porting Strategies in J2ME Games";34;1660300554652;
 "AMC+:SPLC05";"Extracting and Evolving Mobile Games Product Lines";150;1660302718434;
 "A:ECOOP05";"Open Modules: Modular Reasoning About Advice";310;1653393947920;
@@ -1353,7 +1376,7 @@
 "LG03";"Analysis of a Software Product Line Architecture: An Experience Report";44;1653431012821;
 "CKMR03";"Feature Interaction: A Critical Review and Considered Forecast";525;1653432093864;
 "ZR03";"Pipa: A Behavioral Interface Specification Language for AspectJ";86;1653433176139;
-"B03";"Composition and Construction of Embedded Software Families";63;1656690229799;
+"Beuche03";"Composition and Construction of Embedded Software Families";-1;0;
 "SRP03";"Details of Formalized Relations in Feature Models Using OCL";95;1656691311805;
 "CBBHROA03";"Automating Feature-Oriented Domain Analysis";39;1656692394437;
 "R03";"Towards a More Precise Definition of Feature Models";148;1656693475846;
@@ -1389,7 +1412,7 @@
 "SP02";"Aspect-Oriented Programming with C and .NET";78;1655744648878;
 "SGSP02";"AspectC++: An Aspect-Oriented Extension to the C++ Programming Language";494;1653441834265;
 "LKF:ASE02";"Interfaces for Modular Feature Verification";54;1655958724620;
-"K02";"AspectC: An AOSD implementation for C";70;1653442915589;
+"Kim02";"AspectC: An AOSD implementation for C";-1;0;
 "NPW02";"IsabelleHOL - A Proof Assistant for Higher-Order Logic";4298;1652777345510;
 "P02";"Types and Programming Languages";3559;1655971322027;
 "vDK02";"Domain-Specific Language Design Requires Feature Descriptions";435;1656696719427;
@@ -1475,7 +1498,7 @@
 "L:ICCAD98";"The Design of a Cache-Friendly BDD Library";32;1658510346224;
 "D:STACS98";"On the Existence of Polynomial Time Approximation Schemes for OBDD Minimization";38;1658511427635;
 "DB98";"Binary Decision Diagrams: Theory and Implementation";307;1654307373848;
-"WR:ITVL98";"FPGA routing and routability estimation via Boolean satisfiability";203;1654308456437;
+"WR:ITVL98";"FPGA Routing and Routability Estimation via Boolean Satisfiability";-1;0;
 "MH:FMCAD98";"BDDNOW: A Parallel BDD Package";76;1654309538683;
 "NR:ESREL98";"Heuristics for BDD Handling of Sum-of-Products Formulae";12;1658512510497;
 "MT98";"Algorithms and Data Structures in VLSI Design: OBDD-Foundations and Applications";454;1653287788850;
@@ -1513,7 +1536,7 @@
 "BW:TC96";"Improving the Variable Ordering of OBDDs is NP-Complete";833;1658908535230;
 "S:FMCAD96";"A Brief Study of BDD Package Performance";30;1658909616498;
 "ZBC:ISCAS96";"Improved Variable Ordering of BDDs with Novel Genetic Algorithm";46;1658910698067;
-"SB:DAC96";"Implementation of an efficient parallel BDD package";122;1654312785746;
+"SB:DAC96";"Implementation of an Efficient Parallel BDD Package";-1;0;
 "HDB:EURODAC96";"More: An Alternative Implementation of BDD Packages by Multi-Operand Synthesis";58;1654313867796;
 "GPFB96";"Algorithms for the Satisfiability (SAT) Problem: A Survey";485;1654314951130;
 "CRG+:SIGMOD96";"Change Detection in Hierarchically Structured Information";826;1661767727052;
@@ -1546,7 +1569,7 @@
 "N94";"Usability Engineering";24487;1657274389765;
 "WF94";"A Syntactic Approach to Type Soundness";1484;1657275471264;
 "WHC:EURODAC93";"Restructuring binary decision diagrams based on functional equivalence";15;1661082720227;
-"L93";"Model Checking, Abstraction, and Compositional Verification";234;1659944837498;
+"Long93";"Model Checking, Abstraction, and Compositional Verification";-1;0;
 "SW:IPL93";"Reduction of OBDDs in Linear Time";116;1658915026024;
 "H:JLP93";"Solving the Incremental Satisfiability Problem";145;1652792480784;
 "OYY:ICCAD93";"Breadth-First Manipulation of Very Large Binary Decision Diagrams";102;1658916107341;
@@ -1560,8 +1583,8 @@
 "J93";"Identifying Redundancy in Source Code Using Fingerprints";412;1657279798996;
 "CDK93";"A Unified Approach for Showing Language Containment and Equivalence Between Various Types of $omega$-Automata";47;1657280881105;
 "J:A92";"The NP-Completeness Column: An Ongoing Guide";487;1654552912997;
-"B:CSUR92";"Symbolic boolean manipulation with ordered binary-decision diagrams";3089;1654553995503;
-"MKR:DAC92";"Functional approaches to generating orderings for efficient symbolic representations";101;1654576676344;
+"B:CSUR92";"Symbolic Boolean Manipulation with Ordered Binary-Decision Diagrams";-1;0;
+"MKR:DAC92";"Functional Approaches to Generating Orderings for Efficient Symbolic Representations";-1;0;
 "J:JA92";"The NP-Completeness Column: An Ongoing Guide";487;1654577758053;
 "SC:USENIX92";"ifdef Considered Harmful, or Portability Experience With C News";270;1659433575167;
 "W92";"Specification in Fresco";38;1657281963535;
@@ -1572,7 +1595,7 @@
 "FMK:EURODAC91";"On Variable Ordering of Binary Decision Diagrams for the Application of Multi-Level Logic Synthesis";359;1658918271883;
 "BRKM:DAC91";"Heuristics to Compute Variable Orderings for Efficient Manipulation of Ordered Binary Decision Diagrams";131;1658919353298;
 "BW:Order91";"Counting Linear Extensions";350;1658920434783;
-"RBKM:EURODAC91";"Fast functional evaluation of candidate OBDD variable orderings";55;1654578842272;
+"RBKM:EURODAC91";"Fast Functional Evaluation of Candidate OBDD Variable Orderings";-1;0;
 "C:ECOOP91";"Inheritance in Object-Oriented Z";78;1657285206626;
 "A:FOOL91";"Designing an Object-Oriented Programming Language with Behavioural Subtyping";380;1657286289296;
 "HV91";"Model Checking vs. Theorem Proving: A Manifesto";299;1653483900067;
@@ -1655,7 +1678,7 @@
 "K:NJC55";"The Hungarian Method for the Assignment Problem";11848;1654679097967;
 "R:AMS53";"Classes of Recursively Enumerable Sets and their Decision Problems";1097;1661083801658;
 "S52";"Axiomatization of a Partial System of Three-Value Calculus of Propositions";-2;1652245216946;
-"H:BST50";"Error detecting and error correcting codes";7751;1655208321753;
+"H:BST50";"Error Detecting and Error Correcting Codes";-1;0;
 "T49";"Checking a Large Routine";466;1657519562502;
 "F1879";"Begriffsschrift, eine der arithmetischen nachgebildete Formelsprache des reinen Denkens";-2;1652246298663;
 "KMSL:CDT83";"CONIC: An Integrated Approach to Distributed Computer Control Systems";181;1653492622273;
