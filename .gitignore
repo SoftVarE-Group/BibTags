@@ -1,3 +1,6 @@
+literature-cleaned*.bib
+typo3_*.bib
+
 *.aux
 *.bbl
 *.blg
