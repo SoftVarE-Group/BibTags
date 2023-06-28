@@ -5,4 +5,3 @@ if [ "$1" ]; then
   cp MYshort.bib $1
   cp MYfull.bib $1
 fi
-read -n1 -r -p "Press any key to continue..." key
