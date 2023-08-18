@@ -1,2 +1,2 @@
-java -jar mibtex/mibtex-cleaner.jar "literature.bib"
+java -cp mibtex/mibtex-cleaner.jar de.mibtex.BibtexCleaner "literature.bib" %*
 pause
