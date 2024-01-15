@@ -19,6 +19,7 @@ def get_path(file_name):
     return os.path.join(script_dir, file_name)
 
 
+## Checks if parameter is set in config file
 def is_set(key):
     if not key in settings:
         print('WARNING settings ' + key + ' is not defined!')
@@ -26,6 +27,7 @@ def is_set(key):
     return settings[key]
 
 
+## Adds a problem to the list of problems of a given entry
 def add_problem(entry, problem_type, problem_message):
     entry_id = entry['ID']
     if entry_id not in problems:
@@ -33,6 +35,7 @@ def add_problem(entry, problem_type, problem_message):
     problems[entry_id].append((problem_type, problem_message))
 
 
+## Checks if fields declared as string fields contain string values
 def check_string_fields(entry):
     for field in string_fields:
         if is_set('string_' + field):
@@ -40,6 +43,7 @@ def check_string_fields(entry):
                 add_problem(entry, 'non_string_' + field, entry[field])
 
 
+## Creates bibtex strings for fields that are declared as string fields but do not contains string values
 def gen_string_fields(entry):
     for field in string_fields:
         if field in entry and isinstance(entry[field], str):
@@ -48,6 +52,7 @@ def gen_string_fields(entry):
             new_strings[field_value] = (field, key, field_value)
 
 
+## Checks that required, wanted or optional fields exists for a given entry or is declared as missing
 def check_field_type_exists(entry, field_type):
     if is_set(field_type + '_fields'):
         entry_type=entry['ENTRYTYPE']
@@ -81,6 +86,7 @@ def check_field_types_exists(entry):
     check_field_type_exists(entry, 'optional')
 
 
+## Checks that the title of an entry is protected and correctly capitalized (may produce false optional results)
 def check_title(entry):
     if ('title' in entry):
         org = entry['title']
@@ -93,6 +99,7 @@ def check_title(entry):
                 add_problem(entry, 'incorrect_title_capitilization', org + " -> " + correct_title)
 
 
+## Checks that the pages of an entry are formated correctly
 def check_pages(entry):
     if ('pages' in entry):
         org = entry['pages']
@@ -101,6 +108,7 @@ def check_pages(entry):
                 add_problem(entry, 'incorrect_pages', org)
 
 
+## Checks that the authors of an entry are in the correct ordering
 def check_author(entry):
     if is_set('name_order'):
         if ('author' in entry):
@@ -119,6 +127,7 @@ def get_last_name(name):
     return name_parts[len(name_parts) - 1]
 
 
+## Checks that the key of an entry conforms to our naming scheme
 def check_key(entry):
     if is_set('bib_keys') and 'author' in entry:
         org_key = entry['ID']
