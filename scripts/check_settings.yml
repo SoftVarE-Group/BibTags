@@ -19,3 +19,4 @@ notes: true
 required_fields: true
 wanted_fields: false
 optional_fields: false
+print_missing_strings: false

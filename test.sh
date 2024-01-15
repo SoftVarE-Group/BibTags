@@ -73,3 +73,13 @@ fi
 compile_biber short
 compile_biber abrv
 compile_bibtex natbib
+
+echo -e -n "${GREEN}checking bibtex entries...${NOCOLOR}"
+if python ../scripts/check_integrity.py > check_integrity.log ; then
+	echo -e "${GREEN}OK${NOCOLOR}"
+	cat check_integrity.log
+else
+	echo -e "${RED}fail${NOCOLOR}" >&2
+	cat check_integrity.log
+	exit 1
+fi

@@ -8,7 +8,7 @@ from titlecase import titlecase
 import os
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-database_file = 'literature.bib'
+database_file = '../literature.bib'
 
 title_regex = re.compile(r"^\{.*\}$", re.DOTALL)
 pages_regex = re.compile(r"^[a-zA-Z0-9,.:()]+(--[a-zA-Z0-9,.:()]+)?$", re.DOTALL)
@@ -173,7 +173,7 @@ if __name__ == '__main__':
     with open(get_path("check_settings.yml"), "r") as stream:
         try:
             settings = yaml.safe_load(stream)
-            print(settings)
+            #print(settings)
         except yaml.YAMLError as exc:
             print(exc)
 
@@ -230,12 +230,13 @@ if __name__ == '__main__':
         for entry_problem in entry_problems[1]:
             print('\t' + str(entry_problem))
 
-    ns = list(new_strings.values())
-    ns.sort(key=lambda a: a[0])
-    field_type = None
-    for new_string in ns:
-        if field_type != new_string[0]:
-            field_type = new_string[0]
-            print(field_type)
-        print("@String{" + new_string[1] + " = \""+ new_string[2] +"\"}")
+    if is_set('print_missing_strings'):
+        ns = list(new_strings.values())
+        ns.sort(key=lambda a: a[0])
+        field_type = None
+        for new_string in ns:
+            if field_type != new_string[0]:
+                field_type = new_string[0]
+                print(field_type)
+            print("@String{" + new_string[1] + " = \""+ new_string[2] +"\"}")
 
