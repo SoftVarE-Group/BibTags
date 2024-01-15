@@ -170,20 +170,20 @@ def check_key(entry):
        
 
 if __name__ == '__main__':
-    with open(get_path("check_settings.yml"), "r") as stream:
+    with open(get_path("check_integrity_config.yaml"), "r") as stream:
         try:
             settings = yaml.safe_load(stream)
             #print(settings)
         except yaml.YAMLError as exc:
             print(exc)
 
-    with open(get_path("check_fields.yaml"), "r") as stream:
+    with open(get_path("required_fields.yaml"), "r") as stream:
         try:
             fields = yaml.safe_load(stream)
         except yaml.YAMLError as exc:
             print(exc)
 
-    with open(get_path("check_string_fields.yaml"), "r") as stream:
+    with open(get_path("string_fields.yaml"), "r") as stream:
         try:
             string_fields = yaml.safe_load(stream)
         except yaml.YAMLError as exc:
