@@ -356,6 +356,7 @@
 }
 
 @article{RBP+:LMCS23,
+	subsumes = {RBP+:TR22,RPTS:FORTE22,RPTS:TR22},
 	author = {Runge, Tobias and Bordis, Tabea and Potanin, Alex and Th\"um, Thomas and Schaefer, Ina},
 	title = {{Flexible Correct-by-Construction Programming}},
 	journal = LMCS,
@@ -561,6 +562,7 @@
 }
 
 @article{KGS:JSS23,
+	subsumes = {KGS:SPLC18},
 	title = {{Comparing the Intensity of Variability Changes in Software Product Line Evolution}},
 	author = {Kr{\"o}her, Christian and Gerling, Lea and Schmid, Klaus},
 	journal = JSS,
@@ -570,7 +572,7 @@
 	issn = {0164-1212},
 	doi = {10.1016/j.jss.2023.111737},
 	keywords = {Software product line evolution, Evolution analysis, Variability changes, Intensity, Comparison},
-	tt-tags = {SPL Evolution, subsumes KGS:SPLC19},
+	tt-tags = {SPL Evolution, subsumes KGS:SPLC18},
 	month = SEP,
 	year = 2023
 }
@@ -1039,6 +1041,7 @@
 }
 
 @techreport{RBP+:TR22subsumedbyRBP+:LMCS23,
+	subsumedBy = {RBP+:LMCS23},
 	author = {Runge, Tobias and Bordis, Tabea and Potanin, Alex and Th\"um, Thomas and Schaefer, Ina},
 	title = {{Flexible Correct-by-Construction Programming}},
 	institution = arXiv,
@@ -1303,6 +1306,7 @@
 }
 
 @inproceedings{RPTS:FORTE22subsumedbyRBP+:LMCS23,
+	subsumedBy = {RBP+:LMCS23},
 	author = {Runge, Tobias and Potanin, Alex and Th{\"u}m, Thomas and Schaefer, Ina},
 	title = {{Traits: Correctness-by-Construction for Free}},
 	booktitle = FORTE,
@@ -1318,6 +1322,7 @@
 }
 
 @techreport{RPTS:TR22subsumedbyRPTS:FORTE22,
+	subsumedBy = {RBP+:LMCS23},
 	author = {Tobias Runge and Alex Potanin and Thomas Th{\"u}m and Ina Schaefer},
 	title = {{Traits for Correct-by-Construction Programming}},
 	institution = arXiv,
@@ -1377,7 +1382,7 @@
 }
 
 @article{NST+:SoSyM22,
-	subsumes = {NST+:SoSyM21},
+	subsumes = {NST+:SoSyM21,NST+:VariVolution20},
 	author = {Nieke, Michael and Sampaio, Gabriela and Th{\"u}m, Thomas and Seidl, Christoph and Teixeira, Leopoldo and Schaefer, Ina},
 	title = {{Guiding the Evolution of Product-Line Configurations}},
 	journal = SoSyM,
@@ -2643,6 +2648,7 @@
 }
 
 @inproceedings{NST+:VariVolution20subsumedbyNST+:SoSyM22,
+	subsumedBy = {NST+:SoSyM22},
 	author = {Nieke, Michael and Sampaio, Gabriela and Th\"um, Thomas and Seidl, Christoph and Teixeira, Leopoldo and Schaefer, Ina},
 	title = {{GuyDance: Guiding Configuration Updates for Product-Line Evolution}},
 	isbn = {9781450375702},
@@ -2820,6 +2826,7 @@
 }
 
 @article{BLLV:TSE20,
+	subsumes = {VBLL:FM18,BLLV:FMSPLE15,BLLV:SPLC15,BLLV:ISoLA16},
 	author = {ter Beek, Maurice H. and Legay, Axel and Lluch Lafuente, Alberto and Vandin, Andrea},
 	title = {{A Framework for Quantitative Modeling and Analysis of Highly (Re)Configurable Systems}},
 	journal = TSE,
@@ -3465,6 +3472,7 @@
 }
 
 @article{HNA+:EMSE19,
+	subsumes = {HNA+:TR17},
 	author = {Halin, Axel and Nuttinck, Alexandre and Acher, Mathieu and Devroey, Xavier and Perrouin, Gilles and Baudry, Benoit},
 	title = {{Test Them All, Is It Worth It? Assessing Configuration Sampling on the JHipster Web Development Stack}},
 	journal = EMSE,
@@ -3934,6 +3942,7 @@
 } 
 
 @article{SBT:JSS19,
+	subsumes = {SBT:SPLC16},
 	author = {Sampaio, Gabriela and Borba, Paulo and Teixeira, Leopoldo},
 	title = {{Partially Safe Evolution of Software Product Lines}},
 	journal = JSS,
@@ -4677,6 +4686,7 @@
 }
 
 @inproceedings{KGS:SPLC18subsumedbyKGS:JSS23,
+	subsumedBy = {KGS:JSS23},
 	author = {Kr\"{o}her, Christian and Gerling, Lea and Schmid, Klaus},
 	title = {{Identifying the Intensity of Variability Changes in Software Product Line Evolution}},
 	isbn = {9781450364645},
@@ -4812,6 +4822,7 @@
 }
 
 @inproceedings{BBG:SPLC18,
+	subsumes = {BBGG:DSPL17},
 	author = {Basile, Davide and ter Beek, Maurice H. and Gnesi, Stefania},
 	title = {{Modelling and Analysis With Featured Modal Contract Automata}},
 	booktitle = SPLC,
@@ -4829,6 +4840,7 @@
 } 
 
 @inproceedings{VBLL:FM18,
+	subsumedBy = {BLLV:TSE20},
 	author = {Andrea Vandin and ter Beek, Maurice H. and Axel Legay and Lluch Lafuente, Alberto},
 	title = {{QFLan: A Tool for the Quantitative Analysis of Highly Reconfigurable
 	Systems}},
@@ -4840,7 +4852,7 @@
 	isbn = {978-3-319-95581-0},
 	doi = {10.1007/978-3-319-95582-7_19},
 	tt-tags = {SPL Model Checking},
-	tc-tags = {classified by Thomas+Maurice,statistical model checking,unoptimized product-based analysis,family-based implementation,family-based specification,design,tool,evaluation,no proof,QFLan,MultiVeSta,subsumed by BLLV:TSE19},
+	tc-tags = {classified by Thomas+Maurice,statistical model checking,unoptimized product-based analysis,family-based implementation,family-based specification,design,tool,evaluation,no proof,QFLan,MultiVeSta,subsumed by BLLV:TSE20},
 	month = JUL,
 	year = 2018
 }
@@ -5483,6 +5495,7 @@ series = {SPLC '17}
 }
 
 @inproceedings{BBGG:DSPL17subsumedbyBBG:SPLC18,
+	subsumedBy = {BBG:SPLC18},
 	author = {Basile, Davide and ter Beek, Maurice H. and Di Giandomenico, Felicita and Gnesi, Stefania},
 	title = {{Orchestration of Dynamic Service Product Lines With Featured Modal Contract Automata}},
 	booktitle = DSPL,
@@ -5581,6 +5594,7 @@ series = {SPLC '17}
 } 
 
 @techreport{HNA+:TR17subsumedbyHNA+:EMSE19,
+	subsumedBy = {HNA+:EMSE19},
 	author = {Halin, Axel and Nuttinck, Alexandre and Acher, Mathieu and Devroey, Xavier and Perrouin, Gilles and Baudry, Benoit},
 	title = {{Test Them All, Is It Worth It? A Ground Truth Comparison of Configuration Sampling Strategies}},
 	institution = arXiv,
@@ -5592,6 +5606,7 @@ series = {SPLC '17}
 }
 
 @inproceedings{HNA+:VaMoS17subsumedbyHNA+:EMSE19,
+	subsumedBy = {HNA+:EMSE19},
 	author = {Halin, Axel and Nuttinck, Alexandre and Acher, Mathieu and Devroey, Xavier and Perrouin, Gilles and Heymans, Patrick},
 	title = {{Yo Variability! JHipster: A Playground for Web-Apps Analyses}},
 	booktitle = VaMoS,
@@ -6027,6 +6042,7 @@ series = {SPLC '17}
 }
 
 @inproceedings{BVW:FASE17,
+	subsumes = {BVW:FMSPLE16},
 	author = {ter Beek, Maurice H. and de Vink, Erik P. and Willemse, Tim A. C.},
 	title = {{Family-Based Model Checking With mCRL2}},
 	booktitle = FASE,
@@ -6637,6 +6653,7 @@ series = {SPLC '17}
 }
 
 @inproceedings{BVW:FMSPLE16subsumedbyBVW:FASE17,
+	subsumedBy = {BVW:FASE17},
 	author = {ter Beek, Maurice H. and de Vink, Erik P. and Willemse, Tim A. C.},
 	title = {{Towards a Feature mu-Calculus Targeting SPL Verification}},
 	editor = {Rubin, Julia and Th\"um, Thomas},
@@ -6668,6 +6685,7 @@ series = {SPLC '17}
 }
 
 @inproceedings{BLLV:ISoLA16,
+	subsumedBy = {BLLV:TSE20},
 	author = {ter Beek, Maurice H. and Legay, Axel and Lluch Lafuente, Alberto and Vandin, Andrea},
 	title = {{Statistical Model Checking for Product Lines}},
 	editor = {Margaria, Tiziana and Steffen, Bernhard},
@@ -6678,7 +6696,7 @@ series = {SPLC '17}
 	isbn = {978-3-319-47166-2},
 	doi = {10.1007/978-3-319-47166-2_8},
 	tt-tags = {SPL Model Checking},
-	tc-tags = {classified by Thomas+Maurice,statistical model checking,unoptimized product-based analysis,family-based implementation,family-based specification,design,tool,evaluation,no proof,QFLan,MultiVeSta,SMT,Maude,subsumed by BLLV:TSE19},
+	tc-tags = {classified by Thomas+Maurice,statistical model checking,unoptimized product-based analysis,family-based implementation,family-based specification,design,tool,evaluation,no proof,QFLan,MultiVeSta,SMT,Maude,subsumed by BLLV:TSE20},
 	year = 2016
 }
 
@@ -7238,6 +7256,7 @@ series = {SPLC '17}
 }
 
 @inproceedings{SBT:SPLC16subsumedbySBT:JSS19,
+	subsumedBy = {SBT:JSS19},
 	author = {Sampaio, Gabriela and Borba, Paulo and Teixeira, Leopoldo},
 	title = {{Partially Safe Evolution of Software Product Lines}},
 	booktitle = SPLC,
@@ -7331,6 +7350,7 @@ series = {SPLC '17}
 }
 
 @inproceedings{DDP:MSR16subsumedbyDDP:EMSE18,
+	subsumedBy = {DDP:EMSE18},
 	author = {Dintzner, Nicolas and van Deursen, Arie and Pinzger, Martin},
 	title = {{FEVER: Extracting Feature-Oriented Changes From Commits}},
 	booktitle = MSR,
@@ -7939,6 +7959,7 @@ series = {SPLC '17}
 }
 
 @inproceedings{BDG+:SEFM15subsumedbyBDG+:SCP19,
+	subsumedBy = {BDG+:SCP19},
 	author = {ter Beek, Maurice H. and Damiani, Ferruccio and Gnesi, Stefania and Mazzanti, Franco and Paolini, Luca},
 	title = {{From Featured Transition Systems to Modal Transition Systems With Variability Constraints}},
 	booktitle = SEFM,
@@ -7952,6 +7973,7 @@ series = {SPLC '17}
 }
 
 @inproceedings{BLLV:SPLC15,
+	subsumedBy = {BLLV:TSE20},
 	author = {ter Beek, Maurice H. and Legay, Axel and Lafuente, Alberto Lluch and Vandin, Andrea},
 	title = {{Statistical Analysis of Probabilistic Models of Software Product Lines With Quantitative Constraints}},
 	booktitle = SPLC,
@@ -7963,11 +7985,12 @@ series = {SPLC '17}
 	publisher = ACM,
 	address = NY,
 	tt-tags = {SPL Model Checking},
-	tc-tags = {classified by Thomas+Maurice,statistical model checking,unoptimized product-based analysis,family-based implementation,family-based specification,design,tool,evaluation,no proof,QFLan,MultiVeSta,SMT,Maude,subsumed by BLLV:TSE19},
+	tc-tags = {classified by Thomas+Maurice,statistical model checking,unoptimized product-based analysis,family-based implementation,family-based specification,design,tool,evaluation,no proof,QFLan,MultiVeSta,SMT,Maude,subsumed by BLLV:TSE20},
 	year = 2015
 } 
 
 @inproceedings{BLLV:FMSPLE15,
+	subsumedBy = {BLLV:TSE20},
 	author = {ter Beek, Maurice H. and Axel Legay and Alberto Lluch{-}Lafuente and Andrea Vandin},
 	title = {{Quantitative Analysis of Probabilistic Models of Software Product
 	Lines with Statistical Model Checking}},
@@ -7976,7 +7999,7 @@ series = {SPLC '17}
 	pages = {56--70},
 	doi = {10.4204/EPTCS.182.5},
 	tt-tags = {SPL Model Checking},
-	tc-tags = {classified by Thomas+Maurice,statistical model checking,unoptimized product-based analysis,family-based implementation,family-based specification,design,tool,evaluation,no proof,PFLan,MultiVeSta,SMT,Maude,subsumed by BLLV:TSE19},
+	tc-tags = {classified by Thomas+Maurice,statistical model checking,unoptimized product-based analysis,family-based implementation,family-based specification,design,tool,evaluation,no proof,PFLan,MultiVeSta,SMT,Maude,subsumed by BLLV:TSE20},
 	month = APR,
 	year = 2015
 }
@@ -8030,6 +8053,7 @@ series = {SPLC '17}
 } 
 
 @inproceedings{MFV:SBES15subsumedbyMFV:JSERD16,
+	subsumedBy = {MFV:JSERD16},
 	author = {Matnei Filho, Rui Angelo and Vergilio, Silvia Regina},
 	title = {{A Mutation and Multi-Objective Test Data Generation Approach for Feature Testing of Software Product Lines}},
 	booktitle = SBES,
@@ -8173,6 +8197,7 @@ series = {SPLC '17}
 }
 
 @inproceedings{DBW:ECOOP15subsumedbyDBW:SCP18,
+	subsumedBy = {DBW:SCP18},
 	author = {Aleksandar S. Dimovski and Claus Brabrand and Andrzej W{\k{a}}sowski},
 	title = {{Variability Abstractions: Trading Precision for Speed in Family-Based Analyses}},
 	booktitle = ECOOP,
@@ -8312,6 +8337,7 @@ series = {SPLC '17}
 } 
 
 @techreport{SKT+:TR15subsumedbySKT+:ICSE16,
+	subsumedBy = {SKT+:ICSE16},
 	author = {Schr{\"o}ter, Reimar and Krieter, Sebastian and Th{\"u}m, Thomas and Benduhn, Fabian and Saake, Gunter},
 	title = {{Feature-Model Interfaces for Compositional Analyses}},
 	institution = UniMagdeburg,
@@ -9158,6 +9184,7 @@ series = {SPLC '17}
 }
 
 @inproceedings{FLL+:ICSME14subsumedbyLLE:SoSyM17,
+	subsumedBy = {LLE:SoSyM17},
 	author = {Fischer, Stefan and Linsbauer, Lukas and Lopez-Herrejon, Roberto Erick and Egyed, Alexander},
 	title = {{Enhancing Clone-and-Own With Systematic Reuse for Developing Software Variants}},
 	booktitle = ICSME,
@@ -9440,6 +9467,7 @@ series = {SPLC '17}
 }
 
 @inproceedings{NBKC:ICSE14subsumedbyNBKC:TSE15,
+	subsumedBy = {NBKC:TSE15},
 	author = {Nadi, Sarah and Berger, Thorsten and K{\"a}stner, Christian and Czarnecki, Krzysztof},
 	title = {{Mining Configuration Constraints: Static Analyses and Empirical Results}},
 	isbn = {978-1-4503-2756-5},
@@ -9669,6 +9697,7 @@ series = {SPLC '17}
 }
 
 @inproceedings{ABW:ASE14subsumedbyAMS+:TOSEM18,
+	subsumedBy = {AMS+:TOSEM18},
 	author = {Abal, Iago and Brabrand, Claus and W{\k{a}}sowski, Andrzej},
 	title = {{42 Variability Bugs in the Linux Kernel: A Qualitative Analysis}},
 	booktitle = ASE,
@@ -9713,6 +9742,7 @@ series = {SPLC '17}
 }
 
 @inproceedings{ATM+:SPLC14subsumedbyATL+:SoSyM19,
+	subsumedBy = {ATL+:SoSyM19},
 	author = {Al-Hajjaji, Mustafa and Th\"um, Thomas and Meinicke, Jens and Lochau, Malte and Saake, Gunter},
 	title = {{Similarity-Based Prioritization in Software Product-Line Testing}},
 	booktitle = SPLC,
@@ -10007,6 +10037,7 @@ series = {SPLC '17}
 }
 
 @inproceedings{MBW:AOSD14subsumedbyMDBW:SCP15,
+	subsumedBy = {MDBW:SCP15},
 	author = {Midtgaard, Jan and Brabrand, Claus and W\k{a}sowski, Andrzej},
 	title = {{Systematic Derivation of Static Analyses for Software Product Lines}},
 	booktitle = AOSD,
@@ -10791,6 +10822,7 @@ series = {SPLC '17}
 }
 
 @inproceedings{GCA+:ASE13subsumedbyGYS+:EMSE18,
+	subsumedBy = {GYS+:EMSE18},
 	author = {Guo, Jianmei and Czarnecki, Krzysztof and Apel, Sven and Siegmund, Norbert and W{\k{a}}sowski, Andrzej},
 	title = {{Variability-Aware Performance Prediction: A Statistical Learning Approach}},
 	booktitle = ASE,
@@ -10950,6 +10982,7 @@ series = {SPLC '17}
 }
 
 @inproceedings{LLE:SPLC13subsumedbyLLE:SoSyM17,
+	subsumedBy = {LLE:SoSyM17},
 	author = {Linsbauer, Lukas and Lopez-Herrejon, E. Roberto and Egyed, Alexander},
 	title = {{Recovering Traceability Between Features and Code in Product Variants}},
 	booktitle = SPLC,
@@ -11500,6 +11533,7 @@ Case Study from the Linux Kernel}},
 }
 
 @techreport{RLB+:TR13subsumedbyRLB+:AOSD14,
+	subsumedBy = {RLB+:AOSD14},
 	author = {Reb{\^e}lo, Henrique and Leavens, Gary T. and Bagherzadeh, Mehdi and Rajan, Hridesh and Lima,
 Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 	title = {{AspectJML: Modular Specification and Runtime Checking for Crosscutting Contracts}},
@@ -11542,6 +11576,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 }
 
 @inproceedings{BLP:ICTCS13subsumedbyBLP:FMSPLE13,
+	subsumedBy = {BLP:FMSPLE13},
 	author = {ter Beek, Maurice H. and Lafuente, Alberto Lluch and Petrocchi, Marinella},
 	title = {{Combining Declarative and Procedural Views in the Feature-Oriented Specification and Analysis of Product Families}},
 	booktitle = ICTCS,
@@ -12598,6 +12633,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 }
 
 @inproceedings{BGM:SPLC12subsumedbyABFG:ISoLA12,
+	subsumedBy = {ABFG:ISoLA12},
 	author = {ter Beek, Maurice H. and Gnesi, Stefania and Mazzanti, Franco},
 	title = {{Demonstration of a Model Checker for the Analysis of Product Variability}},
 	booktitle = SPLC,
@@ -12709,6 +12745,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 }
 
 @article{HPP+:TR12subsumedbyHPP+:TSE14,
+	subsumedBy = {HPP+:TSE14},
 	author = {Henard, Christopher and Papadakis, Mike and Perrouin, Gilles and Klein, Jacques and Heymans, Patrick and Traon, Yves Le},
 	title = {{Bypassing the Combinatorial Explosion: Using Similarity to Generate and Prioritize T-Wise Test Suites for Large Software Product Lines}},
 	journal = {CoRR},
@@ -13040,6 +13077,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 }
 
 @inproceedings{CEW:ICFP12subsumedbyCEW:TOPLAS14,
+	subsumedBy = {CEW:TOPLAS14},
 	author = {Chen, Sheng and Erwig, Martin and Walkingshaw, Eric},
 	title = {{An Error-Tolerant Type System for Variational Lambda Calculus}},
 	booktitle = ICFP,
@@ -13181,6 +13219,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 }
 
 @article{MRKN:TR12subsumedbyMRKN:iFM13,
+	subsumedBy = {MRKN:iFM13},
 	author = {Jean-Vivien Millo and S. Ramesh and Shankara Narayanan Krishna and Ganesh Khandu Narwane},
 	title = {{Compositional Verification of Evolving Software Product Lines}},
 	journal = CoRR,
@@ -13331,6 +13370,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 }
 
 @techreport{LRK+:TR12subsumedbyLKA+:ESECFSE13,
+	subsumedBy = {LKA+:ESECFSE13},
 	author = {J\"org Liebig and Alexander von Rhein and Christian K\"astner and Sven Apel and Jens D\"orre and Christian Lengauer},
 	title = {{Large-Scale Variability-Aware Type Checking and Dataflow Analysis}},
 	institution = UniPassau,
@@ -13360,6 +13400,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 }
 
 @techreport{BTR+:TR12subsumedbyBTR+:PLDI13,
+	subsumedBy = {BTR+:PLDI13},
 	author = {Eric Bodden and T{\'a}rsis Tol{\^e}do and M{\'a}rcio Ribeiro and Claus Brabrand and Paulo Borba and Mira Mezini},
 	title = {{Transparent and Efficient Reuse of IFDS-Based Static Program Analyses for Software Product Lines}},
 	institution = TUDarmstadt,
@@ -13514,6 +13555,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 }
 
 @inproceedings{BMS:FM12subsumedbyABFG:ISoLA12,
+	subsumedBy = {ABFG:ISoLA12},
 	author = {ter Beek, Maurice H. and Mazzanti, Franco and Sulova, Aldi},
 	title = {{VMC: A Tool for Product Variability Analysis}},
 	booktitle = FM,
@@ -13624,6 +13666,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 }
 
 @inproceedings{T:MIT12subsumedbyThuem15,
+	subsumedBy = {Thuem15},
 	renamedFrom = {T:MIT12subsumedbyT15},
 	author = {Th{\"u}m, Thomas},
 	title = {{Verification of Software Product Lines Using Contracts}},
@@ -13673,6 +13716,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 }
 
 @inproceedings{B:PLAS12subsumedbyBTR+:PLDI13,
+	subsumedBy = {BTR+:PLDI13},
 	author = {Eric Bodden},
 	title = {{Position Paper: Static Flow-Sensitive \& Context-Sensitive Information-Flow Analysis for Software Product Lines}},
 	booktitle = PLAS,
@@ -13686,6 +13730,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 }
 
 @inproceedings{BRTB:AOSD12subsumedbyBRT+:TAOSD13,
+	subsumedBy = {BRT+:TAOSD13},
 	author = {Brabrand, Claus and Ribeiro, M\'{a}rcio and Tol\^{e}do, T\'{a}rsis and Borba, Paulo},
 	title = {{Intraprocedural Dataflow Analysis for Software Product Lines}},
 	booktitle = AOSD,
@@ -13714,6 +13759,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 }
 
 @techreport{TAK+:TR12subsumedbyTAK+:CSUR14,
+	subsumedBy = {TAK+:CSUR14},
 	author = {Th{\"u}m, Thomas and Apel, Sven and K{\"a}stner, Christian and Kuhlemann, Martin and Schaefer, Ina and Saake, Gunter},
 	title = {{Analysis Strategies for Software Product Lines}},
 	institution = UniMagdeburg,
@@ -13801,6 +13847,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 }
 
 @inproceedings{HKM:FM06subsumedbyHKM:SoSyM11,
+	subsumedBy = {HKM:SoSyM11},
 	author = {Peter H{\"{o}}fner and Ridha Kh{\'{e}}dri and Bernhard M{\"{o}}ller},
 	title = {{Feature Algebra}},
 	booktitle = FM,
@@ -14063,6 +14110,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 }
 
 @inproceedings{X:ICSE11subsumedbyXXJ:WCRE12,
+	subsumedBy = {XXJ:WCRE12},
 	author = {Xue, Yinxing},
 	title = {{Reengineering Legacy Software Products Into Software Product Line Based on Automatic Variability Analysis}},
 	booktitle = ICSE,
@@ -14617,6 +14665,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 } 
 
 @inproceedings{ABFG:FMOODS11subsumedbyABFG:ISoLA12,
+	subsumedBy = {ABFG:ISoLA12},
 	author = {Asirelli, Patrizia and ter Beek, Maurice H. and Fantechi, Alessandro and Gnesi, Stefania},
 	title = {{A Model-Checking Tool for Families of Services}},
 	booktitle = FMOODSFORTE,
@@ -14677,6 +14726,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 } 
 
 @inproceedings{ABF+:PLEASE11subsumedbyABFG:ISoLA12,
+	subsumedBy = {ABFG:ISoLA12},
 	author = {Asirelli, Patrizia and ter Beek, Maurice H. and Fantechi, Alessandro and Gnesi, Stefania and Mazzanti, Franco},
 	title = {{Design and Validation of Variability in Product Lines}},
 	booktitle = PLEASE,
@@ -14707,6 +14757,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 } 
 
 @inproceedings{ABGF:SPLC11subsumedbyABFG:ISoLA12,
+	subsumedBy = {ABFG:ISoLA12},
 	author = {Asirelli, Patrizia and ter Beek, Maurice H. and Gnesi, Stefania and Fantechi, Alessandro},
 	title = {{Formal Description of Variability in Product Families}},
 	booktitle = SPLC,
@@ -14775,6 +14826,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 }
 
 @techreport{ASW+:TR11subsumedbyASW+:ASE11,
+	subsumedBy = {ASW+:ASE11},
 	author = {Apel, Sven and Speidel, Hendrik and Wendler, Philipp and von Rhein, Alexander and Beyer, Dirk},
 	title = {{Feature-Aware Verification}},
 	institution = UniPassau,
@@ -14942,6 +14994,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 }
 
 @inproceedings{HS:FoVeOOSsubsumedbyHS:ISoLA12,
+	subsumedBy = {HS:ISoLA12},
 	author = {H\"ahnle, Reiner and Schaefer, Ina},
 	title = {{A Liskov Principle for Delta-Oriented Programming}},
 	booktitle = FoVeOOS,
@@ -15307,6 +15360,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 }
 
 @article{LP:JSAT10,
+	subsumes = {SAT4J},
 	title = {{The Sat4j Library, Release 2.2}},
 	author = {Le Berre, Daniel and Parrain, Anne},
 	journal = JSAT,
@@ -15502,6 +15556,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 } 
 
 @inproceedings{ABGF:VaMoS10subsumedbyABFG:ISoLA12,
+	subsumedBy = {ABFG:ISoLA12},
 	author = {Asirelli, Patrizia and ter Beek, Maurice H. and Gnesi, Stefania and Fantechi, Alessandro},
 	title = {{A Deontic Logical Framework for Modelling Product Families}},
 	booktitle = VaMoS,
@@ -15571,6 +15626,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 }
 
 @inproceedings{KBK:ASE10subsumedbyKBK:AOSD11,
+	subsumedBy = {KBK:AOSD11},
 	author = {Kim, Chang Hwan Peter and Batory, Don and Khurshid, Sarfraz},
 	title = {{Eliminating Products to Test in a Software Product Line}},
 	booktitle = ASE,
@@ -15714,6 +15770,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 }
 
 @inproceedings{ABFG:iFM10subsumedbyABFG:ISoLA12,
+	subsumedBy = {ABFG:ISoLA12},
 	author = {Asirelli, Patrizia and ter Beek, Maurice H. and Fantechi, Alessandro and Gnesi, Stefania},
 	title = {{A Logical Framework to Deal With Variability}},
 	booktitle = iFM,
@@ -16480,6 +16537,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 }
 
 @inproceedings{ABGF:VaMoS09subsumedbyABFG:ISoLA12,
+	subsumedBy = {ABFG:ISoLA12},
 	author = {Asirelli, Patrizia and ter Beek, Maurice H. and Gnesi, Stefania and Fantechi, Alessandro},
 	title = {{Deontic Logics for Modeling Behavioural Variability - Research in Progress}},
 	booktitle = VaMoS,
@@ -16700,6 +16758,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 } 
 
 @inproceedings{DCB:FOAL09subsumedbyDCB:ESECFSE09,
+	subsumedBy = {DCB:ESECFSE09},
 	author = {Benjamin Delaware and William Cook and Don Batory},
 	title = {{A Machine-Checked Model of Safe Composition}},
 	booktitle = FOAL,
@@ -16865,6 +16924,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 }
 
 @inproceedings{AKL:ICSE09subsumedbyAKL:TSE13,
+	subsumedBy = {AKL:TSE13},
 	author = {Sven Apel and Christian K\"{a}stner and Christian Lengauer},
 	title = {{FeatureHouse: Language-Independent, Automated Software Composition}},
 	booktitle = ICSE,
@@ -18524,6 +18584,7 @@ from Object-Oriented Design}},
 }
 
 @techreport{ALB+:TR07subsumedbyALMK:SCP10,
+	subsumedBy = {ALMK:SCP10},
 	author = {Sven Apel and Christian Lengauer and Don Batory and Bernhard M\"{o}ller and Christian K\"{a}stner},
 	title = {{An Algebra for Feature-Oriented Software Development}},
 	institution = UniPassau,
@@ -19877,6 +19938,7 @@ from Object-Oriented Design}},
 }
 
 @inproceedings{BRT:CAiSE05subsumedbyBTR:SEKE05,
+	subsumedBy = {BTR:SEKE05},
 	author = {David Benavides and Antonio Ruiz-Cort\'es and Pablo Trinidad},
 	title = {{Automated Reasoning on Feature Models}},
 	booktitle = CAiSE,
@@ -20369,6 +20431,7 @@ from Object-Oriented Design}},
 } 
 
 @inproceedings{SL:OOPSLA04subsumedbyLS:TR05,
+	subsumedBy = {LS:TR05},
 	author = {Skotiniotis, Therapon and Lorenz, David H.},
 	title = {{Cona: Aspects for Contracts and Contracts for Aspects}},
 	booktitle = OOPSLA,
@@ -20454,6 +20517,7 @@ from Object-Oriented Design}},
 }
 
 @inproceedings{CHE:SPLC04subsumedbyCHE:SPIP05staged,
+	subsumedBy = {CHE:SPIP05staged},
 	author = {Krzysztof Czarnecki and Simon Helsen and Ulrich Eisenecker},
 	title = {{Staged Configuration Using Feature Models}},
 	booktitle = SPLC,
@@ -24740,6 +24804,7 @@ Stories of successful software product line deployments often read like epic adv
 }
 
 @misc{WHYsubsumedbyFM07,
+	subsumedBy = {FM07},
 	author = {{Why Development Team}},
 	title = {{Why: A Software Verification Platform}},
 	howpublished = {Website},
@@ -24748,7 +24813,7 @@ Stories of successful software product line deployments often read like epic adv
 }
 
 @misc{SAT4JsubsumedbyLP:JSAT10,
-	subsumes = {LP:JSAT10},
+	subsumedBy = {LP:JSAT10},
 	author = {Daniel Le Berre},
 	title = {{SAT4J: A Satisfiability Library for Java}},
 	howpublished = {Website},
