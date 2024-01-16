@@ -1,6 +1,6 @@
+title_protect: true
 title_capitilization: false
 name_order: false
-title_protect: true
 string_journal: false
 string_booktitle: false
 string_publisher: false
@@ -13,10 +13,10 @@ string_institution: true
 string_organization: false
 string_school: true
 string_series: false
+print_missing_strings: false
 bib_keys: false
 pages: true
 notes: true
 required_fields: true
 wanted_fields: false
 optional_fields: false
-print_missing_strings: false

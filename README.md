@@ -24,14 +24,13 @@
     ```
 
 ### Policies for Theses
-
 - **Keys** of theses are formatted according to the formatting rules described above.
 - **The month of a thesis entry** is the month of the defense (because publication of a thesis might happen much later).
 - **Publication status of theses** should be indicated in exactly one of the following three ways:
   - If the thesis is already published, add DOI and URL. The URL should directly point to the PDF.
   - If the thesis is not published and should not be published, add `comments = NotToBePublished,`.
   - If the thesis is not published but should be published, add `note = {To appear}`.
-- **Add `type` for bachelor, master, and project thesis**. These theses should be specified as `@mastersthesis` as it is the only bibtex entry type for thesis (apart from `@phdthesis`). Distinguish between different types of thesis by using `type = {Bachelor's Thesis}`, `type = {Master's Thesis}`, or `type = {Project Thesis}` respectively.
+- **Add `type` for bachelor, master, and project thesis**. These theses should be specified as `@mastersthesis` as it is the only bibtex entry type for thesis (apart from `@phdthesis`). Distinguish between different types of theses by using `type = Bachelor`, `type = Master`, or `type = Project` respectively.
 - **For theses written in german** add `note = {In German}`.
 
 ## Custom Fields
@@ -64,3 +63,39 @@ Use custom fileds to add addtional information for single entries. **Do not writ
 ## DON'Ts
 - **Edit `literature-cleaned.bib`**: This is a generated file. It is generated from literature cleaned with [MibTeX](https://github.com/SoftVarE-Group/MibTeX). After you changed `literature.bib`, you can update `literature-cleaned.bib` by running `clean.sh` / `clean.bat`.
 
+## Testing
+
+Many problems with added (and some existing) entries can be detected automatically by running the script `test.sh`.
+This script does multiple checks:
+1. Creates literature-cleaned.bib using mibtex
+2. Compiles bib files with latex
+  1. Using biblatex and biber to compile `literature.bib` and `MYshort.bib`
+  2. Using biblatex and biber to compile `literature.bib` and `MYabrv.bib`
+  3. Using natbib and bibtex to compile `literature.bib` and `MYshort.bib`
+ 4. Using natbib and bibtex to compile `literature-cleaned.bib` and `MYshort.bib`
+3. Runs python script `scripts/check_integrity.py`
+
+The script display problems in the console output. However, the complete output of all called tools can be found in individual .log files in the directory `test_latex`. This directory also contains the compiled pdf files, for further manual inspection.
+
+### check_integrity.py
+
+This script performs multiple checks for all entries in the file `literature.bib`.
+1. Tests that fields declared as string fields contain only string values.
+2. Creates bibtex strings for fields that are declared as string fields but do not contains string values and prints them to the console.
+3. Tests that for each entry *required*, *wanted* and *optional* exist or are declared as missing.
+4. Tests that the title of each entry is protected (uses `{{...}}`).
+5. Tests that the title of each entry is correctly capitalized (this may produce false optional results for some titles).
+6. Tests that the pages of each entry are formated correctly (use `--`).
+7. Tests that the names of authors of each entry follow the syntax `<last name>, <first name> and ...`.
+8. Tests that the key of each entry conforms to our naming scheme (may also produce false positive results).
+
+All detected problems are written to the console grouped by entries.
+
+The script can be configured using the following files 
+- `check_integrity_config.yaml`: Declares which specific checks are enabled/disabled.
+- `field_types.yaml`: Declares for each entry type (e.g. inproceedings, article, ...) which fields are required (must be present), wanted (additional useful information), or optional (can be present, but are mostly ignored). Some fields are mutually exclusive, such as volume and number for inproceedings entries. This is defined by using sub lists in the config file.
+      For example: ```
+      - - volume
+        - number
+      ```
+- `string_fields.yaml`: Declares which fields should contain bibtex strings instead of literals.
