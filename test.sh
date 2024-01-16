@@ -18,12 +18,25 @@ change_into_latex_dir () {
 }
 
 ## This function deletes all files but .tex files in the current working directory.
+## Deletes only files. Fails if there are one or more directories present.
 delete_auxiliary_files () {
 	echo -e -n "${GREEN}delete auxiliary files in latex dir...${NOCOLOR}"
 	if find . -mindepth 1 -maxdepth 1 ! -name "*.tex" -delete ; then
 		echo -e "${GREEN}OK${NOCOLOR}"
 	else
 		echo -e "${RED}FAIL${NOCOLOR}"
+		exit 1
+	fi
+}
+
+## This function creates the literature-cleaned.bib file by calling a dedicated java program.
+create_cleaned_literature () {
+	echo -e -n "${GREEN}create literature-cleaned.bib...${NOCOLOR}"
+	if java -cp ../mibtex/mibtex-cleaner.jar de.mibtex.BibtexCleaner "../literature.bib" > mibtex_cleaner.log ; then
+		echo -e "${GREEN}OK${NOCOLOR}"
+	else
+		echo -e "${RED}FAIL${NOCOLOR}"
+		cat mibtex_cleaner.log
 		exit 1
 	fi
 }
@@ -112,9 +125,11 @@ compile_bibtex () {
 ## Main script
 change_into_latex_dir
 delete_auxiliary_files
+create_cleaned_literature
 
 compile_biber short
 compile_biber abrv
 compile_bibtex natbib
+compile_bibtex clean
 
 check_integrity

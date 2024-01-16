@@ -14,6 +14,12 @@ title_regex = re.compile(r"^\{.*\}$", re.DOTALL)
 pages_regex = re.compile(r"^[a-zA-Z0-9,.:()]+(--[a-zA-Z0-9,.:()]+)?$", re.DOTALL)
 author_regex = re.compile(r"([^,]+),[^,]+(\s+and\s+([^,]+),[^,]+)*", re.DOTALL)
 
+## Different types of fields. Required fields must be present. Wanted fields should be present. Optional can be present be don't need to be.
+## Which fields are which type is dependent on the entry type. This is defined in the field_types.yaml configuration file.
+field_type_required = 'required'
+field_type_wanted = 'wanted'
+field_type_optional = 'optional'
+
 
 def get_path(file_name):
     return os.path.join(script_dir, file_name)
@@ -35,7 +41,8 @@ def add_problem(entry, problem_type, problem_message):
     problems[entry_id].append((problem_type, problem_message))
 
 
-## Checks if fields declared as string fields contain string values
+## Checks if fields declared as string fields contain string values.
+## For example booktitle = VAMOS instead of booktitle = {VaMoS}
 def check_string_fields(entry):
     for field in string_fields:
         if is_set('string_' + field):
@@ -81,9 +88,9 @@ def check_field_type_exists(entry, field_type):
 
 
 def check_field_types_exists(entry):
-    check_field_type_exists(entry, 'required')
-    check_field_type_exists(entry, 'wanted')
-    check_field_type_exists(entry, 'optional')
+    check_field_type_exists(entry, field_type_required)
+    check_field_type_exists(entry, field_type_wanted)
+    check_field_type_exists(entry, field_type_optional)
 
 
 ## Checks that the title of an entry is protected and correctly capitalized (may produce false optional results)
@@ -108,7 +115,7 @@ def check_pages(entry):
                 add_problem(entry, 'incorrect_pages', org)
 
 
-## Checks that the authors of an entry are in the correct ordering
+## Checks that the names of authors of an entry follow the syntax "last name, first name"
 def check_author(entry):
     if is_set('name_order'):
         if ('author' in entry):
@@ -186,7 +193,7 @@ if __name__ == '__main__':
         except yaml.YAMLError as exc:
             print(exc)
 
-    with open(get_path("required_fields.yaml"), "r") as stream:
+    with open(get_path("field_types.yaml"), "r") as stream:
         try:
             fields = yaml.safe_load(stream)
         except yaml.YAMLError as exc:
