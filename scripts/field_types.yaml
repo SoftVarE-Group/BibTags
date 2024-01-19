@@ -1,0 +1,261 @@
+article:
+  required:
+    - author
+    - title
+    - journal
+    - year
+  wanted:
+    - volume
+    - number
+    - pages
+    - month
+    - url
+    - doi
+  optional:
+    - note
+book:
+  required:
+    - - author
+      - editor
+    - title
+    - publisher
+    - year
+  wanted:
+    - month
+    - url
+    - doi
+  optional:
+    - - volume
+      - number
+    - series
+    - address
+    - edition
+    - note
+booklet:
+  required:
+    - title
+  wanted:
+    - author
+    - year
+    - howpublished
+    - url
+    - doi
+  optional:
+    - address
+    - month
+    - note
+conference:
+  required:
+    - author
+    - title
+    - booktitle
+    - year
+  wanted:
+    - - volume
+      - number
+    - pages
+    - publisher
+    - url
+    - doi
+  optional:
+    - editor
+    - series
+    - address
+    - month
+    - organization
+    - note
+inbook:
+  required:
+    - - author
+      - editor
+    - title
+    - - chapter
+      - pages
+    - publisher
+    - year
+  wanted:
+    - author
+    - month
+    - url
+    - doi
+  optional:
+    - - volume
+      - number
+    - series
+    - type
+    - address
+    - edition
+    - note
+incollection:
+  required:
+    - author
+    - title
+    - booktitle
+    - publisher
+    - year
+  wanted:
+    - - volume
+      - number
+    - chapter
+    - pages
+    - month
+    - url
+    - doi
+  optional:
+    - editor
+    - series
+    - type
+    - address
+    - edition
+    - note
+inproceedings:
+  required:
+    - author
+    - title
+    - booktitle
+    - year
+  wanted:
+    - - volume
+      - number
+    - pages
+    - publisher
+    - month
+    - url
+    - doi
+  optional:
+    - editor
+    - series
+    - address
+    - organization
+    - note
+manual:
+  required:
+    - title
+  wanted:
+    - author
+    - year
+    - url
+    - doi
+  optional:
+    - organization
+    - address
+    - edition
+    - month
+    - note
+mastersthesis:
+  required:
+    - author
+    - title
+    - school
+    - year
+  wanted:
+    - month
+    - url
+    - doi
+  optional:
+    - type
+    - address
+    - note
+misc:
+  required:
+  wanted:
+    - author
+    - title
+    - howpublished
+    - year
+    - url
+    - doi
+  optional:
+    - month
+    - note
+phdthesis:
+  required:
+    - author
+    - title
+    - school
+    - year
+  wanted:
+    - month
+    - url
+    - doi
+  optional:
+    - type
+    - address
+    - note
+proceedings:
+  required:
+    - title
+    - year
+  wanted:
+    - - volume
+      - number
+    - publisher
+    - url
+    - doi
+  optional:
+    - editor
+    - series
+    - address
+    - month
+    - organization
+    - note
+techreport:
+  required:
+    - author
+    - title
+    - institution
+    - year
+  wanted:
+    - number
+    - month
+    - url
+    - doi
+  optional:
+    - type
+    - address
+    - note
+unpublished:
+  required:
+    - author
+    - title
+    - note
+  wanted:
+    - year
+  optional:
+    - month
+patent:
+  required:
+    - author
+    - title
+    - number
+    - - year
+      - date
+  wanted:
+    - holder
+    - version
+  optional:
+    - subtitle
+    - titleaddon
+    - location
+    - addendum
+    - note
+    - type
+    - month
+online:
+  required:
+    - - author
+      - editor
+    - title
+    - url
+    - - year
+      - date
+  wanted:
+    - - urldate
+      - version
+  optional:
+    - subtitle
+    - titleaddon
+    - language
+    - addendum
+    - note
+    - month

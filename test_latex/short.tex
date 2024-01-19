@@ -1,0 +1,18 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc} % necessary to output special characters such as \k{a}
+\usepackage[a4paper, margin=1cm]{geometry}
+
+\usepackage[english]{babel}
+\usepackage{csquotes}
+
+\usepackage[backend=biber,natbib=true]{biblatex}
+\addbibresource{../MYshort.bib}
+\addbibresource{../literature.bib}
+
+\usepackage{hyperref}
+
+\begin{document}
+\nocite{*}
+\printbibliography
+\end{document}
