@@ -1,14 +1,18 @@
 literature-cleaned*.bib
 typo3_*.bib
 
+test_latex/*.pdf
+classification/problems.csv
+
 *.aux
 *.bbl
+*.bcf
 *.blg
 *.log
 *.gz
-/classification/problems.csv
 .idea
 *.nav
 *.out
+*.run.xml
 *.snm
 *.toc
