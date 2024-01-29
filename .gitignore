@@ -16,3 +16,4 @@ classification/problems.csv
 *.run.xml
 *.snm
 *.toc
+.auctex-auto/
