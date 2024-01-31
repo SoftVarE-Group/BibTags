@@ -125,11 +125,11 @@ compile_bibtex () {
 ## Main script
 change_into_latex_dir
 delete_auxiliary_files
+
+check_integrity
 create_cleaned_literature
 
 compile_biber short
 compile_biber abrv
 compile_bibtex natbib
 compile_bibtex clean
-
-check_integrity

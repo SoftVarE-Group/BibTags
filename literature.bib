@@ -7,6 +7,11 @@
 @string{NoAddress="address,"}
 @string{NoChapterNo="chapter,"}
 
+@string{Poster="Poster"}
+@string{ReplicationPackage="Replication Package"}
+@string{Repository="Repository"}
+@string{Slides="Slides"}
+
 @inproceedings{HOB+:MODEVAR24,
 	author = {He{\ss}, Tobias and Ostheimer, Lukas and Betz, Tobias and Karrer, Simon and Schmidt, Tim Jannik and Coquet, Pierre and Semmler, Sean and Th{\"u}m, Thomas},
 	title = {{variability.dev: Towards an Online Toolbox for Feature Modeling}},
@@ -263,7 +268,7 @@
 @misc{HSO+:VaMoS24-Artifact,
 	title = {{Evaluation Artifact for UnWise: High T-Wise Coverage from Uniform Sampling}},
 	author = {He{\ss}, Tobias and Schmidt, Tim Jannik and Ostheimer, Lukas and Krieter, Sebastian and Th{\"{u}}m, Thomas},
-	note = {Replication Package},
+	howpublished = ReplicationPackage,
 	month = DEC,
 	year = 2023,
 	publisher = {Zenodo},
@@ -4573,7 +4578,7 @@
 	title = {{Clafer: Lightweight Modeling of Structure, Behaviour, and Variability}},
 	author = {Juodisius, Paulius and Sarkar, Atrisha and Rao Mukkamala, Raghava and Antkiewicz, Michal and Czarnecki, Krzysztof and Wasowski, Andrzej},
 	journal = CoRR,
-	howpublished = {\url{https://arxiv.org/pdf/1807.08576v1}},
+	url = {https://arxiv.org/pdf/1807.08576v1},
 	year = 2018
 }
 
@@ -4581,7 +4586,7 @@
 	title = {{Approximate Model Counting by Partial Knowledge Compilation}},
 	author = {Lai, Yong},
 	journal = CoRR,
-	howpublished = {\url{http://arxiv.org/abs/1805.07180}},
+	url = {http://arxiv.org/abs/1805.07180},
 	year = 2018
 }
 
@@ -7550,7 +7555,7 @@ series = {SPLC '17}
 	title = {{Segregating Feature Interfaces to Support Software Product Line Maintenance}},
 	booktitle = MODULARITY,
 	isbn = {978-1-4503-3995-7},
-	location = {M\&\#225;laga, Spain},
+	location = {M\'{a}laga, Spain},
 	pages = {1--12},
 	doi = {10.1145/2889443.2889451},
 	acmid = {2889451},
@@ -16370,10 +16375,11 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 
 @misc{Tiu09,
 	title = {{Introduction to Logic}},
-	howpublished = {\url{http://ssll.rsise.anu.edu.au/files/slides/tiu.pdf}},
+	howpublished = Slides,
+	url = {http://ssll.rsise.anu.edu.au/files/slides/tiu.pdf},
+	urldate = {2020-12-22},
 	author = {Tiu, Alwen},
 	year = 2009,
-	notes = {Slides, Accessed: 2020-12-22}
 }
 
 @inproceedings{CCD:ICSE09,
@@ -17032,13 +17038,11 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 	year = 2009
 }
 
-@misc{F09b,
+@online{F09b,
 	author = {Bruno De Fraine},
 	title = {{Formalization and Type-Soundness Proof for Featherweight Java in Coq}},
-	howpublished = {Website},
-	note = {Available online at
-	\url{http://soft.vub.ac.be/~bdefrain/featherj/featherj-20090813.zip};
-	visited on October 21st, 2009.},
+	url = {http://soft.vub.ac.be/~bdefrain/featherj/featherj-20090813.zip},
+	urldate = {2009-10-21},
 	tt-tags = {},
 	month = AUG,
 	year = 2009
@@ -18715,7 +18719,8 @@ from Object-Oriented Design}},
 @misc{HH:GICOLAG06,
 	title = {{Discrete Global Optimization With Binary Decision diagrams}},
 	author = {Hadzic, Tarik and Hooker, John N},
-	howpublished = {\url{http://public.tepper.cmu.edu/jnh/bddvienna.pdf}},
+	howpublished = Slides,
+	url = {http://public.tepper.cmu.edu/jnh/bddvienna.pdf},
 	year = 2006,
 	notes = {Talk at Workshop on Global Optimization: Integrating Convexity, Optimization, Logic Programming, and Computational Algebraic Geometry (GICOLAG)}
 }
@@ -19045,7 +19050,7 @@ from Object-Oriented Design}},
 	year = 2006
 }
 
-@misc{LC06,
+@manual{LC06,
 	author = {Leavens, Gary T. and Cheon, Yoonsik},
 	title = {{Design by Contract With JML}},
 	url = {http://www.jmlspecs.org/jmldbc.pdf},
@@ -19871,11 +19876,11 @@ from Object-Oriented Design}},
 	year = 2005
 }
 
-@misc{W05,
+@online{W05,
 	author = {Stephanie Weirich},
 	title = {{Formalization and Type-Soundness Proof for Featherweight Java in Coq}},
-	howpublished = {Website},
-	note = {Available online at \url{http://www.cis.upenn.edu/~plclub/wiki-static/fj-coq.tar.gz}; visited on October 20th, 2009.},
+	url = {http://www.cis.upenn.edu/~plclub/wiki-static/fj-coq.tar.gz},
+	urldate = {2009-10-20},
 	tt-tags = {},
 	month = AUG,
 	year = 2005
@@ -19895,7 +19900,6 @@ from Object-Oriented Design}},
 @book{PBL05,
 	author = {Klaus Pohl and G\"{u}nter B\"{o}ckle and Frank J. van der Linden},
 	title = {{Software Product Line Engineering: Foundations, Principles and Techniques}},
-	howpublished = {Hardcover},
 	publisher = Springer,
 	address = BerlinHeidelberg,
 	tt-tags = {SPL Testing,Software Product Lines},
@@ -21914,7 +21918,7 @@ Stories of successful software product line deployments often read like epic adv
 	doi = {10.1023/A:1010000313106}
 }
 
-@misc{BPS00,
+@manual{BPS00,
 	title = {{Extensible Markup Language (XML) 1.0}},
 	author= {Bray, Tim and Paoli, Jean and Sperberg-McQueen, C Michael and Maler, Eve and Yergeau, Fran{\c{c}}ois and Cowan, John},
 	year= 2000,
@@ -24831,152 +24835,140 @@ Stories of successful software product line deployments often read like epic adv
 @misc{B:CVM19,
 	title = {{Evaluation of Optimised Centres of Rotation Skinning}},
 	author = {Bittner, Paul Maximilian and Tauscher, Jan-Philipp and Grogorick, Steve and Magnor, Marcus},
-	howpublished = {Poster at International Conference on Computational Visual Media 2019},
+	howpublished = Poster,
+	note = {Poster at International Conference on Computational Visual Media},
 	month = APR,
 	year = 2019,
 	pb-tags = {ICG},
 	url = {https://graphics.tu-bs.de/publications/bittner2019evaluation}
 }
 
-@misc{cpp,
+@online{cpp,
 	author = {{GCC Development Team}},
 	title = {{The C Preprocessor}},
-	howpublished = {Website},
-	note = {Available online at
-	\url{http://gcc.gnu.org/onlinedocs/cpp/index.html};
-	visited on January 11th, 2011.},
+	url = {http://gcc.gnu.org/onlinedocs/cpp/index.html},
+	urldate = {2011-01-11},
 	tt-tags = {Preprocessors},
 	year = 2011
 }
 
-@misc{antenna,
+@online{antenna,
 	author = {J\"{o}rg Pleumann and Omry Yadan and Erik Wetterberg},
 	title = {{Antenna: An Ant-to-End Solution for Wireless Java}},
-	howpublished = {Website},
-	note = {Available online at
-	\url{http://antenna.sourceforge.net/};
-	visited on November 22nd, 2011.},
+	url = {http://antenna.sourceforge.net/},
+	urldate = {2011-11-22},
 	tt-tags = {Preprocessors},
 	year = 2011
 }
 
-@misc{munge,
+@online{munge,
 	author = {{Munge Development Team}},
 	title = {{Munge: A Purposely-Simple Java Preprocessor}},
-	howpublished = {Website},
-	note = {Available online at
-	\url{http://github.com/sonatype/munge-maven-plugin};
-	visited on January 11th, 2011.},
+	url = {http://github.com/sonatype/munge-maven-plugin},
+	urldate = {2011-01-11},
 	tt-tags = {Preprocessors},
 	year = 2011
 }
 
-@misc{WHYsubsumedbyFM07,
+@online{WHYsubsumedbyFM07,
 	subsumedBy = {FM07},
 	author = {{Why Development Team}},
 	title = {{Why: A Software Verification Platform}},
-	howpublished = {Website},
-	note = {Available online at \url{http://why.lri.fr/}; visited on December 16th, 2010.},
+	url = {http://why.lri.fr/},
+	urldate = {2010-12-16},
+	year = 2010,
 	tt-tags = {Theorem Proving},
 }
 
-@misc{SAT4JsubsumedbyLP:JSAT10,
+@online{SAT4JsubsumedbyLP:JSAT10,
 	subsumedBy = {LP:JSAT10},
 	author = {Daniel Le Berre},
 	title = {{SAT4J: A Satisfiability Library for Java}},
-	howpublished = {Website},
-	note = {Available online at \url{http://www.sat4j.org/}; visited on November 9th, 2010.},
+	url = {http://www.sat4j.org/},
+	urldate = {2010-11-09},
+	year = 2010,
 	tt-tags = {},
 }
 
-@misc{gears,
+@online{gears,
 	author = {{Big Lever Software Inc.}},
 	title = {{Gears: A Software Product Line Engineering Tool}},
-	howpublished = {Website},
-	note = {Available online at \url{http://www.biglever.com/solution/product.html}; visited on November 4th, 2010.},
+	url = {http://www.biglever.com/solution/product.html},
+	urldate = {2010-11-04},
 	tt-tags = {Feature Modeling Tool},
 	year = 2010
 }
 
-@misc{pure-variants,
+@online{pure-variants,
 	author = {pure::systems},
 	title = {{pure::variants}},
-	howpublished = {Website},
-	note = {Available online at \url{http://www.pure-systems.com/products/pure-variants-9.html}; visited on May 10th, 2017.},
+	url = {http://www.pure-systems.com/products/pure-variants-9.html},
+	urldate = {2017-05-10},
 	tt-tags = {Feature Modeling Tool},
 	year = 2017
 }
 
-@misc{cdl3,
+@manual{cdl3,
 	author = {Veer, Bart and Dallaway, John},
 	title = {{The eCos Component Writer's Guide}},
-	howpublished = {Manual},
-	note = {Available online at
-	\url{http://ecos.sourceware.org/ecos/docs-3.0/pdf/ecos-3.0-cdl-guide-a4.pdf};
-	visited on May 10th, 2017.},
+	url = {http://ecos.sourceware.org/ecos/docs-3.0/pdf/ecos-3.0-cdl-guide-a4.pdf},
+	urldate = {2017-05-10},
+	year = 2017,
 	tt-tags = {},
-	year = 2017
 }
 
-@misc{cdl,
+@manual{cdl,
 	author = {Bart Veer and John Dallaway},
 	title = {{The eCos Component Writer's Guide}},
-	howpublished = {Manual},
-	note = {Available online at
-	\url{http://www.gaisler.com/doc/ecos-2.0-cdl-guide-a4.pdf};
-	visited on November 24th, 2011.},
+	url = {http://www.gaisler.com/doc/ecos-2.0-cdl-guide-a4.pdf},
+	urldate = {2011-11-24},
+	year = 2011,
 	tt-tags = {},
-	year = 2011
 }
 
-@misc{LinuxKernelConf,
+@online{LinuxKernelConf,
 	author = {Roman Zippel},
 	title = {{LinuxKernelConf Documentation}},
-	howpublished = {Website},
-	note = {Available online at
-	\url{http://www.xs4all.nl/~zippel/lc/lkc-language.txt};
-	visited on June 18th, 2010.},
+	url = {http://www.xs4all.nl/~zippel/lc/lkc-language.txt},
+	urldate = {2010-06-18},
+	year = 2010,
 	tt-tags = {},
 }
 
-@misc{kconfig,
+@online{kconfig,
 	author = {The Kernel Development Community},
 	title = {{KConfig Language}},
-	howpublished = {Website},
-	note = {Available online at \url{https://www.kernel.org/doc/html/latest/kbuild/kconfig-language.html};
-	visited on March 13th, 2020.},
+	url = {https://www.kernel.org/doc/html/latest/kbuild/kconfig-language.html},
+	urldate = {2024-01-30},
 	tt-tags = {Feature Modeling Tool},
 	year = 2018
 }
 
-@misc{AHEAD,
+@online{AHEAD,
 	author = {Don Batory},
 	title = {{AHEAD Tool Suite}},
-	howpublished = {Website},
-	note = {Available online at
-	\url{http://userweb.cs.utexas.edu/users/schwartz/ATS/fopdocs/};
-	visited on June 10th, 2011.},
+	url = {http://userweb.cs.utexas.edu/users/schwartz/ATS/fopdocs/},
+	urldate = {2011-06-10},
 	tt-tags = {Feature Orientation},
+	year = 2011
 }
 
-@misc{Coq:mailinglist,
+@online{Coq:mailinglist,
 	author = {{Coq Community}},
 	title = {{The Coq Mailing List}},
-	howpublished = {Website},
-	note = {Available online at
-	\url{http://logical.saclay.inria.fr/coq-puma/topics};
-	visited on November 9th, 2009.},
+	url = {http://logical.saclay.inria.fr/coq-puma/topics},
+	urldate = {2009-11-09},
 	tt-tags = {Theorem Proving},
+	year = 2009
 }
 
-@misc{Coq:website,
+@online{Coq:website,
 	author = {{Coq Development Team}},
 	title = {{The Coq Proof Assistant}},
-	howpublished = {Website},
-	note = {Available online at
-	\url{http://coq.inria.fr/};
-	visited on November 9th, 2009.},
+	url = {http://coq.inria.fr/},
+	urldate = {2009-11-09},
 	tt-tags = {Theorem Proving},
+	year = 2009
 }
 
 @manual{Coq:manual,
@@ -25002,96 +24994,120 @@ Stories of successful software product line deployments often read like epic adv
 @online{bluej,
 	title = {{Bluej IDE}},
 	author = {King's College London},
-	howpublished = {\url{https://www.bluej.org/}},
 	url = {https://www.bluej.org/},
-	date = {2020-01-06},
-	year = 2020,
-	note = {Accessed at January 06, 2020}
+	urldate = {2020-01-06},
+	year = 2020
 }
 
 @online{marlin,
 	title = {{Marlin Firmware}},
 	author = {Erik van der Zalm},
-	howpublished = {\url{http://marlinfw.org/}},
 	url = {http://marlinfw.org/},
-	date = {2019-12-02},
+	urldate = {2019-12-02},
 	year = 2019,
-	note = {Accessed at December 02, 2019}
 }
 
 @online{linux,
 	title = {{Linux Operating System}},
 	author = {Linus Torvalds},
-	howpublished = {\url{https://www.kernel.org/}},
 	url = {https://www.kernel.org/},
-	date = {2019-12-02},
+	urldate = {2019-12-02},
 	year = 2019,
-	note = {Accessed at December 02, 2019}
 }
 
 @online{apoweb,
 	author = {Dirk Aporius},
 	title = {{Apo-Games}},
 	year = 2020,
-	howpublished = {\url{http://apo-games.de/}},
 	url = {http://apo-games.de/},
-	date = {2020-06-25},
-	note = {Accessed at June 25, 2020}
+	urldate = {2020-06-25},
 }
 
-@misc{featureide,
+@online{featureide,
 	title = {{FeatureIDE Repository}},
-	howpublished = {\url{https://github.com/FeatureIDE/FeatureIDE}},
+	author = {FeatureIDE Development Team},
+	url = {https://github.com/FeatureIDE/FeatureIDE},
 	year = 2020,
-	note = {Accessed: 2020-12-22}
+	urldate = {2020-12-22}
 }
 
-@misc{splot:fmgen,
-	howpublished = {\url{http://52.32.1.180:8080/SPLOT/splot_fm_generator.html}},
-	note = {Accessed: 2020-08-23}
+@online{splot:fmgen,
+	title = {{SPLOT FM Generator}},
+	author = {SPLOT Development Team},
+	url = {http://52.32.1.180:8080/SPLOT/splot_fm_generator.html},
+	urldate = {2020-08-23},
+	year = 2020
 }
 
-@misc{ABCD, 
-	howpublished = {\url{http://fmv.jku.at/abcd/}},
-	note = {Accessed: 2020-10-25}
+@online{ABCD,
+	title = {{ABCD}},
+	author = {Armin Biere},
+	url = {http://fmv.jku.at/abcd/},
+	urldate = {2020-10-25},
+	th-tag = {BDD Library},
+	year = 2020
 }
 
-@misc{BeeDeeDee,
-	howpublished = {\url{https://github.com/JuliaSoft/BeeDeeDee}},
-	note = {Accessed: 2020-09-12},
-	th-tag = {BDD Library}
+@online{BeeDeeDee,
+	title = {{BeeDeeDee}},
+	author = {Julia s.r.l.},
+	url = {https://github.com/JuliaSoft/BeeDeeDee},
+	urldate = {2020-09-12},
+	th-tag = {BDD Library},
+	year = 2020
 }
 
-@misc{Biddy,    
-	howpublished = {\url{http://biddy.meolic.com/}},
-	note = {Accessed: 2020-10-24}
+@online{Biddy,
+	title = {{Biddy}},
+	author = {Robert Meolic},
+	url = {http://biddy.meolic.com/},
+	urldate = {2020-10-24},
+	th-tag = {BDD Library},
+	year = 2020
 }
 
-@misc{BuDDy,
-	howpublished = {\url{http://buddy.sourceforge.net/manual/main.html}},
-	note = {Accessed: 2020-03-02}
+@online{BuDDy,
+	title = {{BuDDy}},
+	author = {Jorn Lind-Nielsen},
+	url = {http://buddy.sourceforge.net/manual/main.html},
+	urldate = {2020-03-02},
+	th-tag = {BDD Library},
+	year = 2020
 }
 
 @misc{cacBDD,
-	howpublished = {\url{https://github.com/soga-denken/cacBDD}},
-	note = {Accessed: 2020-09-27},
+	title = {{cacBDD}},
+	author = {Guanfeng Lv and Kaile Su and Yanyan Xu},
+	howpublished = Repository,
+	url = {https://github.com/soga-denken/cacBDD},
+	urldate = {2020-09-27},
+	year = 2020,
 	th-tag = {BDD Library}
 }
 
-@misc{CAL,
-	howpublished = {\url{http://vlsicad.eecs.umich.edu/BK/Slots/cache/www-cad.eecs.berkeley.edu/Respep/Research/bdd/cal_bdd/}},
-	note = {Accessed: 2020-04-17}
+@online{CAL,
+	title = {{CAL}},
+	author = {Guanfeng Lv and Kaile Su and Yanyan Xu},
+	url = {http://vlsicad.eecs.umich.edu/BK/Slots/cache/www-cad.eecs.berkeley.edu/Respep/Research/bdd/cal_bdd/},
+	urldate = {2020-04-17},
+	year = 2020
 }
 
-@misc{CMU,
-	howpublished = {\url{http://www.cs.cmu.edu/afs/cs/project/modck/pub/www/bdd.html}},
-	note = {Accessed: 2020-09-24},
-	th-tag = {BDD Library}
+@online{CMU,
+	title = {{CMU BDD Library}},
+	author = {Rajeev K. Ranjan and Jagesh V. Sanghavi and Robert K. Brayton and Alberto Sangiovanni-Vincentelli},
+	url = {http://www.cs.cmu.edu/afs/cs/project/modck/pub/www/bdd.html},
+	urldate = {2020-09-24},
+	th-tag = {BDD Library},
+	year = 2020
 }
 
-@misc{CUDD,
-	howpublished = {\url{https://github.com/vscosta/cudd}},
-	note = {Accessed: 2020-06-13}
+@online{CUDD,
+	title = {{CUDD}},
+	author = {Somenzi, Fabio},
+	url = {https://github.com/vscosta/cudd},
+	urldate = {2020-06-13},
+	year = 2020
 }
 
 @manual{CUDD:manual,
@@ -25100,93 +25116,118 @@ Stories of successful software product line deployments often read like epic adv
 	year = 2005
 }
 
-@misc{DD,   
-	howpublished = {\url{https://github.com/tulip-control/dd}},
-	note = {Accessed: 2020-05-11}
+@misc{DD,
+	title = {{DD}},
+	author = {Ioannis Filippidis and Sofie Haesaert and Scott C. Livingston and Mario Wenzel},
+	howpublished = Repository,
+	url = {https://github.com/tulip-control/dd},
+	urldate = {2020-05-11},
+	year = 2020
 }
 
-@misc{JADE,
-	howpublished = {\url{http://www.informatik.uni-bremen.de/agra/eng/jade.php}},
-	note = {Accessed: 2020-04-21}
+@online{JADE,
+	title = {{JADE}},
+	author = {Rolf Drechsler and Jochen Römmler},
+	url = {http://www.informatik.uni-bremen.de/agra/eng/jade.php},
+	urldate = {2020-04-21},
+	year = 2020
 }
 
-@misc{JEDD,
+@online{JEDD,
 	title = {{JEDD: Source Code}},
-	howpublished = {\url{http://www.sable.mcgill.ca/jedd/}},
-	note = {Accessed: 2021-03-01},
+	author = {Ond{\v{r}}ej Lhot\'{a}k},
+	url = {http://www.sable.mcgill.ca/jedd/},
+	urldate = {2021-03-01},
 	year = 2008
 }
 
-@misc{JDD,  
-	howpublished = {\url{https://bitbucket.org/vahidi/jdd/src/master/}},
-	note = {Accessed: 2020-05-11}
+@online{JDD,
+	title = {{JDD}},
+	author = {Arash Vahidi},
+	url = {https://bitbucket.org/vahidi/jdd/src/master/},
+	urldate = {2020-05-11},
+	year = 2020
 }
 
-@misc{Logic2BDD,    
-	howpublished = {\url{https://github.com/davidfa71/Extending-Logic}},
-	note = {Accessed: 2020-09-28}
+@misc{Logic2BDD,
+	title = {{Logic2BDD}},
+	author = {Fern{\'a}ndez-Amor{\'o}s, David and Bra, Sergio and Aranda-Escol{\'a}stico, Ernesto and Heradio, Ruben},
+	howpublished = Repository,
+	url = {https://github.com/davidfa71/Extending-Logic},
+	urldate = {2020-09-28},
+	year = 2020
 }
 
-@misc{Meddly:source,
+@online{Meddly:source,
 	title = {{Meddly: Source Code}},
 	author = {Babar, Junaid and Miner, Andrew},
-	howpublished = {\url{https://meddly.sourceforge.io/}},
-	note = {Accessed: 2021-03-01},
+	url = {https://meddly.sourceforge.io/},
+	urldate = {2021-03-01},
 	year = 2018
 }
 
-@misc{MONA, 
-	howpublished = {\url{https://github.com/cs-au-dk/MONA}},
-	note = {Accessed: 2020-10-24}
-}
-
-@misc{PUMA, 
-	howpublished = {\url{
-	https://ira.informatik.uni-freiburg.de/software/puma/pumamain.html}},
-	note = {Accessed: 2020-10-03}
-}
-
-@misc{PyEDA,
-	title = {{PyEDA: Source Code}},
-	howpublished = {\url{https://github.com/cjdrake/pyeda}},
-	note = {Accessed: 2021-03-01},
-	year = 2018
-}
-
-@misc{Sylvan,
-	author = {van Dijk, Tom and Meijer, Jeroen and Ioannis Filippidis and Laarman, Alfons and Volk, Matthias},
-	howpublished = {\url{https://github.com/trolando/sylvan}},
-	note = {Accessed: 2021-03-01},
+@online{MONA,
+	title = {{MONA}},
+	author = {Nils Klarlund and Anders M{\o}ller},
+	url = {https://github.com/cs-au-dk/MONA},
+	urldate = {2020-10-24},
 	year = 2020
 }
 
-@misc{TdZdd:source,
+@online{PUMA,
+	title = {{PUMA}},
+	author = {A. Hett and K. Nowak},
+	url = {https://ira.informatik.uni-freiburg.de/software/puma/pumamain.html},
+	urldate = {2010-10-03},
+	year = 2010
+}
+
+@online{PyEDA,
+	title = {{PyEDA: Source Code}},
+	author = {Chris Drake},
+	url = {https://github.com/cjdrake/pyeda},
+	urldate = {2021-03-01},
+	year = 2018
+}
+
+@online{Sylvan,
+	title = {{Sylvan}},
+	author = {van Dijk, Tom and Meijer, Jeroen and Ioannis Filippidis and Laarman, Alfons and Volk, Matthias},
+	url = {https://github.com/trolando/sylvan},
+	note = {Accessed: 2021-03-01},
+	urldate = {2021-03-01},
+	year = 2020
+}
+
+@online{TdZdd:source,
 	title = {{TdZdd: Source Code}},
 	author = {Hiroaki Iwashita and Jun Kawahara and Kohei Shinohara},
-	howpublished = {\url{https://github.com/kunisura/TdZdd}},
-	note = {Accessed: 2021-03-01},
+	url = {https://github.com/kunisura/TdZdd},
+	urldate = {2021-03-01},
 	year = 2020
 }
 
-@misc{Trivialib.Bdd,
+@online{Trivialib.Bdd,
 	title = {{Triviallib.Bdd: Source Code}},
 	author = {Masataro Asai},
-	howpublished = {\url{https://github.com/guicho271828/trivialib.bdd}},
-	note = {Accessed: 2021-03-01},
+	url = {https://github.com/guicho271828/trivialib.bdd},
+	urldate = {2021-03-01},
 	year = 2018
 }
 
-@misc{YICES2,
+@online{YICES2,
 	title = {{Yices2: Source Code}},
 	author = {Bruno Dutertre},
-	howpublished = {\url{https://github.com/SRI-CSL/yices2/issues}},
-	note = {Accessed: 2021-03-27},
+	url = {https://github.com/SRI-CSL/yices2/issues},
+	urldate = {2021-03-27},
 	year = 2013
 }
 
-@misc{BDDList,
+@online{BDDList,
+	title = {{BDD List}},
 	author = {Ioannis Filippidis and Malvin Gattinger and Daniel Meyer},
-	howpublished = {\url{https://github.com/johnyf/tool_lists/blob/master/bdd.md}},
-	note = {Accessed: 2021-03-01},
+	howpublished = Repository,
+	url = {https://github.com/johnyf/tool_lists/blob/master/bdd.md},
+	urldate = {2021-03-01},
 	year = 2020
 }
