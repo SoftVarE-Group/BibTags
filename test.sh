@@ -157,10 +157,11 @@ delete_auxiliary_files
 check_integrity
 create_cleaned_literature
 
-compile_biber short
-compile_biber abrv
-compile_bibtex natbib
-compile_bibtex clean
+compile_bibtex short-natbib
+compile_bibtex short-natibib-clean
+compile_biber short-biblatex
+compile_biber short-biblatex-clean
+compile_biber abrv-biblatex
 
 move_output_files pdf
 move_output_files log
