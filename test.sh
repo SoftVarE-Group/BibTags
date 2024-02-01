@@ -18,10 +18,38 @@ change_into_latex_dir () {
 }
 
 ## This function deletes all files but .tex files in the current working directory.
-## Deletes only files. Fails if there are one or more directories present.
+## Deletes only files.
 delete_auxiliary_files () {
 	echo -e -n "${GREEN}delete auxiliary files in latex dir...${NOCOLOR}"
-	if find . -mindepth 1 -maxdepth 1 ! -name "*.tex" -delete ; then
+	if find . -mindepth 1 -maxdepth 1 -type f ! -name "*.tex" -delete ; then
+		echo -e "${GREEN}OK${NOCOLOR}"
+	else
+		echo -e "${RED}FAIL${NOCOLOR}"
+		exit 1
+	fi
+}
+
+## This function create a separate directory for output files.
+create_dir () {
+	echo -e -n "${GREEN}create dir $1...${NOCOLOR}"
+	if mkdir -p $1 ; then
+		if find $1 -mindepth 1 -maxdepth 1 -type f -delete ; then
+			echo -e "${GREEN}OK${NOCOLOR}"
+		else
+			echo -e "${RED}FAIL${NOCOLOR}"
+			exit 1
+		fi
+	else
+		echo -e "${RED}FAIL${NOCOLOR}"
+		exit 1
+	fi
+}
+
+## This function moves output files (e.g., .log and .pdf) to a separate directory.
+move_output_files () {
+	create_dir $1
+	echo -e -n "${GREEN}move $1 files to $1 dir...${NOCOLOR}"
+	if find . -mindepth 1 -maxdepth 1 -type f -name "*.$1" -exec mv {} $1 \; ; then
 		echo -e "${GREEN}OK${NOCOLOR}"
 	else
 		echo -e "${RED}FAIL${NOCOLOR}"
@@ -62,7 +90,7 @@ run_pdflatex () {
 ## parameter $2 the number of the run (biber requires multiple runs)
 run_biber () {
 	echo -e -n "${GREEN}run $2 biber for $1...${NOCOLOR}"
-	if biber $1 > biber_$1_$2.log ; then
+	if biber -u -U --nolog $1 > biber_$1_$2.log ; then
 		echo -e "${GREEN}OK${NOCOLOR}"
 		cat biber_$1_$2.log | grep -E "^(WARN|ERROR)"
 	else
@@ -133,3 +161,7 @@ compile_biber short
 compile_biber abrv
 compile_bibtex natbib
 compile_bibtex clean
+
+move_output_files pdf
+move_output_files log
+delete_auxiliary_files
