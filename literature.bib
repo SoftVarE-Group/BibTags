@@ -184,6 +184,27 @@
 @String{Project = "Project Thesis"}
 @String{PhD = "PhD Thesis"}
 
+@inproceedings{SBK+:SPLC24,
+	author = {Sundermann, Chico and Brancaccio, Vincenzo Francesco and Kuiter, Elias and Krieter, Sebastian and He{\ss}, Tobias and Th{\"{u}}m, Thomas},
+	title = {{Collecting Feature Models from the Literature: A Comprehensive Dataset for Benchmarking}},
+	booktitle = SPLC,
+	year = 2024,
+	month = SEP,
+	publisher = ACM,
+	note = {To appear}
+}
+
+@article{SKH+:AMAI23,
+	author = {Sundermann, Chico and Kuiter, Elias and He{\ss}, Tobias and Raab, Heiko and Krieter, Sebastian and Th{\"{u}}m, Thomas},
+	title = {{On the Benefits of Knowledge Compilation for Feature-Model Analyses}},
+	journal = AMAI,
+	publisher = Springer,
+	typo3Tags = {FMCounting},
+	year = 2024,
+	doi = {10.1007/s10472-023-09906-6},
+	note = {To appear}
+}
+
 @inproceedings{HOB+:MODEVAR24,
 	author = {He{\ss}, Tobias and Ostheimer, Lukas and Betz, Tobias and Karrer, Simon and Schmidt, Tim Jannik and Coquet, Pierre and Semmler, Sean and Th{\"u}m, Thomas},
 	title = {{variability.dev: Towards an Online Toolbox for Feature Modeling}},
@@ -191,6 +212,7 @@
 	location = {Bern, Switzerland},
 	month = FEB,
 	year = 2024,
+	comments = {Will update once CRC available},
 	note = {To appear}
 }
 
@@ -206,69 +228,6 @@
 	note = {To appear}
 }
 
-@inproceedings{BKH+:VaMoS24,
-	author = {Boehm, Sabrina and Krieter, Sebastian and He{\ss}, Tobias and Th{\"u}, Thomas and Lochau, Malte},
-	title = {{Incremental Identification of T-Wise Feature Interactions}},
-	booktitle = VaMoS20,
-	location = {Bern, Switzerland},
-	typo3Tags = {PLSampling},
-	publisher = ACM,
-	address = NY,
-	month = FEB,
-	year = 2024,
-	note = {To appear}
-}
-
-@inproceedings{HSO+:VaMoS24,
-	author = {He{\ss}, Tobias and Schmidt, Tim Jannik and Ostheimer, Lukas and Krieter, Sebastian and Th{\"u}m, Thomas},
-	title = {{UnWise: High T-Wise Coverage From Uniform Sampling}},
-	booktitle = VaMoS20,
-	location = {Bern, Switzerland},
-	typo3Tags = {PLSampling, FMCounting},
-	publisher = ACM,
-	address = NY,
-	month = FEB,
-	year = 2024,
-	note = {To appear}
-}
-
-@inproceedings{GBST:VaMoS24,
-	author = {G{\"u}thing, Lukas and Bittner, Paul Maximilian and Schaefer, Ina and Th{\"um}, Thomas},
-	title = {{Explaining Edits to Variability Annotations in Evolving Software Product Lines}},
-	booktitle = VaMoS20,
-	location = {Bern, Switzerland},
-	typo3Tags = {VariantSyncPub},
-	publisher = ACM,
-	address = NY,
-	month = FEB,
-	year = 2024,
-	note = {To appear}
-}
-
-@inproceedings{GSB+:VaMoS24,
-	author = {Greiner, Sandra and Schmid, Klaus and Berger, Thorsten and Krieter, Sebastian and Meixner, Kristof},
-	title = {{Generative AI and Software Variability -- A Research Vision}},
-	booktitle = VaMoS20,
-	location = {Bern, Switzerland},
-	publisher = ACM,
-	address = NY,
-	month = FEB,
-	year = 2024,
-	note = {To appear}
-}
-
-@inproceedings{KHS+:VaMoS24,
-	author = {Kuiter, Elias and He{\ss}, Tobias and Sundermann, Chico and Krieter, Sebastian and Th{\"um}, Thomas and Saake, Gunter},
-	title = {{How Easy Is SAT-Based Analysis of a Feature Model?}},
-	booktitle = VaMoS20,
-	location = {Bern, Switzerland},
-	typo3Tags = {FMCounting, PLSampling},
-	publisher = ACM,
-	address = NY,
-	month = FEB,
-	year = 2024,
-	note = {To appear}
-}
 
 @mastersthesis{Schiessle23,
 	author = {Schiessle, Pascal},
@@ -281,12 +240,27 @@
 	year = 2023
 }
 
+@mastersthesis{Riesland24,
+	author = {Riesland, Jonathan},
+	title = {{Optimizing T-Wise Sampling on d-DNNFs with Objective Functions}},
+	school = UniUlm,
+	address = Germany,
+	type = Bachelor,
+	typo3Tags = {SupervisorCS, SupervisorTT, Sampling},
+	month = JAN,
+	year = 2024,
+	note = {To appear}
+}
+
+
 @mastersthesis{Arens23,
 	author = {Arens, Rahel},
 	title = {{Product-Line Sampling of Field Configurations}},
 	school = UniUlm,
 	address = Germany,
 	type = Master,
+	doi = {10.18725/OPARU-52287},
+	url = {https://oparu.uni-ulm.de/xmlui/bitstream/handle/123456789/52363/thesis_Rahel_Arens.pdf},
 	typo3Tags = {SupervisorSK, SupervisorTT, Sampling},
 	month = OCT,
 	year = 2023
@@ -301,18 +275,6 @@
 	typo3Tags = {SupervisorSK, SupervisorTT, Feature Interactions},
 	month = MAY,
 	year = 2023
-}
-
-@mastersthesis{Raab23,
-	author = {Raab, Heiko},
-	title = {{Incrementally Adapting d-DNNFs to Cope with Feature-Model Evolution}},
-	school = UniUlm,
-	address = Germany,
-	type = Master,
-	typo3Tags = {SupervisorCS, SupervisorTT, FMCounting},
-	month = NOV,
-	year = 2023,
-	note = {To appear}
 }
 
 @mastersthesis{Loth23,
@@ -365,18 +327,6 @@
 	note = {To appear}
 }
 
-@mastersthesis{Licha23,
-	author = {Licha, Lars},
-	title = {{Cutting Edge T-Wise Sampling With ddnnife}},
-	school = UniUlm,
-	address = Germany,
-	type = Bachelor,
-	typo3Tags = {SupervisorCS, SupervisorTT, FMCounting, PLSampling},
-	month = JAN,
-	year = 2023,
-	note = {To appear}
-}
-
 @mastersthesis{Guething23,
 	author = {G\"uthing, Lukas},
 	title = {{Inspecting the Evolution of Feature Annotations in Configurable Software}},
@@ -389,28 +339,209 @@
 	note = {To appear}
 }
 
-@mastersthesis{Schiessl22,
-	author = {Schiessl, Dominik},
-	title = {{An Incremental \#SAT Solver for Efficient Analysis of Feature Models}},
-	school = UniUlm,
-	address = Germany,
-	type = Master,
-	typo3Tags = {SupervisorCS, SupervisorTT, FMCounting},
-	month = JAN,
-	year = 2022,
-	note = {To appear}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2024 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@proceedings{MODEVAR24,
+	title = {{Sixth International Workshop on Languages for Modelling Variability (MODEVAR 2024)}}, 
+	editor = {Galasso-Carbonnel, Jessie and Sundermann, Chico},
+	booktitle = MODEVAR,
+	institution = arXiv,
+	url = {https://arxiv.org/abs/2402.15511},
+	month = FEB,
+	year= 2024
 }
 
-@mastersthesis{Heimowski22,
-	author = {Heimowski, Yvonne},
-	title = {{Simplifying Feature Models for Better Scalability of \#SAT Solvers}},
-	school = UniUlm,
-	address = Germany,
-	type = Bachelor,
-	typo3Tags = {SupervisorCS, SupervisorTT, FMCounting},
-	month = AUG,
-	year = 2022,
-	note = {To appear}
+@inproceedings{RKZA:MSR24,
+	author = {Randrianaina, Georges Aaron and Khelladi, Djamel Eddine and Zendra, Olivier and Acher, Mathieu},
+	title = {{Options Matter: Documenting and Fixing Non-Reproducible Builds in Highly-Configurable Systems}},
+	booktitle = MSR,
+	location = {Lisbon, Portugal},
+	pages = {1--11},
+	month = APR,
+	year = 2024,
+	url = {https://inria.hal.science/hal-04441579}
+}
+
+@inproceedings{YWG:VaMoS24,
+	author = {Yaman, Kaan Berk and Wittler, Jan Willem and Gerking, Christopher},
+	title = {{Kfeature: Rendering the Kconfig System into Feature Models}},
+	booktitle = VaMoS20,
+	isbn = {9798400708770},
+	publisher = ACM,
+	address = NY,
+	doi = {10.1145/3634713.3634731},
+	pages = {134--138},
+	numpages = {5},
+	location = {Bern, Switzerland},
+	year = 2024
+}
+
+@inproceedings{HSO+:VaMoS24,
+	author = {He{\ss}, Tobias and Schmidt, Tim Jannik and Ostheimer, Lukas and Krieter, Sebastian and Th{\"u}m, Thomas},
+	title = {{UnWise: High T-Wise Coverage From Uniform Sampling}},
+	booktitle = VaMoS20,
+	location = {Bern, Switzerland},
+	typo3Tags = {PLSampling, FMCounting},
+	publisher = ACM,
+	address = NY,
+	month = FEB,
+	pages = {37--45},
+	numpages = {9},
+	keywords = {Feature-Model Analysis, Industrial Feature Models, T-Wise Sampling, Uniform Sampling},
+	doi = {10.1145/3634713.3634716},
+	year = 2024
+}
+
+@inproceedings{GBST:VaMoS24,
+	author = {G{\"u}thing, Lukas and Bittner, Paul Maximilian and Schaefer, Ina and Th{\"um}, Thomas},
+	title = {{Explaining Edits to Variability Annotations in Evolving Software Product Lines}},
+	booktitle = VaMoS20,
+	location = {Bern, Switzerland},
+	typo3Tags = {VariantSyncPub},
+	publisher = ACM,
+	address = NY,
+	month = FEB,
+	doi = {10.1145/3634713.3634725},
+	pages = {93--102},
+	numpages = {10},
+	keywords = {software evolution, software product lines, software variability},
+	year = 2024
+}
+
+@inproceedings{GSB+:VaMoS24,
+	author = {Greiner, Sandra and Schmid, Klaus and Berger, Thorsten and Krieter, Sebastian and Meixner, Kristof},
+	title = {{Generative AI and Software Variability -- A Research Vision}},
+	booktitle = VaMoS20,
+	location = {Bern, Switzerland},
+	publisher = ACM,
+	address = NY,
+	month = FEB,
+	doi = {10.1145/3634713.3634722},
+	pages = {71–-76},
+	numpages = {6},
+	keywords = {Variability-intensive software systems, generative AI, product lines},
+	year = 2024
+}
+
+@inproceedings{BKH+:VaMoS24,
+	author = {B\"{o}hm, Sabrina and Krieter, Sebastian and He\ss{}, Tobias and Th\"{u}m, Thomas and Lochau, Malte},
+	title = {{Incremental Identification of T-Wise Feature Interactions}},
+	isbn = {9798400708770},
+	doi = {10.1145/3634713.3634715},
+	booktitle = VaMoS20,
+	location = {Bern, Switzerland},
+	typo3Tags = {PLSampling},
+	publisher = ACM,
+	address = NY,
+	month = FEB,
+	year = 2024,
+	pages = {27--36}
+}
+
+@inproceedings{KHS+:VaMoS24,
+	author = {Kuiter, Elias and He{\ss}, Tobias and Sundermann, Chico and Krieter, Sebastian and Th{\"um}, Thomas and Saake, Gunter},
+	title = {{How Easy Is SAT-Based Analysis of a Feature Model?}},
+	booktitle = VaMoS20,
+	location = {Bern, Switzerland},
+	typo3Tags = {FMCounting, PLSampling},
+	publisher = ACM,
+	address = NY,
+	month = FEB,
+    pages = {149--151},
+    doi = {10.1145/3634713.3634733},
+	year = 2024,
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2023 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@techreport{AKS:TR23,
+	author = {Adamy, Rick and Kuiter, Elias and Saake, Gunter},
+	title = {{Exploiting Structure: A Survey and Analysis of Structures and Hardness Measures for Propositional Formulas}},
+	doi = {10.32388/7u1pfg},
+	month = SEP,
+	year = 2023,
+	institution = UniMagdeburg,
+	archiveprefix = {{Qeios}},
+	eprint = {7u1pfg}
+}
+
+@inproceedings{ALR+:VaMoS23,
+	author = {Acher, Mathieu and Lesoil, Luc and Randrianaina, Georges Aaron and T\"{e}rnava, Xhevahire and Zendra, Olivier},
+	title = {{A Call for Removing Variability}},
+	booktitle = VaMoS20,
+	publisher = ACM,
+	address = NY,
+	location = {Odense, Denmark},
+	pages = {82--84},
+	isbn = {9798400700019},
+	doi = {10.1145/3571788.3571801},
+	year = 2023
+}
+
+@inproceedings{BFW:SAT23,
+	author = {Biere, Armin and Froleyks, Nils and Wang, Wenxi},
+	title = {{CadiBack: Extracting Backbones with CaDiCaL}},
+	booktitle = SAT,
+	pages = {3:1--3:12},
+	series = {Leibniz International Proceedings in Informatics (LIPIcs)},
+	isbn = {978-3-95977-286-0},
+	issn = {1868-8969},
+	year = 2023,
+	volume = 271,
+	editor = {Mahajan, Meena and Slivovsky, Friedrich},
+	publisher = SchlossDagstuhl,
+	address = Dagstuhl,
+	doi = {10.4230/LIPIcs.SAT.2023.3}
+}
+
+@inproceedings{HBPF:SPLC23,
+	author = {Horcas, Jose-Miguel and Ballesteros, Joaquin and Pinto, M\'{o}nica and Fuentes, Lidia},
+	title = {{Elimination of Constraints for Parallel Analysis of Feature Models}},
+	booktitle = SPLC,
+	publisher = ACM,
+	pages = {99--110},
+	doi = {10.1145/3579027.3608981},
+	year = 2023
+}
+
+@article{K:SoSyM23,
+	author = {Kautz, Oliver},
+	title = {{The Complexities of the Satisfiability Checking Problems of Feature Diagram Sublanguages}},
+	journal = SoSyM,
+	publisher = Springer,
+	volume = 22,
+	number = 4,
+	pages = {1113--1129},
+	doi = {10.1007/s10270-022-01048-3},
+	year = 2023
+}
+
+@article{MPFB:JSS23,
+	author = {Munoz, Daniel-Jesus and Pinto, M\'{o}nica and Fuentes, Lidia and Batory, Don},
+	title = {{Transforming Numerical Feature Models into Propositional Formulas and the Universal Variability Language}},
+	journal = JSS,
+	publisher = Elsevier,
+	volume = 204,
+	articleno = 111770,
+	doi = {10.1016/j.jss.2023.111770},
+	month = OCT,
+	year = 2023
+}
+
+@inproceedings{MSS:SAT23,
+	author = {Masina, Gabriele and Spallitta, Giuseppe and Sebastiani, Roberto},
+	title = {{On CNF Conversion for Disjoint SAT Enumeration}},
+	booktitle = SAT,
+	pages = {15:1--15:16},
+	series = {Leibniz International Proceedings in Informatics (LIPIcs)},
+	isbn = {978-3-95977-286-0},
+	issn = {1868-8969},
+	year = 2023,
+	volume = 271,
+	editor = {Mahajan, Meena and Slivovsky, Friedrich},
+	publisher = SchlossDagstuhl,
+	address = Dagstuhl,
+	doi = {10.4230/LIPIcs.SAT.2023.15}
 }
 
 @article{SKH+:AMAI23,
@@ -419,12 +550,25 @@
 	journal = AMAI,
 	publisher = Springer,
 	typo3Tags = {FMCounting},
-	month = OCT,
+	doi = {10.1007/s10472-023-09906-6},
+	month = NOV,
 	year = 2023,
-	note = {To appear}
 }
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2023 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@article{SBB+:SoSyM23,
+	renamedFrom = {SBB+:SoSyM22},
+	author = {Alexander Schulthei{\ss} and Paul Maximilian Bittner and Alexander Boll and Lars Grunske and Thomas Th{\"{u}}m and Timo Kehrer},
+	title = {{RaQuN: A Generic and Scalable N-Way Model Matching Algorithm}},
+	journal = SoSyM,
+	publisher = Springer,
+	volume = 22,
+	issue = 5,
+	pages = {1495--1517},
+	year = 2023,
+	month = OCT,
+	doi = {10.1007/s10270-022-01062-5},
+	typo3Tags = {VariantSyncPub},
+}
 
 @inproceedings{GHF+:SPLC23,
 	author = {Jos{\'{e}} A. Galindo and Jos{\'{e}} Miguel Horcas and Alexander Felfernig and David Fern{\'{a}}ndez{-}Amor{\'{o}}s and David Benavides},
@@ -539,6 +683,42 @@
 	publisher = ACM,
 	address = NY,
 	month = SEP,
+	year = 2023
+}
+
+@mastersthesis{Raab23,
+	author = {Raab, Heiko},
+	title = {{Incrementally Adapting d-DNNFs to Cope with Feature-Model Evolution}},
+	school = UniUlm,
+	address = Germany,
+	type = Master,
+	typo3Tags = {SupervisorCS, SupervisorTT, FMCounting},
+	month = NOV,
+	year = 2023,
+	doi = {10.18725/OPARU-52288}
+}
+
+@mastersthesis{Schmid23,
+	comments = NotToBePublished,
+	author = {Schmid, Clemens},
+	title = {{Parameterizations for Approximate #SAT Solvers}},
+	school = UniUlm,
+	address = Germany,
+	type = Bachelor,
+	typo3Tags = {SupervisorCS, SupervisorTT, FMCounting},
+	month = OCT,
+	year = 2023
+}
+
+@mastersthesis{Licha23,
+	comments = NotToBePublished,
+	author = {Licha, Lars},
+	title = {{Cutting Edge T-Wise Sampling With ddnnife}},
+	school = UniUlm,
+	address = Germany,
+	type = Bachelor,
+	typo3Tags = {SupervisorCS, SupervisorTT, FMCounting, Sampling},
+	month = JAN,
 	year = 2023
 }
 
@@ -944,9 +1124,26 @@
 	year = 2023,
 	month = JAN,
 	volume = 28,
+	number = 29,
+	pages = 38,
 	doi = {10.1007/s10664-022-10265-9},
 	keywords = {configurable systems, feature models, product lines, model counting, configuration counting, \#SAT, Benchmark},
 	typo3Tags = {FMCounting, VariantSyncPub}
+}
+
+@article{YBWT:EMSE23,
+    renamedFrom = {YBWT:EMSE22},
+	author = {Jeffrey M. Young and Paul Maximilian Bittner and Eric Walkingshaw and Thomas Th\"{u}m},
+	title = {{Variational Satisfiability Solving: Efficiently Solving Lots of Related SAT Problems}},
+	journal = EMSE,
+	year = 2022,
+	month = NOV,
+	volume = 28,
+	pages = 53,
+	doi = {10.1007/s10664-022-10217-3},
+	keywords = {satisfiability solving, variation, choice calculus, software product lines},
+	publisher = Springer,
+	typo3Tags = {VariantSyncPub}
 }
 
 @inproceedings{SBGK:VaMoS23,
@@ -1064,6 +1261,30 @@
 	url = {https://oparu.uni-ulm.de/xmlui/bitstream/handle/123456789/47784/thesis_vill.pdf},
 	typo3Tags = {SupervisorCS, SupervisorTT, UVL},
 	month = NOV,
+	year = 2022
+}
+
+@mastersthesis{Schiessl22,
+	comments=NotToBePublished,
+	author = {Schiessl, Dominik},
+	title = {{An Incremental \#SAT Solver for Efficient Analysis of Feature Models}},
+	school = UniUlm,
+	address = Germany,
+	type = Master,
+	typo3Tags = {SupervisorCS, SupervisorTT, FMCounting},
+	month = JAN,
+	year = 2022
+}
+
+@mastersthesis{Heimowski22,
+	comments=NotToBePublished,
+	author = {Heimowski, Yvonne},
+	title = {{Simplifying Feature Models for Better Scalability of \#SAT Solvers}},
+	school = UniUlm,
+	address = Germany,
+	type = Bachelor,
+	typo3Tags = {SupervisorCS, SupervisorTT, FMCounting},
+	month = AUG,
 	year = 2022
 }
 
@@ -1323,30 +1544,6 @@
 	typo3Tags = {VariantSyncPub},
 	month = OCT,
 	year = 2022,
-}
-
-@article{SBB+:SoSyM22,
-	author = {Alexander Schulthei{\ss} and Paul Maximilian Bittner and Alexander Boll and Lars Grunske and Thomas Th{\"{u}}m and Timo Kehrer},
-	title = {{RaQuN: A Generic and Scalable N-Way Model Matching Algorithm}},
-	journal = SoSyM,
-	publisher = Springer,
-	year = 2022,
-	month = NOV,
-	doi = {10.1007/s10270-022-01062-5},
-	typo3Tags = {VariantSyncPub}
-}
-
-@article{YBWT:EMSE22,
-	author = {Jeffrey M. Young and Paul Maximilian Bittner and Eric Walkingshaw and Thomas Th\"{u}m},
-	title = {{Variational Satisfiability Solving: Efficiently Solving Lots of Related SAT Problems}},
-	journal = EMSE,
-	year = 2022,
-	month = NOV,
-	volume = 28,
-	doi = {10.1007/s10664-022-10217-3},
-	keywords = {satisfiability solving, variation, choice calculus, software product lines},
-	publisher = Springer,
-	typo3Tags = {VariantSyncPub}
 }
 
 @inproceedings{BTS+:ESECFSE22,
@@ -1613,6 +1810,88 @@
 	typo3Tags = {SupervisorTH, SupervisorTT},
 	month = JAN,
 	year = 2022
+}
+
+@techreport{KS:TR22,
+	author = {Kuiter, Elias and Saake, Gunter},
+	title = {{A Survey and Comparison of Industrial and Academic Research on the Evolution of Software Product Lines}},
+	year = 2022,
+	month = DEC,
+	institution = arXiv,
+	number = {arXiv:2212.05953},
+	doi = {10.48550/arxiv.2212.05953}
+}
+
+@inproceedings{AML+:SPLC22,
+	author = {Acher, Mathieu and Martin, Hugo and Lesoil, Luc and Blouin, Arnaud and J\'{e}z\'{e}quel, Jean-Marc and Khelladi, Djamel Eddine and Barais, Olivier and Pereira, Juliana Alves},
+	title = {{Feature Subset Selection for Learning Huge Configuration Spaces: The Case of Linux Kernel Size}},
+	booktitle = SPLC,
+	year = 2022,
+	publisher = ACM,
+	address = NY,
+	isbn = {9781450394437},
+	doi = {10.1145/3546932.3546997},
+	pages = {85--96},
+	location = {Graz, Austria},
+}
+
+@article{AMM:CSUR22,
+	author = {Alyahya, Tasniem Nasser and Menai, Mohamed El Bachir and Mathkour, Hassan},
+	title = {{On the Structure of the Boolean Satisfiability Problem: A Survey}},
+	journal = CSUR,
+	publisher = ACM,
+	volume = 55,
+	number = 3,
+	doi = {10.1145/3491210},
+	year = 2022,
+	articleno = 46
+}
+
+@article{CPQ+:FiP22,
+	author = {Cai, Xiaoyan and Peng, Mingmei and Qin, Jieying and Zhou, Kebing and Li, Zhiying and Yang, Shuai and Yan, Fengxia},
+	title = {{Sandwich Teaching Improved Students' Critical Thinking, Self-Learning Ability, And Course Experience in the Community Nursing Course: A Quasi-Experimental Study}},
+	journal = {Frontiers in Psychology},
+	volume = 13,
+	issn = {1664-1078},
+	doi = {10.3389/fpsyg.2022.957652},
+	year = 2022
+}
+
+@inproceedings{FHR:SAT22,
+	author = {Fichte, Johannes K. and Hecher, Markus and Roland, Valentin},
+	title = {{Proofs for Propositional Model Counting}},
+	booktitle = SAT,
+	publisher = SchlossDagstuhl,
+	volume = 236,
+	pages = {30:1--30:24},
+	doi = {10.4230/LIPIcs.SAT.2022.30},
+	year = 2022
+}
+
+@inproceedings{MCP:SPLC22,
+	author = {Mortara, Johann and Collet, Philippe and Pinna-Dery, Anne-Marie},
+	title = {{Customizable Visualization of Quality Metrics for Object-Oriented Variability Implementations}},
+	booktitle = SPLC,
+	year = 2022,
+	isbn = {9781450394437},
+	publisher = ACM,
+	address = NY,
+	doi = {10.1145/3546932.3547073},
+	pages = {43–-54},
+	location = {Graz, Austria}
+}
+
+@inproceedings{WKR:SPLC22,
+	author = {Wittler, Jan Willem and K\"{u}hn, Thomas and Reussner, Ralf},
+	title = {{Towards an Integrated Approach for Managing the Variability and Evolution of both Software and Hardware Components}},
+	year = 2022,
+	isbn = {9781450392068},
+	publisher = ACM,
+	address = NY,
+	doi = {10.1145/3503229.3547059},
+	booktitle = SPLC,
+	pages = {94-–98},
+	location = {Graz, Austria}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2021 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -8812,6 +9091,16 @@ series = {SPLC '17}
 	editor = {Chiba, Shigeru and Tanter, Éric and Ernst, Erik and Hirschfeld, Robert},
 	doi = {10.1007/978-3-662-46734-3_1},
 	tt-tags = {Design by Contract,Aspect Orientation},
+	year = 2015
+}
+
+@inproceedings{UBB+:15,
+	author = {Urli, Simon and Bergel, Alexandre and Blay-Fornarino, Mireille and Collet, Philippe and Mosser, Sébastien},
+	title = {{A Visual Support for Decomposing Complex Feature Models}},
+	booktitle = VISSOFT,
+	pages = {76--85},
+	publisher = IEEE,
+	doi = {10.1109/VISSOFT.2015.7332417},
 	year = 2015
 }
 
@@ -24995,6 +25284,14 @@ Stories of successful software product line deployments often read like epic adv
 	year = 2018
 }
 
+@online{KBuild,
+	author = {Chastain, Michael Elizabeth},
+	title = {{Linux Kernel Makefiles}},
+	note = {Accessed: 2023-07-10},
+	year = 2023,
+	howpublished = {\url{https://www.kernel.org/doc/html/latest/kbuild/makefiles.html}}
+}
+
 @online{AHEAD,
 	author = {Don Batory},
 	title = {{AHEAD Tool Suite}},
@@ -25280,4 +25577,12 @@ Stories of successful software product line deployments often read like epic adv
 	url = {https://github.com/johnyf/tool_lists/blob/master/bdd.md},
 	urldate = {2021-03-01},
 	year = 2020
+}
+
+@misc{missingdatatype,
+	author = {Wayne, Hillel},
+	title = {{The Hunt for the Missing Data Type}},
+	note = {Accessed: 2024-03-22},
+	year = 2024,
+	howpublished = {\url{https://www.hillelwayne.com/post/graph-types}}
 }

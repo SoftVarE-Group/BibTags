@@ -1,3 +1,5 @@
 bibtexparser==1.2.0
 future==0.18.3
 pyparsing==2.4.7
+PyYAML==6.0.1
+titlecase==2.4.1
