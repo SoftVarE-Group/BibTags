@@ -123,7 +123,7 @@ def check_author(entry):
             if (not author_regex.match(authors)):
                 names = re.split(r'\s+and\s+', authors)
                 for name in names:
-                    name_parts = re.split('\s+', name)
+                    name_parts = re.split(r'\s+', name)
                     if len(name_parts) != 2:
                         add_problem(entry, 'incorrect_author_order', authors)
                         return

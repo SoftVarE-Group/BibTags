@@ -2,6 +2,9 @@ literature-cleaned*.bib
 typo3_*.bib
 
 test_latex/*.pdf
+test_latex/pdf
+test_latex/log
+
 classification/problems.csv
 
 *.aux

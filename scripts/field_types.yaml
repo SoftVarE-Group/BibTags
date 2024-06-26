@@ -158,11 +158,12 @@ mastersthesis:
     - note
 misc:
   required:
-  wanted:
-    - author
     - title
     - howpublished
-    - year
+    - - year
+      - date
+  wanted:
+    - author
     - url
     - doi
   optional:
