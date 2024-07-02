@@ -13,6 +13,7 @@ database_file = '../literature.bib'
 title_regex = re.compile(r"^\{.*\}$", re.DOTALL)
 pages_regex = re.compile(r"^[a-zA-Z0-9,.:()]+(--[a-zA-Z0-9,.:()]+)?$", re.DOTALL)
 author_regex = re.compile(r"([^,]+),[^,]+(\s+and\s+([^,]+),[^,]+)*", re.DOTALL)
+doi_regex = re.compile(r"^http(s)?://.*", re.DOTALL)
 
 ## Different types of fields. Required fields must be present. Wanted fields should be present. Optional can be present be don't need to be.
 ## Which fields are which type is dependent on the entry type. This is defined in the field_types.yaml configuration file.
@@ -59,7 +60,7 @@ def gen_string_fields(entry):
             new_strings[field_value] = (field, key, field_value)
 
 
-## Checks that required, wanted or optional fields exists for a given entry or is declared as missing
+## Checks that required, wanted, or optional fields exists for a given entry or is declared as missing
 def check_field_type_exists(entry, field_type):
     if is_set(field_type + '_fields'):
         entry_type=entry['ENTRYTYPE']
@@ -113,6 +114,15 @@ def check_pages(entry):
         if is_set('pages'):
             if (not pages_regex.match(org)):
                 add_problem(entry, 'incorrect_pages', org)
+
+
+## Checks that the DOI of an entry are formated correctly
+def check_pages(entry):
+    if ('doi' in entry):
+        org = entry['doi']
+        if is_set('doi'):
+            if (doi_regex.match(org)):
+                add_problem(entry, 'doi_is_an_url', org)
 
 
 ## Checks that the names of authors of an entry follow the syntax "last name, first name"

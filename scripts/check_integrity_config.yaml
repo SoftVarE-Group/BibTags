@@ -16,6 +16,7 @@ string_series: false
 print_missing_strings: false
 bib_keys: false
 pages: true
+doi: true
 notes: true
 required_fields: true
 wanted_fields: false
