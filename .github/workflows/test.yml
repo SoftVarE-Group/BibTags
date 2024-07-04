@@ -2,9 +2,9 @@ name: Test literature
 
 on:
   push:
-    branches: [ "ek" ]
+    branches: [ '**' ]
   pull_request:
-    branches: [ "ek" ]
+    branches: [ '**' ]
 
 jobs:
   test:
@@ -45,5 +45,6 @@ jobs:
     - name: Archive literature
       uses: actions/upload-artifact@v4
       with:
-        name: test_latex
-        path: test_latex
+        name: PDF
+        path: test_latex/pdf
+        retention-days: 5
