@@ -107,8 +107,13 @@ run_biber () {
 run_bibtex () {
 	echo -e -n "${GREEN}run $2 bibtex for $1...${NOCOLOR}"
 	if bibtex -terse $1 > bibtex_$1_$2.log ; then
+		cat bibtex_$1_$2.log | grep -v "(There were" | grep -Fxv -f ../bibtex-ignore.txt > tmp; mv tmp bibtex_$1_$2.log
+		if [ -s bibtex_$1_$2.log ]; then
+			echo -e "${RED}fail${NOCOLOR}" >&2
+			cat bibtex_$1_$2.log
+			exit 1
+		fi
 		echo -e "${GREEN}OK${NOCOLOR}"
-		cat bibtex_$1_$2.log
 	else
 		echo -e "${RED}fail${NOCOLOR}" >&2
 		cat bibtex_$1_$2.log
