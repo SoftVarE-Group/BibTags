@@ -150,19 +150,30 @@ compile_bibtex () {
 	run_pdflatex $1 3 ""
 }
 
+compile() {
+	compile_bibtex short-natbib
+	compile_bibtex short-natibib-clean
+	compile_biber short-biblatex
+	compile_biber short-biblatex-clean
+	compile_biber abrv-biblatex
+
+	move_output_files pdf
+	move_output_files log
+	delete_auxiliary_files
+}
+
 ## Main script
 change_into_latex_dir
 delete_auxiliary_files
 
-check_integrity
-create_cleaned_literature
+default() {
+    check_integrity
+	create_cleaned_literature
+	compile
+}
 
-compile_bibtex short-natbib
-compile_bibtex short-natibib-clean
-compile_biber short-biblatex
-compile_biber short-biblatex-clean
-compile_biber abrv-biblatex
-
-move_output_files pdf
-move_output_files log
-delete_auxiliary_files
+if [[ -z "$*" ]]; then
+    default
+else
+    "$@"
+fi
