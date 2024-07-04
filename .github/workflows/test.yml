@@ -1,0 +1,54 @@
+name: Test literature
+
+on:
+  push:
+    branches: [ '**' ]
+
+jobs:
+  test:
+
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11"]
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v3
+      with:
+        python-version: ${{ matrix.python-version }}
+    - uses: actions/setup-java@v4
+      with:
+        distribution: 'temurin'
+        java-version: '21'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Check literature
+      run: |
+        ./test.sh check_integrity
+    - name: Clean literature
+      run: |
+        ./test.sh create_cleaned_literature
+    - name: Compile literature
+      uses: xu-cheng/texlive-action@v2
+      with:
+        scheme: small
+        run: |
+          tlmgr install csquotes
+          ./test.sh compile
+    - name: Archive logs
+      uses: actions/upload-artifact@v4
+      with:
+        name: Logs
+        path: test_latex/log
+        retention-days: 5
+    - name: Archive PDFs
+      uses: actions/upload-artifact@v4
+      with:
+        name: PDFs
+        path: test_latex/pdf
+        retention-days: 5
