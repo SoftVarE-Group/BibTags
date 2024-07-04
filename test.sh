@@ -167,13 +167,13 @@ change_into_latex_dir
 delete_auxiliary_files
 
 default() {
-    check_integrity
+	check_integrity
 	create_cleaned_literature
 	compile
 }
 
 if [[ -z "$*" ]]; then
-    default
+	default
 else
-    "$@"
+	"$@"
 fi
