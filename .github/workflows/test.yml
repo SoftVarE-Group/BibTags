@@ -38,6 +38,6 @@ jobs:
     - name: Compile literature
       uses: xu-cheng/texlive-action@v2
       with:
-        scheme: small
+        scheme: full
         run: |
           ./test.sh compile
