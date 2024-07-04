@@ -38,6 +38,7 @@ jobs:
     - name: Compile literature
       uses: xu-cheng/texlive-action@v2
       with:
-        scheme: full
+        scheme: small
         run: |
+          tlmgr install csquotes
           ./test.sh compile
