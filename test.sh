@@ -110,13 +110,13 @@ run_bibtex () {
 		cat bibtex_$1_$2.log | grep -v "(There were" | grep -Fxv -f ../bibtex-ignore.txt > tmp; mv tmp bibtex_$1_$2.log
 		if [ -s bibtex_$1_$2.log ]; then
 			echo -e "${RED}fail${NOCOLOR}" >&2
-			cat bibtex_$1_$2.log
+			cat bibtex_$1_$2.log >&2
 			exit 1
 		fi
 		echo -e "${GREEN}OK${NOCOLOR}"
 	else
 		echo -e "${RED}fail${NOCOLOR}" >&2
-		cat bibtex_$1_$2.log
+		cat bibtex_$1_$2.log >&2
 		exit 1
 	fi
 }
