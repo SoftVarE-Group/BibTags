@@ -125,7 +125,13 @@ run_bibtex () {
 ## The script checks for problems within bibtex entries, such as missing fields and wrong field values.
 check_integrity () {
 	echo -e -n "${GREEN}checking bibtex entries...${NOCOLOR}"
-	if python ../scripts/check_integrity.py > check_integrity.log ; then
+	local PYTHON
+	if command -v python3 &> /dev/null; then
+		PYTHON=python3
+	else
+		PYTHON=python
+	fi
+	if $PYTHON ../scripts/check_integrity.py > check_integrity.log ; then
 		echo -e "${GREEN}OK${NOCOLOR}"
 		cat check_integrity.log
 	else

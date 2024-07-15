@@ -19,3 +19,6 @@ classification/problems.csv
 *.run.xml
 *.snm
 *.toc
+*.fls
+*.fdb_latexmk
+.venv
