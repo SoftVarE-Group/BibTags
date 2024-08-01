@@ -13,7 +13,8 @@ database_file = '../literature.bib'
 title_regex = re.compile(r"^\{.*\}$", re.DOTALL)
 pages_regex = re.compile(r"^[a-zA-Z0-9,.:()]+(--[a-zA-Z0-9,.:()]+)?$", re.DOTALL)
 author_regex = re.compile(r"([^,]+),[^,]+(\s+and\s+([^,]+),[^,]+)*", re.DOTALL)
-doi_regex = re.compile(r"^http(s)?://.*", re.DOTALL)
+url_doi_regex = re.compile(r"^http(s)?://.*", re.DOTALL)
+doi_regex = re.compile(r"^[a-zA-Z0-9-_.:;(){}<>]+/[a-zA-Z0-9-_.:;(){}<>/]+$", re.DOTALL)
 
 ## Different types of fields. Required fields must be present. Wanted fields should be present. Optional can be present be don't need to be.
 ## Which fields are which type is dependent on the entry type. This is defined in the field_types.yaml configuration file.
@@ -117,12 +118,15 @@ def check_pages(entry):
 
 
 ## Checks that the DOI of an entry are formated correctly
-def check_pages(entry):
+def check_doi(entry):
     if ('doi' in entry):
         org = entry['doi']
         if is_set('doi'):
-            if (doi_regex.match(org)):
+            if (url_doi_regex.match(org)):
                 add_problem(entry, 'doi_is_an_url', org)
+            else:
+                if (not doi_regex.match(org)):
+                    add_problem(entry, 'incorrect_doi', org)
 
 
 ## Checks that the names of authors of an entry follow the syntax "last name, first name"
@@ -244,6 +248,7 @@ if __name__ == '__main__':
             check_author(entry)
             check_key(entry)
             check_pages(entry)
+            check_doi(entry)
 
         new_strings = {}
         for entry in bib_database.entries:
