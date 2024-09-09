@@ -28,6 +28,7 @@
 @String{UniElPaso = "University of Texas at El Paso, Department of Computer Science"}
 @String{UniErlangen = "University of Erlangen"}
 @String{UniFlorida = "University of Central Florida"}
+@String{UniHelsinki = "University of Helsinki, Department of Computer Science"},
 @String{UniIowa = "Iowa State University"}
 @String{UniKaiserslautern = "University of Kaiserslautern"}
 @String{KIT = "Karlsruhe Institute of Technology"}
@@ -234,38 +235,6 @@
 	year = 2024
 }
 
-@inproceedings{SBK+:SPLC24,
-	author = {Sundermann, Chico and Brancaccio, Vincenzo Francesco and Kuiter, Elias and Krieter, Sebastian and He{\ss}, Tobias and Th{\"{u}}m, Thomas},
-	title = {{Collecting Feature Models from the Literature: A Comprehensive Dataset for Benchmarking}},
-	booktitle = SPLC,
-	year = 2024,
-	typo3Tags = {FMCounting},
-	month = SEP,
-	publisher = ACM,
-	note = {To appear},
-	ek-tags = {reproducibility},
-}
-
-@inproceedings{SKH+:SPLC24,
-	author = {Sundermann, Chico and Kuiter, Elias and He{\ss}, Tobias and Raab, Heiko and Krieter, Sebastian and Th{\"{u}}m, Thomas},
-	title = {{On the Benefits of Knowledge Compilation for Feature-Model Analyses (Extended Abstract)}},
-	booktitle = SPLC,
-	year = 2024,
-	month = SEP,
-	publisher = ACM,
-	note = {To appear}
-}
-
-@inproceedings{SHS+:MODEVAR24b,
-	author = {Sundermann, Chico and He{\ss}, Tobias and Sundermann, Rahel and Kuiter, Elias and Krieter, Sebastian and Th{\"{u}}m, Thomas},
-	title = {{Generating Feature Models with UVL's Full Expressiveness}},
-	booktitle = MODEVAR,
-	year = 2024,
-	month = SEP,
-	publisher = ACM,
-	note = {To appear}
-}
-
 @inproceedings{HOB+:MODEVAR24,
 	author = {He{\ss}, Tobias and Ostheimer, Lukas and Betz, Tobias and Karrer, Simon and Schmidt, Tim Jannik and Coquet, Pierre and Semmler, Sean and Th{\"u}m, Thomas},
 	title = {{variability.dev: Towards an Online Toolbox for Feature Modeling}},
@@ -367,6 +336,47 @@
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2024 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{SBK+:SPLC24,
+	author    = {Sundermann, Chico and Brancaccio, Vincenzo Francesco and Kuiter, Elias and Krieter, Sebastian and He{\ss}, Tobias and Th{\"{u}}m, Thomas},
+	title     = {{Collecting Feature Models from the Literature: A Comprehensive Dataset for Benchmarking}},
+	booktitle = SPLC,
+	year      = 2024,
+	pages     = {54--65},
+	month     = SEP,
+	publisher = ACM,
+	address   = NY,
+	location  = Dommeldange,
+	doi       = {10.1145/3646548.3672590},
+	typo3tags = {FMCounting},
+	ek-tags   = {reproducibility}
+}
+
+@inproceedings{SKH+:SPLC24,
+	author    = {Sundermann, Chico and Kuiter, Elias and He{\ss}, Tobias and Raab, Heiko and Krieter, Sebastian and Th{\"{u}}m, Thomas},
+	title     = {{On the Benefits of Knowledge Compilation for Feature-Model Analyses}},
+	booktitle = SPLC,
+	year      = 2024,
+	pages     = {217},
+	month     = SEP,
+	publisher = ACM,
+	address   = NY,
+	location  = Dommeldange,
+	doi       = {10.1145/3646548.3676540}
+}
+
+@inproceedings{SHS+:MODEVAR24b,
+	author    = {Sundermann, Chico and He{\ss}, Tobias and Sundermann, Rahel and Kuiter, Elias and Krieter, Sebastian and Th{\"{u}}m, Thomas},
+	title     = {{Generating Feature Models with UVL's Full Expressiveness}},
+	booktitle = MODEVAR,
+	year      = 2024,
+	pages     = {61--65},
+	month     = SEP,
+	publisher = ACM,
+	address   = NY,
+	location  = Dommeldange,
+	doi       = {10.1145/3646548.3676602}
+}
 
 @proceedings{SPLC24,
 	editor = {Cordy, Maxime and Str\"{u}ber, Daniel and Pinto, M\'{o}nica and Groher, Iris and Dhungana, Deepak and Kr\"{u}ger, Jacob and Alves Pereira, Juliana and Acher, Mathieu and Th\"{u}m, Thomas and ter Beek, Maurice and Galasso-Carbonnel, Jessie and Arcaini, Paolo and Mousavi, Mohammad Reza and T\"{e}rnava, Xhevahire and Galindo, Jos\'{e} and Yue, Tao and Fuentes, Lidia and Horcas, Jos\'{e} Miguel},
@@ -708,7 +718,8 @@
 	author      = {Pierre Bourhis and Laurence Duchien and Jérémie Dusart and Emmanuel Lonca and Pierre Marquis and Clément Quinton},
 	institution = arXiv,
 	doi         = {10.48550/arXiv.2302.06867},
-	year        = 2023
+	year        = 2023,
+	ek-tags     = {compositionality, knowledge compilation}
 }
 
 @techreport{AKS:TR23,
@@ -3293,6 +3304,114 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2020 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@techreport{BFFH:TR20,
+	author      = {Armin Biere and Katalin Fazekas and Mathias Fleury and Heisinger, Maximilian},
+	title       = {{CaDiCaL, Kissat, Paracooba, Plingeling and Treengeling Entering the SAT Competition 2020}},
+	year        = 2020,
+	institution = UniHelsinki,
+	number      = {Report B-2020-1},
+	ek-tags     = {satisfiability}
+}
+
+@article{BIL+:BMCME20,
+	author    = {Bock, Anna and Idzko-Siekermann, Bianca and Lemos, Martin and Kniha, Kristian and M{\"o}hlhenrich, Stephan Christian and Peters, Florian and H{\"o}lzle, Frank and Modabber, Ali},
+	title     = {{The Sandwich Principle: Assessing the Didactic Effect in Lectures on ``Cleft Lips and Palates''}},
+	journal   = BMCME,
+	publisher = Springer,
+	volume    = 20,
+	pages     = {1--7},
+	year      = 2020
+}
+
+@inproceedings{BRS:GPCE20,
+	author    = {Tabea Bordis and Tobias Runge and Ina Schaefer},
+	title     = {{Correctness-by-Construction for Feature-Oriented Software Product Lines}},
+	booktitle = GPCE,
+	publisher = ACM,
+	address   = NY,
+	pages     = {22--34},
+	doi       = {10.1145/3425898.3426959},
+	year      = 2020
+}
+
+@inproceedings{AKM:SPLC20,
+	author    = {Assun\c{c}\~{a}o, Wesley K. G. and Kr\"{u}ger, Jacob and Mendon\c{c}a, Willian D. F.},
+	title     = {{Variability Management Meets Microservices: Six Challenges of Re-Engineering Microservice-Based Webshops}},
+	booktitle = SPLC,
+	publisher = ACM,
+	address   = NY,
+	isbn      = 9781450375696,
+	doi       = {10.1145/3382025.3414942},
+	year      = 2020,
+	articleno = 22
+}
+
+@inproceedings{DLP:ISoLA20,
+	author    = {Ferruccio Damiani and Michael Lienhardt and Luca Paolini},
+	title     = {{On Slicing Software Product Line Signatures}},
+	booktitle = ISoLA,
+	publisher = Springer,
+	address   = Cham,
+	pages     = {81--102},
+	doi       = {10.1007/978-3-030-61362-4_5},
+	year      = 2020
+}
+
+@inproceedings{GBKR:SPLC20,
+	author    = {Gr{\"u}ner, Sten and Burger, Andreas and Kantonen, Tuomas and R{\"u}ckert, Julius},
+	title     = {{Incremental Migration to Software Product Line Engineering}},
+	booktitle = SPLC,
+	publisher = ACM,
+	address   = NY,
+	pages     = {1--11},
+	doi       = {10.1145/3382025.3414956},
+	year      = 2020
+}
+
+@article{GM:EMSE20,
+	author    = {Mario Gleirscher and Diego Marmsoler},
+	title     = {{Formal Methods in Dependable Systems Engineering: A Survey of Professionals From Europe and North America}},
+	journal   = EMSE,
+	publisher = Springer,
+	volume    = 25,
+	number    = 6,
+	pages     = {4473--4546},
+	doi       = {10.1007/s10664-020-09836-5},
+	year      = 2020
+}
+
+@incollection{GtBvdP:20,
+	author    = {Hubert Garavel and Maurice H. ter Beek and Jaco van de Pol},
+	title     = {{The 2020 Expert Survey on Formal Methods}},
+	booktitle = FMICS,
+	publisher = Springer,
+	address   = Cham,
+	pages     = {3--69},
+	doi       = {10.1007/978-3-030-58298-2_1},
+	year      = 2020
+}
+
+@inproceedings{KMB:SPLC20,
+	author    = {Kr{\"u}ger, Jacob and Mahmood, Wardah and Berger, Thorsten},
+	title     = {{Promote-pl: A Round-Trip Engineering Process Model for Adopting and Evolving Product Lines}},
+	booktitle = SPLC,
+	publisher = ACM,
+	address   = NY,
+	pages     = {1--12},
+	doi       = {10.1145/3382025.3414970},
+	year      = 2020
+}
+
+@inproceedings{S:APLAS20,
+	author    = {Steinh\"{o}fel, Dominic},
+	title     = {{REFINITY to Model and Prove Program Transformation Rules}},
+	booktitle = APLAS,
+	publisher = Springer,
+	pages     = {311--319},
+	doi       = {10.1007/978-3-030-64437-6_16},
+	year      = 2020
+}
+
 @inproceedings{APS:SAT20,
 	author    = {Audemard, Gilles and Paulev{\'e}, Lo{\"i}c and Simon, Laurent},
 	title     = {{SAT Heritage: A Community-Driven Effort for Archiving, Building and Running More Than Thousand SAT Solvers}},
@@ -3646,6 +3765,17 @@
 	doi = {10.1007/978-3-030-64354-6_5},
 	month = DEC,
 	year = 2020
+}
+
+@book{ABB+20,
+	author    = {Ahrendt, Wolfgang and Beckert, Bernhard and Bubel, Richard and H{\"a}hnle, Reiner and Ulbrich, Mattias},
+	title     = {{Deductive Software Verification: Future Perspectives - Reflections on the Occasion of 20 Years of KeY}},
+	publisher = Springer,
+	address   = Cham,
+	isbn      = {978-3-030-64354-6},
+	doi       = {10.1007/978-3-030-64354-6},
+	month     = DEC,
+	year      = 2020
 }
 
 @inproceedings{BLK:ESECFSE20,
@@ -6350,6 +6480,17 @@
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2017 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{HLB+:AIJ17,
+	author  = {Frank Hutter and Marius Lindauer and Adrian Balint and Sam Bayless and Holger Hoos and Kevin Leyton-Brown},
+	title   = {{The Configurable SAT Solver Challenge (CSSC)}},
+	journal = AIJ,
+	volume  = 243,
+	pages   = {1--25},
+	year    = 2017,
+	issn    = {0004-3702},
+	doi     = {j.artint.2016.09.006}
+}
 
 @inproceedings{SKFD:GCPR17,
 	author       = {Alexander Schulthei{\ss} and
@@ -13435,7 +13576,7 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 
 @inproceedings{MMBH:AAI12,
   author    = {Muise, Christian and McIlraith, Sheila A. and Beck, J. Christopher and Hsu, Eric I.},
-  booktitle = {Advances in Artificial Intelligence},
+  booktitle = AAI,
   editor    = {Kosseim, Leila and Inkpen, Diana},
   pages     = {356--361},
   publisher = Springer,
@@ -21600,7 +21741,8 @@ from Object-Oriented Design}},
 	pages = {663--678},
 	publisher = ACM,
 	address = NY,
-	year = 2004
+	year = 2004,
+	ek-tags = {CNF transformation},
 }
 
 @inproceedings{HD:SAT04,
@@ -22448,6 +22590,18 @@ from Object-Oriented Design}},
 } 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2002 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{OGMS:CP02,
+	author    = {Ostrowski, Richard and Gr{\'e}goire, {\'E}ric and Mazure, Bertrand and Sa{\"i}s, Lakhdar},
+	title     = {{Recovering and Exploiting Structural Knowledge from CNF Formulas}},
+	booktitle = CP,
+	year      = 2002,
+	publisher = Springer,
+	address   = BerlinHeidelberg,
+	pages     = {185--199},
+	isbn      = {978-3-540-46135-7},
+	ek-tags = {CNF transformation},
+}
 
 @article{AVM:IJBM02,
 	title = {{Bravais-Pearson and Spearman Correlation Coefficients: Meaning, Test of Hypothesis and Confidence Interval}},
@@ -23364,6 +23518,18 @@ Stories of successful software product line deployments often read like epic adv
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2000 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{GS:AAI00,
+	author    = {Giunchiglia, Enrico and Sebastiani, Roberto},
+	title     = {{Applying the Davis-Putnam Procedure to Non-Clausal Formulas}},
+	booktitle = AAI,
+	year      = 2000,
+	publisher = Springer,
+	address   = BerlinHeidelberg,
+	pages     = {84--94},
+	isbn      = {978-3-540-46238-5},
+	ek-tags   = {CNF transformation}
+}
 
 @article{WV:TSE00,
 	author  = {Weyuker, E.J. and Vokolos, F.I.},
