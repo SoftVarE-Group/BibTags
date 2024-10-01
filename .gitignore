@@ -22,3 +22,4 @@ classification/problems.csv
 *.fls
 *.fdb_latexmk
 .venv
+.vscode
