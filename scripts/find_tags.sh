@@ -6,4 +6,4 @@
 # The script is useful to quickly look up which tags are available, so as to avoid duplication.
 
 who=${1:-"ek"}
-grep "$who-tags" literature.bib | cut -d= -f2- | tr -d '{}' | tr , '\n' | grep -E .+ | sort | uniq 
+grep "$who-tags" "$(dirname "$0")"/../literature.bib | cut -d= -f2- | tr -d '{}' | tr , '\n' | grep -E .+ | sort | uniq 
