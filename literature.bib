@@ -181,12 +181,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Unpublished Entries %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 @article{KMP+:TOSEM25,
-	author = {Krupke, Dominik Michael and Moradi, Ahmad and Perk, Michael and Keldenich, Phillip and Gehrke, Gabriel and Krieter, Sebastian and Th{\"u}m, Thomas and Fekete, S{\'a}ndor},
+	author = {Krupke, Dominik Michael and Moradi, Ahmad and Perk, Michael and Keldenich, Phillip and Gehrke, Gabriel and Krieter, Sebastian and Th{\"u}m, Thomas and Fekete, S{\'a}ndor P.},
 	title = {{How Low Can We Go? Minimizing Interaction Samples for Configurable Systems}},
 	year = 2025,
 	publisher = ACM,
 	address = NY,
 	journal = TOSEM,
+	issn = {1049-331X},
+	doi = {10.1145/3712193},
 	note = ToAppear,
 	keywords = {software product lines, combinatorial optimization}
 }
@@ -225,31 +227,6 @@
 	note = ToAppear,
 	keywords = {software product lines, software engineering teaching, software product line teaching, variability modeling},
 	ek-tags = {teaching}
-}
-
-@inproceedings{SLT:ASE24,
-	title = {{Efficient Slicing of Feature Models via Projected d-DNNF Compilation}},
-	author = {Sundermann, Chico and Loth, Jacob and Th{\"{u}}m, Thomas},
-	year = 2024,
-	location = {Sacramento, CA, USA},
-	publisher = ACM,
-	address = NY,
-	booktitle = ASE,
-	typo3Tags = {FMCounting},
-	ek-tags = {slicing},
-	note = ToAppear
-}
-
-@mastersthesis{Semmler24,
-	author = {Semmler, Sean},
-	title = {{Domain-Specific Variable Ordering for Compiling Binary Decision Diagrams from Feature Models}},
-	school = UniUlm,
-	address = Germany,
-	type = Bachelor,
-	typo3Tags = {SupervisorTH, SupervisorTT},
-	month = JUN,
-	year = 2024,
-	note = ToAppear
 }
 
 @article{RGS+:JSS24,
@@ -298,19 +275,6 @@
 	ek-tags = {differencing},
 }
 
-@mastersthesis{Dunkel23,
-	author = {Dunkel, Raphael},
-	title = {{One Solver to Rule All Feature Models -- Or Not? Addressing the Algorithm Selection Problem for \#SAT}},
-	school = UniUlm,
-	address = Germany,
-	type = Bachelor,
-	typo3Tags = {SupervisorCS, SupervisorTH, SupervisorTT, FMCounting},
-	month = DEC,
-	year = 2023,
-	note = ToAppear,
-	ek-tags = {meta-analysis},
-}
-
 @mastersthesis{Karrer23,
 	comments = {Waiting for Oparu},
 	author = {Karrer, Simon},
@@ -338,7 +302,102 @@
 	note = ToAppear
 }
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2025 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@techreport{KMP+:TR25subsumedbyKMP+:TOSEM25,
+	subsumedby = {KMP+:TOSEM25},
+	author = {Krupke, Dominik Michael and Moradi, Ahmad and Perk, Michael and Keldenich, Phillip and Gehrke, Gabriel and Krieter, Sebastian and Th{\"u}m, Thomas and Fekete, S{\'a}ndor P.},
+	title = {{How Low Can We Go? Minimizing Interaction Samples for Configurable Systems}},
+	institution = arXiv,
+	number = {arXiv:2501.06788},
+	doi = {10.48550/arXiv.2501.06788},
+	month = JAN,
+	year = 2025
+}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2024 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@mastersthesis{Dunkel24,
+	renamedFrom = {Dunkel23},
+	author = {Dunkel, Raphael},
+	title = {{One Solver to Rule All Feature Models -- Or Not? Addressing the Algorithm Selection Problem for \#SAT}},
+	school = UniUlm,
+	address = Germany,
+	type = Bachelor,
+	typo3Tags = {SupervisorCS, SupervisorTH, SupervisorTT, FMCounting},
+	month = JAN,
+	year = 2024,
+	doi = {10.18725/OPARU-52711},
+	ek-tags = {meta-analysis},
+}
+
+@article{SKH+:AMAI24,
+	renamedFrom = {SKH+:AMAI23},
+	author = {Sundermann, Chico and Kuiter, Elias and He{\ss}, Tobias and Raab, Heiko and Krieter, Sebastian and Th{\"{u}}m, Thomas},
+	title = {{On the Benefits of Knowledge Compilation for Feature-Model Analyses}},
+	journal = AMAI,
+	volume = 92,
+	number = 5,
+	pages = {1013--1050},
+	publisher = Springer,
+	typo3Tags = {FMCounting},
+	doi = {10.1007/s10472-023-09906-6},
+	month = OCT,
+	year = 2024,
+	ek-tags = {knowledge compilation},
+}
+
+@techreport{PKTS:TR24subsumedbyPKTS:SPLC24,
+	subsumedby = {PKTS:SPLC24},
+	author = {Pett, Tobias and Krieter, Sebastian and Th{\"u}m, Thomas and Schaefer, Ina},
+	title = {{MulTi-Wise Sampling: Trading Uniform T-Wise Feature Interaction Coverage for Smaller Samples}},
+	institution = arXiv,
+	number = {arXiv:2406.19801},
+	doi = {10.48550/arXiv.2406.19801},
+	month = JUN,
+	year = 2024
+}
+
+@inproceedings{SLT:ASE24,
+	title = {{Efficient Slicing of Feature Models via Projected d-DNNF Compilation}},
+	author = {Sundermann, Chico and Loth, Jacob and Th{\"{u}}m, Thomas},
+	year = 2024,
+	month = OCT,
+	location = {Sacramento, CA, USA},
+	publisher = ACM,
+	address = NY,
+	booktitle = ASE,
+	typo3Tags = {FMCounting},
+	ek-tags = {slicing},
+	isbn = {9798400712487},
+	doi = {10.1145/3691620.3695594},
+	pages = {1332--1344},
+	keywords = {feature models, configurable systems, product lines, d-DNNF, knowledge compilation, slicing, projection}
+}
+
+@mastersthesis{Semmler24,
+	author = {Semmler, Sean},
+	title = {{Domain-Specific Variable Ordering for Compiling Binary Decision Diagrams from Feature Models}},
+	school = UniUlm,
+	address = Germany,
+	type = Bachelor,
+	typo3Tags = {SupervisorTH, SupervisorTT},
+	month = JUN,
+	year = 2024,
+	doi = {10.18725/OPARU-53151}
+}
+
+@proceedings{GPCE24,
+	editor = {Chiba, Shigeru and Th\"{u}m, Thomas},
+	title = {{GPCE '24: Proceedings of the 23rd ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences}},
+	isbn = {9798400712111},
+	publisher = ACM,
+	address = NY,
+	location = {Pasadena, CA, USA},
+	tt-tags = {Editorial},
+	month = OCT,
+	year = 2024
+}
 
 @article{BSM+:OOPSLA24,
 	author = {Paul Maximilian Bittner and Alexander Schulthei\ss{} and Benjamin Moosherr and Jeffrey M. Young and Leopoldo Teixeira and Eric Walkingshaw and Parisa Ataei and Thomas Th{\"{u}}m},
@@ -768,7 +827,7 @@
 	address   = NY,
 	location  = Tokyo,
 	tt-tags   = {Editorial},
-	month     = SEP,
+	month = AUG,
 	year      = 2023
 }
 
@@ -971,6 +1030,7 @@
 	pages = {99--110},
 	doi = {10.1145/3579027.3608981},
 	year = 2023,
+	month = AUG,
 	ek-tags = {constraint elimination, knowledge compilation, CNF transformation},
 }
 
@@ -983,7 +1043,7 @@
 	booktitle = SPLC,
 	pages = {15--26},
 	location = Tokyo,
-	month = SEP,
+	month = AUG,
 	year = 2023
 }
 
@@ -1042,21 +1102,6 @@
 	ek-tags = {model enumeration, CNF transformation},
 }
 
-@article{SKH+:AMAI23,
-	author = {Sundermann, Chico and Kuiter, Elias and He{\ss}, Tobias and Raab, Heiko and Krieter, Sebastian and Th{\"{u}}m, Thomas},
-	title = {{On the Benefits of Knowledge Compilation for Feature-Model Analyses}},
-	journal = AMAI,
-	volume = 92,
-	number = 5,
-	pages = {1013--1050},
-	publisher = Springer,
-	typo3Tags = {FMCounting},
-	doi = {10.1007/s10472-023-09906-6},
-	month = NOV,
-	year = 2023,
-	ek-tags = {knowledge compilation},
-}
-
 @article{SBB+:SoSyM23,
 	renamedFrom = {SBB+:SoSyM22},
 	author = {Alexander Schulthei{\ss} and Paul Maximilian Bittner and Alexander Boll and Lars Grunske and Thomas Th{\"{u}}m and Timo Kehrer},
@@ -1095,6 +1140,7 @@
 	publisher = ACM,
 	address = NY,
 	year = 2023,
+	month = AUG,
 	doi = {10.1145/3579028.3609008},
 	ek-tags = {meta-analysis},
 }
@@ -1200,7 +1246,7 @@
 	keywords = {decision making support, feature model, software product line, uncertainty, subjective logic},
 	publisher = ACM,
 	address = NY,
-	month = SEP,
+	month = AUG,
 	year = 2023
 }
 
@@ -1357,7 +1403,7 @@
 	typo3Tags = {UVL},
 	publisher = ACM,
 	address = NY,
-	month = SEP,
+	month = AUG,
 	year = 2023
 }
 
@@ -1424,7 +1470,7 @@
 	year = 2023
 }
 
-@techreport{SRH+:TR23,
+@techreport{SRH+:TR23subsumedbySRH+:TOSEM24,
 	subsumedby = {SRH+:TOSEM24},
 	title = {{Exploiting d-DNNFs for Repetitive Counting Queries on Feature Models}},
 	author = {Sundermann, Chico and Raab, Heiko and He\ss{}, Tobias and Th\"{u}m, Thomas and Schaefer, Ina},
@@ -1681,9 +1727,9 @@
 	journal = EMSE,
 	publisher = Springer,
 	year = 2023,
-	month = JAN,
+	month = MAR,
 	volume = 28,
-	number = 29,
+	number = 2,
 	pages = 38,
 	doi = {10.1007/s10664-022-10265-9},
 	keywords = {configurable systems, feature models, product lines, model counting, configuration counting, \#SAT, Benchmark},
@@ -1696,9 +1742,10 @@
 	author = {Jeffrey M. Young and Paul Maximilian Bittner and Eric Walkingshaw and Thomas Th\"{u}m},
 	title = {{Variational Satisfiability Solving: Efficiently Solving Lots of Related SAT Problems}},
 	journal = EMSE,
-	year = 2022,
-	month = NOV,
+	year = 2023,
+	month = FEB,
 	volume = 28,
+	number = 1,
 	pages = 53,
 	doi = {10.1007/s10664-022-10217-3},
 	keywords = {satisfiability solving, variation, choice calculus, software product lines},
@@ -2373,7 +2420,7 @@
 	year = 2022
 }
 
-@techreport{RPTS:TR22subsumedbyRPTS:FORTE22,
+@techreport{RPTS:TR22subsumedbyRBP+:LMCS23,
 	subsumedBy = {RBP+:LMCS23},
 	author = {Tobias Runge and Alex Potanin and Thomas Th{\"u}m and Ina Schaefer},
 	title = {{Traits for Correct-by-Construction Programming}},
@@ -5962,6 +6009,17 @@
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2018 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@techreport{KTPS:TR18subsumedbyKTPS:FIDE18,
+	subsumedby = {KTPS:FIDE18},
+	author = {Alexander Kn{\"{u}}ppel and Thomas Th{\"{u}}m and Carsten Immanuel Pardylla and Ina Schaefer},
+	title = {{Experience Report on Formally Verifying Parts of OpenJDK's API With KeY}},
+	institution = arXiv,
+	number = {arXiv:1811.10818},
+	doi = {10.48550/arXiv.1811.10818},
+	month = NOV,
+	year = 2018
+}
 
 @inproceedings{NKSL:ICSEC18,
 	author    = {von Nostitz-Wallwitz, Ivonne and Kr\"{u}ger, Jacob and Siegmund, Janet and Leich, Thomas},
