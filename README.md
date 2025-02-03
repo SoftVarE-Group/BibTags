@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/tthuem/BibTags.svg?branch=master)](https://travis-ci.com/tthuem/BibTags)
 
-## Policies
+## Policies for Adding New Entries
 - **Maintain consistent order of attributes** of entries. If you want to add a new entry, a good strategy is to copy an existing entry of the same type and adapt it.
 - **Keys are formatted** using author names, publication venue, and year of publication: `<author abbreviation>:<venue><year>`. For example a paper published at `ICSE` in `2005` by `Alice Change` and `Bob Delta` would have the key `CD:ICSE05`. In the following each key element is explained:
   - `<author abbreviation>`:
@@ -22,16 +22,26 @@
     	booktitle = ICSE,
     ...
     ```
+- **Month and Year**: 
+  - **Journal Articles**: The publication month and year of a journal is that when the issue (not the article) is published. DBLP seems to have solid knowledge on that (compared to Springer's own website).
+  - **For theses**, we always use the month when the thesis was defended (not when it is submitted and not when it is finally published).
+  - **For conferences**, the month and year is typically the first day of the conference. As SPLC was in August and September, both months were used.
+  - **For theses** the month is the month of the defense (because publication of a thesis might happen much later).
+- When adding **unpublished articles**, try to already add the DOI. Helps to keep track of the publication status.
 
-### Policies for Theses
-- **Keys** of theses are formatted according to the formatting rules described above.
-- **The month of a thesis entry** is the month of the defense (because publication of a thesis might happen much later).
+## Additional Policies for Theses
 - **Publication status of theses** should be indicated in exactly one of the following three ways:
   - If the thesis is already published, add DOI and URL. The URL should directly point to the PDF.
   - If the thesis is not published and should not be published, add `comments = NotToBePublished,`.
   - If the thesis is not published but should be published, add `note = {To appear}`.
 - **Add `type` for bachelor, master, and project thesis**. These theses should be specified as `@mastersthesis` as it is the only bibtex entry type for thesis (apart from `@phdthesis`). Distinguish between different types of theses by using `type = Bachelor`, `type = Master`, or `type = Project` respectively.
 - **For theses written in german** add `note = {In German}`.
+
+## Policies for Updating Existing Entries
+- When a paper happens to become **subsumed**, please change the key. This way, we make sure to update all references of outdated publications. In addition, you may want to use the subsumedby field.
+
+## Tips and Tricks
+- When checking whether all your papers are **complete**, it is helpful to compare all papers on your website (or in Bibtags) with those being listed in ACM, DBLP and Google Scholar. ACM and DBLP do have the best quality in their data.
 
 ## Custom Fields
 Use custom fileds to add addtional information for single entries. **Do not write comments inbetween entries.**
