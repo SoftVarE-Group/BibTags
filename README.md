@@ -24,9 +24,8 @@
     ```
 - **Month and Year**: 
   - **Journal Articles**: The publication month and year of a journal is that when the issue (not the article) is published. DBLP seems to have solid knowledge on that (compared to Springer's own website).
-  - **For theses**, we always use the month when the thesis was defended (not when it is submitted and not when it is finally published).
+  - **For theses**, we always use the month when the thesis was defended (not when it is submitted and not when it is finally published, which might happen much later).
   - **For conferences**, the month and year is typically the first day of the conference. As SPLC was in August and September, both months were used.
-  - **For theses** the month is the month of the defense (because publication of a thesis might happen much later).
 - When adding **unpublished articles**, try to already add the DOI. Helps to keep track of the publication status.
 
 ## Additional Policies for Theses
