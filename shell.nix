@@ -2,13 +2,6 @@
 # https://wiki.nixos.org/wiki/Python
 let
   pkgs = import <nixpkgs> {};
-
-  python = pkgs.python3.override {
-    self = python;
-    packageOverrides = pyfinal: pyprev: {
-      toolz = pyfinal.callPackage ./toolz.nix { };
-    };
-  };
 in pkgs.mkShell {
   packages = [
     (pkgs.python3.withPackages (python-pkgs: with python-pkgs; [
