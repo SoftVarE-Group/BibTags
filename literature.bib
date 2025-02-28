@@ -694,7 +694,20 @@
 	journal = PACMSE,
 	month = JUL,
 	ek-tags = {Linux, KConfig, KMax, Tseitin},
-},
+}
+
+@inproceedings{BVO+:EASE24,
+  author       = {Alexander Boll and Yael Van Dok and Manuel Ohrndorf and Alexander Schulthei{\ss} and Timo Kehrer},
+  title        = {{Towards Semi-Automated Merge Conflict Resolution: Is It Easier Than We Expected?}},
+  booktitle    = EASE,
+  pages        = {282--292},
+  publisher    = ACM,
+  address      = NY,
+  year         = 2024,
+  month        = JUN,
+  doi          = {10.1145/3661167.3661197},
+  location     = {Salerno, Italy}
+}
 
 @proceedings{MODEVAR24,
 	title = {{Sixth International Workshop on Languages for Modelling Variability (MODEVAR 2024)}}, 
@@ -1016,6 +1029,17 @@
 	ek-tags = {satisfiability, complexity, evolution},
 }
 
+@inproceedings{YXX+:CCS23,
+  author = {Su Yang and Yang Xiao and Zhengzi Xu and Chengyi Sun and Chen Ji and Yuqing Zhang},
+  editor = {Weizhi Meng and Christian Damsgaard Jensen and Cas Cremers and Engin Kirda},
+  title = {{Enhancing OSS Patch Backporting with Semantics}},
+  booktitle = CCS,
+  pages = {2366--2380},
+  publisher = ACM,
+  year = 2023,
+  doi = {10.1145/3576915.3623188},
+}
+
 @techreport{BDD+:TR23,
 	title       = {{Reasoning on Feature Models: Compilation-Based vs. Direct Approaches}},
 	author      = {Pierre Bourhis and Laurence Duchien and Jérémie Dusart and Emmanuel Lonca and Pierre Marquis and Clément Quinton},
@@ -1023,6 +1047,18 @@
 	doi         = {10.48550/arXiv.2302.06867},
 	year        = 2023,
 	ek-tags     = {compositionality, knowledge compilation}
+}
+
+@inproceedings{MAGE:SANER23,
+  author = {Gabriela Karoline Michelon and Wesley K. G. Assun{\c{c}}{\~{a}}o and Paul Gr{\"{u}}nbacher and Alexander Egyed},
+  editor = {Tao Zhang and Xin Xia and Nicole Novielli},
+  title = {{Analysis and Propagation of Feature Revisions in Preprocessor-based Software Product Lines}},
+  booktitle = SANER,
+  address = Piscataway,
+  pages = {284--295},
+  publisher = IEEE,
+  year = 2023,
+  doi = {10.1109/SANER56733.2023.00035},
 }
 
 @techreport{AKS:TR23,
@@ -1848,6 +1884,29 @@
 	ek-tags = {preprocessing, model counting},
 }
 
+@inproceedings{SZL+:USS22,
+  author = {Youkun Shi and Yuan Zhang and Tianhan Luo and Xiangyu Mao and Yinzhi Cao and Ziwen Wang and Yudi Zhao and Zongan Huang and Min Yang},
+  title = {{Backporting Security Patches of Web Applications: A Prototype Design and Implementation on Injection Vulnerability Patches}},
+  booktitle = USS,
+  pages = {1993--2010},
+  publisher = USENIX,
+  address = Boston,
+  year = 2022,
+  url = {https://www.usenix.org/conference/usenixsecurity22/presentation/shi},
+  missing = NoDOI,
+}
+
+@article{BONB:EMSE22,
+  author = {John Businge and Moses Openja and Sarah Nadi and Thorsten Berger},
+  title = {{Reuse and Maintenance Practices Among Divergent Forks in Three Software Ecosystems}},
+  journal = EMSE,
+  volume = {27},
+  number = {2},
+  pages = {54},
+  year = 2022,
+  doi = {10.1007/S10664-021-10078-2},
+}
+
 @article{SC:AS22,
 	author  = {Sepúlveda, Samuel and Cravero, Ania},
 	title   = {{Reasoning Algorithms on Feature Modeling -- A Systematic Mapping Study}},
@@ -1898,7 +1957,7 @@
 
 @inproceedings{RBB+:ESECFSE22,
 	author = {Ramkisoen, Poedjadevie Kadjel and Businge, John and van Bladel, Brent and Decan, Alexandre and Demeyer, Serge and De Roover, Coen and Khomh, Foutse},
-	title = {{Pareco: Patched Clones and Missed Patches Among the Divergent Variants of a Software Family}},
+	title = {{PaReco: Patched Clones and Missed Patches Among the Divergent Variants of a Software Family}},
 	year = 2022,
 	isbn = {9781450394130},
 	publisher = ACM,
@@ -3930,7 +3989,7 @@
 	month = DEC,
 	articleno = {6},
 	numpages = {36},
-	keywords = {code transplantation, Program repair, dynamic program analysis, patch transplantation}
+	keywords = {code transplantation, program repair, dynamic program analysis, patch transplantation}
 }
 
 @inproceedings{KKSL:VaMoS20,
@@ -8655,6 +8714,17 @@ series = {SPLC '17}
 	ek-tags = {model counting, preprocessing},
 }
 
+@inproceedings{TLLL:ICSME16,
+  author = {Ferdian Thung and Xuan{-}Bach Dinh Le and David Lo and Julia Lawall},
+  title = {{Recommending Code Changes for Automatic Backporting of Linux Device Drivers}},
+  booktitle = ICSME,
+  pages = {222--232},
+  publisher = IEEE,
+  address = Piscataway,
+  year = 2016,
+  doi = {10.1109/ICSME.2016.71},
+}
+
 @inproceedings{GZH+:ECCV16,
 	title = {{MS-Celeb-1M: A Dataset and Benchmark for Large-Scale Face Recognition}},
 	author = {Guo, Yandong and Zhang, Lei and Hu, Yuxiao and He, Xiaodong and Gao, Jianfeng},
@@ -10194,6 +10264,17 @@ series = {SPLC '17}
 	address   = Boston,
 	isbn = {0134397606},
 	ek-tags   = {satisfiability}
+}
+
+@inproceedings{RL:EDCC15,
+  author = {Luis R. Rodriguez and Julia Lawall},
+  title = {{Increasing Automation in the Backporting of Linux Drivers Using Coccinelle}},
+  booktitle = EDCC,
+  pages = {132--143},
+  publisher = IEEE,
+  year = 2015,
+  doi = {10.1109/EDCC.2015.23},
+  missing = NoAddress,
 }
 
 @article{ETV+:CLSS15,
@@ -14798,6 +14879,17 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2012 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@inproceedings{JAB:SP12,
+  author = {Jiyong Jang and Abeer Agrawal and David Brumley},
+  title = {{ReDeBug: Finding Unpatched Code Clones in Entire OS Distributions}},
+  booktitle = SP,
+  pages = {48--62},
+  publisher = IEEE,
+  address = Piscataway,
+  year = 2012,
+  doi = {10.1109/SP.2012.13},
+}
+
 @inproceedings{MMBH:AAI12,
   author    = {Muise, Christian and McIlraith, Sheila A. and Beck, J. Christopher and Hsu, Eric I.},
   booktitle = AAI,
@@ -16618,6 +16710,31 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
   booktitle = ASE,
   pages = {572--575},
   numpages = {4},
+}
+
+@inproceedings{MKM:PLDI11,
+    author = {Meng, Na and Kim, Miryung and McKinley, Kathryn S.},
+    title = {{Systematic Editing: Generating Program Transformations From an Example}},
+    booktitle = PLDI,
+    year = 2011,
+    publisher = ACM,
+    address = NY,
+    issn = {0362-1340},
+    doi = {10.1145/1993316.1993537},
+    month = JUN,
+    pages = {329--342},
+    numpages = {14},
+}
+
+@inproceedings{MKM:FSE11,
+  author = {Na Meng and Miryung Kim and Kathryn S. McKinley},
+  editor = {Tibor Gyim{\'{o}}thy and Andreas Zeller},
+  title = {{Sydit: Creating and Applying a Program Transformation From an Example}},
+  booktitle = FSE,
+  pages = {440--443},
+  publisher = ACM,
+  year = 2011,
+  doi = {10.1145/2025113.2025185},
 }
 
 @misc{C11,
@@ -19049,6 +19166,17 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
   doi = {10.1109/MS.2009.6},
   year = 2009,
   publisher = IEEE,
+}
+
+@inproceedings{BHR:SPIRE20,
+  author = {Lasse Bergroth and Harri Hakonen and Timo Raita},
+  editor = {Pablo de la Fuente},
+  title = {{A Survey of Longest Common Subsequence Algorithms}},
+  booktitle = SPIRE,
+  pages = {39--48},
+  publisher = IEEE,
+  year = 2000,
+  doi = {10.1109/SPIRE.2000.878178},
 }
 
 @book{K09,
@@ -24908,6 +25036,19 @@ from Object-Oriented Design}},
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2000 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@article{Wells00,
+	renamedFrom = {BusyBox},
+    title       = {{Busybox: A Swiss Army Knife for Linux}},
+	author      = {Wells, Nicholas},
+	journal     = {Linux Journal},
+	volume      = {2000},
+	number      = {78es},
+	year        = 2000,
+	publisher   = {Belltown Media Houston, TX},
+    doi         = {10.5555/364412.364422},
+    note        = {Website: \url{https://busybox.net/}}
+}
+
 @book{Bo00,
 	conflicts = {B00},
 	author    = {Bosch, Jan},
@@ -27659,6 +27800,19 @@ from Object-Oriented Design}},
 	year = 1971
 } 
 
+@article{Bloom:CACM70,
+  title = {{Space/time trade-offs in hash coding with allowable errors}},
+  author = {Bloom, Burton H},
+  journal = CACM,
+  volume = {13},
+  number = {7},
+  pages = {422--426},
+  year = 1970,
+  doi = {10.1145/362686.362692},
+  address = NY,
+  publisher = ACM
+}
+
 @article{H69,
 	author = {Hoare, C. A. R.},
 	title = {{An Axiomatic Basis for Computer Programming}},
@@ -28308,4 +28462,69 @@ from Object-Oriented Design}},
 	note = {Accessed: 2024-03-22},
 	year = 2024,
 	howpublished = {\url{https://www.hillelwayne.com/post/graph-types}}
+}
+
+@book{Triola2018,
+    title={{Elementary statistics}},
+  author={Triola, Mario F},
+  year = 2018,
+  publisher = Pearson,
+}
+
+@misc{GNU:patch,
+  author = {Wall, Larry and Eggert, Paul and Davison, Wayne and MacKenzie, David and Grünbacher, Andreas},
+  title = {{GNU patch}},
+  year = 2009,
+  howpublished = {Website: \url{https://savannah.gnu.org/projects/patch/}},
+  note = {Accessed: 2024-07-01},
+}
+
+@misc{GNU,
+  author = {Stallman, Richard},
+  title = {{The GNU project}},
+  year = 2023,
+  howpublished = {Website: \url{https://www.gnu.org/gnu/thegnuproject.html}},
+  note = {Accessed: 2024-07-01},
+}
+
+@misc{Linux:ApplyingPatches,
+  author = {Juhl, Jesper},
+  title = {{Applying Patches To The Linux Kernel}},
+  year = 2016,
+  howpublished = {Website: \url{https://www.kernel.org/doc/html/v4.11/process/applying-patches.html}},
+  note = {Accessed: 2024-07-01},
+}
+
+@misc{Linux:SubmittingPatches,
+  author = {The kernel development community},
+  title = {{Submitting patches: the essential guide to getting your code into the kernel}},
+  year = 2024,
+  howpublished = {Website: \url{https://www.kernel.org/doc/html/latest/process/submitting-patches.html}},
+  note = {Accessed: 2024-07-01},
+}
+
+@misc{Git:Apply,
+  author = {Linus Torvalds and Junio C Hamano and others},
+  title = {{git-apply}},
+  year = 2023,
+  publisher = {{Software Freedom Conservancy}},
+  howpublished = {Website: \url{https://git-scm.com/docs/git-apply}},
+  note = {Accessed: 2024-07-01},
+}
+
+@misc{Git:CP,
+  author = {Linus Torvalds and Junio C Hamano and others},
+  title = {{git-cherry-pick}},
+  year = 2023,
+  publisher = {{Software Freedom Conservancy}},
+  howpublished = {Website: \url{https://git-scm.com/docs/git-cherry-pick}},
+  note = {Accessed: 2024-07-01},
+}
+
+@misc{Stackoverflow:Survey23,
+  author = {Stack Exchange Inc.},
+  title = {{Beyond Git: The Other Version Control Systems Developers Use}},
+  year = 2023,
+  howpublished = {Website: \url{https://stackoverflow.blog/2023/01/09/beyond-git-the-other-version-control-systems-developers-use/}},
+  note = {Accessed: 2024-07-01},
 }
