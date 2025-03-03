@@ -168,6 +168,7 @@
 
 @string{Poster="Poster"}
 @string{Slides="Slides"}
+@string{ISO="International Standard"}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Thesis Types %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -184,7 +185,7 @@
 	howpublished = Poster,
 	month = MAR,
 	year = 2025,
-	note = ToAppear#{Poster at International Conference on Software Testing, Verification and Validation}
+	note = ToAppear # {, Poster at International Conference on Software Testing, Verification and Validation}
 }
 
 @mastersthesis{Molt24,
@@ -396,20 +397,22 @@
 	doi = {10.1145/3646548.3676538}
 }
 
-@inproceedings{PKT+:SPLC24,
-	author = {Pett, Tobias and Krieter, Sebastian and Th\"{u}m, Thomas and Schaefer, Ina},
-	title = {{MulTi-Wise Sampling: Trading Uniform T-Wise Feature Interaction Coverage for Smaller Samples}},
-	year = 2024,
-	isbn = {9798400705939},
-	publisher = ACM,
-	address = NY,
-	doi = {10.1145/3646548.3672589},
-	booktitle = SPLC,
-	pages = {47–53},
-	numpages = {7},
-	keywords = {sampling, software-product lines, spl testing, t-wise coverage},
-	location = {Dommeldange, Luxembourg}
+@inproceedings{PKTS:SPLC24,
+    author = {Pett, Tobias and Krieter, Sebastian and Th\"{u}m, Thomas and Schaefer, Ina},
+    title = {{MulTi-Wise Sampling: Trading Uniform T-Wise Feature Interaction Coverage for Smaller Samples}},
+    year = 2024,
+    month = SEP,
+    isbn = {9798400705939},
+    publisher = ACM,
+    address = NY,
+    doi = {10.1145/3646548.3672589},
+    booktitle = SPLC,
+    pages = {47--53},
+    numpages = {7},
+    keywords = {sampling, software-product lines, spl testing, t-wise coverage},
+    location = Dommeldange
 }
+
 
 @mastersthesis{Dunkel24,
 	renamedFrom = {Dunkel23},
@@ -599,22 +602,6 @@
 	doi       = {10.1016/j.scico.2024.103214},
 	pages     = {103214},
 	ek-tags   = {complexity}
-}
-
-@inproceedings{PKTS:SPLC24,
-    author = {Pett, Tobias and Krieter, Sebastian and Th\"{u}m, Thomas and Schaefer, Ina},
-    title = {{MulTi-Wise Sampling: Trading Uniform T-Wise Feature Interaction Coverage for Smaller Samples}},
-    year = 2024,
-    month = SEP,
-    isbn = {9798400705939},
-    publisher = ACM,
-    address = NY,
-    doi = {10.1145/3646548.3672589},
-    booktitle = SPLC,
-    pages = {47--53},
-    numpages = {7},
-    keywords = {sampling, software-product lines, spl testing, t-wise coverage},
-    location = Dommeldange
 }
 
 @inproceedings{HKO:SPLC24,
@@ -955,16 +942,16 @@
   address = NY
 }
 
-@inproceedings{ASP+:ICDM23,
+@inproceedings{ASPA:ICDM23,
 	author={Abolfazli, Amir and Spiegelberg, Jakob and Palmer, Gregory and Anand, Avishek},
 	title={{A Deep Reinforcement Learning Approach to Configuration Sampling Problem}}, 
-	booktitle={ICDM},
-	pages={1-10},
+	booktitle= ICDM,
+	pages={1--10},
 	publisher = IEEE,
-	keywords={Deep learning;Costs;Software algorithms;Reinforcement learning;Sampling methods;Software systems;Software product lines;reinforcement learning;configuration sampling;software testing},
+	keywords={Deep learning,Costs,Software algorithms,Reinforcement learning,Sampling methods,Software systems,Software product lines,reinforcement learning,configuration sampling,software testing},
 	doi={10.1109/ICDM58522.2023.00009},
 	month = DEC,
-	year=2023,
+	year=2023
 }
 
 @inproceedings{FNS:SAT23,
@@ -1138,13 +1125,13 @@
 @inproceedings{BBG:SPLC23,
 	author = {Bombarda, Andrea and Bonfanti, Silvia and Gargantini, Angelo},
 	title = {{On the Reuse of Existing Configurations for Testing Evolving Feature Models}},
-	year = {2023},
+	year = 2023,
 	isbn = {9798400700927},
 	publisher = ACM,
 	address = NY,
 	doi = {10.1145/3579028.3609017},
 	booktitle = SPLC,
-	pages = {67–76},
+	pages = {67--76},
 	numpages = {10},
 	location = {Tokyo, Japan}
 }
@@ -2029,10 +2016,13 @@
 }
 
 @inproceedings{TDK+:SPLC22,
-	title={{Adaptive Behavioral Model Learning for Software Product Lines}},
 	author={Tavassoli, Shaghayegh and Damasceno, Carlos Diego N and Khosravi, Ramtin and Mousavi, Mohammad Reza},
+	title={{Adaptive Behavioral Model Learning for Software Product Lines}},
 	booktitle=SPLC,
 	pages={142--153},
+	publisher = ACM,
+	address = NY,
+	doi={10.1145/3546932.3546991},
 	year=2022
 }
 
@@ -3095,7 +3085,7 @@
 	location = {Athens, Greece}
 }
 
-@article{FVD+:JSS21,
+@article{FVDF:JSS21,
 	title = {{Evaluating T-Wise Testing Strategies in a Community-Wide Dataset of Configurable Software Systems}},
 	journal = JSS,
 	volume = {179},
@@ -10346,7 +10336,7 @@ series = {SPLC '17}
 	pages={93--108},
 	year=2015,
 	month=SEP,
-	organization={Springer}
+	organization=Springer
 }
 
 @article{JLM:AIC15,
@@ -19264,13 +19254,15 @@ Ricardo and Zimmerman, Daniel M. and Corn\'elio, M\'arcio and Th\"um, Thomas},
 	publisher= {"O'Reilly Media, Inc."}
 }
 
-@article{LUV:ICSOFT09,
-	title={{Software Product Line Testing}},
+@inproceedings{LUV:ICSOFT09,
 	author={Lamancha, Beatriz P{\'e}rez and Usaola, Macario Polo and Velthius, Mario Piattini},
-	journal={A Systematic Review. ICSOFT (1)},
-	pages={23--30},
-	year=2009,
-	publisher={Citeseer}
+	title = {{Systematic Review on Software Product Line Testing}},
+	booktitle = ICSOFT,
+	volume = {170},
+  	pages = {58--71},
+  	publisher = Springer,
+  	year = {2010},
+	doi = {10.1007/978-3-642-29578-2_4},
 }
 
 @article{ASW:JWIS09,
@@ -23821,8 +23813,8 @@ from Object-Oriented Design}},
 	booktitle=ISSRE, 
 	title={{Coverage Criteria for Logical Expressions}}, 
 	year=2003,
-	pages={99-107},
-	keywords={Logic testing;Automata;FAA;Software safety;Aerospace electronics;Software engineering;Software testing;Terminology;Formal specifications;Automatic testing},
+	pages={99--107},
+	keywords={Logic testing,Automata,FAA,Software safety,Aerospace electronics,Software engineering,Software testing,Terminology,Formal specifications,Automatic testing},
 	doi={10.1109/ISSRE.2003.1251034}
 }
 
@@ -24698,9 +24690,9 @@ from Object-Oriented Design}},
 @misc{ISO9126:01,
 	author={ISO/IEC},
 	title = {{Software Engineering -- Product Quality}},
-	type   = {International Standard},
+	howpublished   = ISO,
 	number = {9126:2001},
-	howpublished = {\url{https://cdn.standards.iteh.ai/samples/22749/d293dbe1fea54b3e853dfc5a07549390/ISO-IEC-9126-1-2001.pdf}},
+	note = {Available online at \url{https://cdn.standards.iteh.ai/samples/22749/d293dbe1fea54b3e853dfc5a07549390/ISO-IEC-9126-1-2001.pdf}},
 	year = 2001
 }
 
