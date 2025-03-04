@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/usr/bin/env bash
 
 ## Colors for pretty printing in console output
 RED='\033[0;31m'
