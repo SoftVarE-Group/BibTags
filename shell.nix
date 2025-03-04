@@ -4,8 +4,10 @@ let
   pkgs = import <nixpkgs> {};
 in pkgs.mkShell {
   packages = [
+    pkgs.jdk # We need Java...
+    # ... and python ...
     (pkgs.python3.withPackages (python-pkgs: [
-      # select Python packages here
+      # ... with these packages:
       python-pkgs.bibtexparser
       python-pkgs.pandas
       python-pkgs.pyaml #called pyyaml in pip
