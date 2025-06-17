@@ -1,9 +1,11 @@
+"WTBA:CACM25";"The Silent Scientist: When Software Research Fails to Reach Its Audience";-1;0;
 "KMP+:TOSEM25";"How Low Can We Go Minimizing Interaction Samples for Configurable Systems";1;1749808567141;
 "KST+:TOSEM25";"How Configurable is the Linux Kernel Analyzing Two Decades of Feature-Model History";3;1749809649605;
+"BPKA:EASE25";"Linux Kernel Configurations at Scale: A Dataset for Performance and Evolution Analysis";-1;0;
 "BSK+:ICST25";"Coverage Metrics for T-Wise Feature Interactions";1;1749809864264;
 "GSS+:VaMoS25";"A Demo of ConfigFix: Semantic Abstraction of Kconfig, SAT-based Configuration, and DIMACS Export";2;1749810945565;
 "KTK:VaMoS25";"Teach Variability! A Modern University Course on Software Product Lines";1;1749812026075;
-"SBK+:VaMoS25";"Covering T-Wise Interactions of Deployed Configurations";0;1749813108147;
+"Dunkel25";"Engineering and Selecting Machine Learning Features for Feature Models";-1;0;
 "Shulimov25";"Unparsing von Datenstrukturen zur Analyse von C-Präprozessor-Variabilität";-2;1749814190322;
 "SBK+:ICST25";"Poster: Quantification of Feature-Interaction Masking in JHipster";10;1745451415833;
 "RGS+:JSS24";"UVLHub: A Feature Model Data Repository Using UVL and Open Science Principles";16;1749815271300;
@@ -12,6 +14,8 @@
 "Riesland24";"Optimizing T-Wise Sampling on d-DNNFs with Objective Functions";-2;1749818516402;
 "Loth23";"Projected d-DNNF Compilation for Feature Models";-2;1749819597512;
 "LSZ+:TOSEM25";"Solving the t-wise Coverage Maximum Problem via Effective and Efficient Local Search-based Sampling";2;1749820678697;
+"SKGT:WSRE25";"Teaching Software Quality with Adaptive Source Code Feedback";-1;0;
+"SBK+:VaMoS25";"Covering T-Wise Interactions of Deployed Configurations";0;1749813108147;
 "cpp";"The C Preprocessor";47;1654824470623;
 "SE25";"Software Engineering 2025, Fachtagung des GI-Fachbereichs Softwaretechnik";-2;1749821760072;
 "KMP+:TR25subsumedbyKMP+:TOSEM25";"How Low Can We Go Minimizing Interaction Samples for Configurable Systems";1;1749822842488;
@@ -19,7 +23,9 @@
 "SRH+:TOSEM24";"Reusing d-DNNFs for Efficient Feature-Model Counting";7;1749825006664;
 "SKH+:AMAI24";"On the Benefits of Knowledge Compilation for Feature-Model Analyses";13;1749826089063;
 "BSM+:OOPSLA24";"On the Expressive Power of Languages for Static Variability";1;1749827171159;
+"BKK:FSE24";"Sharing Software-Evolution Datasets: Practices, Challenges, And Recommendations";-1;0;
 "YOLG:FSE24";"Maximizing Patch Coverage for Testing of Highly-Configurable Software without Exploding Build Times";4;1745456038586;
+"L:APAL24";"The Ghosts of Forgotten Things: A Study on Size After Forgetting";-1;0;
 "BRSK:JSS24";"Beyond Code: Is There a Difference Between Comments in Visual and Textual Languages";3;1749828252162;
 "KCP+:SciAdv24";"REFORMS: Consensus-Based Recommendations for Machine-Learning-Based Science";49;1749829333436;
 "HGFB:SCP24";"FM Fact Label";0;1745458191393;
@@ -29,6 +35,7 @@
 "JS:ConfWS24";"Challenges in Automotive Hardware-Software Co-Configuration";0;1749833660339;
 "SHS+:MODEVAR24b";"Generating Feature Models with UVL's Full Expressiveness";3;1749834740889;
 "DHK:SPLC24";"Configuring BDD Compilation Techniques for Feature Models";9;1749835822398;
+"FHH+:SPLC24";"Pragmatic Random Sampling of the Linux Kernel: Enhancing the Randomness and Correctness of the Conf Tool";-1;0;
 "GSB+:SPLC24";"Give an Inch and Take a Mile Effects of Adding Reliable Knowledge to Heuristic Feature Tracing";1;1749836904594;
 "HKO:SPLC24";"Multi-Version Decision Propagation for Configuring Feature Models in Space and Time";0;1749837986280;
 "HSS+:SPLC24";"Towards Deterministic Compilation of Binary Decision Diagrams From Feature Models";3;1749839067981;
@@ -104,7 +111,7 @@
 "BTS+:SE23";"Classifying Edits to Variability in Source Code - Summary";0;1745571149171;
 "FSTR:SE23";"It's Your Loss: Classifying Information Loss During Variability Model Roundtrip Transformations";-1;1745572231795;
 "KKK+:SE23";"variED: An Editor for Collaborative, Real-Time Feature Modeling";-1;1745573313342;
-"KKS+:SE23";"Tseitin or Not Tseitin The Impact of CNF Transformations on Feature-Model Analyses";-1;1745574394343;
+"KKS+:SE23";"Tseitin or not Tseitin The Impact of CNF Transformations on Feature-Model Analyses";-1;0;
 "SBTK:SE23";"Quantifying the Potential to Automate the Synchronization of Variants in Clone-and-Own - Summary";2;1745575475443;
 "YBWT:SE23";"Variational Satisfiability Solving: Efficiently Solving Lots of Related SAT Problems - Summary";0;1745576556610;
 "SBGK:VaMoS23";"Benchmark Generation With VEVOS: A Coverage Analysis of Evolution Scenarios in Variant-Rich Systems";-1;1745577639288;
@@ -183,6 +190,7 @@
 "AKR:GPCE22";"Preserving Consistency of Interrelated Models During View-Based Evolution of Variable Systems";-1;1746064009658;
 "SM:ICCAD22";"Arjun: An Efficient Independent Support Computation Technique and its Applications to Counting and Sampling";29;1746065091433;
 "BCL+:ICSE22";"A Scalable T-Wise Coverage Estimator";6;1746066174320;
+"DWBA:ICSE22";"Causality in Configurable Software Systems";-1;0;
 "HYM+:ICSE22";"Control Parameters Considered Harmful: Detecting Range Specification Bugs in Drone Configuration Modules via Learning-Guided Search";33;1746067256244;
 "FFB+:MODEVAR22";"V4rdiac: Tooling for Multidisciplinary Delta-Oriented Variability Management in Cyber-Physical Production Systems";9;1746068337297;
 "HGP+:MODEVAR22";"FM Fact Label: A Configurable and Interactive Visualization of Feature Model Characterizations";21;1746069419063;
@@ -839,6 +847,7 @@
 "VBM:ICFEM15";"Delta-Oriented FSM-Based Testing";17;1660540641559;
 "OGRT:SLE15";"Using Decision Rules for Solving Conflicts in Extended Feature Models";26;1659096320206;
 "SSW:ICSME15";"Forked and Integrated Variants in an Open-Source Firmware Project";74;1660546101768;
+"NLG+:SAT15";"SATGraf: Visualizing the Evolution of SAT Formula Structure in Solvers";-1;0;
 "MFV:SBES15subsumedbyMFV:JSERD16";"A Mutation and Multi-Objective Test Data Generation Approach for Feature Testing of Software Product Lines";18;1655791477254;
 "RCV+:SSBSE15";"Combining Multiple Coverage Criteria in Search-Based Unit Test Generation";-1;0;
 "SGKA:ESECFSE15";"Performance-Influence Models for Highly Configurable Systems";251;1657040239878;
@@ -945,6 +954,7 @@
 "ATM+:SPLC14subsumedbyATL+:SoSyM19";"Similarity-Based Prioritization in Software Product-Line Testing";104;1655797967113;
 "SSTS:SPLC14";"Feature-Context Interfaces: Tailored Programming Interfaces for Software Product Lines";37;1663760382013;
 "TMB+:SPLC14";"Potential Synergies of Theorem Proving and Model Checking for Software Product Lines";44;1659273059451;
+"NGF+:SAT14";"Impact of Community Structure on SAT Solver Performance";-1;0;
 "SR:SATTOSE14";"Similarity Management via History Annotation";8;1655694150717;
 "RLB+:AOSD14";"AspectJML: Modular Specification and Runtime Checking for Crosscutting Contracts";28;1663762547257;
 "RLB+:AOSDtool14";"Modularizing Crosscutting Contracts With AspectJML";-1;0;
@@ -1114,7 +1124,7 @@
 "BLP:FMSPLE13";"Combining Declarative and Procedural Views in the Specification and Analysis of Product Families";35;1658934496610;
 "SSA:FMSPLE13";"Variability-Aware Safety Analysis Using Delta Component Fault Diagrams";14;1658986160879;
 "VK:FMSPLE13";"Discrete Time Markov Chain Families: Modeling and Verification of Probabilistic Software Product Lines";22;1652435216045;
-"AKS+:FOSD13";"Exploring Feature Interactions in the Wild: The New Feature-interaction Challenge";92;1652438462225;
+"AKS+:FOSD13";"Exploring Feature Interactions in the Wild: The New Feature-Interaction Challenge";-1;0;
 "DDH+:FSE13";"Feature Model Extraction From Large Collections of Informal Product Descriptions";166;1653013303190;
 "SK:FSEN13";"Delta Modeling and Model Checking of Product Families";18;1659362167054;
 "MRG:GPCE13";"Investigating Preprocessor-Based Syntax Errors";53;1657531462360;
