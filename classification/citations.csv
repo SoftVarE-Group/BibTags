@@ -1,4 +1,5 @@
-"WTBA:CACM25";"The Silent Scientist: When Software Research Fails to Reach Its Audience";-1;0;
+"SBB+:ICSE26";"Decades of GNU Patch and Git Cherry-Pick: Can We Do Better";-2;1751992493018;
+"WTBA:CACM25";"The Silent Scientist: When Software Research Fails to Reach Its Audience";-1;1750237721984;
 "KMP+:TOSEM25";"How Low Can We Go Minimizing Interaction Samples for Configurable Systems";1;1749808567141;
 "KST+:TOSEM25";"How Configurable is the Linux Kernel Analyzing Two Decades of Feature-Model History";3;1749809649605;
 "BPKA:EASE25";"Linux Kernel Configurations at Scale: A Dataset for Performance and Evolution Analysis";-1;0;
@@ -6,18 +7,25 @@
 "GSS+:VaMoS25";"A Demo of ConfigFix: Semantic Abstraction of Kconfig, SAT-based Configuration, and DIMACS Export";2;1749810945565;
 "KTK:VaMoS25";"Teach Variability! A Modern University Course on Software Product Lines";1;1749812026075;
 "Dunkel25";"Engineering and Selecting Machine Learning Features for Feature Models";-1;0;
-"Shulimov25";"Unparsing von Datenstrukturen zur Analyse von C-Präprozessor-Variabilität";-2;1749814190322;
+"Vill25";"Pseudo Boolean d-DNNF Compilation for Analyzing Expressive Feature-Model Formats";-1;0;
 "SBK+:ICST25";"Poster: Quantification of Feature-Interaction Masking in JHipster";10;1745451415833;
-"RGS+:JSS24";"UVLHub: A Feature Model Data Repository Using UVL and Open Science Principles";16;1749815271300;
+"TRLA:TR25";"Small Yet Configurable: Unveiling Null Variability in Software";-1;0;
 "HOB+:MODEVAR24";"variability.dev: Towards an Online Toolbox for Feature Modeling";2;1749816352978;
 "Molt24";"T-Wise Sampling Operations on Binary Decision Diagrams";0;1749817434834;
 "Riesland24";"Optimizing T-Wise Sampling on d-DNNFs with Objective Functions";-2;1749818516402;
 "Loth23";"Projected d-DNNF Compilation for Feature Models";-2;1749819597512;
+"BSF+:JSS25";"UVL: Feature Modelling With the Universal Variability Language";-1;0;
+"HJA:EMSE25";"Is Perceived Gender Related to Contributions and Standing in Open-Source Software Projects";-1;0;
+"BSS+:JSS25";"Understanding the Low Inter-Rater Agreement on Aggressiveness on the Linux Kernel Mailing List";-1;0;
+"MSDC:JSS25";"A Structural Taxonomy for Lifted Software Product Line Analyses";-1;0;
 "LSZ+:TOSEM25";"Solving the t-wise Coverage Maximum Problem via Effective and Efficient Local Search-based Sampling";2;1749820678697;
 "SKGT:WSRE25";"Teaching Software Quality with Adaptive Source Code Feedback";-1;0;
 "SBK+:VaMoS25";"Covering T-Wise Interactions of Deployed Configurations";0;1749813108147;
+"HHS:SLE25";"(Semantic) Feature Model Differences with (Q)SAT";-1;0;
+"Shulimov25";"Unparsing von Datenstrukturen zur Analyse von C-Präprozessor-Variabilität";-2;1749814190322;
 "cpp";"The C Preprocessor";47;1654824470623;
 "SE25";"Software Engineering 2025, Fachtagung des GI-Fachbereichs Softwaretechnik";-2;1749821760072;
+"SVK+:TR25";"Pseudo-Boolean d-DNNF Compilation for Expressive Feature Modeling Constructs";-1;0;
 "KMP+:TR25subsumedbyKMP+:TOSEM25";"How Low Can We Go Minimizing Interaction Samples for Configurable Systems";1;1749822842488;
 "HM:TR25";"A Fast Counting-Free Algorithm for Computing Atomic Sets in Feature Models";0;1749823925101;
 "SRH+:TOSEM24";"Reusing d-DNNFs for Efficient Feature-Model Counting";7;1749825006664;
@@ -27,6 +35,7 @@
 "YOLG:FSE24";"Maximizing Patch Coverage for Testing of Highly-Configurable Software without Exploding Build Times";4;1745456038586;
 "L:APAL24";"The Ghosts of Forgotten Things: A Study on Size After Forgetting";-1;0;
 "BRSK:JSS24";"Beyond Code: Is There a Difference Between Comments in Visual and Textual Languages";3;1749828252162;
+"RGS+:JSS24";"UVLHub: A Feature Model Data Repository Using UVL and Open Science Principles";16;1749815271300;
 "KCP+:SciAdv24";"REFORMS: Consensus-Based Recommendations for Machine-Learning-Based Science";49;1749829333436;
 "HGFB:SCP24";"FM Fact Label";0;1745458191393;
 "MCS+:TSE24";"Virtual Platform: Effective and Seamless Variability Management for Software Systems";3;1749830415966;
@@ -439,6 +448,7 @@
 "TSS:MODEVAR19";"On Language Levels for Feature Modeling Notations";8;1655228876101;
 "BTS:SEFM19";"SAT Encodings of the At-Most-k Constraint - A Case Study on Configuring University Courses";-1;1663456588777;
 "D:SEFM19";"Compositional Feature-Oriented Systems";-1;0;
+"DKMR:SPLC19";"Semantic Evolution Analysis of Feature Models";-1;0;
 "FAH+:SPLC19";"A KConfig Translation to Logic With One-Way Validation System";-1;0;
 "K:SPLC19";"Enabling Efficient Automated Configuration Generation and Management";4;1662545430788;
 "KKK+:SPLC19";"Foundations of Collaborative, Real-Time Feature Modeling";8;1662546512747;
@@ -831,6 +841,7 @@
 "JLM:AIC15";"Algorithms for Computing Backbones of Propositional Formulae";-1;0;
 "BKL+:AUSE15";"Reasoning About Product-Line Evolution Using Complex Feature Model Differences";66;1659521763702;
 "ETV+:CLSS15";"Evaluating and Comparing Language Workbenches: Existing Results and Benchmarks for the Future";-1;0;
+"GLF+:FNINF15";"Reproducibility of Neuroimaging Analyses Across Operating Systems";-1;0;
 "NBA+:JSS15";"Safe Evolution Templates for Software Product Lines";45;1660673362520;
 "VFST:JSS15";"Evolution of Software in Automated Production Systems: Challenges and Research Directions";261;1654600859500;
 "ACS:OSR15";"Locating Arrays: A New Experimental Design for Screening Complex Engineered Systems";-1;0;
@@ -1401,6 +1412,7 @@
 "ABF+:PLEASE11subsumedbyABFG:ISoLA12";"Design and Validation of Variability in Product Lines";19;1655820684443;
 "KSL+:Promise11";"Are Change Metrics Good Predictors for an Evolving Software Product Line";42;1659617318328;
 "ACLF:SAC11";"A Domain-Specific Language for Managing Feature Models";44;1659940508519;
+"KSM:SAT11";"Empirical Study of the Anatomy of Modern SAT Solvers";-1;0;
 "TBG:SBES11";"Safe Composition of Configuration Knowledge-Based Software Product Lines";26;1659899457761;
 "GPB:SC11";"Composing Event-B Specifications: Case-Study Experience";32;1652797889553;
 "BMP:SERENE11";"Guaranteeing Correct Evolution of Software Product Lines: Setting up the Problem";4;1652798971369;
@@ -1751,6 +1763,7 @@
 "PHR:AOSE06";"Building the Core Architecture of a Multiagent System Product Line: With an example From a Future NASA Mission";-1;0;
 "KV06";"Towards Type Safety of Aspect-Oriented Languages";5;1663700818396;
 "GSS:AAAI06";"Model Counting: A New Strategy for Obtaining Good Bounds";151;1654039867414;
+"Z:AAAI06";"Solving QBF With Combined Conjunctive and Disjunctive Normal Form";-1;0;
 "SUST:AOAsia06";"An Extensible Contract Verifier for AspectJ";16;1663691079759;
 "TBRCST06";"Explanations for Agile Feature Models";35;1662874721934;
 "TBC:CAiSE06";"Isolated Features Detection in Feature Models";32;1654046359197;
@@ -1885,7 +1898,6 @@
 "SL:OOPSLA04subsumedbyLS:TR05";"Cona: Aspects for Contracts and Contracts for Aspects";43;1655884744314;
 "HSJ+04";"Fast Backtrack-Free Product Configuration using a Precompiled Solution Space Representation";130;1659968641914;
 "LH:PLDI04";"Jedd: A BDD-Based Relational Extension of Java";91;1658496279276;
-"TBW:PPPJ04";"Solving Non-Clausal Formulas With DPLL Search";123;1654270583739;
 "ES:SAT04";"An Extensible SAT-solver";3961;1652788155891;
 "HD:SAT04";"Using DPLL for Efficient OBDD Construction";69;1654271664840;
 "JS:SAT04";"Clause Form Conversions for Boolean Circuits";-1;0;
