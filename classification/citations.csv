@@ -424,7 +424,7 @@
 "K:SPLC20";"Large-Scale T-Wise Interaction Sampling Using YASA";0;1662544350433;
 "M:SPLC20";"Evolving System Families in Space and Time";2;1654855988730;
 "MOA+:SPLC20";"Mining Feature Revisions in Highly-Configurable Software Systems";5;1653391785349;
-"MOL+:SPLC20";"Locating Feature Revisions in Software Systems Evolving in Space and Time";9;1653390703541;
+"MOL+:SPLC20";"Locating Feature Revisions in Software Systems Evolving in Space and Time";26;1776003297645;
 "SBKT:SPLC20";"On the Use of Product-Line Variants as Experimental Subjects for Clone-and-Own Research: A Case Study";5;1656320326827;
 "T:SPLC20";"A BDD for Linux The Knowledge Compilation Challenge for Variability";7;1659266479627;
 "YWT:SPLC20";"Variational Satisfiability Solving";4;1656319245040;
@@ -2014,7 +2014,7 @@
 "SBK:AAAI05";"Solving Bayesian Networks by Weighted Model Counting";104;1654264092313;
 "PBDG:APS05";"Pruning Conformant Plans by Counting Models on Compiled d-DNNF Representations";75;1654268420519;
 "ZS:ASE05";"UMLDiff: An Algorithm for Object-Oriented Design Differencing";579;1654668285242;
-"CK:CASSIS04";"ESCJava2: Uniting ESCJava and JML";385;1653388540363;
+"CK:CASSIS04";"ESCJava2: Uniting ESCJava and JML";-2;1776003021004;
 "LAMS05";"Tool Support for Feature-Oriented Software Development - FeatureIDE: An Eclipse-Based Approach";83;1653404770607;
 "KC05";"Synchronizing Cardinality-Based Feature Models and Their Specializations";68;1654947940002;
 "ALRS05";"FeatureC++: On the Symbiosis of Feature-Oriented and Aspect-Oriented Programming";245;1653400441549;
