@@ -1075,7 +1075,7 @@
 "KDO:TSE14";"Variability Mining: Consistent Semiautomatic Detection of Product-Line Features";102;1663761463896;
 "LM:AAAI14";"Preprocessing for Propositional Model Counting";54;1773838537840;
 "KKT:AT14";"Propagation of Software Model Changes in the Context of Industrial Plant Automation";14;1658262315634;
-"KKP+:CoRR14";"Design Guidelines for Domain Specific Languages";259;1657010709007;
+"KKP+:CoRR14";"Design Guidelines for Domain Specific Languages";325;1778318470559;
 "CR:IJAST14";"Efficient and Effective Testing of Automotive Software Product Lines";16;1777999419276;
 "BCHH:IJC14";"Optimization Bounds From Binary Decision Diagrams";92;1773839619778;
 "BH14";"Reasoning and Verification: State of the Art and Current Trends";62;1663236315175;
@@ -1229,7 +1229,7 @@
 "LSLZ:STVR13";"A Survey of Code-Based Change Impact Analysis Techniques";305;1774026055264;
 "BRT+:TAOSD13";"Intraprocedural Dataflow Analysis for Software Product Lines";129;1778015227214;
 "BSL+:TSE13";"A Study of Variability Models and Languages in the Systems Software Domain";191;1660309210840;
-"GWT+:TSE13";"Variability in Software Systems-a Systematic Literature Review";260;1657011042405;
+"GWT+:TSE13";"Variability in Software Systems-a Systematic Literature Review";356;1778318729055;
 "B13";"Hypergraph Theory: An Introduction";1323;1774027138121;
 "ABKS13";"Feature-Oriented Software Product Lines";1012;1663483647610;
 "HoTT13";"Homotopy Type Theory: Univalent Foundations of Mathematics";79;1774028220963;
@@ -1402,7 +1402,7 @@
 "KKPS:ASE12";"Adaptability of Model Comparison Tools";72;1777365160122;
 "BEG:CASCON12";"Grammar-based Test Generation for Software Product Line Feature Models";24;1661092458332;
 "LHKR:CAV12";"SYMDIFF: A Language-Agnostic Semantic Diff Tool for Imperative Programs";205;1658346057482;
-"SCC:CISTI12";"Towards a Unified Feature Metamodel: A Systematic Comparison of Feature Languages";22;1657012123104;
+"SCC:CISTI12";"Towards a Unified Feature Metamodel: A Systematic Comparison of Feature Languages";34;1778319556010;
 "SJBK:COMPSAC12";"Scheduling and Analysis of Real-Time Software Families";12;1659366493151;
 "BCHH:CPAIOR12";"Variable Ordering for the Application of BDDs to the Maximum Independent Set Problem";67;1774072581516;
 "ZFSZ:CSMR12";"Feature Identification From the Source Code of Product Variants";139;1774073664408;
@@ -1447,12 +1447,12 @@
 "CSHL:SPLC12";"Behavioural Modelling and Verification of Real-Time Software Product Lines";62;1659438981921;
 "DTS+:SPLC12";"A Robust Approach for Variability Extraction From the Linux Build System";119;1774085566033;
 "HRGL:SPLC12";"Using Regression Testing to Analyze the Impact of Changes to Variability Models on Products";37;1777540026663;
-"HWC:SPLC12";"CVL: Common Variability Language";125;1657013204658;
+"HWC:SPLC12";"CVL: Common Variability Language";162;1778319797038;
 "LKL:SPLC12";"A Survey on Software Product Line Testing";112;1659434656277;
 "MHF:SPLC12";"An Algorithm for Generating T-Wise Covering Arrays From Large Feature Models";297;1774086647801;
 "MRM:SPLC12";"A Systematically Conducted Literature Review: Quality Attribute Variability in Software Product Lines";22;1774087728893;
 "RLBC:SPLC12";"Managing Forked Product Variants";70;1659368656471;
-"SDS:SPLC12";"From Feature Models to Decision Models and Back Again: An Analysis Based on Formal Transformations";23;1657014285702;
+"SDS:SPLC12";"From Feature Models to Decision Models and Back Again: An Analysis Based on Formal Transformations";27;1778319961696;
 "SHA:SPLC12";"Co-Evolution of Models and Feature Mapping in Software Product Lines";75;1661057827137;
 "VFDD:SPLC12";"A Study on Service Identification Methods for Software Product Lines";24;1774088810859;
 "LSKL:TAP12";"Incremental Model-Based Testing of Delta-oriented Software Product Lines";131;1777751850283;
@@ -1493,14 +1493,14 @@
 "NL:CSUR11";"A Survey of Combinatorial Testing";784;1659633542229;
 "HS:TOPLAS11";"Morphing: Structurally Shaping a Class by Reflecting on Others";31;1775471228895;
 "ER:IST11";"Software Product Line Testing - A Systematic Mapping Study";416;1659947001277;
-"DGR:AUSE11";"The DOPLER Meta-Tool for Decision-Oriented Variability Modeling: A Multiple Case Study";208;1657015366826;
+"DGR:AUSE11";"The DOPLER Meta-Tool for Decision-Oriented Variability Modeling: A Multiple Case Study";-2;1778320146283;
 "LBL:AUSE11";"Compositional Model Checking of Software Product Lines Using Variation Point Obligations";65;1659948084208;
 "MB:CACM11";"Satisfiability Modulo Theories: Introduction and Applications";762;1659553572937;
 "FJG:CSC11";"Solution Counting for CSP and SAT With Large Tree-Width";5;1776321066136;
 "PA:CoRR11";"RTED: A Robust Algorithm for the Tree Edit Distance";265;1661449976098;
 "GCD:ESE11";"Evaluating Improvements to a Meta-Heuristic Search for Constrained Interaction Testing";254;1659629216013;
 "HFCC:IET11";"Supporting Commonality-Based Analysis of Software Product Lines";30;1776181473195;
-"CB:IST11";"A Systematic Review of Evaluation of Variability Management Approaches in Software Product Lines";303;1657016449385;
+"CB:IST11";"A Systematic Review of Evaluation of Variability Management Approaches in Software Product Lines";353;1778320588215;
 "HGS+:JRCS11";"The Effect of Default Options on Choice-Evidence From Online Product Configurators";45;1774182785138;
 "B:JSAT11";"Successful SAT Encoding Techniques";55;1774183867895;
 "CBH:SCP11";"A Text-Based Approach to Feature Modelling: Syntax and Semantics of TVL";241;1662984982194;
