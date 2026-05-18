@@ -1,10 +1,11 @@
+"SVK+:TSE26";"Tackling Expressive Feature-Modeling Constructs with Pseudo-Boolean d-DNNF Compilation";-2;1779143142648;
 "K:ICSE26";"torte: Reproducible Feature-Model Experiments à la Carte";1;1769498804664;
 "KBT+:ICSE26";"Can SAT Solvers Keep Up With the Linux Kernel's Feature Model";-2;1769498831105;
 "MMR:ICSE26";"The State of Open Science in Software Engineering Research: A Case Study of ICSE Artifacts";2;1773697961087;
 "MSAS:ICSE26";"Views on Internal and External Validity in Empirical Software Engineering: 10 Years Later and Beyond";1;1773699042440;
 "SBB+:ICSE26";"Decades of GNU Patch and Git Cherry-Pick: Can We Do Better";-2;1751992493018;
+"Baddour26";"Evaluating The Accuracy of Linux Kernel Configuration Translations";-1;0;
 "Karakaya25";"Evolution of Kconfig in the Linux Kernel: A Study on Parser Compatibility";-2;1769520068455;
-"Rau25";"Mining Bugs in Linux to Assess the Effectiveness of Automated Variability Testing";-2;1769521150371;
 "Dittrich25";"Minimizing CNFs to Isolate Solver Bugs";-2;1769522231997;
 "TRLA:TR25";"Small Yet Configurable: Unveiling Null Variability in Software";0;1752000432105;
 "HOB+:MODEVAR24";"variability.dev: Towards an Online Toolbox for Feature Modeling";2;1749816352978;
@@ -60,6 +61,7 @@
 "HHS:SLE25";"(Semantic) Feature Model Differences with (Q)SAT";0;1752006924833;
 "Kueppers25";"Understanding Variant Drift via Cherry-Picking";-2;1769589615909;
 "Baudisch25";"Tailoring Hypergraph Partitioning for Efficient d-DNNF Compilation";-2;1773729023336;
+"Rau25";"Mining Bugs in Linux to Assess the Effectiveness of Automated Variability Testing";-2;1769521150371;
 "Alfish25";"Evaluierung von ConfigFix als Werkzeug zur Extraktion KConfig-basierter Feature-Modelle";0;1755522306317;
 "Braun25";"Automatisierte Feature-Modell-Analyse des Linux-Kernels: Eine Reise durch die Zeit";1;1755523387548;
 "DunkelRaphael25";"Engineering and Selecting Machine Learning Features for Feature Models";-2;1769583169200;
